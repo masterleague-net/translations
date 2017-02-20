@@ -1,0 +1,1936 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Master League\n"
+"Language: ru\n"
+
+#: .\changelog\templates\changelog\changelog_detail.html:22
+#: .\changelog\templates\changelog\changelog_list.html:10
+#: .\heroes\templates\heroes\hero_detail.html:155
+#: .\heroes\templates\heroes\hero_list.html:51
+#: .\maps\templates\maps\map_detail.html:29
+#: .\maps\templates\maps\map_list.html:12
+#: .\matches\templates\matches\match_detail.html:53
+#: .\matches\templates\matches\match_list.html:25
+#: .\matches\templates\tournaments\tournament_detail.html:19
+#: .\matches\templates\tournaments\tournament_list.html:12
+#: .\meta\templates\meta\report.html:30
+#: .\search\templates\search\search.html:16
+#: .\teams\templates\players\player_detail.html:23
+#: .\teams\templates\players\player_list.html:25
+#: .\teams\templates\players\players_compare.html:111
+#: .\teams\templates\players\players_transfers.html:42
+#: .\teams\templates\teams\team_detail.html:26
+#: .\teams\templates\teams\team_list.html:53
+msgctxt "Link to the main page"
+msgid "Home"
+msgstr "Главная"
+
+#: .\changelog\templates\changelog\changelog_list.html:18
+#: .\matches\templates\matches\matches_inline.html:13
+#: .\matches\templates\matches\matches_inline.html:17
+#: .\pages\templates\calendar_inline.html:55 .\pages\templates\mainpage.html:33
+#: .\pages\templates\mainpage.html:63
+#: .\teams\templates\players\players_transfers.html:64
+#: .\teams\templates\teams\team_overview.html:52
+msgid "Date"
+msgstr "Дата"
+
+#: .\changelog\templates\changelog\changelog_list.html:19
+msgctxt "News title"
+msgid "Title"
+msgstr "Заголовок"
+
+#: .\core\templates\core\pagination.html:3
+msgctxt "Page navigation"
+msgid "Previous"
+msgstr "Предыдущая"
+
+#: .\core\templates\core\pagination.html:4
+msgctxt "Page navigation"
+msgid "Next"
+msgstr "Следующая"
+
+#: .\heroes\templates\heroes\hero_builds.html:7
+#: .\heroes\templates\heroes\hero_detail.html:203
+msgctxt "Hero builds"
+msgid "Builds"
+msgstr "Билды"
+
+#: .\heroes\templates\heroes\hero_builds.html:68
+#: .\heroes\templates\heroes\hero_detail.html:204
+#: .\heroes\templates\heroes\hero_matches.html:7
+#: .\heroes\templates\heroes\hero_overview.html:173
+#: .\maps\templates\maps\map_detail.html:61
+#: .\maps\templates\maps\map_matches.html:7
+#: .\matches\templates\matches\match_detail.html:8
+#: .\matches\templates\matches\match_list.html:8
+#: .\matches\templates\matches\match_list.html:26
+#: .\matches\templates\tournaments\tournament_overview.html:162
+#: .\meta\templates\meta\fp_comp_inline.html:11
+#: .\meta\templates\meta\report.html:70
+#: .\teams\templates\players\player_detail.html:65
+#: .\teams\templates\players\player_list.html:80
+#: .\teams\templates\players\player_matches.html:8
+#: .\teams\templates\players\player_overview.html:38
+#: .\teams\templates\teams\summary.html:3
+#: .\teams\templates\teams\team_detail.html:63
+#: .\teams\templates\teams\team_heroes.html:25
+#: .\teams\templates\teams\team_matches.html:8 .\templates\base.html:205
+msgid "Matches"
+msgstr "Матчи"
+
+#: .\heroes\templates\heroes\hero_builds.html:69
+#: .\heroes\templates\heroes\hero_overview.html:174
+#: .\teams\templates\players\player_overview.html:39
+#: .\teams\templates\teams\summary.html:4
+#: .\teams\templates\teams\team_heroes.html:26
+msgid "Win %%"
+msgstr "Побед, %"
+
+#: .\heroes\templates\heroes\hero_builds.html:99
+msgid "Show matches"
+msgstr "Показать матчи"
+
+#: .\heroes\templates\heroes\hero_builds.html:134
+msgid "No replays found in the selected period."
+msgstr "Не найдено реплеев для выбранного периода"
+
+#: .\heroes\templates\heroes\hero_detail.html:8
+#: .\heroes\templates\heroes\hero_detail.html:156
+#: .\heroes\templates\heroes\hero_list.html:8
+#: .\heroes\templates\heroes\hero_list.html:52
+#: .\teams\templates\teams\team_detail.html:62
+#: .\teams\templates\teams\team_heroes.html:8 .\templates\base.html:207
+msgid "Heroes"
+msgstr "Герои"
+
+#: .\heroes\templates\heroes\hero_detail.html:65
+msgid "First wave pick (%(pick1_count)s matches)"
+msgstr "Первая волна пиков (%(pick1_count)s матчей)"
+
+#: .\heroes\templates\heroes\hero_detail.html:66
+msgid "Second wave pick (%(pick2_count)s matches)"
+msgstr "Вторая волна пиков (%(pick2_count)s матчей)"
+
+#: .\heroes\templates\heroes\hero_detail.html:67
+msgid "First wave ban (%(ban1_count)s matches)"
+msgstr "Первая волна банов (%(ban1_count)s matches)"
+
+#: .\heroes\templates\heroes\hero_detail.html:68
+msgid "Second wave ban (%(ban2_count)s matches)"
+msgstr "Вторая волна банов (%(ban2_count)s матчей)"
+
+#: .\heroes\templates\heroes\hero_detail.html:69
+msgid "Not banned or picked (%(popularity_blank_count)s matches)"
+msgstr "Не в бане или пике (%(popularity_blank_count)s матчей)"
+
+#: .\heroes\templates\heroes\hero_detail.html:174
+#: .\maps\templates\maps\map_detail.html:48
+#: .\meta\templates\meta\report.html:48
+msgctxt "Button label"
+msgid "Just Do It!"
+msgstr "Сделай это!"
+
+#: .\heroes\templates\heroes\hero_detail.html:183
+#: .\heroes\templates\heroes\stats_table_inline.html:17
+msgid "Popularity"
+msgstr "Популярность"
+
+#: .\heroes\templates\heroes\hero_detail.html:184
+msgid "%(match_count)s of %(total_matches)s matches"
+msgstr "%(match_count)s из %(total_matches)s матчей"
+
+#: .\heroes\templates\heroes\hero_detail.html:196
+#: .\teams\templates\teams\team_detail.html:22
+msgid "Wins"
+msgstr "Побед"
+
+#: .\heroes\templates\heroes\hero_detail.html:197
+msgid "%(win_count)s of %(pick_count)s matches"
+msgstr "%(win_count)s из %(pick_count)s матчей"
+
+#: .\heroes\templates\heroes\hero_detail.html:202
+#: .\heroes\templates\heroes\hero_overview.html:5
+msgctxt "Hero overview"
+msgid "Overview"
+msgstr "Общая"
+
+#: .\heroes\templates\heroes\hero_list.html:58
+#: .\meta\templates\meta\fp_comp_inline.html:69
+msgctxt "Hero role"
+msgid "Warrior"
+msgstr "Боец"
+
+#: .\heroes\templates\heroes\hero_list.html:59
+#: .\meta\templates\meta\fp_comp_inline.html:71
+msgctxt "Hero role"
+msgid "Support"
+msgstr "Поддержка"
+
+#: .\heroes\templates\heroes\hero_list.html:60
+#: .\meta\templates\meta\fp_comp_inline.html:73
+msgctxt "Hero role"
+msgid "Assassin"
+msgstr "Убийца"
+
+#: .\heroes\templates\heroes\hero_list.html:61
+#: .\meta\templates\meta\fp_comp_inline.html:75
+msgctxt "Hero role"
+msgid "Specialist"
+msgstr "Специалист"
+
+#: .\heroes\templates\heroes\hero_list.html:66
+msgid "Start typing to search"
+msgstr "Быстрый поиск"
+
+#: .\heroes\templates\heroes\hero_overview.html:70
+msgid "Popularity per Patch"
+msgstr "Популярность по патчам"
+
+#: .\heroes\templates\heroes\hero_overview.html:50
+#: .\heroes\templates\heroes\hero_overview.html:114
+#: .\heroes\templates\heroes\stats_table_inline.html:14
+#: .\meta\templates\meta\fp_comp_inline.html:60
+msgid "Win Rate"
+msgstr "Побед, %"
+
+#: .\heroes\templates\heroes\hero_overview.html:135
+msgid "Win Rate vs Game Duration"
+msgstr "Процент побед от длины матча"
+
+#: .\heroes\templates\heroes\hero_overview.html:186
+msgid "Popularity per Patch chart is based on the analysis of the latest patches for the selected region(s)."
+msgstr "График популярности по патчам основан на анализе статистик игр для выбранных в фильтре регионов."
+
+#: .\heroes\templates\heroes\hero_overview.html:197 .\matches\forms.py:20
+#: .\matches\templates\tournaments\tournament_overview.html:161
+#: .\meta\templates\meta\report.html:69 .\teams\forms.py:18 .\teams\forms.py:45
+#: .\teams\forms.py:60 .\teams\templates\teams\summary.html:50
+msgid "Map"
+msgstr "Карта"
+
+#: .\heroes\templates\heroes\hero_overview.html:237
+#: .\matches\templates\tournaments\tournament_overview.html:7
+#: .\teams\forms.py:48 .\teams\forms.py:79
+#: .\teams\templates\players\player_list.html:76
+#: .\teams\templates\players\player_overview.html:104
+#: .\teams\templates\teams\team_transfers.html:19
+msgid "Team"
+msgstr "Команда"
+
+#: .\heroes\templates\heroes\stats_table_inline.html:10 .\matches\forms.py:23
+#: .\matches\templates\matches\match_stats.html:5
+#: .\meta\templates\meta\fp_comp_inline.html:10 .\teams\forms.py:15
+#: .\teams\forms.py:42 .\teams\forms.py:57 .\teams\forms.py:88
+#: .\teams\templates\players\player_overview.html:37
+#: .\teams\templates\teams\summary.html:13
+#: .\teams\templates\teams\team_heroes.html:24
+msgid "Hero"
+msgstr "Герой"
+
+#: .\teams\templates\teams\team_detail.html:23
+msgid "Losses"
+msgstr "Поражений"
+
+#: .\heroes\templates\heroes\hero_overview.html:20
+#: .\heroes\templates\heroes\stats_table_inline.html:15
+msgid "Ban Rate"
+msgstr "Баны, %"
+
+#: .\heroes\templates\heroes\hero_overview.html:35
+#: .\heroes\templates\heroes\stats_table_inline.html:16
+msgid "Pick Rate"
+msgstr "Пики, %"
+
+#: .\maps\templates\maps\map_detail.html:8
+#: .\maps\templates\maps\map_detail.html:30
+#: .\maps\templates\maps\map_list.html:8 .\maps\templates\maps\map_list.html:13
+#: .\templates\base.html:206
+msgid "Maps"
+msgstr "Карты"
+
+#: .\maps\templates\maps\map_detail.html:60
+#: .\maps\templates\maps\map_overview.html:5
+msgctxt "Map overview"
+msgid "Overview"
+msgstr "Общая"
+
+#: .\matches\templates\matches\match_detail.html:174
+msgid "Previous Matches"
+msgstr "Предыдущие матчи"
+
+#: .\matches\templates\matches\match_detail.html:180
+msgctxt "Watch VODs"
+msgid "Watch"
+msgstr "Смотреть"
+
+#: .\matches\templates\matches\match_detail.html:197
+#: .\matches\templates\matches\match_list.html:68
+#: .\matches\templates\matches\matches_inline.html:136
+msgid "Replay"
+msgstr "Реплей"
+
+#: .\matches\templates\matches\match_detail.html:211
+msgid "Statistics"
+msgstr "Статистика"
+
+#: .\matches\templates\matches\match_detail.html:216
+msgid "Comments"
+msgstr "Комментарии"
+
+#: .\matches\templates\matches\match_stats.html:3
+msgid "Level"
+msgstr "Уровень"
+
+#: .\matches\templates\matches\match_stats.html:4
+#: .\teams\templates\players\player_overview.html:24
+msgid "Player Performance Rating"
+msgstr "Рейтинг эффективности игрока"
+
+#: .\matches\templates\matches\match_stats.html:6
+#: .\pages\templates\mainpage.html:64
+#: .\teams\templates\players\players_transfers.html:65
+msgid "Player"
+msgstr "Игрок"
+
+#: .\matches\templates\matches\match_stats.html:24
+msgctxt "Match time"
+msgid "Duration"
+msgstr "Длительность"
+
+#: .\matches\templates\matches\match_stats.html:67
+msgid "Kills"
+msgstr "Убийств"
+
+#: .\matches\templates\matches\match_stats.html:68
+msgid "Assists"
+msgstr "Помощь"
+
+#: .\matches\templates\matches\match_stats.html:69
+msgid "Deaths"
+msgstr "Смертей"
+
+#: .\matches\templates\matches\match_stats.html:72
+msgctxt "Hero role"
+msgid "Role"
+msgstr "Роль"
+
+#: .\matches\templates\matches\match_stats.html:73
+msgctxt "Experience"
+msgid "Exp"
+msgstr "Опыт"
+
+#: .\matches\templates\matches\match_stats.html:113
+#: .\teams\templates\players\player_overview.html:63
+msgid "The rating hasn't been calculated yet or cannot be calculated due to the small amount of games on this hero."
+msgstr "Рейтинг еще не вычислен или не может быть рассчитан из-за малой популярности героя в указанном периоде."
+
+#: .\matches\templates\matches\match_stats.html:115
+msgid "The rating is based on statistics of the player as compared to statistics of other players on the same hero in the same patches."
+msgstr "Рейтинг основан на сравнении статистики игрока со статистикой других игроков на том же герое за тот же игровой период."
+
+#: .\matches\templates\matches\match_stats.html:178
+msgid "Stats"
+msgstr "Статистика"
+
+#: .\matches\templates\matches\match_stats.html:178
+msgctxt "Hero talents"
+msgid "Talents"
+msgstr "Таланты"
+
+#: .\matches\templates\matches\matches_inline.html:12
+#: .\matches\templates\tournaments\tournament_overview.html:79
+#: .\pages\templates\calendar_inline.html:57
+msgctxt "Tournament stage"
+msgid "Stage"
+msgstr "Стадия"
+
+#: .\matches\templates\matches\matches_inline.html:15
+msgctxt "Tournament stage / Map"
+msgid "Stage / Map"
+msgstr "Стадия / Карта"
+
+#: .\matches\templates\matches\matches_inline.html:18
+msgid "Tournament / Map"
+msgstr "Турнир / Карта"
+
+#: .\matches\templates\matches\matches_inline.html:21
+msgid "Drafts"
+msgstr "Драфты"
+
+#: .\matches\templates\matches\matches_inline.html:23
+msgctxt "Spoilers switcher title"
+msgid "Spoilers"
+msgstr "Спойлеры"
+
+#: .\matches\templates\matches\matches_inline.html:109
+msgctxt "W for Win"
+msgid "W"
+msgstr "В"
+
+#: .\matches\templates\matches\matches_inline.html:110
+msgctxt "L for Lose"
+msgid "L"
+msgstr "П"
+
+#: .\matches\templates\matches\matches_inline.html:121
+msgid "Show"
+msgstr "Показать"
+
+#: .\matches\templates\matches\match_list.html:63
+#: .\matches\templates\matches\matches_inline.html:131
+msgid "VOD"
+msgstr "Видео"
+
+#: .\heroes\forms.py:23 .\maps\forms.py:22
+#: .\matches\templates\tournaments\tournament_detail.html:8
+#: .\matches\templates\tournaments\tournament_detail.html:20
+#: .\matches\templates\tournaments\tournament_list.html:8
+#: .\matches\templates\tournaments\tournament_list.html:13 .\meta\forms.py:23
+#: .\templates\base.html:204
+msgid "Tournaments"
+msgstr "Турниры"
+
+#: .\matches\templates\tournaments\tournament_detail.html:16
+msgctxt "Tournament overview"
+msgid "Overview"
+msgstr "Общая"
+
+#: .\matches\templates\tournaments\tournament_list.html:17
+msgid "Upcoming tournaments"
+msgstr "Предстоящие турниры"
+
+#: .\matches\templates\tournaments\tournament_list.html:22
+msgid "Ongoing tournaments"
+msgstr "Идущие турниры"
+
+#: .\matches\templates\tournaments\tournament_list.html:26
+msgid "Completed tournaments"
+msgstr "Завершенные турниры"
+
+#: .\matches\forms.py:14
+#: .\matches\templates\tournaments\tournament_list_inline.html:11
+#: .\teams\forms.py:76 .\teams\templates\players\player_list.html:75
+msgid "Region"
+msgstr "Регион"
+
+#: .\matches\templates\tournaments\tournament_list_inline.html:12
+#: .\matches\templates\tournaments\tournament_overview.html:20
+msgid "Start Date"
+msgstr "Начало"
+
+#: .\matches\templates\tournaments\tournament_list_inline.html:13
+#: .\matches\templates\tournaments\tournament_overview.html:24
+msgid "End Date"
+msgstr "Окончание"
+
+#: .\matches\templates\tournaments\tournament_list_inline.html:14
+msgctxt "Tournament name"
+msgid "Name"
+msgstr "Название"
+
+#: .\matches\templates\tournaments\tournament_list_inline.html:15
+#: .\matches\templates\tournaments\tournament_overview.html:41
+msgid "Prize Pool"
+msgstr "Призовой фонд"
+
+#: .\matches\templates\tournaments\tournament_overview.html:6
+msgctxt "Place in table of winners"
+msgid "Place"
+msgstr "Место"
+
+#: .\matches\templates\tournaments\tournament_overview.html:8
+msgctxt "Tournament prize pool"
+msgid "Prize"
+msgstr "Приз"
+
+#: .\maps\templates\maps\map_overview.html:8
+#: .\matches\templates\tournaments\tournament_overview.html:9
+#: .\meta\templates\meta\report.html:27
+msgctxt "Hero tier"
+msgid "Tier"
+msgstr "Тир"
+
+#: .\matches\templates\tournaments\tournament_overview.html:16
+msgid "General Information"
+msgstr "Общая информация"
+
+#: .\matches\templates\tournaments\tournament_overview.html:28
+msgctxt "Tournament format"
+msgid "Format"
+msgstr "Формат"
+
+#: .\matches\templates\tournaments\tournament_overview.html:33
+msgctxt "The venue of the tournament"
+msgid "Location"
+msgstr "Место проведения"
+
+#: .\teams\templates\players\player_overview.html:85
+msgid "Total Matches"
+msgstr "Сыграно матчей"
+
+#: .\matches\templates\tournaments\tournament_overview.html:56
+msgid "Description"
+msgstr "Описание"
+
+#: .\matches\templates\tournaments\tournament_overview.html:130
+msgid "Participating Teams"
+msgstr "Команды-участницы"
+
+#: .\matches\templates\tournaments\tournament_overview.html:152
+msgid "Main Event Statistics"
+msgstr "Статистика турнира"
+
+#: .\teams\templates\players\player_overview.html:28
+#: .\teams\templates\teams\summary.html:8
+msgid "Most Played Heroes"
+msgstr "Популярные герои"
+
+#: .\matches\templates\tournaments\tournament_overview.html:164
+#: .\meta\templates\meta\report.html:72
+msgid "Most Banned Heroes"
+msgstr "Популярные баны"
+
+#: .\meta\templates\meta\fp_comp_inline.html:5
+msgid "Top First Picks"
+msgstr "Популярные первые пики"
+
+#: .\meta\templates\meta\fp_comp_inline.html:12
+msgid "First Pick Win Rate"
+msgstr "Побед на первом пике"
+
+#: .\meta\templates\meta\fp_comp_inline.html:41
+msgid "Summary"
+msgstr "Итог"
+
+#: .\meta\templates\meta\fp_comp_inline.html:52
+msgid "Most Common Compositions"
+msgstr "Популярные композиции"
+
+#: .\meta\templates\meta\fp_comp_inline.html:58
+msgctxt "Team composition"
+msgid "Composition"
+msgstr "Состав"
+
+#: .\meta\templates\meta\fp_comp_inline.html:59
+msgid "Count"
+msgstr "Кол-во"
+
+#: .\meta\templates\meta\report.html:8 .\meta\templates\meta\report.html:31
+#: .\templates\base.html:208
+msgid "Meta"
+msgstr "Мета"
+
+#: .\maps\templates\maps\map_overview.html:45
+#: .\meta\templates\meta\report.html:56
+msgid "Warning!"
+msgstr "Внимание!"
+
+#: .\pages\templates\calendar_inline.html:44
+msgid "eSports Calendar"
+msgstr "Киберспортивный календарь"
+
+#: .\pages\templates\calendar.html:6
+msgid "Upcoming and ongoing events."
+msgstr "Предстоящие и идущие события"
+
+#: .\pages\templates\calendar_inline.html:33
+msgctxt "eSports Calendar tooltip for events start time"
+msgid "Your local time"
+msgstr "Время указано в вашем часовом поясе"
+
+#: .\pages\templates\calendar_inline.html:38
+msgid "If you are a Google Calendar user, copy the button link location, open Google Calendar, find 'Other Calendars', choose 'Add by URL' and paste the link into the URL field."
+msgstr "Если вы используете Google Календарь, скопируйте ссылку с этой кнопки, откройте календарь, в разделе 'Другие календари' найдите пункт 'Добавить по URL' и вставьте ссылку в указанное поле."
+
+#: .\pages\templates\calendar_inline.html:41
+msgid "Subscribe to Calendar"
+msgstr "Подписка на календарь"
+
+#: .\pages\templates\calendar_inline.html:56
+msgctxt "eSports Calendar"
+msgid "Tournament / Stream"
+msgstr "Турнир / Стрим"
+
+#: .\pages\templates\calendar_inline.html:63
+msgctxt "Live events in eSports Calendar"
+msgid "Live"
+msgstr "Прямой эфир"
+
+#: .\pages\templates\calendar_inline.html:111
+msgctxt "Upcoming events in eSports Calendar"
+msgid "Upcoming"
+msgstr "Предстоящие"
+
+#: .\pages\templates\calendar_inline.html:144
+msgid "Times displayed in your local time"
+msgstr "Время указано в вашем часовом поясе"
+
+#: .\pages\templates\mainpage.html:7
+msgctxt "Greeting"
+msgid "Welcome to Master League"
+msgstr "Добро пожаловать на Master League"
+
+#: .\pages\templates\mainpage.html:27
+msgid "Latest News"
+msgstr "Последние новости"
+
+#: .\pages\templates\mainpage.html:34
+msgctxt "Latest News"
+msgid "Title"
+msgstr "Заголовок"
+
+#: .\pages\templates\mainpage.html:56
+msgid "Latest Transfers"
+msgstr "Последние трансферы"
+
+#: .\pages\templates\mainpage.html:65
+msgid "From Team"
+msgstr "Откуда"
+
+#: .\pages\templates\mainpage.html:66
+msgid "To Team"
+msgstr "Куда"
+
+#: .\pages\templates\mainpage.html:115
+#: .\teams\templates\teams\team_overview.html:104
+msgid "Latest Matches"
+msgstr "Последние матчи"
+
+#: .\search\templates\search\search.html:13
+msgctxt "Search results"
+msgid "Not found"
+msgstr "Не найдено"
+
+#: .\search\templates\search\search.html:17
+msgid "Search"
+msgstr "Поиск"
+
+#: .\search\templates\search\search.html:21
+#: .\teams\templates\teams\team_detail.html:8
+#: .\teams\templates\teams\team_detail.html:27
+#: .\teams\templates\teams\team_list.html:8
+#: .\teams\templates\teams\team_list.html:54 .\templates\base.html:77
+#: .\templates\base.html:202
+msgid "Teams"
+msgstr "Команды"
+
+#: .\search\templates\search\search.html:39
+#: .\teams\templates\players\player_detail.html:8
+#: .\teams\templates\players\player_detail.html:24
+#: .\teams\templates\players\player_list.html:5
+#: .\teams\templates\players\player_list.html:8
+#: .\teams\templates\players\player_list.html:26
+#: .\teams\templates\players\player_list.html:31
+#: .\teams\templates\players\players_compare.html:8
+#: .\teams\templates\players\players_compare.html:112
+#: .\teams\templates\players\players_compare.html:118
+#: .\teams\templates\players\players_transfers.html:8
+#: .\teams\templates\players\players_transfers.html:43
+#: .\teams\templates\players\players_transfers.html:49
+#: .\teams\templates\teams\team_detail.html:61
+#: .\teams\templates\teams\team_transfers.html:8 .\templates\base.html:92
+#: .\templates\base.html:203
+msgid "Players"
+msgstr "Игроки"
+
+#: .\teams\models.py:131 .\teams\templates\players\player_card_inline.html:10
+msgctxt "Player role"
+msgid "Warrior"
+msgstr "Боец"
+
+#: .\teams\models.py:132 .\teams\templates\players\player_card_inline.html:12
+msgctxt "Player role"
+msgid "Support"
+msgstr "Поддержка"
+
+#: .\teams\models.py:133 .\teams\templates\players\player_card_inline.html:14
+msgctxt "Player role"
+msgid "Assassin"
+msgstr "Убийца"
+
+#: .\teams\models.py:134 .\teams\templates\players\player_card_inline.html:16
+msgctxt "Player role"
+msgid "Flex"
+msgstr "Универсал"
+
+#: .\teams\templates\players\player_detail.html:64
+#: .\teams\templates\players\player_overview.html:5
+msgctxt "Player overview"
+msgid "Overview"
+msgstr "Общая"
+
+#: .\teams\templates\players\player_list.html:34
+#: .\teams\templates\players\players_compare.html:121
+#: .\teams\templates\players\players_transfers.html:44
+#: .\teams\templates\players\players_transfers.html:52
+msgid "Transfers"
+msgstr "Трансферы"
+
+#: .\teams\templates\players\player_list.html:37
+#: .\teams\templates\players\players_compare.html:113
+#: .\teams\templates\players\players_compare.html:124
+#: .\teams\templates\players\players_transfers.html:55
+msgctxt "Players compare"
+msgid "Compare"
+msgstr "Сравнить"
+
+#: .\teams\templates\players\player_list.html:77
+#: .\teams\templates\teams\team_overview.html:19
+#: .\teams\templates\teams\team_transfers.html:17
+msgid "Nickname"
+msgstr "Ник"
+
+#: .\teams\forms.py:81 .\teams\templates\players\player_list.html:79
+#: .\teams\templates\teams\team_overview.html:20
+#: .\teams\templates\teams\team_transfers.html:18
+msgctxt "Player role/team position"
+msgid "Position"
+msgstr "Позиция"
+
+#: .\teams\templates\players\player_overview.html:102
+msgid "From date"
+msgstr "С"
+
+#: .\teams\templates\players\player_overview.html:103
+msgid "To date"
+msgstr "По"
+
+#: .\teams\templates\players\players_compare.html:162
+msgctxt "Button label for players compare"
+msgid "Compare"
+msgstr "Сравнить"
+
+#: .\teams\templates\players\players_compare.html:203
+msgid "KDA is calculated as (Kills + Assists) / (Deaths + 1)"
+msgstr "KDA вычисляется как (Убийства + Помощь) / (Смерти + 1)"
+
+#: .\teams\templates\players\players_transfers.html:89
+msgid "Load more"
+msgstr "Загрузить еще"
+
+#: .\teams\templates\teams\summary.html:45
+msgid "Most Played Maps"
+msgstr "Популярные карты"
+
+#: .\teams\templates\teams\summary.html:82
+msgid "Summary Stats"
+msgstr "Общая"
+
+#: .\teams\templates\teams\team_detail.html:60
+#: .\teams\templates\teams\team_overview.html:6
+msgctxt "Team overview"
+msgid "Overview"
+msgstr "Общая"
+
+#: .\teams\templates\teams\team_heroes.html:94
+msgid "Most Banned by %(team)s"
+msgstr "Популярные баны от %(team)s"
+
+#: .\teams\templates\teams\team_heroes.html:131
+msgid "Most Banned by Opponents"
+msgstr "Популярные баны противников"
+
+#: .\teams\templates\teams\team_heroes.html:140
+msgid "Loss %%"
+msgstr "Пораж., %"
+
+#: .\teams\templates\teams\team_list.html:75
+msgctxt "Disbanded teams visibility switcher"
+msgid "Show disbanded"
+msgstr "Показывать распущенные"
+
+#: .\teams\templates\teams\team_list.html:80
+msgctxt "Search field tooltip"
+msgid "Start typing to search"
+msgstr "Быстрый поиск"
+
+#: .\teams\templates\teams\team_overview.html:11
+msgid "Player Roster"
+msgstr "Состав"
+
+#: .\teams\templates\teams\team_overview.html:53
+msgid "Place"
+msgstr "Место"
+
+#: .\teams\templates\teams\team_overview.html:54
+msgid "Tournament"
+msgstr "Турнир"
+
+#: .\teams\templates\teams\team_overview.html:55
+msgid "Prize"
+msgstr "Приз"
+
+#: .\templates\404.html:5
+msgctxt "404 page"
+msgid "Page Not Found"
+msgstr "Страница не найдена"
+
+#: .\templates\404.html:11
+msgctxt "404 page"
+msgid "There's nothing here"
+msgstr "Здесь ничего нет"
+
+#: .\templates\base.html:6
+msgid "eSport statistics"
+msgstr "киберспортивная статистика"
+
+#: .\templates\base.html:76
+msgctxt "Search results"
+msgid "Teams not found"
+msgstr "Команды не найдены"
+
+#: .\templates\base.html:91
+msgctxt "Search results"
+msgid "Players not found"
+msgstr "Игроки не найдены"
+
+#: .\templates\base.html:214
+msgctxt "Search field tooltip"
+msgid "Search"
+msgstr "Поиск"
+
+#: .\heroes\templates\heroes\stats_table_inline.html:11
+msgctxt "Wins count"
+msgid "Wins"
+msgstr "Побед"
+
+#: .\heroes\templates\heroes\stats_table_inline.html:12
+msgctxt "Losses count"
+msgid "Losses"
+msgstr "Поражений"
+
+#: .\heroes\templates\heroes\stats_table_inline.html:13
+msgctxt "Bans count"
+msgid "Bans"
+msgstr "Банов"
+
+#: .\matches\templates\matches\match_detail.html:50
+msgctxt "Banned heroes list on match page"
+msgid "Bans"
+msgstr "Баны"
+
+#: .\teams\templates\teams\team_overview.html:44
+msgctxt "Team achievements in tournaments"
+msgid "Achievements"
+msgstr "Достижения"
+
+#: .\matches\templates\tournaments\tournament_overview.html:45
+msgctxt "Tournament matches count"
+msgid "Total Matches"
+msgstr "Сыграно матчей"
+
+#: .\matches\templates\tournaments\tournament_overview.html:48
+msgctxt "Tournament matches count (w/o qualifiers)"
+msgid "Main event matches count"
+msgstr "Количество сыгранных матчей в рамках главного турнира"
+
+#: .\matches\templates\tournaments\tournament_overview.html:48
+msgctxt "Tournament total matches count (w/ qualifiers)"
+msgid "Total matches count"
+msgstr "Общее количество матчей за турнир"
+
+#: .\teams\templates\players\players_transfers.html:66
+msgctxt "Player transfer"
+msgid "From Team"
+msgstr "Откуда"
+
+#: .\teams\templates\players\players_transfers.html:67
+msgctxt "Player transfer"
+msgid "To Team"
+msgstr "Куда"
+
+#: .\teams\templates\teams\team_transfers.html:15
+msgctxt "Player transfer"
+msgid "From date"
+msgstr "С"
+
+#: .\teams\templates\teams\team_transfers.html:16
+msgctxt "Player transfer"
+msgid "To date"
+msgstr "По"
+
+#: .\teams\templates\players\player_list.html:78
+msgctxt "Player real name"
+msgid "Name"
+msgstr "Имя"
+
+#: .\teams\templates\players\players_compare.html:5
+msgctxt "[SEO] Page title"
+msgid "Compare Players"
+msgstr "Сравнение игроков"
+
+#: .\teams\templates\teams\summary.html:99
+msgctxt "First pick stats"
+msgid "First pick"
+msgstr "Первый пик"
+
+#: .\teams\templates\teams\summary.html:114
+msgctxt "Second pick stats"
+msgid "Second pick"
+msgstr "Второй пик"
+
+#: .\teams\templates\teams\summary.html:129
+msgctxt "Total team stats"
+msgid "Total"
+msgstr "Итог"
+
+#: .\teams\templates\teams\team_overview.html:21
+msgctxt "Plays for team since date"
+msgid "Plays since"
+msgstr "Играет с"
+
+#: .\heroes\templates\heroes\hero_list.html:5
+msgctxt "[SEO] Page title"
+msgid "Heroes"
+msgstr "Герои"
+
+#: .\maps\templates\maps\map_list.html:5
+msgctxt "[SEO] Page title"
+msgid "Maps"
+msgstr "Карты"
+
+#: .\matches\templates\matches\match_list.html:5
+msgctxt "[SEO] Page title"
+msgid "Match List"
+msgstr "Список матчей"
+
+#: .\matches\templates\tournaments\tournament_list.html:5
+msgctxt "[SEO] Page title"
+msgid "Tournaments"
+msgstr "Турниры"
+
+#: .\meta\templates\meta\report.html:5
+msgctxt "[SEO] Page title"
+msgid "Meta"
+msgstr "Мета"
+
+#: .\pages\templates\calendar.html:5
+msgctxt "[SEO] Page title"
+msgid "eSports Calendar"
+msgstr "Киберспортивный календарь"
+
+#: .\search\templates\search\search.html:5
+msgctxt "[SEO] Page title"
+msgid "Search results"
+msgstr "Результаты поиска"
+
+#: .\teams\templates\players\player_detail.html:5
+msgctxt "[SEO] Page title"
+msgid "Player Statistics"
+msgstr "Статистика игрока"
+
+#: .\teams\templates\teams\team_transfers.html:5
+msgctxt "[SEO] Page title"
+msgid "Players"
+msgstr "Игроки"
+
+#: .\teams\templates\players\player_matches.html:5
+#: .\teams\templates\teams\team_matches.html:5
+msgctxt "[SEO] Page title"
+msgid "Latest Matches"
+msgstr "Последние матчи"
+
+#: .\teams\templates\players\players_transfers.html:5
+msgctxt "[SEO] Page title"
+msgid "Players transfers"
+msgstr "Трансферы игроков"
+
+#: .\teams\templates\teams\team_detail.html:5
+msgctxt "[SEO] Page title"
+msgid "Team Statistics"
+msgstr "Статистика команды"
+
+#: .\teams\templates\teams\team_heroes.html:5
+msgctxt "[SEO] Page title"
+msgid "Most Played Heroes"
+msgstr "Популярные герои"
+
+#: .\teams\templates\teams\team_list.html:5
+msgctxt "[SEO] Page title"
+msgid "Teams"
+msgstr "Команды"
+
+#: .\teams\templates\players\player_overview.html:95
+msgctxt "Player transfers history"
+msgid "Team history"
+msgstr "История трансферов"
+
+#: .\matches\templates\matches\match_stats.html:70
+msgid "Siege Dmg"
+msgstr "Осадный"
+
+#: .\matches\templates\matches\match_stats.html:71
+msgid "Hero Dmg"
+msgstr "Героич."
+
+#: .\heroes\templates\heroes\hero_overview.html:191
+msgctxt "Hero"
+msgid "Most Popular On Maps"
+msgstr "Популярность по картам"
+
+#: .\heroes\templates\heroes\hero_overview.html:231
+msgctxt "Hero"
+msgid "Most Played By Teams"
+msgstr "Популярность по командам"
+
+#: .\matches\templates\matches\match_detail.html:47
+msgctxt "Match winner"
+msgid "Winner"
+msgstr "Выиграли"
+
+#: .\matches\templates\matches\match_detail.html:48
+msgctxt "Match loser"
+msgid "Loser"
+msgstr "Проиграли"
+
+#: .\matches\templates\matches\match_detail.html:49
+msgctxt "First pick mark on match page"
+msgid "First pick"
+msgstr "Первый пик"
+
+#: .\maps\templates\maps\map_overview.html:46
+msgid "No matches played in the selected period."
+msgstr "За выбранный период не сыграно ни одного матча."
+
+#: .\teams\templates\players\players_compare.html:181
+msgctxt "Players compare page"
+msgid "All Time Avg. Stats"
+msgstr "Статистика за все время"
+
+#: .\matches\templates\matches\matches_inline.html:107
+msgctxt "Tooltip for match score"
+msgid "Win"
+msgstr "Выигрыш"
+
+#: .\matches\templates\matches\matches_inline.html:108
+msgctxt "Tooltip for match score"
+msgid "Lose"
+msgstr "Проигрыш"
+
+#: 
+msgid "Europe"
+msgstr "Европа"
+
+#: .\teams\templates\players\player_overview.html:65
+msgid "The rating is based on statistics of the player as compared to statistics of other players on the same hero in the same patches.<br /><br />Computed by analyzing <strong>%(ppr_match_count)s matches</strong> with replays out of <strong>%(match_count)s matches</strong> in total."
+msgstr "Рейтинг основан на сравнении статистики игрока со статистикой других игроков на том же герое за тот же игровой период.<br /><br />Вычислено на основе анализа <strong>%(ppr_match_count)s матчей</strong> с реплеями из <strong>%(match_count)s сыгранных матчей</strong>."
+
+#: 
+msgid "North America"
+msgstr "Северная Америка"
+
+#: 
+msgid "South Korea"
+msgstr "Южная Корея"
+
+#: 
+msgid "China"
+msgstr "Китай"
+
+#: 
+msgid "Taiwan"
+msgstr "Тайвань"
+
+#: 
+msgid "Southeast Asia"
+msgstr "Юго-Восточная Азия"
+
+#: 
+msgid "Latin America"
+msgstr "Латинская Америка"
+
+#: 
+msgid "Australia & New Zealand"
+msgstr "Австралия и Новая Зеландия"
+
+#: .\teams\forms.py:70
+msgctxt "Player w/o team"
+msgid "Free Agent"
+msgstr "Свободный агент"
+
+#: .\heroes\forms.py:15 .\maps\forms.py:15 .\matches\forms.py:15
+#: .\meta\forms.py:15 .\teams\forms.py:77
+msgid "All Regions"
+msgstr "Все регионы"
+
+#: .\teams\forms.py:69
+msgctxt "Form filter, any team choice"
+msgid "Any"
+msgstr "Любая"
+
+#: .\teams\forms.py:74
+msgctxt "Form filter, any player position choice"
+msgid "Any"
+msgstr "Любая"
+
+#: .\matches\templates\tournaments\tournament_overview.html:163
+#: .\meta\templates\meta\report.html:71
+#: .\teams\templates\teams\team_heroes.html:55
+msgctxt "Popular picks"
+msgid "Most Played Heroes"
+msgstr "Популярные пики"
+
+#: 
+msgid "Abathur"
+msgstr "Абатур"
+
+#: 
+msgid "Alarak"
+msgstr "Аларак"
+
+#: 
+msgid "Anub'arak"
+msgstr "Ануб’арак"
+
+#: 
+msgid "Artanis"
+msgstr "Артанис"
+
+#: 
+msgid "Arthas"
+msgstr "Артас"
+
+#: 
+msgid "Auriel"
+msgstr "Ауриэль"
+
+#: 
+msgid "Azmodan"
+msgstr "Азмодан"
+
+#: 
+msgid "Brightwing"
+msgstr "Светик"
+
+#: 
+msgid "Chen"
+msgstr "Чэнь"
+
+#: 
+msgid "Cho"
+msgstr "Чо"
+
+#: 
+msgid "Chromie"
+msgstr "Хроми"
+
+#: 
+msgid "Dehaka"
+msgstr "Дехака"
+
+#: 
+msgid "Diablo"
+msgstr "Диабло"
+
+#: 
+msgid "E.T.C."
+msgstr "E.T.C."
+
+#: 
+msgid "Falstad"
+msgstr "Фалстад"
+
+#: 
+msgid "Gall"
+msgstr "Галл"
+
+#: 
+msgid "Gazlowe"
+msgstr "Газлоу"
+
+#: 
+msgid "Greymane"
+msgstr "Седогрив"
+
+#: 
+msgid "Gul'dan"
+msgstr "Гул'дан"
+
+#: 
+msgid "Illidan"
+msgstr "Иллидан"
+
+#: 
+msgid "Jaina"
+msgstr "Джайна"
+
+#: 
+msgid "Johanna"
+msgstr "Джоанна"
+
+#: 
+msgid "Kael'thas"
+msgstr "Кель'тас"
+
+#: 
+msgid "Kerrigan"
+msgstr "Керриган"
+
+#: 
+msgid "Kharazim"
+msgstr "Каразим"
+
+#: 
+msgid "Leoric"
+msgstr "Леорик"
+
+#: 
+msgid "Li Li"
+msgstr "Ли Ли"
+
+#: 
+msgid "Li-Ming"
+msgstr "Ли-Мин"
+
+#: 
+msgid "Lt. Morales"
+msgstr "Лейтенант Моралес"
+
+#: 
+msgid "Lunara"
+msgstr "Лунара"
+
+#: 
+msgid "Malfurion"
+msgstr "Малфурион"
+
+#: 
+msgid "Medivh"
+msgstr "Медив"
+
+#: 
+msgid "Muradin"
+msgstr "Мурадин"
+
+#: 
+msgid "Murky"
+msgstr "Мурчаль"
+
+#: 
+msgid "Nazeebo"
+msgstr "Назибо"
+
+#: 
+msgid "Nova"
+msgstr "Нова"
+
+#: 
+msgid "Raynor"
+msgstr "Рейнор"
+
+#: 
+msgid "Rehgar"
+msgstr "Регар"
+
+#: 
+msgid "Rexxar"
+msgstr "Рексар"
+
+#: 
+msgid "Sgt. Hammer"
+msgstr "Сержант Кувалда"
+
+#: 
+msgid "Sonya"
+msgstr "Соня"
+
+#: 
+msgid "Stitches"
+msgstr "Стежок"
+
+#: 
+msgid "Sylvanas"
+msgstr "Сильвана"
+
+#: 
+msgid "Tassadar"
+msgstr "Тассадар"
+
+#: 
+msgid "The Butcher"
+msgstr "Мясник"
+
+#: 
+msgid "The Lost Vikings"
+msgstr "Потерявшиеся викинги"
+
+#: 
+msgid "Thrall"
+msgstr "Тралл"
+
+#: 
+msgid "Tracer"
+msgstr "Трейсер"
+
+#: 
+msgid "Tychus"
+msgstr "Тайкус"
+
+#: 
+msgid "Tyrael"
+msgstr "Тираэль"
+
+#: 
+msgid "Tyrande"
+msgstr "Тиранда"
+
+#: 
+msgid "Uther"
+msgstr "Утер"
+
+#: 
+msgid "Valla"
+msgstr "Валла"
+
+#: 
+msgid "Xul"
+msgstr "Зул"
+
+#: 
+msgid "Zagara"
+msgstr "Загара"
+
+#: 
+msgid "Zarya"
+msgstr "Заря"
+
+#: 
+msgid "Zeratul"
+msgstr "Зератул"
+
+#: 
+msgid "Samuro"
+msgstr "Самуро"
+
+#: 
+msgid "Battlefield of Eternity"
+msgstr "Вечная битва"
+
+#: 
+msgid "Blackheart’s Bay"
+msgstr "Бухта Черносерда"
+
+#: 
+msgid "Braxis Holdout"
+msgstr "Бойня на Браксисе"
+
+#: 
+msgid "Cursed Hollow"
+msgstr "Проклятая лощина"
+
+#: 
+msgid "Dragon Shire"
+msgstr "Драконий край"
+
+#: 
+msgid "Garden of Terror"
+msgstr "Сад Ужасов"
+
+#: 
+msgid "Haunted Mines"
+msgstr "Призрачные копи"
+
+#: 
+msgid "Infernal Shrines"
+msgstr "Оскверненные святилища"
+
+#: 
+msgid "Sky Temple"
+msgstr "Небесный храм"
+
+#: 
+msgid "Tomb of the Spider Queen"
+msgstr "Гробница королевы пауков"
+
+#: 
+msgid "Towers of Doom"
+msgstr "Башни Рока"
+
+#: 
+msgid "Warhead Junction"
+msgstr "Ядерный полигон"
+
+#: .\matches\forms.py:17 .\teams\forms.py:14 .\teams\forms.py:39
+#: .\teams\forms.py:54
+msgid "Patch"
+msgstr "Патч"
+
+#: .\maps\views.py:125 .\matches\forms.py:24 .\matches\views.py:199
+#: .\meta\views.py:111 .\teams\forms.py:16 .\teams\forms.py:43
+#: .\teams\forms.py:58
+msgid "All Heroes"
+msgstr "Все герои"
+
+#: .\matches\forms.py:21 .\teams\forms.py:19 .\teams\forms.py:46
+#: .\teams\forms.py:61
+msgid "All Maps"
+msgstr "Все карты"
+
+#: 
+msgid "Samuro Patch"
+msgstr "Патч Самуро"
+
+#: 
+msgid "Alarak Patch"
+msgstr "Патч Аларак"
+
+#: 
+msgid "Auriel Patch"
+msgstr "Патч Ауриэль"
+
+#: 
+msgid "Gul'dan Patch"
+msgstr "Патч Гул'дан"
+
+#: 
+msgid "Medivh Patch"
+msgstr "Патч Медив"
+
+#: 
+msgid "Chromie Patch"
+msgstr "Патч Хроми"
+
+#: 
+msgid "Tracer Patch"
+msgstr "Патч Трейсер"
+
+#: 
+msgid "Dehaka Patch"
+msgstr "Патч Дехака"
+
+#: 
+msgid "Xul Patch"
+msgstr "Патч Зул"
+
+#: 
+msgid "Li-Ming Patch"
+msgstr "Патч Ли-Мин"
+
+#: 
+msgid "Greymane Patch"
+msgstr "Патч Седогрив"
+
+#: 
+msgid "Lunara Patch"
+msgstr "Патч Лунара"
+
+#: .\matches\forms.py:18 .\teams\forms.py:40 .\teams\forms.py:55
+#: .\teams\views.py:98
+msgctxt "All patches"
+msgid "All Time"
+msgstr "За все время"
+
+#: .\teams\forms.py:26 .\teams\views.py:104
+msgid "Current Roster"
+msgstr "Текущий состав"
+
+#: .\pages\templates\mainpage.html:13
+msgctxt "Greeting"
+msgid "Here you can find the latest results, VODs and replays of <a href=\"http://heroesofthestorm.com/\" target=\"_blank\"><strong>Heroes of the Storm</strong></a> competitive games, indepth statistics of players and teams from different regions and more. Currently we have detailed information about <a href=\"%(match_list_url)s\"><strong>%(match_count)s</strong></a> matches, <a href=\"%(team_list_url)s\"><strong>%(team_count)s</strong></a> teams and <a href=\"%(player_list_url)s\"><strong>%(player_count)s</strong></a> professional players in our database."
+msgstr "У нас вы сможете найти результаты последних матчей, записи и реплеи соревновательных игр <a href=\"http://heroesofthestorm.com/\" target=\"_blank\"><strong>Heroes of the Storm</strong></a>, разнообразную статистику по игрокам и командам из разных регионов и многое другое. На данный момент в нашей базе есть детальная информация по <a href=\"%(match_list_url)s\"><strong>%(match_count)s</strong></a> матчам, <a href=\"%(team_list_url)s\"><strong>%(team_count)s</strong></a> командам and <a href=\"%(player_list_url)s\"><strong>%(player_count)s</strong></a> игрокам."
+
+#: .\teams\forms.py:49
+msgid "Any Team"
+msgstr "Любая команда"
+
+#: .\teams\forms.py:86
+msgid "First Player"
+msgstr "Первый игрок"
+
+#: .\teams\forms.py:87
+msgid "Second Player"
+msgstr "Второй игрок"
+
+#: .\teams\templates\players\players_compare.html:33
+msgid "Currently Selected"
+msgstr "Выбран"
+
+#: .\teams\forms.py:91 .\teams\templates\players\players_compare.html:34
+msgid "Select and begin typing"
+msgstr "Нажми и начни писать"
+
+#: .\teams\templates\players\players_compare.html:35
+msgid "Unable to retrieve results"
+msgstr "Ошибка получения результатов"
+
+#: .\teams\templates\players\players_compare.html:36
+msgid "Search..."
+msgstr "Искать..."
+
+#: .\teams\templates\players\players_compare.html:37
+msgid "Start typing a search query"
+msgstr "Начни писать"
+
+#: .\teams\templates\players\players_compare.html:38
+msgid "No Results"
+msgstr "Ничего не найдено"
+
+#: .\teams\templates\players\players_compare.html:39
+msgid "Searching..."
+msgstr "Поиск..."
+
+#: .\teams\templates\players\players_compare.html:204
+msgid "Lifetime is calculated as (Match time - Time spend dead) / Match time"
+msgstr "Живучесть вычисляется как (Время матча - Время проведенное мертвым) / Время матча"
+
+#: .\teams\views.py:486 .\teams\views.py:509
+msgid "KDA"
+msgstr "KDA"
+
+#: .\teams\views.py:487
+msgctxt "Hero damage"
+msgid "Hero"
+msgstr "Герои"
+
+#: .\teams\views.py:488
+msgctxt "Siege damage"
+msgid "Siege"
+msgstr "Осада"
+
+#: .\teams\views.py:489
+msgctxt "Amount of time player was not dead during the match"
+msgid "Lifetime"
+msgstr "Живучесть"
+
+#: .\teams\views.py:490
+msgctxt "Crowd control duration"
+msgid "CC"
+msgstr "Контроль"
+
+#: .\teams\views.py:491
+msgctxt "Expirience"
+msgid "XP"
+msgstr "Опыт"
+
+#: .\teams\views.py:492
+msgctxt "Healing amount (for healers) or Damage taken (for warriors)"
+msgid "Role"
+msgstr "Роль"
+
+#: .\teams\views.py:510
+msgctxt "Amount of time player was not dead during the match"
+msgid "Lifetime / Min"
+msgstr "Живучесть / мин"
+
+#: .\teams\views.py:511
+msgid "Siege Damage / Min"
+msgstr "Осадный урон / мин"
+
+#: .\teams\views.py:512
+msgid "Hero Damage / Min"
+msgstr "Урон по героям / мин"
+
+#: .\teams\views.py:513
+msgid "Healing / Min"
+msgstr "Лечение / мин"
+
+#: .\teams\views.py:514
+msgid "Damage Taken / Min"
+msgstr "Заблокированный урон"
+
+#: .\teams\views.py:515
+msgid "CC Duration / Min"
+msgstr "Длительность контроля / мин"
+
+#: .\teams\views.py:517
+msgid "Analyzed Replays"
+msgstr "Проанализировано реплеев"
+
+#: .\matches\templates\matches\match_list.html:61
+msgctxt "Form filter options"
+msgid "Options"
+msgstr "Опции"
+
+#: .\matches\templates\matches\match_detail.html:202
+msgid "Download"
+msgstr "Скачать"
+
+#: .\heroes\forms.py:12 .\maps\forms.py:12 .\meta\forms.py:12
+msgid "Regions"
+msgstr "Регионы"
+
+#: .\heroes\forms.py:17 .\maps\forms.py:17 .\meta\forms.py:17
+msgid "Patches"
+msgstr "Патчи"
+
+#: .\heroes\forms.py:20 .\maps\forms.py:20 .\meta\forms.py:20
+#: .\teams\forms.py:24
+msgid "All patches"
+msgstr "Все патчи"
+
+#: .\heroes\forms.py:26 .\maps\forms.py:25 .\meta\forms.py:26
+msgid "All tournaments"
+msgstr "Все турниры"
+
+#: .\maps\views.py:126 .\matches\views.py:200 .\meta\views.py:112
+msgid "Warriors"
+msgstr "Бойцы"
+
+#: .\maps\views.py:127 .\matches\views.py:201 .\meta\views.py:113
+msgid "Supports"
+msgstr "Поддержка"
+
+#: .\maps\views.py:128 .\matches\views.py:202 .\meta\views.py:114
+msgid "Assassins"
+msgstr "Убийцы"
+
+#: .\maps\views.py:129 .\matches\views.py:203 .\meta\views.py:115
+msgid "Specialists"
+msgstr "Специалисты"
+
+#: .\heroes\views.py:195 .\heroes\views.py:196
+msgctxt "minutes"
+msgid "mins"
+msgstr "мин"
+
+#: .\heroes\templates\heroes\hero_detail.html:5
+#: .\maps\templates\maps\map_detail.html:5
+msgid "statistics"
+msgstr "статистика"
+
+#: .\templates\base.html:260
+msgid "Help us localize the site!"
+msgstr "Помогите нам с переводом!"
+
+#: 
+msgid "Final"
+msgstr "Финал"
+
+#: 
+msgid "Grand Final"
+msgstr "Гранд финал"
+
+#: 
+msgid "Losers Final"
+msgstr "Финал проигравших"
+
+#: 
+msgid "Winners Final"
+msgstr "Финал победителей"
+
+#: 
+msgid "1/2 Final"
+msgstr "1/2 финала"
+
+#: 
+msgid "1/2 Final LB"
+msgstr "1/2 финала НС"
+
+#: 
+msgid "1/2 Final WB"
+msgstr "1/2 финала ВС"
+
+#: 
+msgid "1/4 Final WB"
+msgstr "1/4 финала ВС"
+
+#: 
+msgid "1/4 Final LB"
+msgstr "1/4 финала НС"
+
+#: 
+msgid "1/8 Final LB"
+msgstr "1/8 финала НС"
+
+#: 
+msgid "Showmatch"
+msgstr "Шоуматч"
+
+#: 
+msgid "Tiebreak"
+msgstr "Тай-брейк"
+
+#: 
+msgid "Zarya Patch"
+msgstr "Патч Заря"
+
+#: .\matches\templates\matches\matches_inline.html:90
+msgid "Game %(game_number)s"
+msgstr "Игра %(game_number)s"
+
+#: .\teams\views.py:516
+msgid "Experience / Min"
+msgstr "Опыт / мин"
+
+#: 
+msgid "Too few matches played (%(total_match_count)s of 50 minimum required) in the selected period to generate a reliable report."
+msgstr "Сыграно слишком мало матчей (%(total_match_count)s из минимум 50) в выбранном периоде для построения достоверного отчета."
+
+#: 
+msgid "Varian Patch"
+msgstr "Патч Вариан"
+
+#: 
+msgid "Varian"
+msgstr "Вариан"
+
+#: 
+msgid "1/4 Final"
+msgstr "1/4 финала"
+
+#: 
+msgid "1/8 Final"
+msgstr "1/8 финала"
+
+#: 
+msgid "Match Log"
+msgstr "Лог матча"
+
+#: 
+msgctxt "Some hero killed by some heroes"
+msgid "killed by"
+msgstr "убит с помощью"
+
+#: 
+msgid "Zerg rush. Opposing score: %(opposing_score)s%%."
+msgstr "Раш зергов. Счет оппонента: %(opposing_score)s%%."
+
+#: 
+msgid "Nuke launch"
+msgstr "Запуск ядерной ракеты"
+
+#: 
+msgid "Temple shots fired. Total Shot Damage: %(total_shot_damage)s."
+msgstr "Храм завершил стрельбу. Нанесено урона: %(total_shot_damage)s."
+
+#: 
+msgid "Boss camp"
+msgstr "Захват босса"
+
+#: 
+msgid "Infernal shrine captured"
+msgstr "Призыв карателя"
+
+#: 
+msgid "Immortal defeated"
+msgstr "Убийство вражеского бессмертного"
+
+#: 
+msgid "Altar captured. Shots fired: %(shots_fired)s."
+msgstr "Алтарь захвачен. Произведено выстрелов: %(shots_fired)s."
+
+#: 
+msgid "Webweavers spawned"
+msgstr "Призыв ткачей"
+
+#: 
+msgid "Dragon Knight activated"
+msgstr "Высвобождение дракона"
+
+#: 
+msgid "Garden Terror activated"
+msgstr "Призыв Ужаса Садов"
+
+#: 
+msgid "Ghost ship captured"
+msgstr "Обстрел фортов противника"
+
+#: 
+msgid "Raven curse activated"
+msgstr "Проклятие команды оппонентов"
+
+#: 
+msgid "XP difference"
+msgstr "Разница в опыте"
+
+#:
+msgid "Ragnaros"
+msgstr "Рагнарос"
+
+#:
+msgid "Ragnaros Patch"
+msgstr "Патч Рагнарос"
+
+#: 
+msgid "Zul'jin Patch"
+msgstr "Патч Зул'джин"
+
+#: 
+msgid "Zul'jin"
+msgstr "Зул'джин"
+
+#: 
+msgid "Upcoming matches"
+msgstr "Предстоящие матчи"
+
+#: 
+msgid "Ongoing matches"
+msgstr "Идущие матчи"
+
+#: 
+msgid "Completed matches"
+msgstr "Прошедшие матчи"
+
+#: 
+msgid "Points"
+msgstr "Очки"
+
+#: 
+msgid "Your bet"
+msgstr "Ваша ставка"
+
+#: 
+msgid "Stage"
+msgstr "Стадия"
+
+#: 
+msgid "Time until"
+msgstr "До начала"
+
+#: 
+msgid "Reward"
+msgstr "Награда"
+
+#: 
+msgid "Challenges"
+msgstr "Прогнозы"
+
+#: 
+msgid "Leaderboard"
+msgstr "Таблица лидеров"
+
+#: 
+msgid "Predict results"
+msgstr "Угадывай результаты"
+
+#: 
+msgid "earn points"
+msgstr "зарабатывай очки"
+
+#: 
+msgid "win prizes"
+msgstr "выигрывай призы"
+
+#:
+msgctxt "Bets count"
+msgid "Bets"
+msgstr "Ставок"
+
+#: 
+msgid "Predicted winner"
+msgstr "Предсказан победитель"
+
+#: 
+msgid "Predicted score"
+msgstr "Предсказан счет"
+
+#: 
+msgid "Position"
+msgstr "Позиция"
+
+#: 
+msgid "Login via Battle.net"
+msgstr "Войти через Battle.net"
+
+#: 
+msgid "Total bets"
+msgstr "Всего ставок"
+
+#: 
+msgid "Log out"
+msgstr "Выйти"
+
+#: 
+msgid "Season"
+msgstr "Сезон"
+
+#: 
+msgid "Week"
+msgstr "Неделя"
+
+#: 
+msgid "All weeks"
+msgstr "Все недели"
+
+#: 
+msgid "Valeera"
+msgstr "Валира"
+
+#: 
+msgid "Valeera Patch"
+msgstr "Патч Валира"
+
+#: 
+msgid "Save changes"
+msgstr "Сохранить"
+
+#: 
+msgid "Cancel"
+msgstr "Отмена"
+
+#: 
+msgid "Write a comment"
+msgstr "Написать комментарий"
+
+#: 
+msgid "You must be logged in to leave a comment"
+msgstr "Войдите, чтобы оставить комментарий"
+
+#: 
+msgid "Delete the comment?"
+msgstr "Удалить комментарий?"
+
+#: 
+msgid "Comment was removed"
+msgstr "Комментарий удален"
+
+#: 
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: 
+msgid "Administrator"
+msgstr "Администратор"
+
+#: 
+msgid "Moderator"
+msgstr "Модератор"
+
+#: 
+msgid "Reply"
+msgstr "Ответить"
+
+#: 
+msgid "Edit"
+msgstr "Редактировать"
+
+#: 
+msgid "Delete"
+msgstr "Удалить"
+
+#: 
+msgid "Permalink"
+msgstr "Постоянная ссылка"
+
+#: 
+msgid "Mark read"
+msgstr "Отметить прочитанным"
+
+#: 
+msgid "Post a comment"
+msgstr "Отправить"
+
+#: 
+msgid "Comments count"
+msgstr "Комментариев"
+
+#: 
+msgid "Notifications"
+msgstr "Оповещения"
+
+#: 
+msgid "User didn't leave any comments"
+msgstr "Пользователь не оставил ни одного комментария"
+
+#: 
+msgid "Mark read all"
+msgstr "Отметить все прочитанным"
+
+#: 
+msgid "No new notifications"
+msgstr "Новых оповещений нет"
