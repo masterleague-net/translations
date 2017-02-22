@@ -1934,3 +1934,11 @@ msgstr "Отметить все прочитанным"
 #: 
 msgid "No new notifications"
 msgstr "Новых оповещений нет"
+
+#: 
+msgid "Lucio"
+msgstr "Лусио"
+
+#: 
+msgid "Lucio Patch"
+msgstr "Патч Лусио"
