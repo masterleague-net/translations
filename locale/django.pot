@@ -1933,3 +1933,10 @@ msgstr ""
 msgid "No new notifications"
 msgstr ""
 
+#: 
+msgid "Lucio"
+msgstr ""
+
+#: 
+msgid "Lucio Patch"
+msgstr ""
