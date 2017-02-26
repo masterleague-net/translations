@@ -1691,7 +1691,7 @@ msgstr "Experiencia / Min"
 
 #: 
 msgid "Too few matches played (%(total_match_count)s of 50 minimum required) in the selected period to generate a reliable report."
-msgstr "Insuficientes partidas jugadas (%(total_partidas_jugadas)s de 50 requeridas) en el periodo indicado para generar un informe fiable."
+msgstr "Insuficientes partidas jugadas (%(total_match_count)s de 50 requeridas) en el periodo indicado para generar un informe fiable."
 
 #: 
 msgid "Varian Patch"
@@ -1966,4 +1966,3 @@ msgstr "Marcar todos como leido"
 #: 
 msgid "No new notifications"
 msgstr "No hay nuevas notificaciones"
-
