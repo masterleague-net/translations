@@ -1257,7 +1257,7 @@ msgstr "Der Schlächter"
 
 #: 
 msgid "The Lost Vikings"
-msgstr "Die verlorenen Vikinger"
+msgstr "Die verlorenen Wikinger"
 
 #: 
 msgid "Thrall"
