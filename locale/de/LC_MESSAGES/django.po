@@ -1627,7 +1627,7 @@ msgstr "Halb Finale WB"
 
 #: 
 msgid "1/4 Final WB"
-msgstr "Virtel Finale WB"
+msgstr "Viertel Finale WB"
 
 #: 
 msgid "1/4 Final LB"
