@@ -917,7 +917,7 @@ msgstr "eSports Kalender"
 #: .\search\templates\search\search.html:5
 msgctxt "[SEO] Page title"
 msgid "Search results"
-msgstr "Such Ergebniss"
+msgstr "Suchergebnisse"
 
 #: .\teams\templates\players\player_detail.html:5
 msgctxt "[SEO] Page title"
