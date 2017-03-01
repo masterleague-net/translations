@@ -1595,7 +1595,7 @@ msgstr "Statistik"
 
 #: .\templates\base.html:260
 msgid "Help us localize the site!"
-msgstr "Hilf und die Seite zu Übersetzen"
+msgstr "Hilf uns die Seite zu Übersetzen"
 
 #: 
 msgid "Final"
