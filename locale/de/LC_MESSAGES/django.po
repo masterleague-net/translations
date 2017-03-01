@@ -586,7 +586,7 @@ msgstr "Titel"
 
 #: .\pages\templates\mainpage.html:56
 msgid "Latest Transfers"
-msgstr "Letze Transfers"
+msgstr "Letzte Transfers"
 
 #: .\pages\templates\mainpage.html:65
 msgid "From Team"
