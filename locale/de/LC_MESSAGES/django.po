@@ -897,7 +897,7 @@ msgstr "Karten"
 #: .\matches\templates\matches\match_list.html:5
 msgctxt "[SEO] Page title"
 msgid "Match List"
-msgstr "Spieliste"
+msgstr "Spielliste"
 
 #: .\matches\templates\tournaments\tournament_list.html:5
 msgctxt "[SEO] Page title"
