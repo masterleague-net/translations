@@ -1137,7 +1137,7 @@ msgstr "Falstad"
 
 #: 
 msgid "Gall"
-msgstr "Gallo"
+msgstr "Gall"
 
 #: 
 msgid "Gazlowe"
@@ -1752,8 +1752,7 @@ msgstr "Patch Zul'jin"
 
 #: 
 msgid "Zul'jin"
-msgstr "Zul'jin \n"
-""
+msgstr "Zul'jin"
 
 #: 
 msgid "Upcoming matches"
