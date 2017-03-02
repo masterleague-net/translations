@@ -1018,7 +1018,7 @@ msgstr "Europa"
 
 #: .\teams\templates\players\player_overview.html:65
 msgid "The rating is based on statistics of the player as compared to statistics of other players on the same hero in the same patches.<br /><br />Computed by analyzing <strong>%(ppr_match_count)s matches</strong> with replays out of <strong>%(match_count)s matches</strong> in total."
-msgstr "O índice é baseado nas estatísticas de um jogador, comparadas às estatísticas de outro jogador com o mesmo herói nos mesmos patches. <br/><br/>Calculado mediante a análise<strong>%(ppr_match_counts)s partidas</strong> com replay de <strong> %(match_count)s partidas</strong> em total."
+msgstr "O índice é baseado nas estatísticas de um jogador, comparadas às estatísticas de outro jogador com o mesmo herói nos mesmos patches. <br/><br/>Calculado mediante a análise<strong>%(ppr_match_count)s partidas</strong> com replay de <strong> %(match_count)s partidas</strong> em total."
 
 #: 
 msgid "North America"
