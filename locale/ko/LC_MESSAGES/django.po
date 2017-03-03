@@ -138,7 +138,7 @@ msgstr "실행"
 #: .\heroes\templates\heroes\hero_detail.html:183
 #: .\heroes\templates\heroes\stats_table_inline.html:17
 msgid "Popularity"
-msgstr ""
+msgstr "벤픽률"
 
 #: .\heroes\templates\heroes\hero_detail.html:184
 msgid "%(match_count)s of %(total_matches)s matches"
@@ -289,7 +289,7 @@ msgstr "레벨"
 #: .\matches\templates\matches\match_stats.html:4
 #: .\teams\templates\players\player_overview.html:24
 msgid "Player Performance Rating"
-msgstr "플레이 등급"
+msgstr "플레이어 등급"
 
 #: .\matches\templates\matches\match_stats.html:6
 #: .\pages\templates\mainpage.html:64
@@ -393,7 +393,7 @@ msgstr "VOD"
 #: .\matches\templates\tournaments\tournament_list.html:13 .\meta\forms.py:23
 #: .\templates\base.html:204
 msgid "Tournaments"
-msgstr "토너먼트"
+msgstr "대회"
 
 #: .\matches\templates\tournaments\tournament_detail.html:16
 msgctxt "Tournament overview"
@@ -532,7 +532,7 @@ msgstr "경고!"
 
 #: .\pages\templates\calendar_inline.html:44
 msgid "eSports Calendar"
-msgstr "e스포츠 달력"
+msgstr "e스포츠 일정"
 
 #: .\pages\templates\calendar.html:6
 msgid "Upcoming and ongoing events."
@@ -559,12 +559,12 @@ msgstr "대회 / 중계"
 #: .\pages\templates\calendar_inline.html:63
 msgctxt "Live events in eSports Calendar"
 msgid "Live"
-msgstr "라이브"
+msgstr "생방송"
 
 #: .\pages\templates\calendar_inline.html:111
 msgctxt "Upcoming events in eSports Calendar"
 msgid "Upcoming"
-msgstr "다가오는"
+msgstr "다음 일정"
 
 #: .\pages\templates\calendar_inline.html:144
 msgid "Times displayed in your local time"
