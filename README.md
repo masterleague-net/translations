@@ -19,3 +19,12 @@ locale
     └── LC_MESSAGES
         └── django.po
 ```
+
+## Improving an existing translation
+
+To improve existing translations, you can use GitHub web interface to edit the files. Additionally, it is possible to edit the files using special translation software, which you can run locally on your computer (see the next section).
+
+1. Register an [new account on GitHub](https://github.com/join)
+2. Open the translation file that you would like to edit, e.g. the [German](locale/de/LC_MESSAGES/django.po) one
+3. Follow the steps described [on this help page](https://help.github.com/articles/editing-files-in-another-user-s-repository/) to make and submit the edits
+4. We will be notified about your changes & will review / deploy them to the website
