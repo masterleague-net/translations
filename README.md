@@ -35,9 +35,7 @@ If you want to contribute a brand new translation, follow the steps below:
 
 1. Download and install free [Poedit](https://poedit.net) translation software
 2. Download [django.pot](https://raw.githubusercontent.com/masterleague-net/translations/master/locale/django.pot) source file by right clicking on this link and choosing "Save Link As..."
-3. Create a new translation and save it on your hard drive as *django.po*
+3. Create a new translation and save it on your hard drive as *django.po* ([check this guide](https://www.orange-themes.com/how-to-translate-website-with-poedit/) explaning how!)
 4. Send this file to abathur@masterleague.net or upload it [using GitHub interface](https://help.github.com/articles/adding-a-file-to-a-repository/)
-
-If you are not sure how to use Poedit, there are many great guides explaning how to use it in great detail out there, for example, check out [this one](https://www.orange-themes.com/how-to-translate-website-with-poedit/).
 
 Be sure to let us know if (and how) you would like to appear on our [Credits](https://masterleague.net/credits/) page!
