@@ -1433,8 +1433,7 @@ msgstr "当前队员名单"
 #: .\pages\templates\mainpage.html:13
 msgctxt "Greeting"
 msgid "Here you can find the latest results, VODs and replays of <a href=\"http://heroesofthestorm.com/\" target=\"_blank\"><strong>Heroes of the Storm</strong></a> competitive games, indepth statistics of players and teams from different regions and more. Currently we have detailed information about <a href=\"%(match_list_url)s\"><strong>%(match_count)s</strong></a> matches, <a href=\"%(team_list_url)s\"><strong>%(team_count)s</strong></a> teams and <a href=\"%(player_list_url)s\"><strong>%(player_count)s</strong></a> professional players in our database."
-msgstr "在这里你能看到<a href=\"http://a.163.com/\" target=\"_blank\"><strong>风暴英雄</strong></a>的最新的比赛结果，VOD和录像。还能找到关于各个地区各个选手和战队的深度统计，以及更多精彩的內容。目前为止我们的数据库已经收录了约 <a href=\"%(match_list_url)s\"><strong>%(match_count)s</strong></a>场比赛，<a href=\"%(team_list_url)s\"><strong>%(team_count)s</strong></a>支队伍和<a href=\"%(player_list_url)s\"><strong>%(player_count)s</strong></a>名职业选手的资料。\n"
-""
+msgstr "在这里你能看到<a href=\"http://a.163.com/\" target=\"_blank\"><strong>风暴英雄</strong></a>的最新的比赛结果，VOD和录像。还能找到关于各个地区各个选手和战队的深度统计，以及更多精彩的內容。目前为止我们的数据库已经收录了约 <a href=\"%(match_list_url)s\"><strong>%(match_count)s</strong></a>场比赛，<a href=\"%(team_list_url)s\"><strong>%(team_count)s</strong></a>支队伍和<a href=\"%(player_list_url)s\"><strong>%(player_count)s</strong></a>名职业选手的资料。"
 
 #: .\teams\forms.py:49
 msgid "Any Team"
@@ -1790,8 +1789,7 @@ msgstr "挑战"
 
 #: 
 msgid "Leaderboard"
-msgstr "排行榜\n"
-""
+msgstr "排行榜"
 
 #: 
 msgid "Predict results"
