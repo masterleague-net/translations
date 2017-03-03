@@ -1736,8 +1736,7 @@ msgstr ""
 
 #: 
 msgid "XP difference"
-msgstr "\n"
-"différence d'expérience"
+msgstr "différence d'expérience"
 
 #: 
 msgid "Ragnaros"
