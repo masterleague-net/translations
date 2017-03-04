@@ -142,7 +142,7 @@ msgstr "Scommesse"
 
 #: bets/templates/bets/leaderboard.html:63
 msgid "Predicted winner"
-msgstr "Vincitore previsto"
+msgstr "Vittorie Previste"
 
 #: bets/templates/bets/leaderboard.html:64
 msgid "Predicted score"
@@ -206,27 +206,27 @@ msgstr "Titolo"
 
 #: comments/templates/comments/comment_edit_form.html:13
 msgid "Save changes"
-msgstr ""
+msgstr "Salva cambiamenti"
 
 #: comments/templates/comments/comment_edit_form.html:14
 msgid "Cancel"
-msgstr ""
+msgstr "Annulla"
 
 #: comments/templates/comments/comment_list.html:31
 msgid "Write a comment"
-msgstr ""
+msgstr "Scrivi un commento"
 
 #: comments/templates/comments/comment_list.html:37
 msgid "You must be logged in to leave a comment"
-msgstr ""
+msgstr "Devi avere effettuato il log in per scrivere un commento"
 
 #: comments/templates/comments/comment_nodes.html:126
 msgid "Delete the comment?"
-msgstr ""
+msgstr "Eliminare il commento?"
 
 #: comments/templates/comments/comment_nodes.html:168
 msgid "Comment was removed"
-msgstr ""
+msgstr "Il commento è stato rimosso"
 
 #: comments/templates/comments/comment_nodes.html:181
 #: comments/templates/comments/comment_nodes.html:256
@@ -237,40 +237,40 @@ msgstr ""
 #: comments/templates/comments/comment_nodes.html:196
 #: comments/templates/profiles/base.html:20
 msgid "Administrator"
-msgstr ""
+msgstr "Amministratore"
 
 #: comments/templates/comments/comment_nodes.html:198
 #: comments/templates/profiles/base.html:22
 msgid "Moderator"
-msgstr ""
+msgstr "Moderatore"
 
 #: comments/templates/comments/comment_nodes.html:218
 msgid "Reply"
-msgstr ""
+msgstr "Rispondi"
 
 #: comments/templates/comments/comment_nodes.html:223
 msgid "Edit"
-msgstr ""
+msgstr "Modifica"
 
 #: comments/templates/comments/comment_nodes.html:228
 msgid "Delete"
-msgstr ""
+msgstr "Elimina"
 
 #: comments/templates/comments/comment_nodes.html:231
 msgid "Permalink"
-msgstr ""
+msgstr "Link permanente"
 
 #: comments/templates/comments/comment_nodes.html:234
 msgid "Mark read"
-msgstr ""
+msgstr "Segna come letto"
 
 #: comments/templates/comments/comment_nodes.html:273
 msgid "Post a comment"
-msgstr ""
+msgstr "Scrivi un commento"
 
 #: comments/templates/profiles/base.html:25
 msgid "Comments count"
-msgstr ""
+msgstr "Commenti totali"
 
 #: comments/templates/profiles/base.html:37
 #: matches/templates/matches/match_detail.html:214
@@ -280,24 +280,24 @@ msgstr "Commenti"
 
 #: comments/templates/profiles/base.html:41 templates/base.html:225
 msgid "Notifications"
-msgstr ""
+msgstr "Notifiche"
 
 #: comments/templates/profiles/comment_list.html:27
 msgid "User didn't leave any comments"
-msgstr ""
+msgstr "L'utente non ha lasciato alcun commento"
 
 #: comments/templates/profiles/notification_list.html:61
 msgid "Mark read all"
-msgstr ""
+msgstr "Segna tutto come letto"
 
 #: comments/templates/profiles/notification_list.html:68
 msgid "No new notifications"
-msgstr ""
+msgstr "Nessuna nuova notifica"
 
 #: comments/templatetags/comments_tags.py:72
 #, python-format
 msgid "%s tag requires a queryset"
-msgstr ""
+msgstr "il tag %s richiede un queryset"
 
 #: core/templates/core/pagination.html:3
 msgctxt "Page navigation"
@@ -644,7 +644,7 @@ msgstr "Tutti gli eroi"
 #: matches/templates/admin/tabular.html:121
 #, python-format
 msgid "Add another %(verbose_name)s"
-msgstr ""
+msgstr "Aggiungi altri %(verbose_name)s"
 
 #: matches/templates/matches/match_detail.html:45
 #: matches/templates/matches/match_stats.html:225
@@ -737,7 +737,7 @@ msgstr "ucciso da"
 
 #: matches/templates/matches/match_stats.html:180
 msgid "Nexus forces"
-msgstr ""
+msgstr "Forze del Nexus"
 
 #: matches/templates/matches/match_stats.html:250
 msgctxt "Match time"
@@ -970,7 +970,7 @@ msgstr "Meta"
 #, fuzzy
 #| msgid "Top First Picks"
 msgid "Top First Bans"
-msgstr "I Più scelti per primi"
+msgstr "I Più bannati per primi"
 
 #: meta/templates/meta/drafts.html:49 meta/templates/meta/drafts.html:100
 #: meta/templates/meta/drafts.html:153 meta/templates/meta/drafts.html:204
@@ -984,11 +984,11 @@ msgstr "I Più scelti per primi"
 
 #: meta/templates/meta/drafts.html:116
 msgid "Top Second Bans"
-msgstr ""
+msgstr "I Più bannati per secondi"
 
 #: meta/templates/meta/drafts.html:167
 msgid "Top Second Picks (two heroes)"
-msgstr ""
+msgstr "I Più bannati per secondi (due eroi)"
 
 #: meta/templates/meta/drafts.html:220
 msgid "Most Common Compositions"
@@ -1006,24 +1006,24 @@ msgstr "Conto"
 #: meta/templates/meta/heroes.html:12
 #, python-format
 msgid "Unpicked Heroes (%(unpicked_heroes_count)s of %(heroes_count)s)"
-msgstr ""
+msgstr "Eroi non scelti (%(unpicked_heroes_count)s su %(heroes_count)s"
 
 #: meta/templates/meta/include/meta_filter_form.html:36
 #: teams/templates/players/player_detail.html:117
 msgid "Show only main stage matches (exclude qualifiers)"
-msgstr ""
+msgstr "Mostra solo partite principali (escludi qualificatorie)"
 
 #: meta/templates/meta/maps.html:22
 msgid "Shortest"
-msgstr ""
+msgstr "La più corta"
 
 #: meta/templates/meta/maps.html:23
 msgid "Average"
-msgstr ""
+msgstr "Media"
 
 #: meta/templates/meta/maps.html:24
 msgid "Longest"
-msgstr ""
+msgstr "La più lunga"
 
 #: meta/templates/meta/maps.html:25 teams/templates/teams/team_heroes.html:55
 msgctxt "Popular picks"
@@ -1038,11 +1038,11 @@ msgstr "Eroi più vietati"
 
 #: meta/templates/meta/players.html:12
 msgid "Widest Hero Pool by Players"
-msgstr ""
+msgstr "Il più grande Pool di eroi per giocatore"
 
 #: meta/templates/meta/players.html:52
 msgid "Smallest Hero Pool by Players"
-msgstr ""
+msgstr "Il più piccolo Pool di eroi per giocatore"
 
 #: meta/templates/meta/players.html:94
 #, fuzzy
@@ -1072,15 +1072,15 @@ msgstr "Rateo della Performance del Giocatore"
 
 #: meta/templates/meta/players.html:145 meta/templates/meta/teams.html:130
 msgid "Value"
-msgstr ""
+msgstr "Valore"
 
 #: meta/templates/meta/teams.html:12
 msgid "Widest Hero Pool by Teams"
-msgstr ""
+msgstr "Il più grande Pool di eroi per team"
 
 #: meta/templates/meta/teams.html:47
 msgid "Smallest Hero Pool by Teams"
-msgstr ""
+msgstr "Il più piccolo pool di eroi per team"
 
 #: meta/templates/meta/teams.html:84
 #, fuzzy
@@ -1090,7 +1090,7 @@ msgstr "Al Team"
 
 #: meta/templates/meta/teams.html:119
 msgid "Teams performance"
-msgstr ""
+msgstr "Performance del team"
 
 #: meta/views.py:119
 msgid "No matches played in the selected period."
@@ -1118,31 +1118,31 @@ msgstr ""
 
 #: meta/views.py:270
 msgid "The highest average number of kills"
-msgstr ""
+msgstr "Il più grande numero medio di uccisioni"
 
 #: meta/views.py:281
 msgid "The highest average number of assists"
-msgstr ""
+msgstr "Il più grande numero medio di assist"
 
 #: meta/views.py:292
 msgid "Player that spent the most time alive"
-msgstr ""
+msgstr "Giocatore che ha speso la maggiorpare del tempo in vita"
 
 #: meta/views.py:303
 msgid "Player that spent the most time dead"
-msgstr ""
+msgstr "Giocatore che ha speso la maggiorparte del tempo morto"
 
 #: meta/views.py:347
 msgid "The highest average deaths"
-msgstr ""
+msgstr "La più grande media di morti"
 
 #: meta/views.py:358
 msgid "Team that spent the most time alive"
-msgstr ""
+msgstr "Team che ha speso la maggiorparte del tempo in vita"
 
 #: meta/views.py:369
 msgid "Team that spent the most time dead"
-msgstr ""
+msgstr "Team che ha speso la maggiorparte del tempo morto"
 
 #: pages/templates/calendar.html:5
 msgctxt "[SEO] Page title"
@@ -1428,7 +1428,7 @@ msgstr "Squadre partecipanti"
 
 #: teams/templates/players/player_overview.html:59
 msgid "Time Dead"
-msgstr ""
+msgstr "Tempo Morto"
 
 #: teams/templates/players/player_overview.html:68
 #, fuzzy
@@ -1444,7 +1444,7 @@ msgstr "Danni da assedio"
 
 #: teams/templates/players/player_overview.html:95
 msgid "Average Match Time"
-msgstr ""
+msgstr "Tempo Medio Partita"
 
 #: teams/templates/players/player_overview.html:102 teams/views.py:617
 msgid "Analyzed Replays"
