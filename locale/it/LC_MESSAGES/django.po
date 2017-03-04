@@ -1006,7 +1006,7 @@ msgstr "Conto"
 #: meta/templates/meta/heroes.html:12
 #, python-format
 msgid "Unpicked Heroes (%(unpicked_heroes_count)s of %(heroes_count)s)"
-msgstr "Eroi non scelti (%(unpicked_heroes_count) su %(heroes_count)"
+msgstr "Eroi non scelti (%(unpicked_heroes_count)s su %(heroes_count)s"
 
 #: meta/templates/meta/include/meta_filter_form.html:36
 #: teams/templates/players/player_detail.html:117
