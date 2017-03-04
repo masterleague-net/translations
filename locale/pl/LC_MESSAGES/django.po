@@ -7,7 +7,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
+"X-Generator: Poedit 1.8.12\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
 
 #: bets/forms.py:18
 msgid "Season"
@@ -109,8 +112,7 @@ msgstr "Zaloguj przez Battle.net"
 msgid "Matches"
 msgstr "Mecze"
 
-#: bets/templates/bets/bets_base.html:54
-#: bets/templates/bets/leaderboard.html:5
+#: bets/templates/bets/bets_base.html:54 bets/templates/bets/leaderboard.html:5
 #: bets/templates/bets/leaderboard.html:7
 #: bets/templates/bets/leaderboard.html:27
 msgid "Leaderboard"
@@ -343,10 +345,9 @@ msgstr "Buildy"
 #: heroes/templates/heroes/hero_overview.html:174
 #: teams/templates/teams/summary.html:4
 #: teams/templates/teams/team_heroes.html:26
-#, fuzzy, python-format
-#| msgid "Win %%"
+#, python-format
 msgid "Win %%"
-msgstr "% wygranych"
+msgstr "%% wygranych"
 
 #: heroes/templates/heroes/hero_builds.html:99
 msgid "Show matches"
@@ -564,9 +565,8 @@ msgctxt "minutes"
 msgid "mins"
 msgstr "min"
 
-#: maps/templates/maps/map_detail.html:8
-#: maps/templates/maps/map_detail.html:30 maps/templates/maps/map_list.html:8
-#: maps/templates/maps/map_list.html:13
+#: maps/templates/maps/map_detail.html:8 maps/templates/maps/map_detail.html:30
+#: maps/templates/maps/map_list.html:8 maps/templates/maps/map_list.html:13
 #: matches/templates/tournaments/tournament_overview.html:155
 #: meta/templates/meta/base.html:44 meta/templates/meta/maps.html:5
 #: meta/templates/meta/maps.html:6 templates/base.html:208
@@ -644,7 +644,7 @@ msgstr "Wszyscy Bohaterowie"
 #: matches/templates/admin/tabular.html:121
 #, python-format
 msgid "Add another %(verbose_name)s"
-msgstr ""
+msgstr "Dodaj nowy %(verbose_name)s"
 
 #: matches/templates/matches/match_detail.html:45
 #: matches/templates/matches/match_stats.html:225
@@ -737,7 +737,7 @@ msgstr "zabity przez"
 
 #: matches/templates/matches/match_stats.html:180
 msgid "Nexus forces"
-msgstr ""
+msgstr "siły nexusa"
 
 #: matches/templates/matches/match_stats.html:250
 msgctxt "Match time"
@@ -950,8 +950,6 @@ msgid "Main Event Statistics"
 msgstr "Statystyki głównego turnieju"
 
 #: meta/forms.py:26 teams/forms.py:64
-#, fuzzy
-#| msgid "All Heroes"
 msgid "All heroes"
 msgstr "Wszyscy Bohaterowie"
 
@@ -966,10 +964,8 @@ msgid "Meta"
 msgstr "Meta"
 
 #: meta/templates/meta/drafts.html:12
-#, fuzzy
-#| msgid "Top First Picks"
 msgid "Top First Bans"
-msgstr "Najczęściej wybierani w pierwszym wyborze"
+msgstr "Najczęściej banowani w pierwszym wyborze"
 
 #: meta/templates/meta/drafts.html:49 meta/templates/meta/drafts.html:100
 #: meta/templates/meta/drafts.html:153 meta/templates/meta/drafts.html:204
@@ -983,11 +979,11 @@ msgstr "Najczęściej wybierani w pierwszym wyborze"
 
 #: meta/templates/meta/drafts.html:116
 msgid "Top Second Bans"
-msgstr ""
+msgstr "Najczęściej banowani w drugim wyborze"
 
 #: meta/templates/meta/drafts.html:167
 msgid "Top Second Picks (two heroes)"
-msgstr ""
+msgstr "Najczęstszy Drugi Wybór (dwaj bohaterowie)"
 
 #: meta/templates/meta/drafts.html:220
 msgid "Most Common Compositions"
@@ -1005,24 +1001,24 @@ msgstr "Ilość"
 #: meta/templates/meta/heroes.html:12
 #, python-format
 msgid "Unpicked Heroes (%(unpicked_heroes_count)s of %(heroes_count)s)"
-msgstr ""
+msgstr "Niewybrani Bohaterowie (%(unpicked_heroes_count)s of %(heroes_count)s)"
 
 #: meta/templates/meta/include/meta_filter_form.html:36
 #: teams/templates/players/player_detail.html:117
 msgid "Show only main stage matches (exclude qualifiers)"
-msgstr ""
+msgstr "Pokaż tylko główne mecze (bez kwalifikacji)"
 
 #: meta/templates/meta/maps.html:22
 msgid "Shortest"
-msgstr ""
+msgstr "Najkrótkszy"
 
 #: meta/templates/meta/maps.html:23
 msgid "Average"
-msgstr ""
+msgstr "Średni"
 
 #: meta/templates/meta/maps.html:24
 msgid "Longest"
-msgstr ""
+msgstr "Najdłuższy"
 
 #: meta/templates/meta/maps.html:25 teams/templates/teams/team_heroes.html:55
 msgctxt "Popular picks"
@@ -1030,66 +1026,55 @@ msgid "Most Played Heroes"
 msgstr "Najczęściej wybierani bohaterowie"
 
 #: meta/templates/meta/maps.html:26
-#, fuzzy
-#| msgid "Most Banned Heroes"
 msgid "Most Banned"
-msgstr "Najczęściej banowani bohaterowie"
+msgstr "Najczęściej banowani"
 
 #: meta/templates/meta/players.html:12
 msgid "Widest Hero Pool by Players"
-msgstr ""
+msgstr "Gracze z najszerszą pulą bohaterów"
 
 #: meta/templates/meta/players.html:52
 msgid "Smallest Hero Pool by Players"
-msgstr ""
+msgstr "Gracze z najmniejszą pulą bohaterów"
 
 #: meta/templates/meta/players.html:94
-#, fuzzy
-#| msgctxt "[SEO] Page title"
-#| msgid "Compare Players"
 msgid "Top KDA Players"
-msgstr "Porównaj graczy"
+msgstr "Najlepsi gracze KDA"
 
 #: meta/templates/meta/players.html:105 meta/templates/meta/teams.html:93
 #: teams/templates/players/player_heroes.html:41
 #: teams/templates/players/player_overview.html:24 teams/views.py:586
 #: teams/views.py:609
 msgid "KDA"
-msgstr "ZAŚ"
+msgstr "KDA"
 
 #: meta/templates/meta/players.html:134
-#, fuzzy
-#| msgid "Player Performance Rating"
 msgid "Players performance"
-msgstr "Wskaźnik skuteczności gracza"
+msgstr "Skuteczność gracza"
 
 #: meta/templates/meta/players.html:143 meta/templates/meta/teams.html:128
-#, fuzzy
-#| msgid "Player Performance Rating"
 msgid "Performance"
-msgstr "Wskaźnik skuteczności gracza"
+msgstr "Skuteczność"
 
 #: meta/templates/meta/players.html:145 meta/templates/meta/teams.html:130
 msgid "Value"
-msgstr ""
+msgstr "Wartość"
 
 #: meta/templates/meta/teams.html:12
 msgid "Widest Hero Pool by Teams"
-msgstr ""
+msgstr "Zespoły z najszerszą pulą bohaterów"
 
 #: meta/templates/meta/teams.html:47
 msgid "Smallest Hero Pool by Teams"
-msgstr ""
+msgstr "Zespoły z najmniejszą pulą bohaterów"
 
 #: meta/templates/meta/teams.html:84
-#, fuzzy
-#| msgid "To Team"
 msgid "Top KDA Teams"
-msgstr "Do zespołu"
+msgstr "Nalepsze zespoły w KDA"
 
 #: meta/templates/meta/teams.html:119
 msgid "Teams performance"
-msgstr ""
+msgstr "Skuteczność zespołu"
 
 #: meta/views.py:119
 msgid "No matches played in the selected period."
@@ -1113,35 +1098,35 @@ msgstr "Specjaliści"
 
 #: meta/views.py:259 meta/views.py:336
 msgid "The highest average number of takedowns"
-msgstr ""
+msgstr "Największa liczba zabójstw"
 
 #: meta/views.py:270
 msgid "The highest average number of kills"
-msgstr ""
+msgstr "Największa ilość śmiertelnych ciosów"
 
 #: meta/views.py:281
 msgid "The highest average number of assists"
-msgstr ""
+msgstr "Największa ilość asyst"
 
 #: meta/views.py:292
 msgid "Player that spent the most time alive"
-msgstr ""
+msgstr "Gracz z najdłuższym czasem życia"
 
 #: meta/views.py:303
 msgid "Player that spent the most time dead"
-msgstr ""
+msgstr "Gracz z najdłuższym czasem śmierci"
 
 #: meta/views.py:347
 msgid "The highest average deaths"
-msgstr ""
+msgstr "Najczęstsza średnia śmierci"
 
 #: meta/views.py:358
 msgid "Team that spent the most time alive"
-msgstr ""
+msgstr "Zespół który spędził najwięcej czasu będąc żywym"
 
 #: meta/views.py:369
 msgid "Team that spent the most time dead"
-msgstr ""
+msgstr "Zespół który spędził najwięcej czasu będąc martwym"
 
 #: pages/templates/calendar.html:5
 msgctxt "[SEO] Page title"
@@ -1271,10 +1256,8 @@ msgid "Any Team"
 msgstr "Dowolny zespół"
 
 #: teams/forms.py:61
-#, fuzzy
-#| msgid "All Maps"
 msgid "All maps"
-msgstr "Wszystkie Mapy"
+msgstr "Wszystkie mapy"
 
 #: teams/forms.py:79
 msgctxt "Form filter, any team choice"
@@ -1331,48 +1314,33 @@ msgid "Flex"
 msgstr "Flex"
 
 #: teams/templates/players/player_detail.html:79
-#, fuzzy
-#| msgctxt "Hero overview"
-#| msgid "Overview"
 msgid "Overview"
 msgstr "Podsumowanie"
 
 #: teams/templates/players/player_heroes.html:42
-#, fuzzy
-#| msgctxt "Live events in eSports Calendar"
-#| msgid "Live"
 msgid "Live Time"
-msgstr "Na żywo"
+msgstr "Czas"
 
 #: teams/templates/players/player_heroes.html:43
-#, fuzzy
-#| msgid "Hero Dmg"
 msgid "Hero dmg"
 msgstr "Obrażenia w bohaterów"
 
 #: teams/templates/players/player_heroes.html:44
-#, fuzzy
-#| msgid "Siege Dmg"
 msgid "Siege dmg"
 msgstr "Obrażenia oblężnicze"
 
 #: teams/templates/players/player_heroes.html:45
-#, fuzzy
-#| msgctxt "Hero role"
-#| msgid "Role"
 msgid "Role"
 msgstr "Rola"
 
 #: teams/templates/players/player_heroes.html:46
 #: teams/templates/players/player_overview.html:86
-#, fuzzy
-#| msgid "Experience / Min"
 msgid "Experience"
-msgstr "Doświadczenie / Min"
+msgstr "Doświadczenie"
 
 #: teams/templates/players/player_heroes.html:47
 msgid "PPR"
-msgstr ""
+msgstr "Wskaźnik skuteczności gracza"
 
 #: teams/templates/players/player_list.html:34
 #: teams/templates/players/players_compare.html:122
@@ -1396,53 +1364,40 @@ msgstr "Imię"
 
 #: teams/templates/players/player_overview.html:5
 #: teams/templates/players/player_overview.html:11
-#, fuzzy
-#| msgctxt "[SEO] Page title"
-#| msgid "Player Statistics"
 msgid "Player Statistics"
 msgstr "Statystyki gracza"
 
 #: teams/templates/players/player_overview.html:18
-#, fuzzy
-#| msgid "Player"
 msgid "Player Avg"
-msgstr "Gracz"
+msgstr "Średnia gracza"
 
 #: teams/templates/players/player_overview.html:19
-#, fuzzy
-#| msgid "Team"
 msgid "Team Avg"
-msgstr "Zespół"
+msgstr "Średnia zespołu"
 
 #: teams/templates/players/player_overview.html:33
 msgid "Takedowns"
-msgstr ""
+msgstr "Zabójstwa"
 
 #: teams/templates/players/player_overview.html:51
-#, fuzzy
-#| msgid "Participating Teams"
 msgid "Kill Participation"
-msgstr "Uczestniczące zespoły"
+msgstr "Asysty"
 
 #: teams/templates/players/player_overview.html:59
 msgid "Time Dead"
-msgstr ""
+msgstr "Czas bycia martwym"
 
 #: teams/templates/players/player_overview.html:68
-#, fuzzy
-#| msgid "Hero Dmg"
 msgid "Hero Damage"
 msgstr "Obrażenia w bohaterów"
 
 #: teams/templates/players/player_overview.html:77
-#, fuzzy
-#| msgid "Siege Dmg"
 msgid "Siege Damage"
 msgstr "Obrażenia oblężnicze"
 
 #: teams/templates/players/player_overview.html:95
 msgid "Average Match Time"
-msgstr ""
+msgstr "Średni czas meczu"
 
 #: teams/templates/players/player_overview.html:102 teams/views.py:617
 msgid "Analyzed Replays"
@@ -1655,10 +1610,6 @@ msgid "To date"
 msgstr "Do"
 
 #: teams/templatetags/ppr_tags.py:14
-#, fuzzy
-#| msgid ""
-#| "The rating is based on statistics of the player as compared to statistics "
-#| "of other players on the same hero in the same patches."
 msgid ""
 "The rating is based on statistics of the player as compared to statistics of "
 "other players on the "
@@ -1687,12 +1638,9 @@ msgid "CC"
 msgstr "CC"
 
 #: teams/views.py:591
-#, fuzzy
-#| msgctxt "Expirience"
-#| msgid "XP"
 msgctxt "Experience"
 msgid "XP"
-msgstr "PD"
+msgstr "PD [Doświadczenie]"
 
 #: teams/views.py:592
 msgctxt "Healing amount (for healers) or Damage taken (for warriors)"
