@@ -142,7 +142,7 @@ msgstr "Scommesse"
 
 #: bets/templates/bets/leaderboard.html:63
 msgid "Predicted winner"
-msgstr "Vincitore previsto"
+msgstr "Vittorie Previste"
 
 #: bets/templates/bets/leaderboard.html:64
 msgid "Predicted score"
