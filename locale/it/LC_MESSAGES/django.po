@@ -1840,7 +1840,7 @@ msgstr "Aiutarci a tradurre il sito!"
 #~ msgstr "Azmodan"
 
 #~ msgid "Brightwing"
-#~ msgstr "Brightwing"
+#~ msgstr "Alachiara"
 
 #~ msgid "Chen"
 #~ msgstr "Chen"
@@ -1849,7 +1849,7 @@ msgstr "Aiutarci a tradurre il sito!"
 #~ msgstr "Cho"
 
 #~ msgid "Chromie"
-#~ msgstr "Cromie"
+#~ msgstr "Chromie"
 
 #~ msgid "Dehaka"
 #~ msgstr "Dehaka"
@@ -1867,7 +1867,7 @@ msgstr "Aiutarci a tradurre il sito!"
 #~ msgstr "Gall"
 
 #~ msgid "Gazlowe"
-#~ msgstr "Gazlowe"
+#~ msgstr "Sparachiodi"
 
 #~ msgid "Greymane"
 #~ msgstr "Mantogrigio"
@@ -1918,7 +1918,7 @@ msgstr "Aiutarci a tradurre il sito!"
 #~ msgstr "Muradin"
 
 #~ msgid "Murky"
-#~ msgstr "Murky"
+#~ msgstr "Fosky"
 
 #~ msgid "Nazeebo"
 #~ msgstr "Nazeebo"
@@ -1942,7 +1942,7 @@ msgstr "Aiutarci a tradurre il sito!"
 #~ msgstr "Sonya"
 
 #~ msgid "Stitches"
-#~ msgstr "Stitches"
+#~ msgstr "Tritacarne"
 
 #~ msgid "Sylvanas"
 #~ msgstr "Sylvanas"
@@ -1954,7 +1954,7 @@ msgstr "Aiutarci a tradurre il sito!"
 #~ msgstr "Macellaio"
 
 #~ msgid "The Lost Vikings"
-#~ msgstr "The Lost Vikings"
+#~ msgstr "Vichinghi Sperduti"
 
 #~ msgid "Thrall"
 #~ msgstr "Thrall"
@@ -2135,7 +2135,7 @@ msgstr "Aiutarci a tradurre il sito!"
 #~ msgstr "Campo Boss"
 
 #~ msgid "Infernal shrine captured"
-#~ msgstr "Santurario Infernale catturato"
+#~ msgstr "Santuario Infernale catturato"
 
 #~ msgid "Immortal defeated"
 #~ msgstr "Immortale battuto"
