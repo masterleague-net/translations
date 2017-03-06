@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-06 21:40+0000\n"
+"POT-Creation-Date: 2017-03-06 23:31+0000\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -627,513 +627,545 @@ msgid "Maps"
 msgstr "맵"
 
 #: masterleague/lc_strings.py:7
-msgid "Grand Final"
-msgstr "그랜드 파이널"
+msgid "North America"
+msgstr "북미"
 
 #: masterleague/lc_strings.py:8
-msgid "Losers Final"
-msgstr "패자 결승"
+msgid "Europe"
+msgstr "유럽"
 
-#: masterleague/lc_strings.py:9
+#: masterleague/lc_strings.py:9 masterleague/lc_strings.py:21
 msgid "Final"
 msgstr "결승"
 
 #: masterleague/lc_strings.py:10
+msgid "South Korea"
+msgstr "한국"
+
+#: masterleague/lc_strings.py:11
+msgid "China"
+msgstr "중국"
+
+#: masterleague/lc_strings.py:12
+msgid "Taiwan"
+msgstr "대만"
+
+#: masterleague/lc_strings.py:13
+msgid "Southeast Asia"
+msgstr "동남아"
+
+#: masterleague/lc_strings.py:14
+msgid "Latin America"
+msgstr "남미"
+
+#: masterleague/lc_strings.py:15
+msgid "Australia & New Zealand"
+msgstr "호주 & 뉴질랜드"
+
+#: masterleague/lc_strings.py:19
+msgid "Grand Final"
+msgstr "그랜드 파이널"
+
+#: masterleague/lc_strings.py:20
+msgid "Losers Final"
+msgstr "패자 결승"
+
+#: masterleague/lc_strings.py:22
 #, fuzzy
 #| msgid "1/4 Final"
 msgid "1/2 Final"
 msgstr "4강"
 
-#: masterleague/lc_strings.py:11
+#: masterleague/lc_strings.py:23
 #, fuzzy
 #| msgid "1/4 Final"
 msgid "1/2 Final LB"
 msgstr "4강"
 
-#: masterleague/lc_strings.py:12
+#: masterleague/lc_strings.py:24
 #, fuzzy
 #| msgid "1/4 Final"
 msgid "1/2 Final WB"
 msgstr "4강"
 
-#: masterleague/lc_strings.py:13
+#: masterleague/lc_strings.py:25
 msgid "1/4 Final"
 msgstr "4강"
 
-#: masterleague/lc_strings.py:14
+#: masterleague/lc_strings.py:26
 #, fuzzy
 #| msgid "1/4 Final"
 msgid "1/4 Final LB"
 msgstr "4강"
 
-#: masterleague/lc_strings.py:15
+#: masterleague/lc_strings.py:27
 #, fuzzy
 #| msgid "1/4 Final"
 msgid "1/4 Final WB"
 msgstr "4강"
 
-#: masterleague/lc_strings.py:16
+#: masterleague/lc_strings.py:28
 msgid "1/8 Final"
 msgstr "8강"
 
-#: masterleague/lc_strings.py:17
+#: masterleague/lc_strings.py:29
 #, fuzzy
 #| msgid "1/8 Final"
 msgid "1/8 Final LB"
 msgstr "8강"
 
-#: masterleague/lc_strings.py:18
+#: masterleague/lc_strings.py:30
 #, fuzzy
 #| msgid "1/8 Final"
 msgid "1/8 Final WB"
 msgstr "8강"
 
-#: masterleague/lc_strings.py:19
+#: masterleague/lc_strings.py:31
 #, fuzzy
 #| msgid "1/4 Final"
 msgid "1/16 Final"
 msgstr "4강"
 
-#: masterleague/lc_strings.py:20
+#: masterleague/lc_strings.py:32
 msgid "3rd place"
 msgstr ""
 
-#: masterleague/lc_strings.py:24
+#: masterleague/lc_strings.py:36
 msgid "Battlefield of Eternity"
 msgstr "영원의 전쟁터"
 
-#: masterleague/lc_strings.py:25
+#: masterleague/lc_strings.py:37
 msgid "Blackheart’s Bay"
 msgstr "블랙하트 항만"
 
-#: masterleague/lc_strings.py:26
+#: masterleague/lc_strings.py:38
 msgid "Braxis Holdout"
 msgstr "브락시스 항전"
 
-#: masterleague/lc_strings.py:27
+#: masterleague/lc_strings.py:39
 msgid "Cursed Hollow"
 msgstr "저주받은 골자기"
 
-#: masterleague/lc_strings.py:28
+#: masterleague/lc_strings.py:40
 msgid "Dragon Shire"
 msgstr "용의 둥지"
 
-#: masterleague/lc_strings.py:29
+#: masterleague/lc_strings.py:41
 msgid "Garden of Terror"
 msgstr "공포의 정원"
 
-#: masterleague/lc_strings.py:30
+#: masterleague/lc_strings.py:42
 msgid "Haunted Mines"
 msgstr "죽음의 광산"
 
-#: masterleague/lc_strings.py:31
+#: masterleague/lc_strings.py:43
 msgid "Infernal Shrines"
 msgstr "불지옥 신단"
 
-#: masterleague/lc_strings.py:32
+#: masterleague/lc_strings.py:44
 msgid "Sky Temple"
 msgstr "하늘 사원"
 
-#: masterleague/lc_strings.py:33
+#: masterleague/lc_strings.py:45
 msgid "Tomb of the Spider Queen"
 msgstr "거미 여왕의 무덤"
 
-#: masterleague/lc_strings.py:34
+#: masterleague/lc_strings.py:46
 msgid "Towers of Doom"
 msgstr "파멸의 탑"
 
-#: masterleague/lc_strings.py:35
+#: masterleague/lc_strings.py:47
 msgid "Warhead Junction"
 msgstr "핵탄두 격전지"
 
-#: masterleague/lc_strings.py:39
+#: masterleague/lc_strings.py:51
 #, python-format
 msgid "Altar captured. Shots fired: %(shots_fired)s."
 msgstr ""
 
-#: masterleague/lc_strings.py:40
+#: masterleague/lc_strings.py:52
 msgid "Dragon Knight activated"
 msgstr ""
 
-#: masterleague/lc_strings.py:41
+#: masterleague/lc_strings.py:53
 #, fuzzy
 #| msgid "Garden of Terror"
 msgid "Garden Terror activated"
 msgstr "공포의 정원"
 
-#: masterleague/lc_strings.py:42
+#: masterleague/lc_strings.py:54
 msgid "Ghost ship captured"
 msgstr ""
 
-#: masterleague/lc_strings.py:43
+#: masterleague/lc_strings.py:55
 msgid "Immortal defeated"
 msgstr "불멸자 처치"
 
-#: masterleague/lc_strings.py:44
+#: masterleague/lc_strings.py:56
 #, fuzzy
 #| msgid "Infernal Shrines"
 msgid "Infernal shrine captured"
 msgstr "불지옥 신단"
 
-#: masterleague/lc_strings.py:45
+#: masterleague/lc_strings.py:57
 msgid "Boss camp"
 msgstr "우두머리 캠프"
 
-#: masterleague/lc_strings.py:46
+#: masterleague/lc_strings.py:58
 msgid "Nuke launch"
 msgstr "핵 발사"
 
-#: masterleague/lc_strings.py:47
+#: masterleague/lc_strings.py:59
 msgid "Raven curse activated"
 msgstr ""
 
-#: masterleague/lc_strings.py:48
+#: masterleague/lc_strings.py:60
 #, python-format
 msgid "Temple shots fired. Total Shot Damage: %(total_shot_damage)s."
 msgstr ""
 
-#: masterleague/lc_strings.py:49
+#: masterleague/lc_strings.py:61
 msgid "Webweavers spawned"
 msgstr "거미 시종 소환"
 
-#: masterleague/lc_strings.py:50
+#: masterleague/lc_strings.py:62
 #, python-format
 msgid "Zerg rush. Opposing score: %(opposing_score)s%%."
 msgstr ""
 
-#: masterleague/lc_strings.py:54
+#: masterleague/lc_strings.py:66
 msgid "Samuro Patch"
 msgstr "사무로 패치"
 
-#: masterleague/lc_strings.py:55
+#: masterleague/lc_strings.py:67
 msgid "Alarak Patch"
 msgstr "알라라크 패치"
 
-#: masterleague/lc_strings.py:56
+#: masterleague/lc_strings.py:68
 msgid "Auriel Patch"
 msgstr "아우리엘 패치"
 
-#: masterleague/lc_strings.py:57
+#: masterleague/lc_strings.py:69
 msgid "Gul'dan Patch"
 msgstr "굴단 패치"
 
-#: masterleague/lc_strings.py:58
+#: masterleague/lc_strings.py:70
 msgid "Medivh Patch"
 msgstr "메디브 패치"
 
-#: masterleague/lc_strings.py:59
+#: masterleague/lc_strings.py:71
 msgid "Chromie Patch"
 msgstr "크로미 패치"
 
-#: masterleague/lc_strings.py:60
+#: masterleague/lc_strings.py:72
 msgid "Tracer Patch"
 msgstr "트레이서 패치"
 
-#: masterleague/lc_strings.py:61
+#: masterleague/lc_strings.py:73
 msgid "Dehaka Patch"
 msgstr "데하카 패치"
 
-#: masterleague/lc_strings.py:62
+#: masterleague/lc_strings.py:74
 msgid "Xul Patch"
 msgstr "줄 패치"
 
-#: masterleague/lc_strings.py:63
+#: masterleague/lc_strings.py:75
 msgid "Li-Ming Patch"
 msgstr "리밍 패치"
 
-#: masterleague/lc_strings.py:64
+#: masterleague/lc_strings.py:76
 msgid "Greymane Patch"
 msgstr "그레이메인 패치"
 
-#: masterleague/lc_strings.py:65
+#: masterleague/lc_strings.py:77
 msgid "Lunara Patch"
 msgstr "루나라 패치"
 
-#: masterleague/lc_strings.py:66
+#: masterleague/lc_strings.py:78
 msgid "Zarya Patch"
 msgstr "자리야 패치"
 
-#: masterleague/lc_strings.py:67
+#: masterleague/lc_strings.py:79
 msgid "Varian Patch"
 msgstr "바리안 패치"
 
-#: masterleague/lc_strings.py:68
+#: masterleague/lc_strings.py:80
 msgid "Ragnaros Patch"
 msgstr "라그나로스 패치"
 
-#: masterleague/lc_strings.py:69
+#: masterleague/lc_strings.py:81
 msgid "Zul'jin Patch"
 msgstr "줄진 패치"
 
-#: masterleague/lc_strings.py:70
+#: masterleague/lc_strings.py:82
 msgid "Valeera Patch"
 msgstr "발리라 패치"
 
-#: masterleague/lc_strings.py:71
+#: masterleague/lc_strings.py:83
 #, fuzzy
 #| msgid "Xul Patch"
 msgid "Lucio Patch"
 msgstr "줄 패치"
 
-#: masterleague/lc_strings.py:72
+#: masterleague/lc_strings.py:84
 #, fuzzy
 #| msgid "Chromie Patch"
 msgid "Probius Patch"
 msgstr "크로미 패치"
 
-#: masterleague/lc_strings.py:76
+#: masterleague/lc_strings.py:88
 msgid "Abathur"
 msgstr "아바투르"
 
-#: masterleague/lc_strings.py:77
+#: masterleague/lc_strings.py:89
 msgid "Alarak"
 msgstr "알라라크"
 
-#: masterleague/lc_strings.py:78
+#: masterleague/lc_strings.py:90
 msgid "Anub'arak"
 msgstr "아눕아락"
 
-#: masterleague/lc_strings.py:79
+#: masterleague/lc_strings.py:91
 msgid "Artanis"
 msgstr "아르타니스"
 
-#: masterleague/lc_strings.py:80
+#: masterleague/lc_strings.py:92
 msgid "Arthas"
 msgstr "아서스"
 
-#: masterleague/lc_strings.py:81
+#: masterleague/lc_strings.py:93
 msgid "Auriel"
 msgstr "아우리엘"
 
-#: masterleague/lc_strings.py:82
+#: masterleague/lc_strings.py:94
 msgid "Azmodan"
 msgstr "아즈모단"
 
-#: masterleague/lc_strings.py:83
+#: masterleague/lc_strings.py:95
 msgid "Brightwing"
 msgstr "빛나래"
 
-#: masterleague/lc_strings.py:84
+#: masterleague/lc_strings.py:96
 msgid "Chen"
 msgstr "첸"
 
-#: masterleague/lc_strings.py:85
+#: masterleague/lc_strings.py:97
 msgid "Cho"
 msgstr "초"
 
-#: masterleague/lc_strings.py:86
+#: masterleague/lc_strings.py:98
 msgid "Chromie"
 msgstr "크로미"
 
-#: masterleague/lc_strings.py:87
+#: masterleague/lc_strings.py:99
 msgid "Dehaka"
 msgstr "데하카"
 
-#: masterleague/lc_strings.py:88
+#: masterleague/lc_strings.py:100
 msgid "Diablo"
 msgstr "디아블로"
 
-#: masterleague/lc_strings.py:89
+#: masterleague/lc_strings.py:101
 msgid "E.T.C."
 msgstr "정예 타우렌 족장"
 
-#: masterleague/lc_strings.py:90
+#: masterleague/lc_strings.py:102
 msgid "Falstad"
 msgstr "폴스타트"
 
-#: masterleague/lc_strings.py:91
+#: masterleague/lc_strings.py:103
 msgid "Gall"
 msgstr "갈"
 
-#: masterleague/lc_strings.py:92
+#: masterleague/lc_strings.py:104
 msgid "Gazlowe"
 msgstr "가즈로"
 
-#: masterleague/lc_strings.py:93
+#: masterleague/lc_strings.py:105
 msgid "Greymane"
 msgstr "그레이메인"
 
-#: masterleague/lc_strings.py:94
+#: masterleague/lc_strings.py:106
 msgid "Gul'dan"
 msgstr "굴단"
 
-#: masterleague/lc_strings.py:95
+#: masterleague/lc_strings.py:107
 msgid "Illidan"
 msgstr "일리단"
 
-#: masterleague/lc_strings.py:96
+#: masterleague/lc_strings.py:108
 msgid "Jaina"
 msgstr "제이나"
 
-#: masterleague/lc_strings.py:97
+#: masterleague/lc_strings.py:109
 msgid "Johanna"
 msgstr "요한나"
 
-#: masterleague/lc_strings.py:98
+#: masterleague/lc_strings.py:110
 msgid "Kael'thas"
 msgstr "캘타스"
 
-#: masterleague/lc_strings.py:99
+#: masterleague/lc_strings.py:111
 msgid "Kerrigan"
 msgstr "케리건"
 
-#: masterleague/lc_strings.py:100
+#: masterleague/lc_strings.py:112
 msgid "Kharazim"
 msgstr "카라짐"
 
-#: masterleague/lc_strings.py:101
+#: masterleague/lc_strings.py:113
 msgid "Leoric"
 msgstr "레오릭"
 
-#: masterleague/lc_strings.py:102
+#: masterleague/lc_strings.py:114
 msgid "Li Li"
 msgstr "리리"
 
-#: masterleague/lc_strings.py:103
+#: masterleague/lc_strings.py:115
 msgid "Li-Ming"
 msgstr "리밍"
 
-#: masterleague/lc_strings.py:104
+#: masterleague/lc_strings.py:116
 msgid "Lt. Morales"
 msgstr "모랄레스 중위"
 
-#: masterleague/lc_strings.py:105
+#: masterleague/lc_strings.py:117
 msgid "Lucio"
 msgstr ""
 
-#: masterleague/lc_strings.py:106
+#: masterleague/lc_strings.py:118
 msgid "Lunara"
 msgstr "루나라"
 
-#: masterleague/lc_strings.py:107
+#: masterleague/lc_strings.py:119
 msgid "Malfurion"
 msgstr "말퓨리온"
 
-#: masterleague/lc_strings.py:108
+#: masterleague/lc_strings.py:120
 msgid "Medivh"
 msgstr "메디브"
 
-#: masterleague/lc_strings.py:109
+#: masterleague/lc_strings.py:121
 msgid "Muradin"
 msgstr "무라딘"
 
-#: masterleague/lc_strings.py:110
+#: masterleague/lc_strings.py:122
 msgid "Murky"
 msgstr "머키"
 
-#: masterleague/lc_strings.py:111
+#: masterleague/lc_strings.py:123
 msgid "Nazeebo"
 msgstr "나지보"
 
-#: masterleague/lc_strings.py:112
+#: masterleague/lc_strings.py:124
 msgid "Nova"
 msgstr "노바"
 
-#: masterleague/lc_strings.py:113
+#: masterleague/lc_strings.py:125
 msgid "Ragnaros"
 msgstr "라그나로스"
 
-#: masterleague/lc_strings.py:114
+#: masterleague/lc_strings.py:126
 msgid "Raynor"
 msgstr "레이너"
 
-#: masterleague/lc_strings.py:115
+#: masterleague/lc_strings.py:127
 msgid "Rehgar"
 msgstr "레가르"
 
-#: masterleague/lc_strings.py:116
+#: masterleague/lc_strings.py:128
 msgid "Rexxar"
 msgstr "렉사르"
 
-#: masterleague/lc_strings.py:117
+#: masterleague/lc_strings.py:129
 msgid "Samuro"
 msgstr "사무로"
 
-#: masterleague/lc_strings.py:118
+#: masterleague/lc_strings.py:130
 msgid "Sgt. Hammer"
 msgstr "해머 상사"
 
-#: masterleague/lc_strings.py:119
+#: masterleague/lc_strings.py:131
 msgid "Sonya"
 msgstr "소냐"
 
-#: masterleague/lc_strings.py:120
+#: masterleague/lc_strings.py:132
 msgid "Stitches"
 msgstr "누더기"
 
-#: masterleague/lc_strings.py:121
+#: masterleague/lc_strings.py:133
 msgid "Sylvanas"
 msgstr "실바나스"
 
-#: masterleague/lc_strings.py:122
+#: masterleague/lc_strings.py:134
 msgid "Tassadar"
 msgstr "태사다르"
 
-#: masterleague/lc_strings.py:123
+#: masterleague/lc_strings.py:135
 msgid "The Butcher"
 msgstr "도살자"
 
-#: masterleague/lc_strings.py:124
+#: masterleague/lc_strings.py:136
 msgid "The Lost Vikings"
 msgstr "길 잃은 바이킹"
 
-#: masterleague/lc_strings.py:125
+#: masterleague/lc_strings.py:137
 msgid "Thrall"
 msgstr "쓰랄"
 
-#: masterleague/lc_strings.py:126
+#: masterleague/lc_strings.py:138
 msgid "Tracer"
 msgstr "트레이서"
 
-#: masterleague/lc_strings.py:127
+#: masterleague/lc_strings.py:139
 msgid "Tychus"
 msgstr "타이커스"
 
-#: masterleague/lc_strings.py:128
+#: masterleague/lc_strings.py:140
 msgid "Tyrael"
 msgstr "티리엘"
 
-#: masterleague/lc_strings.py:129
+#: masterleague/lc_strings.py:141
 msgid "Tyrande"
 msgstr "티란데"
 
-#: masterleague/lc_strings.py:130
+#: masterleague/lc_strings.py:142
 msgid "Uther"
 msgstr "우서"
 
-#: masterleague/lc_strings.py:131
+#: masterleague/lc_strings.py:143
 msgid "Valeera"
 msgstr "발리라"
 
-#: masterleague/lc_strings.py:132
+#: masterleague/lc_strings.py:144
 msgid "Valla"
 msgstr "발라"
 
-#: masterleague/lc_strings.py:133
+#: masterleague/lc_strings.py:145
 msgid "Varian"
 msgstr "바리안"
 
-#: masterleague/lc_strings.py:134
+#: masterleague/lc_strings.py:146
 msgid "Xul"
 msgstr "줄"
 
-#: masterleague/lc_strings.py:135
+#: masterleague/lc_strings.py:147
 msgid "Zagara"
 msgstr "자가라"
 
-#: masterleague/lc_strings.py:136
+#: masterleague/lc_strings.py:148
 msgid "Zarya"
 msgstr "자리야"
 
-#: masterleague/lc_strings.py:137
+#: masterleague/lc_strings.py:149
 msgid "Zeratul"
 msgstr "제라툴"
 
-#: masterleague/lc_strings.py:138
+#: masterleague/lc_strings.py:150
 msgid "Zul'jin"
 msgstr "줄진"
 
-#: masterleague/lc_strings.py:139
+#: masterleague/lc_strings.py:151
 msgid "Probius"
 msgstr ""
 
@@ -2279,30 +2311,6 @@ msgstr "한글화를 도와주세요!"
 #~ msgctxt "Player overview"
 #~ msgid "Overview"
 #~ msgstr "개괄"
-
-#~ msgid "Europe"
-#~ msgstr "유럽"
-
-#~ msgid "North America"
-#~ msgstr "북미"
-
-#~ msgid "South Korea"
-#~ msgstr "한국"
-
-#~ msgid "China"
-#~ msgstr "중국"
-
-#~ msgid "Taiwan"
-#~ msgstr "대만"
-
-#~ msgid "Southeast Asia"
-#~ msgstr "동남아"
-
-#~ msgid "Latin America"
-#~ msgstr "남미"
-
-#~ msgid "Australia & New Zealand"
-#~ msgstr "호주 & 뉴질랜드"
 
 #~ msgid "Winners Final"
 #~ msgstr "승자 결승"
