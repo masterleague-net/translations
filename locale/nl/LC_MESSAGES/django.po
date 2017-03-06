@@ -1,213 +1,507 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: Master League\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-06 21:40+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Project-Id-Version: Master League\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Language-Team: \n"
 "X-Generator: Poedit 1.8.12\n"
-"Last-Translator: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: nl\n"
 
-#: .\changelog\templates\changelog\changelog_detail.html:22
-#: .\changelog\templates\changelog\changelog_list.html:10
-#: .\heroes\templates\heroes\hero_detail.html:155
-#: .\heroes\templates\heroes\hero_list.html:51
-#: .\maps\templates\maps\map_detail.html:29
-#: .\maps\templates\maps\map_list.html:12
-#: .\matches\templates\matches\match_detail.html:53
-#: .\matches\templates\matches\match_list.html:25
-#: .\matches\templates\tournaments\tournament_detail.html:19
-#: .\matches\templates\tournaments\tournament_list.html:12
-#: .\meta\templates\meta\report.html:30
-#: .\search\templates\search\search.html:16
-#: .\teams\templates\players\player_detail.html:23
-#: .\teams\templates\players\player_list.html:25
-#: .\teams\templates\players\players_compare.html:111
-#: .\teams\templates\players\players_transfers.html:42
-#: .\teams\templates\teams\team_detail.html:26
-#: .\teams\templates\teams\team_list.html:53
+#: bets/forms.py:18
+msgid "Season"
+msgstr "Seizoen"
+
+#: bets/forms.py:22 matches/forms.py:14
+#: matches/templates/tournaments/tournament_list_inline.html:11
+#: teams/forms.py:86 teams/templates/players/player_list.html:75
+msgid "Region"
+msgstr "Regio"
+
+#: bets/forms.py:25 heroes/forms.py:15 matches/forms.py:15 meta/forms.py:16
+#: teams/forms.py:87
+msgid "All Regions"
+msgstr "Alle regio's"
+
+#: bets/forms.py:27
+msgid "Week"
+msgstr "Week"
+
+#: bets/forms.py:28
+msgid "All weeks"
+msgstr "Alle weken"
+
+#: bets/templates/bets/bets_base.html:7 bets/templates/bets/leaderboard.html:5
+#: bets/templates/bets/leaderboard.html:26 bets/templates/bets/matches.html:5
+#: bets/templates/bets/matches.html:8 templates/base.html:211
+msgid "Challenges"
+msgstr "Uitdagingen"
+
+#: bets/templates/bets/bets_base.html:23
+#: changelog/templates/changelog/changelog_detail.html:22
+#: changelog/templates/changelog/changelog_list.html:10
+#: heroes/templates/heroes/hero_detail.html:155
+#: heroes/templates/heroes/hero_list.html:51
+#: maps/templates/maps/map_detail.html:29 maps/templates/maps/map_list.html:12
+#: matches/templates/matches/match_detail.html:51
+#: matches/templates/matches/match_list.html:25
+#: matches/templates/tournaments/tournament_detail.html:19
+#: matches/templates/tournaments/tournament_list.html:12
+#: meta/templates/meta/base.html:28 search/templates/search/search.html:16
+#: teams/templates/players/player_detail.html:37
+#: teams/templates/players/player_list.html:25
+#: teams/templates/players/players_compare.html:112
+#: teams/templates/players/players_transfers.html:42
+#: teams/templates/teams/team_detail.html:26
+#: teams/templates/teams/team_list.html:53
 msgctxt "Link to the main page"
 msgid "Home"
 msgstr "Thuis"
 
-#: .\changelog\templates\changelog\changelog_list.html:18
-#: .\matches\templates\matches\matches_inline.html:13
-#: .\matches\templates\matches\matches_inline.html:17
-#: .\pages\templates\calendar_inline.html:55 .\pages\templates\mainpage.html:33
-#: .\pages\templates\mainpage.html:63
-#: .\teams\templates\players\players_transfers.html:64
-#: .\teams\templates\teams\team_overview.html:52
-msgid "Date"
-msgstr "Datum"
+#: bets/templates/bets/bets_base.html:33
+msgid "Predict results"
+msgstr "Voorspel resultaten"
 
-#: .\changelog\templates\changelog\changelog_list.html:19
-msgctxt "News title"
-msgid "Title"
-msgstr "Titel"
+#: bets/templates/bets/bets_base.html:34
+msgid "earn points"
+msgstr "Krijg punten"
 
-#: .\core\templates\core\pagination.html:3
-msgctxt "Page navigation"
-msgid "Previous"
-msgstr "Vorige"
+#: bets/templates/bets/bets_base.html:35
+msgid "win prizes"
+msgstr "Win prijzen"
 
-#: .\core\templates\core\pagination.html:4
-msgctxt "Page navigation"
-msgid "Next"
-msgstr "Volgende"
+#: bets/templates/bets/bets_base.html:45
+#: bets/templates/bets/leaderboard.html:65
+#: bets/templates/bets/matches_include.html:61
+msgid "Points"
+msgstr "Punten"
 
-#: .\heroes\templates\heroes\hero_builds.html:7
-#: .\heroes\templates\heroes\hero_detail.html:203
-msgctxt "Hero builds"
-msgid "Builds"
-msgstr "Builds"
+#: bets/templates/bets/bets_base.html:48
+#: comments/templates/comments/comment_list.html:38
+msgid "Login via Battle.net"
+msgstr "Login via Battle.net"
 
-#: .\heroes\templates\heroes\hero_builds.html:68
-#: .\heroes\templates\heroes\hero_detail.html:204
-#: .\heroes\templates\heroes\hero_matches.html:7
-#: .\heroes\templates\heroes\hero_overview.html:173
-#: .\maps\templates\maps\map_detail.html:61
-#: .\maps\templates\maps\map_matches.html:7
-#: .\matches\templates\matches\match_detail.html:8
-#: .\matches\templates\matches\match_list.html:8
-#: .\matches\templates\matches\match_list.html:26
-#: .\matches\templates\tournaments\tournament_overview.html:162
-#: .\meta\templates\meta\fp_comp_inline.html:11
-#: .\meta\templates\meta\report.html:70
-#: .\teams\templates\players\player_detail.html:65
-#: .\teams\templates\players\player_list.html:80
-#: .\teams\templates\players\player_matches.html:8
-#: .\teams\templates\players\player_overview.html:38
-#: .\teams\templates\teams\summary.html:3
-#: .\teams\templates\teams\team_detail.html:63
-#: .\teams\templates\teams\team_heroes.html:25
-#: .\teams\templates\teams\team_matches.html:8 .\templates\base.html:205
+#: bets/templates/bets/bets_base.html:53 bets/templates/bets/matches.html:7
+#: heroes/templates/heroes/hero_builds.html:68
+#: heroes/templates/heroes/hero_detail.html:204
+#: heroes/templates/heroes/hero_matches.html:7
+#: heroes/templates/heroes/hero_overview.html:173
+#: maps/templates/maps/map_detail.html:46
+#: matches/templates/matches/match_detail.html:8
+#: matches/templates/matches/match_list.html:8
+#: matches/templates/matches/match_list.html:26
+#: meta/templates/meta/base.html:49 meta/templates/meta/drafts.html:18
+#: meta/templates/meta/drafts.html:69 meta/templates/meta/drafts.html:122
+#: meta/templates/meta/drafts.html:173 meta/templates/meta/maps.html:21
+#: meta/templates/meta/matches.html:5 meta/templates/meta/matches.html:6
+#: meta/templates/meta/players.html:24 meta/templates/meta/players.html:64
+#: meta/templates/meta/players.html:106 meta/templates/meta/players.html:146
+#: meta/templates/meta/teams.html:22 meta/templates/meta/teams.html:57
+#: meta/templates/meta/teams.html:94 meta/templates/meta/teams.html:131
+#: teams/templates/players/player_detail.html:81
+#: teams/templates/players/player_heroes.html:39
+#: teams/templates/players/player_list.html:80
+#: teams/templates/teams/summary.html:3
+#: teams/templates/teams/team_detail.html:63
+#: teams/templates/teams/team_heroes.html:25
+#: teams/templates/teams/team_matches.html:8 templates/base.html:207
 msgid "Matches"
 msgstr "Wedstrijden"
 
-#: .\heroes\templates\heroes\hero_builds.html:69
-#: .\heroes\templates\heroes\hero_overview.html:174
-#: .\teams\templates\players\player_overview.html:39
-#: .\teams\templates\teams\summary.html:4
-#: .\teams\templates\teams\team_heroes.html:26
-msgid "Win %%"
-msgstr "Winst %%"
+#: bets/templates/bets/bets_base.html:54
+#: bets/templates/bets/leaderboard.html:5
+#: bets/templates/bets/leaderboard.html:7
+#: bets/templates/bets/leaderboard.html:27
+msgid "Leaderboard"
+msgstr "Scorebord"
 
-#: .\heroes\templates\heroes\hero_builds.html:99
-msgid "Show matches"
-msgstr "Bekijk wedstrijden"
-
-#: .\heroes\templates\heroes\hero_builds.html:134
-msgid "No replays found in the selected period."
-msgstr "Geen herhalingen gevonden in de geselecteerde periode."
-
-#: .\heroes\templates\heroes\hero_detail.html:8
-#: .\heroes\templates\heroes\hero_detail.html:156
-#: .\heroes\templates\heroes\hero_list.html:8
-#: .\heroes\templates\heroes\hero_list.html:52
-#: .\teams\templates\teams\team_detail.html:62
-#: .\teams\templates\teams\team_heroes.html:8 .\templates\base.html:207
-msgid "Heroes"
-msgstr "Helden"
-
-#: .\heroes\templates\heroes\hero_detail.html:65
-msgid "First wave pick (%(pick1_count)s matches)"
-msgstr "Eerste golf keuze (%(pick1_count)s wedstrijden)"
-
-#: .\heroes\templates\heroes\hero_detail.html:66
-msgid "Second wave pick (%(pick2_count)s matches)"
-msgstr "Tweede golf keuze (%(pick1_count)s wedstrijden)"
-
-#: .\heroes\templates\heroes\hero_detail.html:67
-msgid "First wave ban (%(ban1_count)s matches)"
-msgstr "Eerste golf verbannen (%(pick1_count)s wedstrijden)"
-
-#: .\heroes\templates\heroes\hero_detail.html:68
-msgid "Second wave ban (%(ban2_count)s matches)"
-msgstr "Tweede golf verbannen (%(pick1_count)s wedstrijden)"
-
-#: .\heroes\templates\heroes\hero_detail.html:69
-msgid "Not banned or picked (%(popularity_blank_count)s matches)"
-msgstr "Niet verbannen of gekozen (%(popularity_blank_count)s wedstrijden)"
-
-#: .\heroes\templates\heroes\hero_detail.html:174
-#: .\maps\templates\maps\map_detail.html:48
-#: .\meta\templates\meta\report.html:48
+#: bets/templates/bets/leaderboard.html:45
+#: heroes/templates/heroes/hero_detail.html:174
+#: meta/templates/meta/include/meta_filter_form.html:46
+#: teams/templates/players/player_detail.html:127
 msgctxt "Button label"
 msgid "Just Do It!"
 msgstr "Gewoon doen!"
 
-#: .\heroes\templates\heroes\hero_detail.html:183
-#: .\heroes\templates\heroes\stats_table_inline.html:17
+#: bets/templates/bets/leaderboard.html:60
+msgid "Position"
+msgstr "Positie"
+
+#: bets/templates/bets/leaderboard.html:61
+#: teams/templates/players/player_list.html:77
+#: teams/templates/teams/team_overview.html:19
+#: teams/templates/teams/team_transfers.html:17
+msgid "Nickname"
+msgstr "Bijnaam"
+
+#: bets/templates/bets/leaderboard.html:62
+msgctxt "Bets count"
+msgid "Bets"
+msgstr "Weddenschappen"
+
+#: bets/templates/bets/leaderboard.html:63
+msgid "Predicted winner"
+msgstr "Voorspelde winnaar"
+
+#: bets/templates/bets/leaderboard.html:64
+msgid "Predicted score"
+msgstr "Voorspelde score"
+
+#: bets/templates/bets/matches.html:59
+msgid "Time until"
+msgstr "Tijd tot"
+
+#: bets/templates/bets/matches.html:59
+#: changelog/templates/changelog/changelog_list.html:18
+#: matches/templates/matches/matches_inline.html:13
+#: matches/templates/matches/matches_inline.html:17
+#: pages/templates/calendar_inline.html:62 pages/templates/mainpage.html:33
+#: pages/templates/mainpage.html:63
+#: teams/templates/players/players_transfers.html:64
+#: teams/templates/teams/team_overview.html:52
+msgid "Date"
+msgstr "Datum"
+
+#: bets/templates/bets/matches.html:60
+msgid "Stage"
+msgstr "Stage"
+
+#: bets/templates/bets/matches.html:62
+msgid "Reward"
+msgstr "Beloning"
+
+#: bets/templates/bets/matches.html:69
+msgid "Upcoming matches"
+msgstr "Aanstaande wedstrijden"
+
+#: bets/templates/bets/matches.html:135
+msgid "Ongoing matches"
+msgstr "Lopende wedstrijden"
+
+#: bets/templates/bets/matches.html:143
+msgid "Completed matches"
+msgstr "Voorgaande wedstrijden"
+
+#: bets/templates/bets/matches_include.html:34
+#: bets/templates/bets/matches_include.html:36
+#: bets/templates/bets/matches_include.html:38
+#: bets/templates/bets/matches_include.html:41
+#: bets/templates/bets/matches_include.html:45
+msgid "Your bet"
+msgstr "Jouw weddenschap"
+
+#: bets/templates/bets/matches_include.html:34
+#: bets/templates/bets/matches_include.html:36
+#: bets/templates/bets/matches_include.html:38
+#: bets/templates/bets/matches_include.html:41
+#: bets/templates/bets/matches_include.html:45
+msgid "Total bets"
+msgstr "Totaal weddenschappen"
+
+#: changelog/templates/changelog/changelog_list.html:19
+msgctxt "News title"
+msgid "Title"
+msgstr "Titel"
+
+#: comments/templates/comments/comment_edit_form.html:13
+msgid "Save changes"
+msgstr "Opslaan"
+
+#: comments/templates/comments/comment_edit_form.html:14
+msgid "Cancel"
+msgstr "Annuleer"
+
+#: comments/templates/comments/comment_list.html:31
+msgid "Write a comment"
+msgstr "Schrijf een opmerking"
+
+#: comments/templates/comments/comment_list.html:37
+msgid "You must be logged in to leave a comment"
+msgstr "Je moet inloggen om een opmerking achter te laten"
+
+#: comments/templates/comments/comment_nodes.html:128
+msgid "Delete the comment?"
+msgstr "Opmerking verwijderen?"
+
+#: comments/templates/comments/comment_nodes.html:170
+msgid "Comment was removed"
+msgstr "Opmerking is verwijderd"
+
+#: comments/templates/comments/comment_nodes.html:183
+#: comments/templates/comments/comment_nodes.html:258
+#: comments/templates/profiles/base.html:29
+msgid "Rating"
+msgstr "Beoordeling"
+
+#: comments/templates/comments/comment_nodes.html:198
+#: comments/templates/profiles/base.html:20
+msgid "Administrator"
+msgstr "Administrator"
+
+#: comments/templates/comments/comment_nodes.html:200
+#: comments/templates/profiles/base.html:22
+msgid "Moderator"
+msgstr "Moderator"
+
+#: comments/templates/comments/comment_nodes.html:220
+msgid "Reply"
+msgstr "Antwoorden"
+
+#: comments/templates/comments/comment_nodes.html:225
+msgid "Edit"
+msgstr "Aanpassen"
+
+#: comments/templates/comments/comment_nodes.html:230
+msgid "Delete"
+msgstr "Verwijder"
+
+#: comments/templates/comments/comment_nodes.html:233
+msgid "Permalink"
+msgstr "Permalink"
+
+#: comments/templates/comments/comment_nodes.html:236
+msgid "Mark read"
+msgstr "Markeer als gelezen"
+
+#: comments/templates/comments/comment_nodes.html:275
+msgid "Post a comment"
+msgstr "Plaats een opmerking"
+
+#: comments/templates/profiles/base.html:25
+msgid "Comments count"
+msgstr "Aantal opmerkingen"
+
+#: comments/templates/profiles/base.html:37
+#: matches/templates/matches/match_detail.html:214
+#: matches/templates/matches/matches_inline.html:142
+msgid "Comments"
+msgstr "Opmerkingen"
+
+#: comments/templates/profiles/base.html:41 templates/base.html:225
+msgid "Notifications"
+msgstr "Notificatie's"
+
+#: comments/templates/profiles/comment_list.html:27
+msgid "User didn't leave any comments"
+msgstr "Gebruiker heeft geen opmerkingen achtergelaten"
+
+#: comments/templates/profiles/notification_list.html:61
+msgid "Mark read all"
+msgstr "Markeer alles als gelezen"
+
+#: comments/templates/profiles/notification_list.html:68
+msgid "No new notifications"
+msgstr "Geen nieuwe notificatie's"
+
+#: comments/templatetags/comments_tags.py:72
+#, python-format
+msgid "%s tag requires a queryset"
+msgstr ""
+
+#: core/templates/core/pagination.html:3
+msgctxt "Page navigation"
+msgid "Previous"
+msgstr "Vorige"
+
+#: core/templates/core/pagination.html:4
+msgctxt "Page navigation"
+msgid "Next"
+msgstr "Volgende"
+
+#: heroes/forms.py:12 meta/forms.py:13
+msgid "Regions"
+msgstr "Regio's"
+
+#: heroes/forms.py:17 meta/forms.py:18 teams/forms.py:55
+msgid "Patches"
+msgstr "Patches"
+
+#: heroes/forms.py:20 meta/forms.py:21 teams/forms.py:25 teams/forms.py:58
+msgid "All patches"
+msgstr "Alle patches"
+
+#: heroes/forms.py:23 matches/templates/tournaments/tournament_detail.html:8
+#: matches/templates/tournaments/tournament_detail.html:20
+#: matches/templates/tournaments/tournament_list.html:8
+#: matches/templates/tournaments/tournament_list.html:13 meta/forms.py:29
+#: teams/forms.py:67 templates/base.html:206
+msgid "Tournaments"
+msgstr "Tournamenten"
+
+#: heroes/forms.py:26 meta/forms.py:32 teams/forms.py:70
+msgid "All tournaments"
+msgstr "Alle tournamenten"
+
+#: heroes/templates/heroes/hero_builds.html:7
+#: heroes/templates/heroes/hero_detail.html:203
+msgctxt "Hero builds"
+msgid "Builds"
+msgstr "Builds"
+
+#: heroes/templates/heroes/hero_builds.html:69
+#: heroes/templates/heroes/hero_overview.html:174
+#: teams/templates/teams/summary.html:4
+#: teams/templates/teams/team_heroes.html:26
+#, python-format
+msgid "Win %%"
+msgstr "Winst %%"
+
+#: heroes/templates/heroes/hero_builds.html:99
+msgid "Show matches"
+msgstr "Bekijk wedstrijden"
+
+#: heroes/templates/heroes/hero_builds.html:134
+msgid "No replays found in the selected period."
+msgstr "Geen herhalingen gevonden in de geselecteerde periode."
+
+#: heroes/templates/heroes/hero_detail.html:5
+msgid "statistics"
+msgstr "Statistieken"
+
+#: heroes/templates/heroes/hero_detail.html:8
+#: heroes/templates/heroes/hero_detail.html:156
+#: heroes/templates/heroes/hero_list.html:8
+#: heroes/templates/heroes/hero_list.html:52
+#: maps/templates/maps/map_detail.html:43
+#: matches/templates/tournaments/tournament_overview.html:157 meta/forms.py:23
+#: meta/templates/meta/base.html:46 meta/templates/meta/heroes.html:5
+#: meta/templates/meta/heroes.html:6 meta/templates/meta/players.html:23
+#: meta/templates/meta/players.html:63 meta/templates/meta/teams.html:21
+#: meta/templates/meta/teams.html:56
+#: teams/templates/players/player_detail.html:80
+#: teams/templates/players/player_heroes.html:5
+#: teams/templates/teams/team_detail.html:62
+#: teams/templates/teams/team_heroes.html:8 templates/base.html:209
+msgid "Heroes"
+msgstr "Helden"
+
+#: heroes/templates/heroes/hero_detail.html:65
+#, python-format
+msgid "First wave pick (%(pick1_count)s matches)"
+msgstr "Eerste golf keuze (%(pick1_count)s wedstrijden)"
+
+#: heroes/templates/heroes/hero_detail.html:66
+#, fuzzy, python-format
+#| msgid "Second wave pick (%(pick2_count)s matches)"
+msgid "Second wave pick (%(pick2_count)s matches)"
+msgstr "Tweede golf keuze (%(pick1_count)s wedstrijden)"
+
+#: heroes/templates/heroes/hero_detail.html:67
+#, fuzzy, python-format
+#| msgid "First wave ban (%(ban1_count)s matches)"
+msgid "First wave ban (%(ban1_count)s matches)"
+msgstr "Eerste golf verbannen (%(pick1_count)s wedstrijden)"
+
+#: heroes/templates/heroes/hero_detail.html:68
+#, fuzzy, python-format
+#| msgid "Second wave ban (%(ban2_count)s matches)"
+msgid "Second wave ban (%(ban2_count)s matches)"
+msgstr "Tweede golf verbannen (%(pick1_count)s wedstrijden)"
+
+#: heroes/templates/heroes/hero_detail.html:69
+#, python-format
+msgid "Not banned or picked (%(popularity_blank_count)s matches)"
+msgstr "Niet verbannen of gekozen (%(popularity_blank_count)s wedstrijden)"
+
+#: heroes/templates/heroes/hero_detail.html:183
+#: heroes/templates/heroes/stats_table_inline.html:17
+#: meta/templates/meta/include/heroes_table.html:17
 msgid "Popularity"
 msgstr "Populariteit"
 
-#: .\heroes\templates\heroes\hero_detail.html:184
+#: heroes/templates/heroes/hero_detail.html:184
+#, fuzzy, python-format
+#| msgid "%(match_count)s of %(total_matches)s matches"
 msgid "%(match_count)s of %(total_matches)s matches"
 msgstr "%(match_count) van %(total_matches)s wedstrijden"
 
-#: .\heroes\templates\heroes\hero_detail.html:196
-#: .\teams\templates\teams\team_detail.html:22
+#: heroes/templates/heroes/hero_detail.html:196
+#: teams/templates/teams/team_detail.html:22
 msgid "Wins"
 msgstr "Gewonnen"
 
-#: .\heroes\templates\heroes\hero_detail.html:197
+#: heroes/templates/heroes/hero_detail.html:197
+#, fuzzy, python-format
+#| msgid "%(win_count)s of %(pick_count)s matches"
 msgid "%(win_count)s of %(pick_count)s matches"
 msgstr "%(win_count) van %(pick_count)s wedstrijden"
 
-#: .\heroes\templates\heroes\hero_detail.html:202
-#: .\heroes\templates\heroes\hero_overview.html:5
+#: heroes/templates/heroes/hero_detail.html:202
+#: heroes/templates/heroes/hero_overview.html:5
 msgctxt "Hero overview"
 msgid "Overview"
 msgstr "Overzicht"
 
-#: .\heroes\templates\heroes\hero_list.html:58
-#: .\meta\templates\meta\fp_comp_inline.html:69
+#: heroes/templates/heroes/hero_list.html:5
+msgctxt "[SEO] Page title"
+msgid "Heroes"
+msgstr "Helden"
+
+#: heroes/templates/heroes/hero_list.html:58
+#: meta/templates/meta/drafts.html:237
 msgctxt "Hero role"
 msgid "Warrior"
 msgstr "Warrior"
 
-#: .\heroes\templates\heroes\hero_list.html:59
-#: .\meta\templates\meta\fp_comp_inline.html:71
+#: heroes/templates/heroes/hero_list.html:59
+#: meta/templates/meta/drafts.html:239
 msgctxt "Hero role"
 msgid "Support"
 msgstr "Support"
 
-#: .\heroes\templates\heroes\hero_list.html:60
-#: .\meta\templates\meta\fp_comp_inline.html:73
+#: heroes/templates/heroes/hero_list.html:60
+#: meta/templates/meta/drafts.html:241
 msgctxt "Hero role"
 msgid "Assassin"
 msgstr "Assassin"
 
-#: .\heroes\templates\heroes\hero_list.html:61
-#: .\meta\templates\meta\fp_comp_inline.html:75
+#: heroes/templates/heroes/hero_list.html:61
+#: meta/templates/meta/drafts.html:243
 msgctxt "Hero role"
 msgid "Specialist"
 msgstr "Specialist"
 
-#: .\heroes\templates\heroes\hero_list.html:66
+#: heroes/templates/heroes/hero_list.html:66
 msgid "Start typing to search"
 msgstr "Begin met typen om te zoeken"
 
-#: .\heroes\templates\heroes\hero_overview.html:70
-msgid "Popularity per Patch"
-msgstr "Populariteit per patch"
+#: heroes/templates/heroes/hero_overview.html:20
+#: heroes/templates/heroes/stats_table_inline.html:15
+#: meta/templates/meta/include/heroes_table.html:15
+msgid "Ban Rate"
+msgstr "Banpercentage"
 
-#: .\heroes\templates\heroes\hero_overview.html:50
-#: .\heroes\templates\heroes\hero_overview.html:114
-#: .\heroes\templates\heroes\stats_table_inline.html:14
-#: .\meta\templates\meta\fp_comp_inline.html:60
+#: heroes/templates/heroes/hero_overview.html:35
+#: heroes/templates/heroes/stats_table_inline.html:16
+#: meta/templates/meta/include/heroes_table.html:16
+msgid "Pick Rate"
+msgstr "Kiespercentage"
+
+#: heroes/templates/heroes/hero_overview.html:50
+#: heroes/templates/heroes/hero_overview.html:114
+#: heroes/templates/heroes/stats_table_inline.html:14
+#: meta/templates/meta/drafts.html:19 meta/templates/meta/drafts.html:70
+#: meta/templates/meta/drafts.html:123 meta/templates/meta/drafts.html:174
+#: meta/templates/meta/drafts.html:228
+#: meta/templates/meta/include/heroes_table.html:14
+#: teams/templates/players/player_heroes.html:40
 msgid "Win Rate"
 msgstr "Winstpercentage"
 
-#: .\heroes\templates\heroes\hero_overview.html:135
+#: heroes/templates/heroes/hero_overview.html:70
+msgid "Popularity per Patch"
+msgstr "Populariteit per patch"
+
+#: heroes/templates/heroes/hero_overview.html:135
 msgid "Win Rate vs Game Duration"
 msgstr "Winstpercentage tegen spellengte"
 
-#: .\heroes\templates\heroes\hero_overview.html:186
+#: heroes/templates/heroes/hero_overview.html:186
 msgid ""
 "Popularity per Patch chart is based on the analysis of the latest patches "
 "for the selected region(s)."
@@ -215,126 +509,774 @@ msgstr ""
 "Populariteit per patch is gebaseerd op de analyse van de laatste patches van "
 "de geselecteerde regio('s)."
 
-#: .\heroes\templates\heroes\hero_overview.html:197 .\matches\forms.py:20
-#: .\matches\templates\tournaments\tournament_overview.html:161
-#: .\meta\templates\meta\report.html:69 .\teams\forms.py:18 .\teams\forms.py:45
-#: .\teams\forms.py:60 .\teams\templates\teams\summary.html:50
+#: heroes/templates/heroes/hero_overview.html:191
+msgctxt "Hero"
+msgid "Most Popular On Maps"
+msgstr "Meest gespeelde op kaarten"
+
+#: heroes/templates/heroes/hero_overview.html:197 matches/forms.py:20
+#: meta/templates/meta/maps.html:20 teams/forms.py:19 teams/forms.py:46
+#: teams/forms.py:60 teams/templates/teams/summary.html:50
 msgid "Map"
 msgstr "Kaart"
 
-#: .\heroes\templates\heroes\hero_overview.html:237
-#: .\matches\templates\tournaments\tournament_overview.html:7
-#: .\teams\forms.py:48 .\teams\forms.py:79
-#: .\teams\templates\players\player_list.html:76
-#: .\teams\templates\players\player_overview.html:104
-#: .\teams\templates\teams\team_transfers.html:19
+#: heroes/templates/heroes/hero_overview.html:231
+msgctxt "Hero"
+msgid "Most Played By Teams"
+msgstr "Meest gespeelde door teams"
+
+#: heroes/templates/heroes/hero_overview.html:237
+#: matches/templates/tournaments/tournament_overview.html:7
+#: meta/templates/meta/players.html:22 meta/templates/meta/players.html:62
+#: meta/templates/meta/players.html:104 meta/templates/meta/teams.html:20
+#: meta/templates/meta/teams.html:55 meta/templates/meta/teams.html:92
+#: meta/templates/meta/teams.html:129 teams/forms.py:49 teams/forms.py:89
+#: teams/templates/players/player_list.html:76
+#: teams/templates/players/player_overview.html:119
+#: teams/templates/teams/team_transfers.html:19
 msgid "Team"
 msgstr "Team"
 
-#: .\heroes\templates\heroes\stats_table_inline.html:10 .\matches\forms.py:23
-#: .\matches\templates\matches\match_stats.html:5
-#: .\meta\templates\meta\fp_comp_inline.html:10 .\teams\forms.py:15
-#: .\teams\forms.py:42 .\teams\forms.py:57 .\teams\forms.py:88
-#: .\teams\templates\players\player_overview.html:37
-#: .\teams\templates\teams\summary.html:13
-#: .\teams\templates\teams\team_heroes.html:24
+#: heroes/templates/heroes/stats_table_inline.html:10 matches/forms.py:23
+#: matches/templates/matches/match_stats.html:5
+#: meta/templates/meta/drafts.html:17 meta/templates/meta/drafts.html:68
+#: meta/templates/meta/drafts.html:121 meta/templates/meta/drafts.html:172
+#: meta/templates/meta/include/heroes_table.html:10 teams/forms.py:16
+#: teams/forms.py:43 teams/forms.py:63 teams/forms.py:98
+#: teams/templates/players/player_heroes.html:38
+#: teams/templates/teams/summary.html:13
+#: teams/templates/teams/team_heroes.html:24
 msgid "Hero"
 msgstr "Held"
 
-#: .\teams\templates\teams\team_detail.html:23
+#: heroes/templates/heroes/stats_table_inline.html:11
+#: meta/templates/meta/include/heroes_table.html:11
+msgctxt "Wins count"
+msgid "Wins"
+msgstr "Gewonnen"
+
+#: heroes/templates/heroes/stats_table_inline.html:12
+#: meta/templates/meta/include/heroes_table.html:12
+msgctxt "Losses count"
 msgid "Losses"
-msgstr "Verliezen"
+msgstr "Verloren"
 
-#: .\heroes\templates\heroes\hero_overview.html:20
-#: .\heroes\templates\heroes\stats_table_inline.html:15
-msgid "Ban Rate"
-msgstr "Banpercentage"
+#: heroes/templates/heroes/stats_table_inline.html:13
+#: meta/templates/meta/include/heroes_table.html:13
+msgctxt "Bans count"
+msgid "Bans"
+msgstr "Verbannen"
 
-#: .\heroes\templates\heroes\hero_overview.html:35
-#: .\heroes\templates\heroes\stats_table_inline.html:16
-msgid "Pick Rate"
-msgstr "Kiespercentage"
+#: heroes/views.py:195 heroes/views.py:196
+msgctxt "minutes"
+msgid "mins"
+msgstr "min"
 
-#: .\maps\templates\maps\map_detail.html:8
-#: .\maps\templates\maps\map_detail.html:30
-#: .\maps\templates\maps\map_list.html:8 .\maps\templates\maps\map_list.html:13
-#: .\templates\base.html:206
+#: maps/templates/maps/map_detail.html:8
+#: maps/templates/maps/map_detail.html:30 maps/templates/maps/map_list.html:8
+#: maps/templates/maps/map_list.html:13
+#: matches/templates/tournaments/tournament_overview.html:155
+#: meta/templates/meta/base.html:44 meta/templates/meta/maps.html:5
+#: meta/templates/meta/maps.html:6 templates/base.html:208
 msgid "Maps"
 msgstr "Kaarten"
 
-#: .\maps\templates\maps\map_detail.html:60
-#: .\maps\templates\maps\map_overview.html:5
-msgctxt "Map overview"
-msgid "Overview"
-msgstr "Overzicht"
+#: maps/templates/maps/map_detail.html:42
+#: matches/templates/matches/matches_inline.html:21
+#: matches/templates/tournaments/tournament_overview.html:156
+#: meta/templates/meta/base.html:45 meta/templates/meta/drafts.html:5
+#: meta/templates/meta/drafts.html:6
+msgid "Drafts"
+msgstr "Drafts"
 
-#: .\matches\templates\matches\match_detail.html:174
+#: maps/templates/maps/map_detail.html:44
+#: matches/templates/tournaments/tournament_overview.html:158
+#: meta/templates/meta/base.html:47 meta/templates/meta/players.html:5
+#: meta/templates/meta/players.html:6 search/templates/search/search.html:39
+#: teams/templates/players/player_detail.html:8
+#: teams/templates/players/player_detail.html:38
+#: teams/templates/players/player_list.html:5
+#: teams/templates/players/player_list.html:8
+#: teams/templates/players/player_list.html:26
+#: teams/templates/players/player_list.html:31
+#: teams/templates/players/players_compare.html:8
+#: teams/templates/players/players_compare.html:113
+#: teams/templates/players/players_compare.html:119
+#: teams/templates/players/players_transfers.html:8
+#: teams/templates/players/players_transfers.html:43
+#: teams/templates/players/players_transfers.html:49
+#: teams/templates/teams/team_detail.html:61
+#: teams/templates/teams/team_transfers.html:8 templates/base.html:94
+#: templates/base.html:205
+msgid "Players"
+msgstr "Spelers"
+
+#: maps/templates/maps/map_detail.html:45
+#: matches/templates/tournaments/tournament_overview.html:159
+#: meta/templates/meta/base.html:48 meta/templates/meta/teams.html:5
+#: meta/templates/meta/teams.html:6 search/templates/search/search.html:21
+#: teams/templates/teams/team_detail.html:8
+#: teams/templates/teams/team_detail.html:27
+#: teams/templates/teams/team_list.html:8
+#: teams/templates/teams/team_list.html:54 templates/base.html:79
+#: templates/base.html:204
+msgid "Teams"
+msgstr "Teams"
+
+#: maps/templates/maps/map_detail.html:51 meta/templates/meta/base.html:37
+msgid "Warning!"
+msgstr "Waarschuwing!"
+
+#: maps/templates/maps/map_list.html:5
+msgctxt "[SEO] Page title"
+msgid "Maps"
+msgstr "Kaarten"
+
+#: masterleague/lc_strings.py:7
+msgid "Grand Final"
+msgstr "Grote finale"
+
+#: masterleague/lc_strings.py:8
+msgid "Losers Final"
+msgstr "Verliezersfinale"
+
+#: masterleague/lc_strings.py:9
+msgid "Final"
+msgstr "Finale"
+
+#: masterleague/lc_strings.py:10
+msgid "1/2 Final"
+msgstr "halve finale"
+
+#: masterleague/lc_strings.py:11
+msgid "1/2 Final LB"
+msgstr "halve finale LB"
+
+#: masterleague/lc_strings.py:12
+msgid "1/2 Final WB"
+msgstr "halve finale WB"
+
+#: masterleague/lc_strings.py:13
+msgid "1/4 Final"
+msgstr "Kwartfinale"
+
+#: masterleague/lc_strings.py:14
+msgid "1/4 Final LB"
+msgstr "kwartfinale LB"
+
+#: masterleague/lc_strings.py:15
+msgid "1/4 Final WB"
+msgstr "kwartfinale WB"
+
+#: masterleague/lc_strings.py:16
+msgid "1/8 Final"
+msgstr "1/8ste finale"
+
+#: masterleague/lc_strings.py:17
+msgid "1/8 Final LB"
+msgstr "1/8ste finale LB"
+
+#: masterleague/lc_strings.py:18
+#, fuzzy
+#| msgid "1/8 Final LB"
+msgid "1/8 Final WB"
+msgstr "1/8ste finale LB"
+
+#: masterleague/lc_strings.py:19
+#, fuzzy
+#| msgid "1/2 Final"
+msgid "1/16 Final"
+msgstr "halve finale"
+
+#: masterleague/lc_strings.py:20
+msgid "3rd place"
+msgstr ""
+
+#: masterleague/lc_strings.py:24
+msgid "Battlefield of Eternity"
+msgstr "Battlefield of Eternity"
+
+#: masterleague/lc_strings.py:25
+msgid "Blackheart’s Bay"
+msgstr "Blackheart’s Bay"
+
+#: masterleague/lc_strings.py:26
+msgid "Braxis Holdout"
+msgstr "Braxis Holdout"
+
+#: masterleague/lc_strings.py:27
+msgid "Cursed Hollow"
+msgstr "Cursed Hollow"
+
+#: masterleague/lc_strings.py:28
+msgid "Dragon Shire"
+msgstr "Dragon Shire"
+
+#: masterleague/lc_strings.py:29
+msgid "Garden of Terror"
+msgstr "Garden of Terror"
+
+#: masterleague/lc_strings.py:30
+msgid "Haunted Mines"
+msgstr "Haunted Mines"
+
+#: masterleague/lc_strings.py:31
+msgid "Infernal Shrines"
+msgstr "Infernal Shrines"
+
+#: masterleague/lc_strings.py:32
+msgid "Sky Temple"
+msgstr "Sky Temple"
+
+#: masterleague/lc_strings.py:33
+msgid "Tomb of the Spider Queen"
+msgstr "Tomb of the Spider Queen"
+
+#: masterleague/lc_strings.py:34
+msgid "Towers of Doom"
+msgstr "Towers of Doom"
+
+#: masterleague/lc_strings.py:35
+msgid "Warhead Junction"
+msgstr "Warhead Junction"
+
+#: masterleague/lc_strings.py:39
+#, python-format
+msgid "Altar captured. Shots fired: %(shots_fired)s."
+msgstr "Tempel veroverd. Schoten gevuurd: %(shots_fired)s."
+
+#: masterleague/lc_strings.py:40
+msgid "Dragon Knight activated"
+msgstr "Draken ridder geactiveerd"
+
+#: masterleague/lc_strings.py:41
+msgid "Garden Terror activated"
+msgstr "Tuinterror geactiveerd"
+
+#: masterleague/lc_strings.py:42
+msgid "Ghost ship captured"
+msgstr "Geestenschip veroverd"
+
+#: masterleague/lc_strings.py:43
+msgid "Immortal defeated"
+msgstr "Onsterfelijke verslagen"
+
+#: masterleague/lc_strings.py:44
+msgid "Infernal shrine captured"
+msgstr "Helse heiligdom veroverd"
+
+#: masterleague/lc_strings.py:45
+msgid "Boss camp"
+msgstr "Bazenkamp"
+
+#: masterleague/lc_strings.py:46
+msgid "Nuke launch"
+msgstr "Atoombom lancering"
+
+#: masterleague/lc_strings.py:47
+msgid "Raven curse activated"
+msgstr "Raaf vloek geactiveerd"
+
+#: masterleague/lc_strings.py:48
+#, python-format
+msgid "Temple shots fired. Total Shot Damage: %(total_shot_damage)s."
+msgstr "Tempelschoten. Totale schade: %(total_shot_damage)s."
+
+#: masterleague/lc_strings.py:49
+msgid "Webweavers spawned"
+msgstr "Spinnen geactiveerd"
+
+#: masterleague/lc_strings.py:50
+#, python-format
+msgid "Zerg rush. Opposing score: %(opposing_score)s%%."
+msgstr "Zerg rush. Tegenoverliggende score: %(opposing_score)s%%"
+
+#: masterleague/lc_strings.py:54
+msgid "Samuro Patch"
+msgstr "Samuro Patch"
+
+#: masterleague/lc_strings.py:55
+msgid "Alarak Patch"
+msgstr "Alarak Patch"
+
+#: masterleague/lc_strings.py:56
+msgid "Auriel Patch"
+msgstr "Auriel Patch"
+
+#: masterleague/lc_strings.py:57
+msgid "Gul'dan Patch"
+msgstr "Gul'dan Patch"
+
+#: masterleague/lc_strings.py:58
+msgid "Medivh Patch"
+msgstr "Medivh Patch"
+
+#: masterleague/lc_strings.py:59
+msgid "Chromie Patch"
+msgstr "Chromie Patch"
+
+#: masterleague/lc_strings.py:60
+msgid "Tracer Patch"
+msgstr "Tracer Patch"
+
+#: masterleague/lc_strings.py:61
+msgid "Dehaka Patch"
+msgstr "Dehaka Patch"
+
+#: masterleague/lc_strings.py:62
+msgid "Xul Patch"
+msgstr "Xul Patch"
+
+#: masterleague/lc_strings.py:63
+msgid "Li-Ming Patch"
+msgstr "Li-Ming Patch"
+
+#: masterleague/lc_strings.py:64
+msgid "Greymane Patch"
+msgstr "Greymane Patch"
+
+#: masterleague/lc_strings.py:65
+msgid "Lunara Patch"
+msgstr "Lunara Patch"
+
+#: masterleague/lc_strings.py:66
+msgid "Zarya Patch"
+msgstr "Zarya Patch"
+
+#: masterleague/lc_strings.py:67
+msgid "Varian Patch"
+msgstr "Varian Patch"
+
+#: masterleague/lc_strings.py:68
+msgid "Ragnaros Patch"
+msgstr "Ragnaros Patch"
+
+#: masterleague/lc_strings.py:69
+msgid "Zul'jin Patch"
+msgstr "Zul'jin Patch"
+
+#: masterleague/lc_strings.py:70
+msgid "Valeera Patch"
+msgstr "Valeera Patch"
+
+#: masterleague/lc_strings.py:71
+msgid "Lucio Patch"
+msgstr "Lucio Patch"
+
+#: masterleague/lc_strings.py:72
+#, fuzzy
+#| msgid "Chromie Patch"
+msgid "Probius Patch"
+msgstr "Chromie Patch"
+
+#: masterleague/lc_strings.py:76
+msgid "Abathur"
+msgstr "Abathur"
+
+#: masterleague/lc_strings.py:77
+msgid "Alarak"
+msgstr "Alarak"
+
+#: masterleague/lc_strings.py:78
+msgid "Anub'arak"
+msgstr "Anub'arak"
+
+#: masterleague/lc_strings.py:79
+msgid "Artanis"
+msgstr "Artanis"
+
+#: masterleague/lc_strings.py:80
+msgid "Arthas"
+msgstr "Arthas"
+
+#: masterleague/lc_strings.py:81
+msgid "Auriel"
+msgstr "Auriel"
+
+#: masterleague/lc_strings.py:82
+msgid "Azmodan"
+msgstr "Azmodan"
+
+#: masterleague/lc_strings.py:83
+msgid "Brightwing"
+msgstr "Brightwing"
+
+#: masterleague/lc_strings.py:84
+msgid "Chen"
+msgstr "Chen"
+
+#: masterleague/lc_strings.py:85
+msgid "Cho"
+msgstr "Cho"
+
+#: masterleague/lc_strings.py:86
+msgid "Chromie"
+msgstr "Chromie"
+
+#: masterleague/lc_strings.py:87
+msgid "Dehaka"
+msgstr "Dehaka"
+
+#: masterleague/lc_strings.py:88
+msgid "Diablo"
+msgstr "Diablo"
+
+#: masterleague/lc_strings.py:89
+msgid "E.T.C."
+msgstr "E.T.C."
+
+#: masterleague/lc_strings.py:90
+msgid "Falstad"
+msgstr "Falstad"
+
+#: masterleague/lc_strings.py:91
+msgid "Gall"
+msgstr "Gall"
+
+#: masterleague/lc_strings.py:92
+msgid "Gazlowe"
+msgstr "Gazlowe"
+
+#: masterleague/lc_strings.py:93
+msgid "Greymane"
+msgstr "Greymane"
+
+#: masterleague/lc_strings.py:94
+msgid "Gul'dan"
+msgstr "Gul'dan"
+
+#: masterleague/lc_strings.py:95
+msgid "Illidan"
+msgstr "Illidan"
+
+#: masterleague/lc_strings.py:96
+msgid "Jaina"
+msgstr "Jaina"
+
+#: masterleague/lc_strings.py:97
+msgid "Johanna"
+msgstr "Johanna"
+
+#: masterleague/lc_strings.py:98
+msgid "Kael'thas"
+msgstr "Kael'thas"
+
+#: masterleague/lc_strings.py:99
+msgid "Kerrigan"
+msgstr "Kerrigan"
+
+#: masterleague/lc_strings.py:100
+msgid "Kharazim"
+msgstr "Kharazim"
+
+#: masterleague/lc_strings.py:101
+msgid "Leoric"
+msgstr "Leoric"
+
+#: masterleague/lc_strings.py:102
+msgid "Li Li"
+msgstr "Li Li"
+
+#: masterleague/lc_strings.py:103
+msgid "Li-Ming"
+msgstr "Li-Ming"
+
+#: masterleague/lc_strings.py:104
+msgid "Lt. Morales"
+msgstr "Lt. Morales"
+
+#: masterleague/lc_strings.py:105
+msgid "Lucio"
+msgstr "Lucio"
+
+#: masterleague/lc_strings.py:106
+msgid "Lunara"
+msgstr "Lunara"
+
+#: masterleague/lc_strings.py:107
+msgid "Malfurion"
+msgstr "Malfurion"
+
+#: masterleague/lc_strings.py:108
+msgid "Medivh"
+msgstr "Medivh"
+
+#: masterleague/lc_strings.py:109
+msgid "Muradin"
+msgstr "Muradin"
+
+#: masterleague/lc_strings.py:110
+msgid "Murky"
+msgstr "Murky"
+
+#: masterleague/lc_strings.py:111
+msgid "Nazeebo"
+msgstr "Nazeebo"
+
+#: masterleague/lc_strings.py:112
+msgid "Nova"
+msgstr "Nova"
+
+#: masterleague/lc_strings.py:113
+msgid "Ragnaros"
+msgstr "Ragnaros"
+
+#: masterleague/lc_strings.py:114
+msgid "Raynor"
+msgstr "Raynor"
+
+#: masterleague/lc_strings.py:115
+msgid "Rehgar"
+msgstr "Rehgar"
+
+#: masterleague/lc_strings.py:116
+msgid "Rexxar"
+msgstr "Rexxar"
+
+#: masterleague/lc_strings.py:117
+msgid "Samuro"
+msgstr "Samuro"
+
+#: masterleague/lc_strings.py:118
+msgid "Sgt. Hammer"
+msgstr "Sgt. Hammer"
+
+#: masterleague/lc_strings.py:119
+msgid "Sonya"
+msgstr "Sonya"
+
+#: masterleague/lc_strings.py:120
+msgid "Stitches"
+msgstr "Stitches"
+
+#: masterleague/lc_strings.py:121
+msgid "Sylvanas"
+msgstr "Sylvanas"
+
+#: masterleague/lc_strings.py:122
+msgid "Tassadar"
+msgstr "Tassadar"
+
+#: masterleague/lc_strings.py:123
+msgid "The Butcher"
+msgstr "The Butcher"
+
+#: masterleague/lc_strings.py:124
+msgid "The Lost Vikings"
+msgstr "The Lost Vikings"
+
+#: masterleague/lc_strings.py:125
+msgid "Thrall"
+msgstr "Thrall"
+
+#: masterleague/lc_strings.py:126
+msgid "Tracer"
+msgstr "Tracer"
+
+#: masterleague/lc_strings.py:127
+msgid "Tychus"
+msgstr "Tychus"
+
+#: masterleague/lc_strings.py:128
+msgid "Tyrael"
+msgstr "Tyrael"
+
+#: masterleague/lc_strings.py:129
+msgid "Tyrande"
+msgstr "Tyrande"
+
+#: masterleague/lc_strings.py:130
+msgid "Uther"
+msgstr "Uther"
+
+#: masterleague/lc_strings.py:131
+msgid "Valeera"
+msgstr "Valeera"
+
+#: masterleague/lc_strings.py:132
+msgid "Valla"
+msgstr "Valla"
+
+#: masterleague/lc_strings.py:133
+msgid "Varian"
+msgstr "Varian"
+
+#: masterleague/lc_strings.py:134
+msgid "Xul"
+msgstr "Xul"
+
+#: masterleague/lc_strings.py:135
+msgid "Zagara"
+msgstr "Zagara"
+
+#: masterleague/lc_strings.py:136
+msgid "Zarya"
+msgstr "Zarya"
+
+#: masterleague/lc_strings.py:137
+msgid "Zeratul"
+msgstr "Zeratul"
+
+#: masterleague/lc_strings.py:138
+msgid "Zul'jin"
+msgstr "Zul'jin"
+
+#: masterleague/lc_strings.py:139
+msgid "Probius"
+msgstr ""
+
+#: matches/forms.py:17 teams/forms.py:15 teams/forms.py:40
+msgid "Patch"
+msgstr "Patch"
+
+#: matches/forms.py:18 teams/forms.py:41 teams/views.py:98
+msgctxt "All patches"
+msgid "All Time"
+msgstr "Alle patches"
+
+#: matches/forms.py:21 teams/forms.py:20 teams/forms.py:47
+msgid "All Maps"
+msgstr "Alle kaarten"
+
+#: matches/forms.py:24 meta/views.py:221 teams/forms.py:17 teams/forms.py:44
+msgid "All Heroes"
+msgstr "Alle helden"
+
+#: matches/templates/admin/tabular.html:121
+#, python-format
+msgid "Add another %(verbose_name)s"
+msgstr ""
+
+#: matches/templates/matches/match_detail.html:45
+#: matches/templates/matches/match_stats.html:225
+msgctxt "Match winner"
+msgid "Winner"
+msgstr "Winnaar"
+
+#: matches/templates/matches/match_detail.html:46
+#: matches/templates/matches/match_stats.html:226
+msgctxt "Match loser"
+msgid "Loser"
+msgstr "Verliezer"
+
+#: matches/templates/matches/match_detail.html:47
+msgctxt "First pick mark on match page"
+msgid "First pick"
+msgstr "Eerste keuze"
+
+#: matches/templates/matches/match_detail.html:48
+msgctxt "Banned heroes list on match page"
+msgid "Bans"
+msgstr "Verbannen"
+
+#: matches/templates/matches/match_detail.html:172
 msgid "Previous Matches"
 msgstr "Vorige wedstrijden"
 
-#: .\matches\templates\matches\match_detail.html:180
+#: matches/templates/matches/match_detail.html:178
 msgctxt "Watch VODs"
 msgid "Watch"
 msgstr "Zien"
 
-#: .\matches\templates\matches\match_detail.html:197
-#: .\matches\templates\matches\match_list.html:68
-#: .\matches\templates\matches\matches_inline.html:136
+#: matches/templates/matches/match_detail.html:195
+#: matches/templates/matches/match_list.html:68
+#: matches/templates/matches/matches_inline.html:137
 msgid "Replay"
 msgstr "Herhaling"
 
-#: .\matches\templates\matches\match_detail.html:211
+#: matches/templates/matches/match_detail.html:200
+msgid "Download"
+msgstr "Download"
+
+#: matches/templates/matches/match_detail.html:209
+#: matches/templates/matches/match_stats.html:418
 msgid "Statistics"
 msgstr "Statistieken"
 
-#: .\matches\templates\matches\match_detail.html:216
-msgid "Comments"
-msgstr "Opmerkingen"
+#: matches/templates/matches/match_list.html:5
+msgctxt "[SEO] Page title"
+msgid "Match List"
+msgstr "Wedstrijden lijst"
 
-#: .\matches\templates\matches\match_stats.html:3
+#: matches/templates/matches/match_list.html:61
+#: meta/templates/meta/include/meta_filter_form.html:34
+#: teams/templates/players/player_detail.html:115
+msgctxt "Form filter options"
+msgid "Options"
+msgstr "Opties"
+
+#: matches/templates/matches/match_list.html:63
+#: matches/templates/matches/matches_inline.html:132
+msgid "VOD"
+msgstr "VOD"
+
+#: matches/templates/matches/match_stats.html:3
 msgid "Level"
 msgstr "Level"
 
-#: .\matches\templates\matches\match_stats.html:4
-#: .\teams\templates\players\player_overview.html:24
+#: matches/templates/matches/match_stats.html:4
+#: teams/templatetags/ppr_tags.py:13
 msgid "Player Performance Rating"
 msgstr "Speler prestatie beoordeling"
 
-#: .\matches\templates\matches\match_stats.html:6
-#: .\pages\templates\mainpage.html:64
-#: .\teams\templates\players\players_transfers.html:65
+#: matches/templates/matches/match_stats.html:6
+#: meta/templates/meta/players.html:21 meta/templates/meta/players.html:61
+#: meta/templates/meta/players.html:103 meta/templates/meta/players.html:144
+#: pages/templates/mainpage.html:64
+#: teams/templates/players/players_transfers.html:65
 msgid "Player"
 msgstr "Speler"
 
-#: .\matches\templates\matches\match_stats.html:24
+#: matches/templates/matches/match_stats.html:134
+msgid "XP difference"
+msgstr "XP verschil"
+
+#: matches/templates/matches/match_stats.html:180
+msgctxt "Some hero killed by some heroes"
+msgid "killed by"
+msgstr "Gedood door"
+
+#: matches/templates/matches/match_stats.html:180
+msgid "Nexus forces"
+msgstr ""
+
+#: matches/templates/matches/match_stats.html:250
 msgctxt "Match time"
 msgid "Duration"
 msgstr "Lengte"
 
-#: .\matches\templates\matches\match_stats.html:67
+#: matches/templates/matches/match_stats.html:301
 msgid "Kills"
 msgstr "Kills"
 
-#: .\matches\templates\matches\match_stats.html:68
+#: matches/templates/matches/match_stats.html:302
 msgid "Assists"
 msgstr "Assists"
 
-#: .\matches\templates\matches\match_stats.html:69
+#: matches/templates/matches/match_stats.html:303
+#: teams/templates/players/player_overview.html:42
 msgid "Deaths"
 msgstr "Deaths"
 
-#: .\matches\templates\matches\match_stats.html:72
+#: matches/templates/matches/match_stats.html:304
+msgid "Siege Dmg"
+msgstr "Gebouwenschade"
+
+#: matches/templates/matches/match_stats.html:305
+msgid "Hero Dmg"
+msgstr "Heldenschade"
+
+#: matches/templates/matches/match_stats.html:306
 msgctxt "Hero role"
 msgid "Role"
 msgstr "Rol"
 
-#: .\matches\templates\matches\match_stats.html:73
+#: matches/templates/matches/match_stats.html:307
 msgctxt "Experience"
 msgid "Exp"
 msgstr "Exp"
 
-#: .\matches\templates\matches\match_stats.html:113
-#: .\teams\templates\players\player_overview.html:63
+#: matches/templates/matches/match_stats.html:347
 msgid ""
 "The rating hasn't been calculated yet or cannot be calculated due to the "
 "small amount of games on this hero."
@@ -342,7 +1284,7 @@ msgstr ""
 "De beoordeling is nog niet berekend of kan niet worden berekend vanwege de "
 "kleine hoeveelheid van de games van deze held."
 
-#: .\matches\templates\matches\match_stats.html:115
+#: matches/templates/matches/match_stats.html:349
 msgid ""
 "The rating is based on statistics of the player as compared to statistics of "
 "other players on the same hero in the same patches."
@@ -350,217 +1292,373 @@ msgstr ""
 "De beoordeling is gebaseerd op statistieken van de speler vergeleken met de "
 "statistieken van andere spelers op dezelfde held in dezelfde patch."
 
-#: .\matches\templates\matches\match_stats.html:178
-msgid "Stats"
-msgstr "Statistieken"
-
-#: .\matches\templates\matches\match_stats.html:178
+#: matches/templates/matches/match_stats.html:419
 msgctxt "Hero talents"
 msgid "Talents"
 msgstr "Talenten"
 
-#: .\matches\templates\matches\matches_inline.html:12
-#: .\matches\templates\tournaments\tournament_overview.html:79
-#: .\pages\templates\calendar_inline.html:57
+#: matches/templates/matches/match_stats.html:420
+msgid "Match Log"
+msgstr "Wedstrijd logboek"
+
+#: matches/templates/matches/matches_inline.html:12
+#: matches/templates/tournaments/tournament_overview.html:79
+#: pages/templates/calendar_inline.html:64
 msgctxt "Tournament stage"
 msgid "Stage"
 msgstr "Stadium"
 
-#: .\matches\templates\matches\matches_inline.html:15
+#: matches/templates/matches/matches_inline.html:15
 msgctxt "Tournament stage / Map"
 msgid "Stage / Map"
 msgstr "Stadium / Kaart"
 
-#: .\matches\templates\matches\matches_inline.html:18
+#: matches/templates/matches/matches_inline.html:18
 msgid "Tournament / Map"
 msgstr "Tournament / Kaart"
 
-#: .\matches\templates\matches\matches_inline.html:21
-msgid "Drafts"
-msgstr "Drafts"
-
-#: .\matches\templates\matches\matches_inline.html:23
+#: matches/templates/matches/matches_inline.html:23
 msgctxt "Spoilers switcher title"
 msgid "Spoilers"
 msgstr "Spoilers"
 
-#: .\matches\templates\matches\matches_inline.html:109
+#: matches/templates/matches/matches_inline.html:91
+#, python-format
+msgid "Game %(game_number)s"
+msgstr "Spel %(game_number)s"
+
+#: matches/templates/matches/matches_inline.html:108
+msgctxt "Tooltip for match score"
+msgid "Win"
+msgstr "Gewonnen"
+
+#: matches/templates/matches/matches_inline.html:109
+msgctxt "Tooltip for match score"
+msgid "Lose"
+msgstr "Verloren"
+
+#: matches/templates/matches/matches_inline.html:110
 msgctxt "W for Win"
 msgid "W"
 msgstr "G"
 
-#: .\matches\templates\matches\matches_inline.html:110
+#: matches/templates/matches/matches_inline.html:111
 msgctxt "L for Lose"
 msgid "L"
 msgstr "V"
 
-#: .\matches\templates\matches\matches_inline.html:121
+#: matches/templates/matches/matches_inline.html:122
 msgid "Show"
 msgstr "Verhul"
 
-#: .\matches\templates\matches\match_list.html:63
-#: .\matches\templates\matches\matches_inline.html:131
-msgid "VOD"
-msgstr "VOD"
-
-#: .\heroes\forms.py:23 .\maps\forms.py:22
-#: .\matches\templates\tournaments\tournament_detail.html:8
-#: .\matches\templates\tournaments\tournament_detail.html:20
-#: .\matches\templates\tournaments\tournament_list.html:8
-#: .\matches\templates\tournaments\tournament_list.html:13 .\meta\forms.py:23
-#: .\templates\base.html:204
-msgid "Tournaments"
-msgstr "Tournamenten"
-
-#: .\matches\templates\tournaments\tournament_detail.html:16
+#: matches/templates/tournaments/tournament_detail.html:16
 msgctxt "Tournament overview"
 msgid "Overview"
 msgstr "Overzicht"
 
-#: .\matches\templates\tournaments\tournament_list.html:17
+#: matches/templates/tournaments/tournament_list.html:5
+msgctxt "[SEO] Page title"
+msgid "Tournaments"
+msgstr "Tournamenten"
+
+#: matches/templates/tournaments/tournament_list.html:17
 msgid "Upcoming tournaments"
 msgstr "Aanstaande tournamenten"
 
-#: .\matches\templates\tournaments\tournament_list.html:22
+#: matches/templates/tournaments/tournament_list.html:22
 msgid "Ongoing tournaments"
 msgstr "Lopende tournamenten"
 
-#: .\matches\templates\tournaments\tournament_list.html:26
+#: matches/templates/tournaments/tournament_list.html:26
 msgid "Completed tournaments"
 msgstr "Voorgaande tournamenten"
 
-#: .\matches\forms.py:14
-#: .\matches\templates\tournaments\tournament_list_inline.html:11
-#: .\teams\forms.py:76 .\teams\templates\players\player_list.html:75
-msgid "Region"
-msgstr "Regio"
-
-#: .\matches\templates\tournaments\tournament_list_inline.html:12
-#: .\matches\templates\tournaments\tournament_overview.html:20
+#: matches/templates/tournaments/tournament_list_inline.html:12
+#: matches/templates/tournaments/tournament_overview.html:20
 msgid "Start Date"
 msgstr "Start datum"
 
-#: .\matches\templates\tournaments\tournament_list_inline.html:13
-#: .\matches\templates\tournaments\tournament_overview.html:24
+#: matches/templates/tournaments/tournament_list_inline.html:13
+#: matches/templates/tournaments/tournament_overview.html:24
 msgid "End Date"
 msgstr "Eind datam"
 
-#: .\matches\templates\tournaments\tournament_list_inline.html:14
+#: matches/templates/tournaments/tournament_list_inline.html:14
 msgctxt "Tournament name"
 msgid "Name"
 msgstr "Naam"
 
-#: .\matches\templates\tournaments\tournament_list_inline.html:15
-#: .\matches\templates\tournaments\tournament_overview.html:41
+#: matches/templates/tournaments/tournament_list_inline.html:15
+#: matches/templates/tournaments/tournament_overview.html:41
 msgid "Prize Pool"
 msgstr "Prijzenpot"
 
-#: .\matches\templates\tournaments\tournament_overview.html:6
+#: matches/templates/tournaments/tournament_overview.html:6
 msgctxt "Place in table of winners"
 msgid "Place"
 msgstr "Plaats"
 
-#: .\matches\templates\tournaments\tournament_overview.html:8
+#: matches/templates/tournaments/tournament_overview.html:8
 msgctxt "Tournament prize pool"
 msgid "Prize"
 msgstr "Prijs"
 
-#: .\maps\templates\maps\map_overview.html:8
-#: .\matches\templates\tournaments\tournament_overview.html:9
-#: .\meta\templates\meta\report.html:27
+#: matches/templates/tournaments/tournament_overview.html:9
+#: meta/templates/meta/heroes.html:32
 msgctxt "Hero tier"
 msgid "Tier"
 msgstr "Tier"
 
-#: .\matches\templates\tournaments\tournament_overview.html:16
+#: matches/templates/tournaments/tournament_overview.html:16
 msgid "General Information"
 msgstr "Algemene informatie"
 
-#: .\matches\templates\tournaments\tournament_overview.html:28
+#: matches/templates/tournaments/tournament_overview.html:28
 msgctxt "Tournament format"
 msgid "Format"
 msgstr "Systeem"
 
-#: .\matches\templates\tournaments\tournament_overview.html:33
+#: matches/templates/tournaments/tournament_overview.html:33
 msgctxt "The venue of the tournament"
 msgid "Location"
 msgstr "Locatie"
 
-#: .\teams\templates\players\player_overview.html:85
+#: matches/templates/tournaments/tournament_overview.html:45
+msgctxt "Tournament matches count"
 msgid "Total Matches"
 msgstr "Totaal wedstrijden"
 
-#: .\matches\templates\tournaments\tournament_overview.html:56
+#: matches/templates/tournaments/tournament_overview.html:48
+msgctxt "Tournament matches count (w/o qualifiers)"
+msgid "Main event matches count"
+msgstr "Hoofd evenement wedstrijden"
+
+#: matches/templates/tournaments/tournament_overview.html:48
+msgctxt "Tournament total matches count (w/ qualifiers)"
+msgid "Total matches count"
+msgstr "Totaal wedstrijden"
+
+#: matches/templates/tournaments/tournament_overview.html:56
 msgid "Description"
 msgstr "Beschrijving"
 
-#: .\matches\templates\tournaments\tournament_overview.html:130
+#: matches/templates/tournaments/tournament_overview.html:130
 msgid "Participating Teams"
 msgstr "Deelnemende teams"
 
-#: .\matches\templates\tournaments\tournament_overview.html:152
+#: matches/templates/tournaments/tournament_overview.html:152
 msgid "Main Event Statistics"
 msgstr "Hoofd evenement statistieken"
 
-#: .\teams\templates\players\player_overview.html:28
-#: .\teams\templates\teams\summary.html:8
-msgid "Most Played Heroes"
-msgstr "Meest gespeelde helden"
+#: meta/forms.py:26 teams/forms.py:64
+#, fuzzy
+#| msgid "All Heroes"
+msgid "All heroes"
+msgstr "Alle helden"
 
-#: .\matches\templates\tournaments\tournament_overview.html:164
-#: .\meta\templates\meta\report.html:72
-msgid "Most Banned Heroes"
-msgstr "Meest verbannen helden"
+#: meta/templates/meta/base.html:5
+msgctxt "[SEO] Page title"
+msgid "Meta"
+msgstr "Meta"
 
-#: .\meta\templates\meta\fp_comp_inline.html:5
-msgid "Top First Picks"
+#: meta/templates/meta/base.html:8 meta/templates/meta/base.html:29
+#: templates/base.html:210
+msgid "Meta"
+msgstr "Meta"
+
+#: meta/templates/meta/drafts.html:12
+#, fuzzy
+#| msgid "Top First Picks"
+msgid "Top First Bans"
 msgstr "Top eerste keuze"
 
-#: .\meta\templates\meta\fp_comp_inline.html:12
-msgid "First Pick Win Rate"
-msgstr "Eerste keuze winpercentage"
-
-#: .\meta\templates\meta\fp_comp_inline.html:41
+#: meta/templates/meta/drafts.html:49 meta/templates/meta/drafts.html:100
+#: meta/templates/meta/drafts.html:153 meta/templates/meta/drafts.html:204
+#: meta/templates/meta/maps.html:36
 msgid "Summary"
 msgstr "Samenvatting"
 
-#: .\meta\templates\meta\fp_comp_inline.html:52
+#: meta/templates/meta/drafts.html:63
+msgid "Top First Picks"
+msgstr "Top eerste keuze"
+
+#: meta/templates/meta/drafts.html:116
+msgid "Top Second Bans"
+msgstr ""
+
+#: meta/templates/meta/drafts.html:167
+msgid "Top Second Picks (two heroes)"
+msgstr ""
+
+#: meta/templates/meta/drafts.html:220
 msgid "Most Common Compositions"
 msgstr "Meest voorkomende samenstellingen"
 
-#: .\meta\templates\meta\fp_comp_inline.html:58
+#: meta/templates/meta/drafts.html:226
 msgctxt "Team composition"
 msgid "Composition"
 msgstr "Samenstelling"
 
-#: .\meta\templates\meta\fp_comp_inline.html:59
+#: meta/templates/meta/drafts.html:227
 msgid "Count"
 msgstr "Geteld"
 
-#: .\meta\templates\meta\report.html:8 .\meta\templates\meta\report.html:31
-#: .\templates\base.html:208
-msgid "Meta"
-msgstr "Meta"
+#: meta/templates/meta/heroes.html:12
+#, python-format
+msgid "Unpicked Heroes (%(unpicked_heroes_count)s of %(heroes_count)s)"
+msgstr ""
 
-#: .\maps\templates\maps\map_overview.html:45
-#: .\meta\templates\meta\report.html:56
-msgid "Warning!"
-msgstr "Waarschuwing!"
+#: meta/templates/meta/include/meta_filter_form.html:36
+#: teams/templates/players/player_detail.html:117
+msgid "Show only main stage matches (exclude qualifiers)"
+msgstr ""
 
-#: .\pages\templates\calendar_inline.html:44
+#: meta/templates/meta/maps.html:22
+msgid "Shortest"
+msgstr ""
+
+#: meta/templates/meta/maps.html:23
+msgid "Average"
+msgstr ""
+
+#: meta/templates/meta/maps.html:24
+msgid "Longest"
+msgstr ""
+
+#: meta/templates/meta/maps.html:25 teams/templates/teams/team_heroes.html:55
+msgctxt "Popular picks"
+msgid "Most Played Heroes"
+msgstr "Meest gespeelde helden"
+
+#: meta/templates/meta/maps.html:26
+#, fuzzy
+#| msgid "Most Banned Heroes"
+msgid "Most Banned"
+msgstr "Meest verbannen helden"
+
+#: meta/templates/meta/players.html:12
+msgid "Widest Hero Pool by Players"
+msgstr ""
+
+#: meta/templates/meta/players.html:52
+msgid "Smallest Hero Pool by Players"
+msgstr ""
+
+#: meta/templates/meta/players.html:94
+#, fuzzy
+#| msgctxt "[SEO] Page title"
+#| msgid "Compare Players"
+msgid "Top KDA Players"
+msgstr "Vergelijk spelers"
+
+#: meta/templates/meta/players.html:105 meta/templates/meta/teams.html:93
+#: teams/templates/players/player_heroes.html:41
+#: teams/templates/players/player_overview.html:24 teams/views.py:586
+#: teams/views.py:609
+msgid "KDA"
+msgstr "KDA"
+
+#: meta/templates/meta/players.html:134
+#, fuzzy
+#| msgid "Player Performance Rating"
+msgid "Players performance"
+msgstr "Speler prestatie beoordeling"
+
+#: meta/templates/meta/players.html:143 meta/templates/meta/teams.html:128
+#, fuzzy
+#| msgid "Player Performance Rating"
+msgid "Performance"
+msgstr "Speler prestatie beoordeling"
+
+#: meta/templates/meta/players.html:145 meta/templates/meta/teams.html:130
+msgid "Value"
+msgstr ""
+
+#: meta/templates/meta/teams.html:12
+msgid "Widest Hero Pool by Teams"
+msgstr ""
+
+#: meta/templates/meta/teams.html:47
+msgid "Smallest Hero Pool by Teams"
+msgstr ""
+
+#: meta/templates/meta/teams.html:84
+#, fuzzy
+#| msgid "To Team"
+msgid "Top KDA Teams"
+msgstr "Naar team"
+
+#: meta/templates/meta/teams.html:119
+msgid "Teams performance"
+msgstr ""
+
+#: meta/views.py:119
+msgid "No matches played in the selected period."
+msgstr "Geen wedstrijden gespeeld in geselecteerde periode."
+
+#: meta/views.py:222
+msgid "Warriors"
+msgstr "Warriors"
+
+#: meta/views.py:223
+msgid "Supports"
+msgstr "Supports"
+
+#: meta/views.py:224
+msgid "Assassins"
+msgstr "Assassins"
+
+#: meta/views.py:225
+msgid "Specialists"
+msgstr "Specialists"
+
+#: meta/views.py:259 meta/views.py:336
+msgid "The highest average number of takedowns"
+msgstr ""
+
+#: meta/views.py:270
+msgid "The highest average number of kills"
+msgstr ""
+
+#: meta/views.py:281
+msgid "The highest average number of assists"
+msgstr ""
+
+#: meta/views.py:292
+msgid "Player that spent the most time alive"
+msgstr ""
+
+#: meta/views.py:303
+msgid "Player that spent the most time dead"
+msgstr ""
+
+#: meta/views.py:347
+msgid "The highest average deaths"
+msgstr ""
+
+#: meta/views.py:358
+msgid "Team that spent the most time alive"
+msgstr ""
+
+#: meta/views.py:369
+msgid "Team that spent the most time dead"
+msgstr ""
+
+#: pages/templates/calendar.html:5
+msgctxt "[SEO] Page title"
 msgid "eSports Calendar"
-msgstr "eSport kalender"
+msgstr "eSports kalender"
 
-#: .\pages\templates\calendar.html:6
+#: pages/templates/calendar.html:6
 msgid "Upcoming and ongoing events."
 msgstr "Aanstaande en lopende evenementen"
 
-#: .\pages\templates\calendar_inline.html:33
+#: pages/templates/calendar_inline.html:40
 msgctxt "eSports Calendar tooltip for events start time"
 msgid "Your local time"
 msgstr "Jouw lokale tijd"
 
-#: .\pages\templates\calendar_inline.html:38
+#: pages/templates/calendar_inline.html:45
 msgid ""
 "If you are a Google Calendar user, copy the button link location, open "
 "Google Calendar, find 'Other Calendars', choose 'Add by URL' and paste the "
@@ -570,808 +1668,40 @@ msgstr ""
 "knop, open Google kalender, vind 'Andere kalenders', kies 'Toevoegen met "
 "URL' en plak de link in het URL veld."
 
-#: .\pages\templates\calendar_inline.html:41
+#: pages/templates/calendar_inline.html:48
 msgid "Subscribe to Calendar"
 msgstr "Abonneer op deze kalender"
 
-#: .\pages\templates\calendar_inline.html:56
+#: pages/templates/calendar_inline.html:51
+msgid "eSports Calendar"
+msgstr "eSport kalender"
+
+#: pages/templates/calendar_inline.html:63
 msgctxt "eSports Calendar"
 msgid "Tournament / Stream"
 msgstr "Tournament / Stream"
 
-#: .\pages\templates\calendar_inline.html:63
+#: pages/templates/calendar_inline.html:70
 msgctxt "Live events in eSports Calendar"
 msgid "Live"
 msgstr "Live"
 
-#: .\pages\templates\calendar_inline.html:111
+#: pages/templates/calendar_inline.html:116
 msgctxt "Upcoming events in eSports Calendar"
 msgid "Upcoming"
 msgstr "Aanstaand"
 
-#: .\pages\templates\calendar_inline.html:144
+#: pages/templates/calendar_inline.html:147
 msgid "Times displayed in your local time"
 msgstr "Tijden weergegeven in jouw lokale tijd"
 
-#: .\pages\templates\mainpage.html:7
+#: pages/templates/mainpage.html:7
 msgctxt "Greeting"
 msgid "Welcome to Master League"
 msgstr "Welkom bij Master League"
 
-#: .\pages\templates\mainpage.html:27
-msgid "Latest News"
-msgstr "Laatste nieuws"
-
-#: .\pages\templates\mainpage.html:34
-msgctxt "Latest News"
-msgid "Title"
-msgstr "Titel"
-
-#: .\pages\templates\mainpage.html:56
-msgid "Latest Transfers"
-msgstr "Laatste transfers"
-
-#: .\pages\templates\mainpage.html:65
-msgid "From Team"
-msgstr "Van team"
-
-#: .\pages\templates\mainpage.html:66
-msgid "To Team"
-msgstr "Naar team"
-
-#: .\pages\templates\mainpage.html:115
-#: .\teams\templates\teams\team_overview.html:104
-msgid "Latest Matches"
-msgstr "Laatste wedstrijden"
-
-#: .\search\templates\search\search.html:13
-msgctxt "Search results"
-msgid "Not found"
-msgstr "Niet gevonden"
-
-#: .\search\templates\search\search.html:17
-msgid "Search"
-msgstr "Zoek"
-
-#: .\search\templates\search\search.html:21
-#: .\teams\templates\teams\team_detail.html:8
-#: .\teams\templates\teams\team_detail.html:27
-#: .\teams\templates\teams\team_list.html:8
-#: .\teams\templates\teams\team_list.html:54 .\templates\base.html:77
-#: .\templates\base.html:202
-msgid "Teams"
-msgstr "Teams"
-
-#: .\search\templates\search\search.html:39
-#: .\teams\templates\players\player_detail.html:8
-#: .\teams\templates\players\player_detail.html:24
-#: .\teams\templates\players\player_list.html:5
-#: .\teams\templates\players\player_list.html:8
-#: .\teams\templates\players\player_list.html:26
-#: .\teams\templates\players\player_list.html:31
-#: .\teams\templates\players\players_compare.html:8
-#: .\teams\templates\players\players_compare.html:112
-#: .\teams\templates\players\players_compare.html:118
-#: .\teams\templates\players\players_transfers.html:8
-#: .\teams\templates\players\players_transfers.html:43
-#: .\teams\templates\players\players_transfers.html:49
-#: .\teams\templates\teams\team_detail.html:61
-#: .\teams\templates\teams\team_transfers.html:8 .\templates\base.html:92
-#: .\templates\base.html:203
-msgid "Players"
-msgstr "Spelers"
-
-#: .\teams\models.py:131 .\teams\templates\players\player_card_inline.html:10
-msgctxt "Player role"
-msgid "Warrior"
-msgstr "Warrior"
-
-#: .\teams\models.py:132 .\teams\templates\players\player_card_inline.html:12
-msgctxt "Player role"
-msgid "Support"
-msgstr "Support"
-
-#: .\teams\models.py:133 .\teams\templates\players\player_card_inline.html:14
-msgctxt "Player role"
-msgid "Assassin"
-msgstr "Assassin"
-
-#: .\teams\models.py:134 .\teams\templates\players\player_card_inline.html:16
-msgctxt "Player role"
-msgid "Flex"
-msgstr "Flex"
-
-#: .\teams\templates\players\player_detail.html:64
-#: .\teams\templates\players\player_overview.html:5
-msgctxt "Player overview"
-msgid "Overview"
-msgstr "Overzicht"
-
-#: .\teams\templates\players\player_list.html:34
-#: .\teams\templates\players\players_compare.html:121
-#: .\teams\templates\players\players_transfers.html:44
-#: .\teams\templates\players\players_transfers.html:52
-msgid "Transfers"
-msgstr "Transfers"
-
-#: .\teams\templates\players\player_list.html:37
-#: .\teams\templates\players\players_compare.html:113
-#: .\teams\templates\players\players_compare.html:124
-#: .\teams\templates\players\players_transfers.html:55
-msgctxt "Players compare"
-msgid "Compare"
-msgstr "Vergelijken"
-
-#: .\teams\templates\players\player_list.html:77
-#: .\teams\templates\teams\team_overview.html:19
-#: .\teams\templates\teams\team_transfers.html:17
-msgid "Nickname"
-msgstr "Bijnaam"
-
-#: .\teams\forms.py:81 .\teams\templates\players\player_list.html:79
-#: .\teams\templates\teams\team_overview.html:20
-#: .\teams\templates\teams\team_transfers.html:18
-msgctxt "Player role/team position"
-msgid "Position"
-msgstr "Positie"
-
-#: .\teams\templates\players\player_overview.html:102
-msgid "From date"
-msgstr "Van datum"
-
-#: .\teams\templates\players\player_overview.html:103
-msgid "To date"
-msgstr "Naar datum"
-
-#: .\teams\templates\players\players_compare.html:162
-msgctxt "Button label for players compare"
-msgid "Compare"
-msgstr "Vergelijk"
-
-#: .\teams\templates\players\players_compare.html:203
-msgid "KDA is calculated as (Kills + Assists) / (Deaths + 1)"
-msgstr "KDA is berekend als (Kills + Assists) / (Deaths + 1)"
-
-#: .\teams\templates\players\players_transfers.html:89
-msgid "Load more"
-msgstr "Meer laden"
-
-#: .\teams\templates\teams\summary.html:45
-msgid "Most Played Maps"
-msgstr "Meest gespeelde kaarten"
-
-#: .\teams\templates\teams\summary.html:82
-msgid "Summary Stats"
-msgstr "Samengevatte statistieken"
-
-#: .\teams\templates\teams\team_detail.html:60
-#: .\teams\templates\teams\team_overview.html:6
-msgctxt "Team overview"
-msgid "Overview"
-msgstr "Overzicht"
-
-#: .\teams\templates\teams\team_heroes.html:94
-msgid "Most Banned by %(team)s"
-msgstr "Meest verbannen door %(team)s"
-
-#: .\teams\templates\teams\team_heroes.html:131
-msgid "Most Banned by Opponents"
-msgstr "Meest verbannen door tegenstanders"
-
-#: .\teams\templates\teams\team_heroes.html:140
-msgid "Loss %%"
-msgstr "Verlies %%"
-
-#: .\teams\templates\teams\team_list.html:75
-msgctxt "Disbanded teams visibility switcher"
-msgid "Show disbanded"
-msgstr "Toon ontbonden"
-
-#: .\teams\templates\teams\team_list.html:80
-msgctxt "Search field tooltip"
-msgid "Start typing to search"
-msgstr "Begin met typen om te zoeken"
-
-#: .\teams\templates\teams\team_overview.html:11
-msgid "Player Roster"
-msgstr "Speler rooster"
-
-#: .\teams\templates\teams\team_overview.html:53
-msgid "Place"
-msgstr "Plaats"
-
-#: .\teams\templates\teams\team_overview.html:54
-msgid "Tournament"
-msgstr "Tournament"
-
-#: .\teams\templates\teams\team_overview.html:55
-msgid "Prize"
-msgstr "Prijs"
-
-#: .\templates\404.html:5
-msgctxt "404 page"
-msgid "Page Not Found"
-msgstr "Pagina niet gevonden"
-
-#: .\templates\404.html:11
-msgctxt "404 page"
-msgid "There's nothing here"
-msgstr "Hier is niks"
-
-#: .\templates\base.html:6
-msgid "eSport statistics"
-msgstr "eSport statistieken"
-
-#: .\templates\base.html:76
-msgctxt "Search results"
-msgid "Teams not found"
-msgstr "Geen teams gevonden"
-
-#: .\templates\base.html:91
-msgctxt "Search results"
-msgid "Players not found"
-msgstr "Geen spelers gevonden"
-
-#: .\templates\base.html:214
-msgctxt "Search field tooltip"
-msgid "Search"
-msgstr "Zoek"
-
-#: .\heroes\templates\heroes\stats_table_inline.html:11
-msgctxt "Wins count"
-msgid "Wins"
-msgstr "Gewonnen"
-
-#: .\heroes\templates\heroes\stats_table_inline.html:12
-msgctxt "Losses count"
-msgid "Losses"
-msgstr "Verloren"
-
-#: .\heroes\templates\heroes\stats_table_inline.html:13
-msgctxt "Bans count"
-msgid "Bans"
-msgstr "Verbannen"
-
-#: .\matches\templates\matches\match_detail.html:50
-msgctxt "Banned heroes list on match page"
-msgid "Bans"
-msgstr "Verbannen"
-
-#: .\teams\templates\teams\team_overview.html:44
-msgctxt "Team achievements in tournaments"
-msgid "Achievements"
-msgstr "Prestaties"
-
-#: .\matches\templates\tournaments\tournament_overview.html:45
-msgctxt "Tournament matches count"
-msgid "Total Matches"
-msgstr "Totaal wedstrijden"
-
-#: .\matches\templates\tournaments\tournament_overview.html:48
-msgctxt "Tournament matches count (w/o qualifiers)"
-msgid "Main event matches count"
-msgstr "Hoofd evenement wedstrijden"
-
-#: .\matches\templates\tournaments\tournament_overview.html:48
-msgctxt "Tournament total matches count (w/ qualifiers)"
-msgid "Total matches count"
-msgstr "Totaal wedstrijden"
-
-#: .\teams\templates\players\players_transfers.html:66
-msgctxt "Player transfer"
-msgid "From Team"
-msgstr "Van team"
-
-#: .\teams\templates\players\players_transfers.html:67
-msgctxt "Player transfer"
-msgid "To Team"
-msgstr "Naar team"
-
-#: .\teams\templates\teams\team_transfers.html:15
-msgctxt "Player transfer"
-msgid "From date"
-msgstr "Van datum"
-
-#: .\teams\templates\teams\team_transfers.html:16
-msgctxt "Player transfer"
-msgid "To date"
-msgstr "Naar datum"
-
-#: .\teams\templates\players\player_list.html:78
-msgctxt "Player real name"
-msgid "Name"
-msgstr "Naam"
-
-#: .\teams\templates\players\players_compare.html:5
-msgctxt "[SEO] Page title"
-msgid "Compare Players"
-msgstr "Vergelijk spelers"
-
-#: .\teams\templates\teams\summary.html:99
-msgctxt "First pick stats"
-msgid "First pick"
-msgstr "Eerste keuze"
-
-#: .\teams\templates\teams\summary.html:114
-msgctxt "Second pick stats"
-msgid "Second pick"
-msgstr "Tweede keuze"
-
-#: .\teams\templates\teams\summary.html:129
-msgctxt "Total team stats"
-msgid "Total"
-msgstr "Totaal"
-
-#: .\teams\templates\teams\team_overview.html:21
-msgctxt "Plays for team since date"
-msgid "Plays since"
-msgstr "Wedstrijden sinds"
-
-#: .\heroes\templates\heroes\hero_list.html:5
-msgctxt "[SEO] Page title"
-msgid "Heroes"
-msgstr "Helden"
-
-#: .\maps\templates\maps\map_list.html:5
-msgctxt "[SEO] Page title"
-msgid "Maps"
-msgstr "Kaarten"
-
-#: .\matches\templates\matches\match_list.html:5
-msgctxt "[SEO] Page title"
-msgid "Match List"
-msgstr "Wedstrijden lijst"
-
-#: .\matches\templates\tournaments\tournament_list.html:5
-msgctxt "[SEO] Page title"
-msgid "Tournaments"
-msgstr "Tournamenten"
-
-#: .\meta\templates\meta\report.html:5
-msgctxt "[SEO] Page title"
-msgid "Meta"
-msgstr "Meta"
-
-#: .\pages\templates\calendar.html:5
-msgctxt "[SEO] Page title"
-msgid "eSports Calendar"
-msgstr "eSports kalender"
-
-#: .\search\templates\search\search.html:5
-msgctxt "[SEO] Page title"
-msgid "Search results"
-msgstr "Zoek resultaten"
-
-#: .\teams\templates\players\player_detail.html:5
-msgctxt "[SEO] Page title"
-msgid "Player Statistics"
-msgstr "Speler statistieken"
-
-#: .\teams\templates\teams\team_transfers.html:5
-msgctxt "[SEO] Page title"
-msgid "Players"
-msgstr "Spelers"
-
-#: .\teams\templates\players\player_matches.html:5
-#: .\teams\templates\teams\team_matches.html:5
-msgctxt "[SEO] Page title"
-msgid "Latest Matches"
-msgstr "Laatste wedstrijden"
-
-#: .\teams\templates\players\players_transfers.html:5
-msgctxt "[SEO] Page title"
-msgid "Players transfers"
-msgstr "Speler transfers"
-
-#: .\teams\templates\teams\team_detail.html:5
-msgctxt "[SEO] Page title"
-msgid "Team Statistics"
-msgstr "Teamstatistieken"
-
-#: .\teams\templates\teams\team_heroes.html:5
-msgctxt "[SEO] Page title"
-msgid "Most Played Heroes"
-msgstr "Meest gespeelde helden"
-
-#: .\teams\templates\teams\team_list.html:5
-msgctxt "[SEO] Page title"
-msgid "Teams"
-msgstr "Teams"
-
-#: .\teams\templates\players\player_overview.html:95
-msgctxt "Player transfers history"
-msgid "Team history"
-msgstr "Team geschiedenis"
-
-#: .\matches\templates\matches\match_stats.html:70
-msgid "Siege Dmg"
-msgstr "Gebouwenschade"
-
-#: .\matches\templates\matches\match_stats.html:71
-msgid "Hero Dmg"
-msgstr "Heldenschade"
-
-#: .\heroes\templates\heroes\hero_overview.html:191
-msgctxt "Hero"
-msgid "Most Popular On Maps"
-msgstr "Meest gespeelde op kaarten"
-
-#: .\heroes\templates\heroes\hero_overview.html:231
-msgctxt "Hero"
-msgid "Most Played By Teams"
-msgstr "Meest gespeelde door teams"
-
-#: .\matches\templates\matches\match_detail.html:47
-msgctxt "Match winner"
-msgid "Winner"
-msgstr "Winnaar"
-
-#: .\matches\templates\matches\match_detail.html:48
-msgctxt "Match loser"
-msgid "Loser"
-msgstr "Verliezer"
-
-#: .\matches\templates\matches\match_detail.html:49
-msgctxt "First pick mark on match page"
-msgid "First pick"
-msgstr "Eerste keuze"
-
-#: .\maps\templates\maps\map_overview.html:46
-msgid "No matches played in the selected period."
-msgstr "Geen wedstrijden gespeeld in geselecteerde periode."
-
-#: .\teams\templates\players\players_compare.html:181
-msgctxt "Players compare page"
-msgid "All Time Avg. Stats"
-msgstr "Gemiddelde statistieken"
-
-#: .\matches\templates\matches\matches_inline.html:107
-msgctxt "Tooltip for match score"
-msgid "Win"
-msgstr "Gewonnen"
-
-#: .\matches\templates\matches\matches_inline.html:108
-msgctxt "Tooltip for match score"
-msgid "Lose"
-msgstr "Verloren"
-
-msgid "Europe"
-msgstr "Europa"
-
-#: .\teams\templates\players\player_overview.html:65
-msgid ""
-"The rating is based on statistics of the player as compared to statistics of "
-"other players on the same hero in the same patches.<br /><br />Computed by "
-"analyzing <strong>%(ppr_match_count)s matches</strong> with replays out of "
-"<strong>%(match_count)s matches</strong> in total."
-msgstr ""
-"De beoordeling is gebaseerd op statistieken van de speler vergeleken met de "
-"statistieken van andere spelers met dezelfde held in dezelfde patch. <br /"
-"><br />Berekend door analyse <strong>%(ppr_match_count)s wedstrijden</"
-"strong> met herhalingen van <strong>%(match_count)s wedstrijden</strong> "
-"totaal."
-
-msgid "North America"
-msgstr "Noord Amerika"
-
-msgid "South Korea"
-msgstr "Zuid Korea"
-
-msgid "China"
-msgstr "China"
-
-msgid "Taiwan"
-msgstr "Taiwan"
-
-msgid "Southeast Asia"
-msgstr "Zuid-oost Azië"
-
-msgid "Latin America"
-msgstr "Latijns Amerika"
-
-msgid "Australia & New Zealand"
-msgstr "Australië & nieuw Zeeland"
-
-#: .\teams\forms.py:70
-msgctxt "Player w/o team"
-msgid "Free Agent"
-msgstr "Vrije agent"
-
-#: .\heroes\forms.py:15 .\maps\forms.py:15 .\matches\forms.py:15
-#: .\meta\forms.py:15 .\teams\forms.py:77
-msgid "All Regions"
-msgstr "Alle regio's"
-
-#: .\teams\forms.py:69
-msgctxt "Form filter, any team choice"
-msgid "Any"
-msgstr "Elke"
-
-#: .\teams\forms.py:74
-msgctxt "Form filter, any player position choice"
-msgid "Any"
-msgstr "Elke"
-
-#: .\matches\templates\tournaments\tournament_overview.html:163
-#: .\meta\templates\meta\report.html:71
-#: .\teams\templates\teams\team_heroes.html:55
-msgctxt "Popular picks"
-msgid "Most Played Heroes"
-msgstr "Meest gespeelde helden"
-
-msgid "Abathur"
-msgstr "Abathur"
-
-msgid "Alarak"
-msgstr "Alarak"
-
-msgid "Anub'arak"
-msgstr "Anub'arak"
-
-msgid "Artanis"
-msgstr "Artanis"
-
-msgid "Arthas"
-msgstr "Arthas"
-
-msgid "Auriel"
-msgstr "Auriel"
-
-msgid "Azmodan"
-msgstr "Azmodan"
-
-msgid "Brightwing"
-msgstr "Brightwing"
-
-msgid "Chen"
-msgstr "Chen"
-
-msgid "Cho"
-msgstr "Cho"
-
-msgid "Chromie"
-msgstr "Chromie"
-
-msgid "Dehaka"
-msgstr "Dehaka"
-
-msgid "Diablo"
-msgstr "Diablo"
-
-msgid "E.T.C."
-msgstr "E.T.C."
-
-msgid "Falstad"
-msgstr "Falstad"
-
-msgid "Gall"
-msgstr "Gall"
-
-msgid "Gazlowe"
-msgstr "Gazlowe"
-
-msgid "Greymane"
-msgstr "Greymane"
-
-msgid "Gul'dan"
-msgstr "Gul'dan"
-
-msgid "Illidan"
-msgstr "Illidan"
-
-msgid "Jaina"
-msgstr "Jaina"
-
-msgid "Johanna"
-msgstr "Johanna"
-
-msgid "Kael'thas"
-msgstr "Kael'thas"
-
-msgid "Kerrigan"
-msgstr "Kerrigan"
-
-msgid "Kharazim"
-msgstr "Kharazim"
-
-msgid "Leoric"
-msgstr "Leoric"
-
-msgid "Li Li"
-msgstr "Li Li"
-
-msgid "Li-Ming"
-msgstr "Li-Ming"
-
-msgid "Lt. Morales"
-msgstr "Lt. Morales"
-
-msgid "Lunara"
-msgstr "Lunara"
-
-msgid "Malfurion"
-msgstr "Malfurion"
-
-msgid "Medivh"
-msgstr "Medivh"
-
-msgid "Muradin"
-msgstr "Muradin"
-
-msgid "Murky"
-msgstr "Murky"
-
-msgid "Nazeebo"
-msgstr "Nazeebo"
-
-msgid "Nova"
-msgstr "Nova"
-
-msgid "Raynor"
-msgstr "Raynor"
-
-msgid "Rehgar"
-msgstr "Rehgar"
-
-msgid "Rexxar"
-msgstr "Rexxar"
-
-msgid "Sgt. Hammer"
-msgstr "Sgt. Hammer"
-
-msgid "Sonya"
-msgstr "Sonya"
-
-msgid "Stitches"
-msgstr "Stitches"
-
-msgid "Sylvanas"
-msgstr "Sylvanas"
-
-msgid "Tassadar"
-msgstr "Tassadar"
-
-msgid "The Butcher"
-msgstr "The Butcher"
-
-msgid "The Lost Vikings"
-msgstr "The Lost Vikings"
-
-msgid "Thrall"
-msgstr "Thrall"
-
-msgid "Tracer"
-msgstr "Tracer"
-
-msgid "Tychus"
-msgstr "Tychus"
-
-msgid "Tyrael"
-msgstr "Tyrael"
-
-msgid "Tyrande"
-msgstr "Tyrande"
-
-msgid "Uther"
-msgstr "Uther"
-
-msgid "Valla"
-msgstr "Valla"
-
-msgid "Xul"
-msgstr "Xul"
-
-msgid "Zagara"
-msgstr "Zagara"
-
-msgid "Zarya"
-msgstr "Zarya"
-
-msgid "Zeratul"
-msgstr "Zeratul"
-
-msgid "Samuro"
-msgstr "Samuro"
-
-msgid "Battlefield of Eternity"
-msgstr "Battlefield of Eternity"
-
-msgid "Blackheart’s Bay"
-msgstr "Blackheart’s Bay"
-
-msgid "Braxis Holdout"
-msgstr "Braxis Holdout"
-
-msgid "Cursed Hollow"
-msgstr "Cursed Hollow"
-
-msgid "Dragon Shire"
-msgstr "Dragon Shire"
-
-msgid "Garden of Terror"
-msgstr "Garden of Terror"
-
-msgid "Haunted Mines"
-msgstr "Haunted Mines"
-
-msgid "Infernal Shrines"
-msgstr "Infernal Shrines"
-
-msgid "Sky Temple"
-msgstr "Sky Temple"
-
-msgid "Tomb of the Spider Queen"
-msgstr "Tomb of the Spider Queen"
-
-msgid "Towers of Doom"
-msgstr "Towers of Doom"
-
-msgid "Warhead Junction"
-msgstr "Warhead Junction"
-
-#: .\matches\forms.py:17 .\teams\forms.py:14 .\teams\forms.py:39
-#: .\teams\forms.py:54
-msgid "Patch"
-msgstr "Patch"
-
-#: .\maps\views.py:125 .\matches\forms.py:24 .\matches\views.py:199
-#: .\meta\views.py:111 .\teams\forms.py:16 .\teams\forms.py:43
-#: .\teams\forms.py:58
-msgid "All Heroes"
-msgstr "Alle helden"
-
-#: .\matches\forms.py:21 .\teams\forms.py:19 .\teams\forms.py:46
-#: .\teams\forms.py:61
-msgid "All Maps"
-msgstr "Alle kaarten"
-
-msgid "Samuro Patch"
-msgstr "Samuro Patch"
-
-msgid "Alarak Patch"
-msgstr "Alarak Patch"
-
-msgid "Auriel Patch"
-msgstr "Auriel Patch"
-
-msgid "Gul'dan Patch"
-msgstr "Gul'dan Patch"
-
-msgid "Medivh Patch"
-msgstr "Medivh Patch"
-
-msgid "Chromie Patch"
-msgstr "Chromie Patch"
-
-msgid "Tracer Patch"
-msgstr "Tracer Patch"
-
-msgid "Dehaka Patch"
-msgstr "Dehaka Patch"
-
-msgid "Xul Patch"
-msgstr "Xul Patch"
-
-msgid "Li-Ming Patch"
-msgstr "Li-Ming Patch"
-
-msgid "Greymane Patch"
-msgstr "Greymane Patch"
-
-msgid "Lunara Patch"
-msgstr "Lunara Patch"
-
-#: .\matches\forms.py:18 .\teams\forms.py:40 .\teams\forms.py:55
-#: .\teams\views.py:98
-msgctxt "All patches"
-msgid "All Time"
-msgstr "Alle patches"
-
-#: .\teams\forms.py:26 .\teams\views.py:104
-msgid "Current Roster"
-msgstr "Huidige rooster"
-
-#: .\pages\templates\mainpage.html:13
+#: pages/templates/mainpage.html:13
+#, python-format
 msgctxt "Greeting"
 msgid ""
 "Here you can find the latest results, VODs and replays of <a href=\"http://"
@@ -1393,432 +1723,612 @@ msgstr ""
 "\"><strong>%(player_count)s</strong></a> professionele spelers in onze "
 "database."
 
-#: .\teams\forms.py:49
+#: pages/templates/mainpage.html:27
+msgid "Latest News"
+msgstr "Laatste nieuws"
+
+#: pages/templates/mainpage.html:34
+msgctxt "Latest News"
+msgid "Title"
+msgstr "Titel"
+
+#: pages/templates/mainpage.html:56
+msgid "Latest Transfers"
+msgstr "Laatste transfers"
+
+#: pages/templates/mainpage.html:65
+msgid "From Team"
+msgstr "Van team"
+
+#: pages/templates/mainpage.html:66
+msgid "To Team"
+msgstr "Naar team"
+
+#: pages/templates/mainpage.html:115
+#: teams/templates/players/player_matches.html:5
+#: teams/templates/teams/team_overview.html:104
+msgid "Latest Matches"
+msgstr "Laatste wedstrijden"
+
+#: search/templates/search/search.html:5
+msgctxt "[SEO] Page title"
+msgid "Search results"
+msgstr "Zoek resultaten"
+
+#: search/templates/search/search.html:13
+msgctxt "Search results"
+msgid "Not found"
+msgstr "Niet gevonden"
+
+#: search/templates/search/search.html:17
+msgid "Search"
+msgstr "Zoek"
+
+#: teams/forms.py:27 teams/views.py:104
+msgid "Current Roster"
+msgstr "Huidige rooster"
+
+#: teams/forms.py:50
 msgid "Any Team"
 msgstr "Elk team"
 
-#: .\teams\forms.py:86
+#: teams/forms.py:61
+#, fuzzy
+#| msgid "All Maps"
+msgid "All maps"
+msgstr "Alle kaarten"
+
+#: teams/forms.py:79
+msgctxt "Form filter, any team choice"
+msgid "Any"
+msgstr "Elke"
+
+#: teams/forms.py:80
+msgctxt "Player w/o team"
+msgid "Free Agent"
+msgstr "Vrije agent"
+
+#: teams/forms.py:84
+msgctxt "Form filter, any player position choice"
+msgid "Any"
+msgstr "Elke"
+
+#: teams/forms.py:91 teams/templates/players/player_list.html:79
+#: teams/templates/teams/team_overview.html:20
+#: teams/templates/teams/team_transfers.html:18
+msgctxt "Player role/team position"
+msgid "Position"
+msgstr "Positie"
+
+#: teams/forms.py:96
 msgid "First Player"
 msgstr "Eerste speler"
 
-#: .\teams\forms.py:87
+#: teams/forms.py:97
 msgid "Second Player"
 msgstr "Tweede speler"
 
-#: .\teams\templates\players\players_compare.html:33
-msgid "Currently Selected"
-msgstr "Huidig geselecteerd"
-
-#: .\teams\forms.py:91 .\teams\templates\players\players_compare.html:34
+#: teams/forms.py:101 teams/templates/players/players_compare.html:35
 msgid "Select and begin typing"
 msgstr "Selecteer en begin met typen"
 
-#: .\teams\templates\players\players_compare.html:35
+#: teams/models.py:131 teams/templates/players/player_card_inline.html:10
+msgctxt "Player role"
+msgid "Warrior"
+msgstr "Warrior"
+
+#: teams/models.py:132 teams/templates/players/player_card_inline.html:12
+msgctxt "Player role"
+msgid "Support"
+msgstr "Support"
+
+#: teams/models.py:133 teams/templates/players/player_card_inline.html:14
+msgctxt "Player role"
+msgid "Assassin"
+msgstr "Assassin"
+
+#: teams/models.py:134 teams/templates/players/player_card_inline.html:16
+msgctxt "Player role"
+msgid "Flex"
+msgstr "Flex"
+
+#: teams/templates/players/player_detail.html:79
+#, fuzzy
+#| msgctxt "Hero overview"
+#| msgid "Overview"
+msgid "Overview"
+msgstr "Overzicht"
+
+#: teams/templates/players/player_heroes.html:42
+#, fuzzy
+#| msgctxt "Live events in eSports Calendar"
+#| msgid "Live"
+msgid "Live Time"
+msgstr "Live"
+
+#: teams/templates/players/player_heroes.html:43
+#, fuzzy
+#| msgid "Hero Dmg"
+msgid "Hero dmg"
+msgstr "Heldenschade"
+
+#: teams/templates/players/player_heroes.html:44
+#, fuzzy
+#| msgid "Siege Dmg"
+msgid "Siege dmg"
+msgstr "Gebouwenschade"
+
+#: teams/templates/players/player_heroes.html:45
+#, fuzzy
+#| msgctxt "Hero role"
+#| msgid "Role"
+msgid "Role"
+msgstr "Rol"
+
+#: teams/templates/players/player_heroes.html:46
+#: teams/templates/players/player_overview.html:86
+#, fuzzy
+#| msgid "Experience / Min"
+msgid "Experience"
+msgstr "Experience / Min"
+
+#: teams/templates/players/player_heroes.html:47
+msgid "PPR"
+msgstr ""
+
+#: teams/templates/players/player_list.html:34
+#: teams/templates/players/players_compare.html:122
+#: teams/templates/players/players_transfers.html:44
+#: teams/templates/players/players_transfers.html:52
+msgid "Transfers"
+msgstr "Transfers"
+
+#: teams/templates/players/player_list.html:37
+#: teams/templates/players/players_compare.html:114
+#: teams/templates/players/players_compare.html:125
+#: teams/templates/players/players_transfers.html:55
+msgctxt "Players compare"
+msgid "Compare"
+msgstr "Vergelijken"
+
+#: teams/templates/players/player_list.html:78
+msgctxt "Player real name"
+msgid "Name"
+msgstr "Naam"
+
+#: teams/templates/players/player_overview.html:5
+#: teams/templates/players/player_overview.html:11
+#, fuzzy
+#| msgctxt "[SEO] Page title"
+#| msgid "Player Statistics"
+msgid "Player Statistics"
+msgstr "Speler statistieken"
+
+#: teams/templates/players/player_overview.html:18
+#, fuzzy
+#| msgid "Player"
+msgid "Player Avg"
+msgstr "Speler"
+
+#: teams/templates/players/player_overview.html:19
+#, fuzzy
+#| msgid "Team"
+msgid "Team Avg"
+msgstr "Team"
+
+#: teams/templates/players/player_overview.html:33
+msgid "Takedowns"
+msgstr ""
+
+#: teams/templates/players/player_overview.html:51
+#, fuzzy
+#| msgid "Participating Teams"
+msgid "Kill Participation"
+msgstr "Deelnemende teams"
+
+#: teams/templates/players/player_overview.html:59
+msgid "Time Dead"
+msgstr ""
+
+#: teams/templates/players/player_overview.html:68
+#, fuzzy
+#| msgid "Hero Dmg"
+msgid "Hero Damage"
+msgstr "Heldenschade"
+
+#: teams/templates/players/player_overview.html:77
+#, fuzzy
+#| msgid "Siege Dmg"
+msgid "Siege Damage"
+msgstr "Gebouwenschade"
+
+#: teams/templates/players/player_overview.html:95
+msgid "Average Match Time"
+msgstr ""
+
+#: teams/templates/players/player_overview.html:102 teams/views.py:617
+msgid "Analyzed Replays"
+msgstr "Geanalyseerde herhalingen"
+
+#: teams/templates/players/player_overview.html:102
+msgid "Total Matches"
+msgstr "Totaal wedstrijden"
+
+#: teams/templates/players/player_overview.html:110
+msgctxt "Player transfers history"
+msgid "Team history"
+msgstr "Team geschiedenis"
+
+#: teams/templates/players/player_overview.html:117
+msgid "From date"
+msgstr "Van datum"
+
+#: teams/templates/players/player_overview.html:118
+msgid "To date"
+msgstr "Naar datum"
+
+#: teams/templates/players/players_compare.html:5
+msgctxt "[SEO] Page title"
+msgid "Compare Players"
+msgstr "Vergelijk spelers"
+
+#: teams/templates/players/players_compare.html:34
+msgid "Currently Selected"
+msgstr "Huidig geselecteerd"
+
+#: teams/templates/players/players_compare.html:36
 msgid "Unable to retrieve results"
 msgstr "Niet mogelijk om resultaten op te halen"
 
-#: .\teams\templates\players\players_compare.html:36
+#: teams/templates/players/players_compare.html:37
 msgid "Search..."
 msgstr "Zoek..."
 
-#: .\teams\templates\players\players_compare.html:37
+#: teams/templates/players/players_compare.html:38
 msgid "Start typing a search query"
 msgstr "Type een zoekterm"
 
-#: .\teams\templates\players\players_compare.html:38
+#: teams/templates/players/players_compare.html:39
 msgid "No Results"
 msgstr "Geen resultaten"
 
-#: .\teams\templates\players\players_compare.html:39
+#: teams/templates/players/players_compare.html:40
 msgid "Searching..."
 msgstr "Zoeken..."
 
-#: .\teams\templates\players\players_compare.html:204
+#: teams/templates/players/players_compare.html:163
+msgctxt "Button label for players compare"
+msgid "Compare"
+msgstr "Vergelijk"
+
+#: teams/templates/players/players_compare.html:182
+msgctxt "Players compare page"
+msgid "All Time Avg. Stats"
+msgstr "Gemiddelde statistieken"
+
+#: teams/templates/players/players_compare.html:204
+msgid "KDA is calculated as (Kills + Assists) / (Deaths + 1)"
+msgstr "KDA is berekend als (Kills + Assists) / (Deaths + 1)"
+
+#: teams/templates/players/players_compare.html:205
 msgid "Lifetime is calculated as (Match time - Time spend dead) / Match time"
 msgstr ""
 "Levensduur is uitgerekend als (Wedstrijdlengte - Tijd dood) / Wedstrijdlengte"
 
-#: .\teams\views.py:486 .\teams\views.py:509
-msgid "KDA"
-msgstr "KDA"
+#: teams/templates/players/players_transfers.html:5
+msgctxt "[SEO] Page title"
+msgid "Players transfers"
+msgstr "Speler transfers"
 
-#: .\teams\views.py:487
+#: teams/templates/players/players_transfers.html:66
+msgctxt "Player transfer"
+msgid "From Team"
+msgstr "Van team"
+
+#: teams/templates/players/players_transfers.html:67
+msgctxt "Player transfer"
+msgid "To Team"
+msgstr "Naar team"
+
+#: teams/templates/players/players_transfers.html:89
+msgid "Load more"
+msgstr "Meer laden"
+
+#: teams/templates/teams/summary.html:8
+msgid "Most Played Heroes"
+msgstr "Meest gespeelde helden"
+
+#: teams/templates/teams/summary.html:45
+msgid "Most Played Maps"
+msgstr "Meest gespeelde kaarten"
+
+#: teams/templates/teams/summary.html:82
+msgid "Summary Stats"
+msgstr "Samengevatte statistieken"
+
+#: teams/templates/teams/summary.html:99
+msgctxt "First pick stats"
+msgid "First pick"
+msgstr "Eerste keuze"
+
+#: teams/templates/teams/summary.html:114
+msgctxt "Second pick stats"
+msgid "Second pick"
+msgstr "Tweede keuze"
+
+#: teams/templates/teams/summary.html:129
+msgctxt "Total team stats"
+msgid "Total"
+msgstr "Totaal"
+
+#: teams/templates/teams/team_detail.html:5
+msgctxt "[SEO] Page title"
+msgid "Team Statistics"
+msgstr "Teamstatistieken"
+
+#: teams/templates/teams/team_detail.html:23
+msgid "Losses"
+msgstr "Verliezen"
+
+#: teams/templates/teams/team_detail.html:60
+#: teams/templates/teams/team_overview.html:6
+msgctxt "Team overview"
+msgid "Overview"
+msgstr "Overzicht"
+
+#: teams/templates/teams/team_heroes.html:5
+msgctxt "[SEO] Page title"
+msgid "Most Played Heroes"
+msgstr "Meest gespeelde helden"
+
+#: teams/templates/teams/team_heroes.html:94
+#, python-format
+msgid "Most Banned by %(team)s"
+msgstr "Meest verbannen door %(team)s"
+
+#: teams/templates/teams/team_heroes.html:131
+msgid "Most Banned by Opponents"
+msgstr "Meest verbannen door tegenstanders"
+
+#: teams/templates/teams/team_heroes.html:140
+#, python-format
+msgid "Loss %%"
+msgstr "Verlies %%"
+
+#: teams/templates/teams/team_list.html:5
+msgctxt "[SEO] Page title"
+msgid "Teams"
+msgstr "Teams"
+
+#: teams/templates/teams/team_list.html:75
+msgctxt "Disbanded teams visibility switcher"
+msgid "Show disbanded"
+msgstr "Toon ontbonden"
+
+#: teams/templates/teams/team_list.html:80
+msgctxt "Search field tooltip"
+msgid "Start typing to search"
+msgstr "Begin met typen om te zoeken"
+
+#: teams/templates/teams/team_matches.html:5
+msgctxt "[SEO] Page title"
+msgid "Latest Matches"
+msgstr "Laatste wedstrijden"
+
+#: teams/templates/teams/team_overview.html:11
+msgid "Player Roster"
+msgstr "Speler rooster"
+
+#: teams/templates/teams/team_overview.html:21
+msgctxt "Plays for team since date"
+msgid "Plays since"
+msgstr "Wedstrijden sinds"
+
+#: teams/templates/teams/team_overview.html:44
+msgctxt "Team achievements in tournaments"
+msgid "Achievements"
+msgstr "Prestaties"
+
+#: teams/templates/teams/team_overview.html:53
+msgid "Place"
+msgstr "Plaats"
+
+#: teams/templates/teams/team_overview.html:54
+msgid "Tournament"
+msgstr "Tournament"
+
+#: teams/templates/teams/team_overview.html:55
+msgid "Prize"
+msgstr "Prijs"
+
+#: teams/templates/teams/team_transfers.html:5
+msgctxt "[SEO] Page title"
+msgid "Players"
+msgstr "Spelers"
+
+#: teams/templates/teams/team_transfers.html:15
+msgctxt "Player transfer"
+msgid "From date"
+msgstr "Van datum"
+
+#: teams/templates/teams/team_transfers.html:16
+msgctxt "Player transfer"
+msgid "To date"
+msgstr "Naar datum"
+
+#: teams/templatetags/ppr_tags.py:14
+#, fuzzy
+#| msgid ""
+#| "The rating is based on statistics of the player as compared to statistics "
+#| "of other players on the same hero in the same patches."
+msgid ""
+"The rating is based on statistics of the player as compared to statistics of "
+"other players on the "
+msgstr ""
+"De beoordeling is gebaseerd op statistieken van de speler vergeleken met de "
+"statistieken van andere spelers op dezelfde held in dezelfde patch."
+
+#: teams/views.py:587
 msgctxt "Hero damage"
 msgid "Hero"
 msgstr "Hero"
 
-#: .\teams\views.py:488
+#: teams/views.py:588
 msgctxt "Siege damage"
 msgid "Siege"
 msgstr "Siege"
 
-#: .\teams\views.py:489
+#: teams/views.py:589
 msgctxt "Amount of time player was not dead during the match"
 msgid "Lifetime"
 msgstr "Levensduur"
 
-#: .\teams\views.py:490
+#: teams/views.py:590
 msgctxt "Crowd control duration"
 msgid "CC"
 msgstr "CC"
 
-#: .\teams\views.py:491
-msgctxt "Expirience"
+#: teams/views.py:591
+#, fuzzy
+#| msgctxt "Expirience"
+#| msgid "XP"
+msgctxt "Experience"
 msgid "XP"
 msgstr "XP"
 
-#: .\teams\views.py:492
+#: teams/views.py:592
 msgctxt "Healing amount (for healers) or Damage taken (for warriors)"
 msgid "Role"
 msgstr "Rol"
 
-#: .\teams\views.py:510
+#: teams/views.py:610
 msgctxt "Amount of time player was not dead during the match"
 msgid "Lifetime / Min"
 msgstr "Levensduur / Min"
 
-#: .\teams\views.py:511
+#: teams/views.py:611
 msgid "Siege Damage / Min"
 msgstr "Gebouwenschade / Min"
 
-#: .\teams\views.py:512
+#: teams/views.py:612
 msgid "Hero Damage / Min"
 msgstr "Heldenschade / Min"
 
-#: .\teams\views.py:513
+#: teams/views.py:613
 msgid "Healing / Min"
 msgstr "Genezen / Min"
 
-#: .\teams\views.py:514
+#: teams/views.py:614
 msgid "Damage Taken / Min"
 msgstr "Schade genomen / Min"
 
-#: .\teams\views.py:515
+#: teams/views.py:615
 msgid "CC Duration / Min"
 msgstr "CC lengte / Min"
 
-#: .\teams\views.py:517
-msgid "Analyzed Replays"
-msgstr "Geanalyseerde herhalingen"
-
-#: .\matches\templates\matches\match_list.html:61
-msgctxt "Form filter options"
-msgid "Options"
-msgstr "Opties"
-
-#: .\matches\templates\matches\match_detail.html:202
-msgid "Download"
-msgstr "Download"
-
-#: .\heroes\forms.py:12 .\maps\forms.py:12 .\meta\forms.py:12
-msgid "Regions"
-msgstr "Regio's"
-
-#: .\heroes\forms.py:17 .\maps\forms.py:17 .\meta\forms.py:17
-msgid "Patches"
-msgstr "Patches"
-
-#: .\heroes\forms.py:20 .\maps\forms.py:20 .\meta\forms.py:20
-#: .\teams\forms.py:24
-msgid "All patches"
-msgstr "Alle patches"
-
-#: .\heroes\forms.py:26 .\maps\forms.py:25 .\meta\forms.py:26
-msgid "All tournaments"
-msgstr "Alle tournamenten"
-
-#: .\maps\views.py:126 .\matches\views.py:200 .\meta\views.py:112
-msgid "Warriors"
-msgstr "Warriors"
-
-#: .\maps\views.py:127 .\matches\views.py:201 .\meta\views.py:113
-msgid "Supports"
-msgstr "Supports"
-
-#: .\maps\views.py:128 .\matches\views.py:202 .\meta\views.py:114
-msgid "Assassins"
-msgstr "Assassins"
-
-#: .\maps\views.py:129 .\matches\views.py:203 .\meta\views.py:115
-msgid "Specialists"
-msgstr "Specialists"
-
-#: .\heroes\views.py:195 .\heroes\views.py:196
-msgctxt "minutes"
-msgid "mins"
-msgstr "min"
-
-#: .\heroes\templates\heroes\hero_detail.html:5
-#: .\maps\templates\maps\map_detail.html:5
-msgid "statistics"
-msgstr "Statistieken"
-
-#: .\templates\base.html:260
-msgid "Help us localize the site!"
-msgstr "Help ons met vertalen van de site!"
-
-msgid "Final"
-msgstr "Finale"
-
-msgid "Grand Final"
-msgstr "Grote finale"
-
-msgid "Losers Final"
-msgstr "Verliezersfinale"
-
-msgid "Winners Final"
-msgstr "Winnaarsfinale"
-
-msgid "1/2 Final"
-msgstr "halve finale"
-
-msgid "1/2 Final LB"
-msgstr "halve finale LB"
-
-msgid "1/2 Final WB"
-msgstr "halve finale WB"
-
-msgid "1/4 Final WB"
-msgstr "kwartfinale WB"
-
-msgid "1/4 Final LB"
-msgstr "kwartfinale LB"
-
-msgid "1/8 Final LB"
-msgstr "1/8ste finale LB"
-
-msgid "Showmatch"
-msgstr "Show wedstrijd"
-
-msgid "Tiebreak"
-msgstr "Tiebreak"
-
-msgid "Zarya Patch"
-msgstr "Zarya Patch"
-
-#: .\matches\templates\matches\matches_inline.html:90
-msgid "Game %(game_number)s"
-msgstr "Spel %(game_number)s"
-
-#: .\teams\views.py:516
+#: teams/views.py:616
 msgid "Experience / Min"
 msgstr "Experience / Min"
 
-msgid ""
-"Too few matches played (%(total_match_count)s of 50 minimum required) in the "
-"selected period to generate a reliable report."
-msgstr ""
-"Te weinig wedstrijden gespeeld (%(total_match_count)s van 50 minimum "
-"verplicht) in de geselecteerde periode voor een betrouwbaar resultaat."
+#: templates/404.html:6
+msgctxt "404 page"
+msgid "Page Not Found"
+msgstr "Pagina niet gevonden"
 
-msgid "Varian Patch"
-msgstr "Varian Patch"
+#: templates/404.html:20
+msgctxt "404 page"
+msgid "There's nothing here"
+msgstr "Hier is niks"
 
-msgid "Varian"
-msgstr "Varian"
+#: templates/base.html:6
+msgid "eSport statistics"
+msgstr "eSport statistieken"
 
-msgid "1/4 Final"
-msgstr "Kwartfinale"
+#: templates/base.html:78
+msgctxt "Search results"
+msgid "Teams not found"
+msgstr "Geen teams gevonden"
 
-msgid "1/8 Final"
-msgstr "1/8ste finale"
+#: templates/base.html:93
+msgctxt "Search results"
+msgid "Players not found"
+msgstr "Geen spelers gevonden"
 
-msgid "Match Log"
-msgstr "Wedstrijd logboek"
-
-msgctxt "Some hero killed by some heroes"
-msgid "killed by"
-msgstr "Gedood door"
-
-msgid "Zerg rush. Opposing score: %(opposing_score)s%%."
-msgstr "Zerg rush. Tegenoverliggende score: %(opposing_score)s%%"
-
-msgid "Nuke launch"
-msgstr "Atoombom lancering"
-
-msgid "Temple shots fired. Total Shot Damage: %(total_shot_damage)s."
-msgstr "Tempelschoten. Totale schade: %(total_shot_damage)s."
-
-msgid "Boss camp"
-msgstr "Bazenkamp"
-
-msgid "Infernal shrine captured"
-msgstr "Helse heiligdom veroverd"
-
-msgid "Immortal defeated"
-msgstr "Onsterfelijke verslagen"
-
-msgid "Altar captured. Shots fired: %(shots_fired)s."
-msgstr "Tempel veroverd. Schoten gevuurd: %(shots_fired)s."
-
-msgid "Webweavers spawned"
-msgstr "Spinnen geactiveerd"
-
-msgid "Dragon Knight activated"
-msgstr "Draken ridder geactiveerd"
-
-msgid "Garden Terror activated"
-msgstr "Tuinterror geactiveerd"
-
-msgid "Ghost ship captured"
-msgstr "Geestenschip veroverd"
-
-msgid "Raven curse activated"
-msgstr "Raaf vloek geactiveerd"
-
-msgid "XP difference"
-msgstr "XP verschil"
-
-msgid "Ragnaros"
-msgstr "Ragnaros"
-
-msgid "Ragnaros Patch"
-msgstr "Ragnaros Patch"
-
-msgid "Zul'jin Patch"
-msgstr "Zul'jin Patch"
-
-msgid "Zul'jin"
-msgstr "Zul'jin"
-
-msgid "Upcoming matches"
-msgstr "Aanstaande wedstrijden"
-
-msgid "Ongoing matches"
-msgstr "Lopende wedstrijden"
-
-msgid "Completed matches"
-msgstr "Voorgaande wedstrijden"
-
-msgid "Points"
-msgstr "Punten"
-
-msgid "Your bet"
-msgstr "Jouw weddenschap"
-
-msgid "Stage"
-msgstr "Stage"
-
-msgid "Reward"
-msgstr "Beloning"
-
-msgid "Challenges"
-msgstr "Uitdagingen"
-
-msgid "Leaderboard"
-msgstr "Scorebord"
-
-msgid "Predict results"
-msgstr "Voorspel resultaten"
-
-msgid "earn points"
-msgstr "Krijg punten"
-
-msgid "win prizes"
-msgstr "Win prijzen"
-
-msgctxt "Bets count"
-msgid "Bets"
-msgstr "Weddenschappen"
-
-msgid "Predicted winner"
-msgstr "Voorspelde winnaar"
-
-msgid "Predicted score"
-msgstr "Voorspelde score"
-
-msgid "Position"
-msgstr "Positie"
-
-msgid "Login via Battle.net"
-msgstr "Login via Battle.net"
-
-msgid "Total bets"
-msgstr "Totaal weddenschappen"
-
+#: templates/base.html:232
 msgid "Log out"
 msgstr "Log uit"
 
-msgid "Time until"
-msgstr "Tijd tot"
+#: templates/base.html:243
+msgctxt "Search field tooltip"
+msgid "Search"
+msgstr "Zoek"
 
-msgid "Season"
-msgstr "Seizoen"
+#: templates/base.html:290
+msgid "Help us localize the site!"
+msgstr "Help ons met vertalen van de site!"
 
-msgid "Week"
-msgstr "Week"
+#~ msgctxt "Map overview"
+#~ msgid "Overview"
+#~ msgstr "Overzicht"
 
-msgid "All weeks"
-msgstr "Alle weken"
+#~ msgid "Stats"
+#~ msgstr "Statistieken"
 
-msgid "Valeera"
-msgstr "Valeera"
+#~ msgid "First Pick Win Rate"
+#~ msgstr "Eerste keuze winpercentage"
 
-msgid "Valeera Patch"
-msgstr "Valeera Patch"
+#~ msgctxt "Player overview"
+#~ msgid "Overview"
+#~ msgstr "Overzicht"
 
-msgid "Save changes"
-msgstr "Opslaan"
+#~ msgid "Europe"
+#~ msgstr "Europa"
 
-msgid "Cancel"
-msgstr "Annuleer"
+#~ msgid ""
+#~ "The rating is based on statistics of the player as compared to statistics "
+#~ "of other players on the same hero in the same patches.<br /><br /"
+#~ ">Computed by analyzing <strong>%(ppr_match_count)s matches</strong> with "
+#~ "replays out of <strong>%(match_count)s matches</strong> in total."
+#~ msgstr ""
+#~ "De beoordeling is gebaseerd op statistieken van de speler vergeleken met "
+#~ "de statistieken van andere spelers met dezelfde held in dezelfde patch. "
+#~ "<br /><br />Berekend door analyse <strong>%(ppr_match_count)s "
+#~ "wedstrijden</strong> met herhalingen van <strong>%(match_count)s "
+#~ "wedstrijden</strong> totaal."
 
-msgid "Write a comment"
-msgstr "Schrijf een opmerking"
+#~ msgid "North America"
+#~ msgstr "Noord Amerika"
 
-msgid "You must be logged in to leave a comment"
-msgstr "Je moet inloggen om een opmerking achter te laten"
+#~ msgid "South Korea"
+#~ msgstr "Zuid Korea"
 
-msgid "Delete the comment?"
-msgstr "Opmerking verwijderen?"
+#~ msgid "China"
+#~ msgstr "China"
 
-msgid "Comment was removed"
-msgstr "Opmerking is verwijderd"
+#~ msgid "Taiwan"
+#~ msgstr "Taiwan"
 
-msgid "Rating"
-msgstr "Beoordeling"
+#~ msgid "Southeast Asia"
+#~ msgstr "Zuid-oost Azië"
 
-msgid "Administrator"
-msgstr "Administrator"
+#~ msgid "Latin America"
+#~ msgstr "Latijns Amerika"
 
-msgid "Moderator"
-msgstr "Moderator"
+#~ msgid "Australia & New Zealand"
+#~ msgstr "Australië & nieuw Zeeland"
 
-msgid "Reply"
-msgstr "Antwoorden"
+#~ msgid "Winners Final"
+#~ msgstr "Winnaarsfinale"
 
-msgid "Edit"
-msgstr "Aanpassen"
+#~ msgid "Showmatch"
+#~ msgstr "Show wedstrijd"
 
-msgid "Delete"
-msgstr "Verwijder"
+#~ msgid "Tiebreak"
+#~ msgstr "Tiebreak"
 
-msgid "Permalink"
-msgstr "Permalink"
-
-msgid "Mark read"
-msgstr "Markeer als gelezen"
-
-msgid "Post a comment"
-msgstr "Plaats een opmerking"
-
-msgid "Comments count"
-msgstr "Aantal opmerkingen"
-
-msgid "Notifications"
-msgstr "Notificatie's"
-
-msgid "User didn't leave any comments"
-msgstr "Gebruiker heeft geen opmerkingen achtergelaten"
-
-msgid "Mark read all"
-msgstr "Markeer alles als gelezen"
-
-msgid "No new notifications"
-msgstr "Geen nieuwe notificatie's"
-
-msgid "Lucio"
-msgstr "Lucio"
-
-msgid "Lucio Patch"
-msgstr "Lucio Patch"
+#~ msgid ""
+#~ "Too few matches played (%(total_match_count)s of 50 minimum required) in "
+#~ "the selected period to generate a reliable report."
+#~ msgstr ""
+#~ "Te weinig wedstrijden gespeeld (%(total_match_count)s van 50 minimum "
+#~ "verplicht) in de geselecteerde periode voor een betrouwbaar resultaat."

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-03 21:54+0000\n"
+"POT-Creation-Date: 2017-03-06 21:40+0000\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -220,51 +220,51 @@ msgstr "Scrivi un commento"
 msgid "You must be logged in to leave a comment"
 msgstr "Devi avere effettuato il log in per scrivere un commento"
 
-#: comments/templates/comments/comment_nodes.html:126
+#: comments/templates/comments/comment_nodes.html:128
 msgid "Delete the comment?"
 msgstr "Eliminare il commento?"
 
-#: comments/templates/comments/comment_nodes.html:168
+#: comments/templates/comments/comment_nodes.html:170
 msgid "Comment was removed"
 msgstr "Il commento è stato rimosso"
 
-#: comments/templates/comments/comment_nodes.html:181
-#: comments/templates/comments/comment_nodes.html:256
+#: comments/templates/comments/comment_nodes.html:183
+#: comments/templates/comments/comment_nodes.html:258
 #: comments/templates/profiles/base.html:29
 msgid "Rating"
 msgstr ""
 
-#: comments/templates/comments/comment_nodes.html:196
+#: comments/templates/comments/comment_nodes.html:198
 #: comments/templates/profiles/base.html:20
 msgid "Administrator"
 msgstr "Amministratore"
 
-#: comments/templates/comments/comment_nodes.html:198
+#: comments/templates/comments/comment_nodes.html:200
 #: comments/templates/profiles/base.html:22
 msgid "Moderator"
 msgstr "Moderatore"
 
-#: comments/templates/comments/comment_nodes.html:218
+#: comments/templates/comments/comment_nodes.html:220
 msgid "Reply"
 msgstr "Rispondi"
 
-#: comments/templates/comments/comment_nodes.html:223
+#: comments/templates/comments/comment_nodes.html:225
 msgid "Edit"
 msgstr "Modifica"
 
-#: comments/templates/comments/comment_nodes.html:228
+#: comments/templates/comments/comment_nodes.html:230
 msgid "Delete"
 msgstr "Elimina"
 
-#: comments/templates/comments/comment_nodes.html:231
+#: comments/templates/comments/comment_nodes.html:233
 msgid "Permalink"
 msgstr "Link permanente"
 
-#: comments/templates/comments/comment_nodes.html:234
+#: comments/templates/comments/comment_nodes.html:236
 msgid "Mark read"
 msgstr "Segna come letto"
 
-#: comments/templates/comments/comment_nodes.html:273
+#: comments/templates/comments/comment_nodes.html:275
 msgid "Post a comment"
 msgstr "Scrivi un commento"
 
@@ -623,6 +623,501 @@ msgstr "Attenzione!"
 msgctxt "[SEO] Page title"
 msgid "Maps"
 msgstr "Mappe"
+
+#: masterleague/lc_strings.py:7
+msgid "Grand Final"
+msgstr "Gran finale"
+
+#: masterleague/lc_strings.py:8
+msgid "Losers Final"
+msgstr "Finale degli Sconfitti"
+
+#: masterleague/lc_strings.py:9
+msgid "Final"
+msgstr "Finale"
+
+#: masterleague/lc_strings.py:10
+msgid "1/2 Final"
+msgstr "1/2 finale"
+
+#: masterleague/lc_strings.py:11
+msgid "1/2 Final LB"
+msgstr "Finale 1/2lb"
+
+#: masterleague/lc_strings.py:12
+msgid "1/2 Final WB"
+msgstr "1/2 finale WB"
+
+#: masterleague/lc_strings.py:13
+msgid "1/4 Final"
+msgstr "1/4 finale"
+
+#: masterleague/lc_strings.py:14
+msgid "1/4 Final LB"
+msgstr "1/4 finale LB"
+
+#: masterleague/lc_strings.py:15
+msgid "1/4 Final WB"
+msgstr "1/4 finale WB"
+
+#: masterleague/lc_strings.py:16
+msgid "1/8 Final"
+msgstr "1/8 finale"
+
+#: masterleague/lc_strings.py:17
+msgid "1/8 Final LB"
+msgstr "1/8 finale LB"
+
+#: masterleague/lc_strings.py:18
+#, fuzzy
+#| msgid "1/8 Final LB"
+msgid "1/8 Final WB"
+msgstr "1/8 finale LB"
+
+#: masterleague/lc_strings.py:19
+#, fuzzy
+#| msgid "1/2 Final"
+msgid "1/16 Final"
+msgstr "1/2 finale"
+
+#: masterleague/lc_strings.py:20
+msgid "3rd place"
+msgstr ""
+
+#: masterleague/lc_strings.py:24
+msgid "Battlefield of Eternity"
+msgstr "Campo di battaglia Eterni"
+
+#: masterleague/lc_strings.py:25
+msgid "Blackheart’s Bay"
+msgstr "Baia di Cuornero"
+
+#: masterleague/lc_strings.py:26
+msgid "Braxis Holdout"
+msgstr "Distaccamento di Braxis"
+
+#: masterleague/lc_strings.py:27
+msgid "Cursed Hollow"
+msgstr "Valle Maledetta"
+
+#: masterleague/lc_strings.py:28
+msgid "Dragon Shire"
+msgstr "Contea del Drago"
+
+#: masterleague/lc_strings.py:29
+msgid "Garden of Terror"
+msgstr "Giardino del Terrore"
+
+#: masterleague/lc_strings.py:30
+msgid "Haunted Mines"
+msgstr "Miniere Infestate"
+
+#: masterleague/lc_strings.py:31
+msgid "Infernal Shrines"
+msgstr "Altari Infernali"
+
+#: masterleague/lc_strings.py:32
+msgid "Sky Temple"
+msgstr "Tempio Celeste"
+
+#: masterleague/lc_strings.py:33
+msgid "Tomb of the Spider Queen"
+msgstr "Tomba della Regina Ragno"
+
+#: masterleague/lc_strings.py:34
+msgid "Towers of Doom"
+msgstr "Torri della Rovina"
+
+#: masterleague/lc_strings.py:35
+msgid "Warhead Junction"
+msgstr "Stazione Atomica"
+
+#: masterleague/lc_strings.py:39
+#, python-format
+msgid "Altar captured. Shots fired: %(shots_fired)s."
+msgstr "Altare catturato. Colpi sparati: %(shots_fired)s."
+
+#: masterleague/lc_strings.py:40
+msgid "Dragon Knight activated"
+msgstr "Drago Cavaliere attivato"
+
+#: masterleague/lc_strings.py:41
+msgid "Garden Terror activated"
+msgstr "Giardino del Terrore attivato"
+
+#: masterleague/lc_strings.py:42
+msgid "Ghost ship captured"
+msgstr "Nave fantasma catturata"
+
+#: masterleague/lc_strings.py:43
+msgid "Immortal defeated"
+msgstr "Immortale battuto"
+
+#: masterleague/lc_strings.py:44
+msgid "Infernal shrine captured"
+msgstr "Santuario Infernale catturato"
+
+#: masterleague/lc_strings.py:45
+msgid "Boss camp"
+msgstr "Campo Boss"
+
+#: masterleague/lc_strings.py:46
+msgid "Nuke launch"
+msgstr "Lancio di Bombe Atomiche"
+
+#: masterleague/lc_strings.py:47
+msgid "Raven curse activated"
+msgstr "Maledizione del Corvo attivata"
+
+#: masterleague/lc_strings.py:48
+#, python-format
+msgid "Temple shots fired. Total Shot Damage: %(total_shot_damage)s."
+msgstr "Colpi sparati ai Templi. Totale danni: %(total_shot_damage)s."
+
+#: masterleague/lc_strings.py:49
+msgid "Webweavers spawned"
+msgstr "Tessitrici generate"
+
+#: masterleague/lc_strings.py:50
+#, python-format
+msgid "Zerg rush. Opposing score: %(opposing_score)s%%."
+msgstr "Zerg rush. Punteggio di opposizione: %(opposing_score)s%%."
+
+#: masterleague/lc_strings.py:54
+msgid "Samuro Patch"
+msgstr "Patch Samuro"
+
+#: masterleague/lc_strings.py:55
+msgid "Alarak Patch"
+msgstr "Patch Alarak"
+
+#: masterleague/lc_strings.py:56
+msgid "Auriel Patch"
+msgstr "Patch Auriel"
+
+#: masterleague/lc_strings.py:57
+msgid "Gul'dan Patch"
+msgstr "Patch Gul'dan"
+
+#: masterleague/lc_strings.py:58
+msgid "Medivh Patch"
+msgstr "Patch Medivh"
+
+#: masterleague/lc_strings.py:59
+msgid "Chromie Patch"
+msgstr "Patch Chromie"
+
+#: masterleague/lc_strings.py:60
+msgid "Tracer Patch"
+msgstr "Patch Tracer"
+
+#: masterleague/lc_strings.py:61
+msgid "Dehaka Patch"
+msgstr "Patch Dehaka"
+
+#: masterleague/lc_strings.py:62
+msgid "Xul Patch"
+msgstr "Patch XUL"
+
+#: masterleague/lc_strings.py:63
+msgid "Li-Ming Patch"
+msgstr "Patch Li-Ming"
+
+#: masterleague/lc_strings.py:64
+msgid "Greymane Patch"
+msgstr "Patch Greymane"
+
+#: masterleague/lc_strings.py:65
+msgid "Lunara Patch"
+msgstr "Patch Lunara"
+
+#: masterleague/lc_strings.py:66
+msgid "Zarya Patch"
+msgstr "Patch Zarya"
+
+#: masterleague/lc_strings.py:67
+msgid "Varian Patch"
+msgstr "Patch Varian"
+
+#: masterleague/lc_strings.py:68
+msgid "Ragnaros Patch"
+msgstr "Patch Ragnaros"
+
+#: masterleague/lc_strings.py:69
+msgid "Zul'jin Patch"
+msgstr "Patch Zul'jin"
+
+#: masterleague/lc_strings.py:70
+msgid "Valeera Patch"
+msgstr "Patch Valeera"
+
+#: masterleague/lc_strings.py:71
+#, fuzzy
+#| msgid "Xul Patch"
+msgid "Lucio Patch"
+msgstr "Patch XUL"
+
+#: masterleague/lc_strings.py:72
+#, fuzzy
+#| msgid "Chromie Patch"
+msgid "Probius Patch"
+msgstr "Patch Chromie"
+
+#: masterleague/lc_strings.py:76
+msgid "Abathur"
+msgstr "Abathur"
+
+#: masterleague/lc_strings.py:77
+msgid "Alarak"
+msgstr "Alarak"
+
+#: masterleague/lc_strings.py:78
+msgid "Anub'arak"
+msgstr "Anub'arak"
+
+#: masterleague/lc_strings.py:79
+msgid "Artanis"
+msgstr "Artanis"
+
+#: masterleague/lc_strings.py:80
+msgid "Arthas"
+msgstr "Arthas"
+
+#: masterleague/lc_strings.py:81
+msgid "Auriel"
+msgstr "Auriel"
+
+#: masterleague/lc_strings.py:82
+msgid "Azmodan"
+msgstr "Azmodan"
+
+#: masterleague/lc_strings.py:83
+msgid "Brightwing"
+msgstr "Alachiara"
+
+#: masterleague/lc_strings.py:84
+msgid "Chen"
+msgstr "Chen"
+
+#: masterleague/lc_strings.py:85
+msgid "Cho"
+msgstr "Cho"
+
+#: masterleague/lc_strings.py:86
+msgid "Chromie"
+msgstr "Chromie"
+
+#: masterleague/lc_strings.py:87
+msgid "Dehaka"
+msgstr "Dehaka"
+
+#: masterleague/lc_strings.py:88
+msgid "Diablo"
+msgstr "Diablo"
+
+#: masterleague/lc_strings.py:89
+msgid "E.T.C."
+msgstr "E.T.C."
+
+#: masterleague/lc_strings.py:90
+msgid "Falstad"
+msgstr "Falstad"
+
+#: masterleague/lc_strings.py:91
+msgid "Gall"
+msgstr "Gall"
+
+#: masterleague/lc_strings.py:92
+msgid "Gazlowe"
+msgstr "Sparachiodi"
+
+#: masterleague/lc_strings.py:93
+msgid "Greymane"
+msgstr "Mantogrigio"
+
+#: masterleague/lc_strings.py:94
+msgid "Gul'dan"
+msgstr "Gul'Dan"
+
+#: masterleague/lc_strings.py:95
+msgid "Illidan"
+msgstr "Illidan"
+
+#: masterleague/lc_strings.py:96
+msgid "Jaina"
+msgstr "Jaina"
+
+#: masterleague/lc_strings.py:97
+msgid "Johanna"
+msgstr "Johanna"
+
+#: masterleague/lc_strings.py:98
+msgid "Kael'thas"
+msgstr "Kael'thas"
+
+#: masterleague/lc_strings.py:99
+msgid "Kerrigan"
+msgstr "Kerrigan"
+
+#: masterleague/lc_strings.py:100
+msgid "Kharazim"
+msgstr "Kharazim"
+
+#: masterleague/lc_strings.py:101
+msgid "Leoric"
+msgstr "Leoric"
+
+#: masterleague/lc_strings.py:102
+msgid "Li Li"
+msgstr "Li Li"
+
+#: masterleague/lc_strings.py:103
+msgid "Li-Ming"
+msgstr "Li-Ming"
+
+#: masterleague/lc_strings.py:104
+msgid "Lt. Morales"
+msgstr "Ten. Morales"
+
+#: masterleague/lc_strings.py:105
+msgid "Lucio"
+msgstr ""
+
+#: masterleague/lc_strings.py:106
+msgid "Lunara"
+msgstr "Lunara"
+
+#: masterleague/lc_strings.py:107
+msgid "Malfurion"
+msgstr "Malfurion"
+
+#: masterleague/lc_strings.py:108
+msgid "Medivh"
+msgstr "Medivh"
+
+#: masterleague/lc_strings.py:109
+msgid "Muradin"
+msgstr "Muradin"
+
+#: masterleague/lc_strings.py:110
+msgid "Murky"
+msgstr "Fosky"
+
+#: masterleague/lc_strings.py:111
+msgid "Nazeebo"
+msgstr "Nazeebo"
+
+#: masterleague/lc_strings.py:112
+msgid "Nova"
+msgstr "Nova"
+
+#: masterleague/lc_strings.py:113
+msgid "Ragnaros"
+msgstr "Ragnaros"
+
+#: masterleague/lc_strings.py:114
+msgid "Raynor"
+msgstr "Raynor"
+
+#: masterleague/lc_strings.py:115
+msgid "Rehgar"
+msgstr "Rehgar"
+
+#: masterleague/lc_strings.py:116
+msgid "Rexxar"
+msgstr "Rexxar"
+
+#: masterleague/lc_strings.py:117
+msgid "Samuro"
+msgstr "Samuro"
+
+#: masterleague/lc_strings.py:118
+msgid "Sgt. Hammer"
+msgstr "Sgt. Hammer"
+
+#: masterleague/lc_strings.py:119
+msgid "Sonya"
+msgstr "Sonya"
+
+#: masterleague/lc_strings.py:120
+msgid "Stitches"
+msgstr "Tritacarne"
+
+#: masterleague/lc_strings.py:121
+msgid "Sylvanas"
+msgstr "Sylvanas"
+
+#: masterleague/lc_strings.py:122
+msgid "Tassadar"
+msgstr "Tassadar"
+
+#: masterleague/lc_strings.py:123
+msgid "The Butcher"
+msgstr "Macellaio"
+
+#: masterleague/lc_strings.py:124
+msgid "The Lost Vikings"
+msgstr "Vichinghi Sperduti"
+
+#: masterleague/lc_strings.py:125
+msgid "Thrall"
+msgstr "Thrall"
+
+#: masterleague/lc_strings.py:126
+msgid "Tracer"
+msgstr "Tracer"
+
+#: masterleague/lc_strings.py:127
+msgid "Tychus"
+msgstr "Tychus"
+
+#: masterleague/lc_strings.py:128
+msgid "Tyrael"
+msgstr "Tyrael"
+
+#: masterleague/lc_strings.py:129
+msgid "Tyrande"
+msgstr "Tyrande"
+
+#: masterleague/lc_strings.py:130
+msgid "Uther"
+msgstr "Uther"
+
+#: masterleague/lc_strings.py:131
+msgid "Valeera"
+msgstr "Valeera"
+
+#: masterleague/lc_strings.py:132
+msgid "Valla"
+msgstr "Valla"
+
+#: masterleague/lc_strings.py:133
+msgid "Varian"
+msgstr "Varian"
+
+#: masterleague/lc_strings.py:134
+msgid "Xul"
+msgstr "Xul"
+
+#: masterleague/lc_strings.py:135
+msgid "Zagara"
+msgstr "Zagara"
+
+#: masterleague/lc_strings.py:136
+msgid "Zarya"
+msgstr "Zarya"
+
+#: masterleague/lc_strings.py:137
+msgid "Zeratul"
+msgstr "Zeratul"
+
+#: masterleague/lc_strings.py:138
+msgid "Zul'jin"
+msgstr "Zul'jin"
+
+#: masterleague/lc_strings.py:139
+msgid "Probius"
+msgstr ""
 
 #: matches/forms.py:17 teams/forms.py:15 teams/forms.py:40
 msgid "Patch"
@@ -1818,281 +2313,8 @@ msgstr "Aiutarci a tradurre il sito!"
 #~ msgid "Australia & New Zealand"
 #~ msgstr "Australia & Nuova Zelanda"
 
-#~ msgid "Abathur"
-#~ msgstr "Abathur"
-
-#~ msgid "Alarak"
-#~ msgstr "Alarak"
-
-#~ msgid "Anub'arak"
-#~ msgstr "Anub'arak"
-
-#~ msgid "Artanis"
-#~ msgstr "Artanis"
-
-#~ msgid "Arthas"
-#~ msgstr "Arthas"
-
-#~ msgid "Auriel"
-#~ msgstr "Auriel"
-
-#~ msgid "Azmodan"
-#~ msgstr "Azmodan"
-
-#~ msgid "Brightwing"
-#~ msgstr "Alachiara"
-
-#~ msgid "Chen"
-#~ msgstr "Chen"
-
-#~ msgid "Cho"
-#~ msgstr "Cho"
-
-#~ msgid "Chromie"
-#~ msgstr "Chromie"
-
-#~ msgid "Dehaka"
-#~ msgstr "Dehaka"
-
-#~ msgid "Diablo"
-#~ msgstr "Diablo"
-
-#~ msgid "E.T.C."
-#~ msgstr "E.T.C."
-
-#~ msgid "Falstad"
-#~ msgstr "Falstad"
-
-#~ msgid "Gall"
-#~ msgstr "Gall"
-
-#~ msgid "Gazlowe"
-#~ msgstr "Sparachiodi"
-
-#~ msgid "Greymane"
-#~ msgstr "Mantogrigio"
-
-#~ msgid "Gul'dan"
-#~ msgstr "Gul'Dan"
-
-#~ msgid "Illidan"
-#~ msgstr "Illidan"
-
-#~ msgid "Jaina"
-#~ msgstr "Jaina"
-
-#~ msgid "Johanna"
-#~ msgstr "Johanna"
-
-#~ msgid "Kael'thas"
-#~ msgstr "Kael'thas"
-
-#~ msgid "Kerrigan"
-#~ msgstr "Kerrigan"
-
-#~ msgid "Kharazim"
-#~ msgstr "Kharazim"
-
-#~ msgid "Leoric"
-#~ msgstr "Leoric"
-
-#~ msgid "Li Li"
-#~ msgstr "Li Li"
-
-#~ msgid "Li-Ming"
-#~ msgstr "Li-Ming"
-
-#~ msgid "Lt. Morales"
-#~ msgstr "Ten. Morales"
-
-#~ msgid "Lunara"
-#~ msgstr "Lunara"
-
-#~ msgid "Malfurion"
-#~ msgstr "Malfurion"
-
-#~ msgid "Medivh"
-#~ msgstr "Medivh"
-
-#~ msgid "Muradin"
-#~ msgstr "Muradin"
-
-#~ msgid "Murky"
-#~ msgstr "Fosky"
-
-#~ msgid "Nazeebo"
-#~ msgstr "Nazeebo"
-
-#~ msgid "Nova"
-#~ msgstr "Nova"
-
-#~ msgid "Raynor"
-#~ msgstr "Raynor"
-
-#~ msgid "Rehgar"
-#~ msgstr "Rehgar"
-
-#~ msgid "Rexxar"
-#~ msgstr "Rexxar"
-
-#~ msgid "Sgt. Hammer"
-#~ msgstr "Sgt. Hammer"
-
-#~ msgid "Sonya"
-#~ msgstr "Sonya"
-
-#~ msgid "Stitches"
-#~ msgstr "Tritacarne"
-
-#~ msgid "Sylvanas"
-#~ msgstr "Sylvanas"
-
-#~ msgid "Tassadar"
-#~ msgstr "Tassadar"
-
-#~ msgid "The Butcher"
-#~ msgstr "Macellaio"
-
-#~ msgid "The Lost Vikings"
-#~ msgstr "Vichinghi Sperduti"
-
-#~ msgid "Thrall"
-#~ msgstr "Thrall"
-
-#~ msgid "Tracer"
-#~ msgstr "Tracer"
-
-#~ msgid "Tychus"
-#~ msgstr "Tychus"
-
-#~ msgid "Tyrael"
-#~ msgstr "Tyrael"
-
-#~ msgid "Tyrande"
-#~ msgstr "Tyrande"
-
-#~ msgid "Uther"
-#~ msgstr "Uther"
-
-#~ msgid "Valla"
-#~ msgstr "Valla"
-
-#~ msgid "Xul"
-#~ msgstr "Xul"
-
-#~ msgid "Zagara"
-#~ msgstr "Zagara"
-
-#~ msgid "Zarya"
-#~ msgstr "Zarya"
-
-#~ msgid "Zeratul"
-#~ msgstr "Zeratul"
-
-#~ msgid "Samuro"
-#~ msgstr "Samuro"
-
-#~ msgid "Battlefield of Eternity"
-#~ msgstr "Campo di battaglia Eterni"
-
-#~ msgid "Blackheart’s Bay"
-#~ msgstr "Baia di Cuornero"
-
-#~ msgid "Braxis Holdout"
-#~ msgstr "Distaccamento di Braxis"
-
-#~ msgid "Cursed Hollow"
-#~ msgstr "Valle Maledetta"
-
-#~ msgid "Dragon Shire"
-#~ msgstr "Contea del Drago"
-
-#~ msgid "Garden of Terror"
-#~ msgstr "Giardino del Terrore"
-
-#~ msgid "Haunted Mines"
-#~ msgstr "Miniere Infestate"
-
-#~ msgid "Infernal Shrines"
-#~ msgstr "Altari Infernali"
-
-#~ msgid "Sky Temple"
-#~ msgstr "Tempio Celeste"
-
-#~ msgid "Tomb of the Spider Queen"
-#~ msgstr "Tomba della Regina Ragno"
-
-#~ msgid "Towers of Doom"
-#~ msgstr "Torri della Rovina"
-
-#~ msgid "Warhead Junction"
-#~ msgstr "Stazione Atomica"
-
-#~ msgid "Samuro Patch"
-#~ msgstr "Patch Samuro"
-
-#~ msgid "Alarak Patch"
-#~ msgstr "Patch Alarak"
-
-#~ msgid "Auriel Patch"
-#~ msgstr "Patch Auriel"
-
-#~ msgid "Gul'dan Patch"
-#~ msgstr "Patch Gul'dan"
-
-#~ msgid "Medivh Patch"
-#~ msgstr "Patch Medivh"
-
-#~ msgid "Chromie Patch"
-#~ msgstr "Patch Chromie"
-
-#~ msgid "Tracer Patch"
-#~ msgstr "Patch Tracer"
-
-#~ msgid "Dehaka Patch"
-#~ msgstr "Patch Dehaka"
-
-#~ msgid "Xul Patch"
-#~ msgstr "Patch XUL"
-
-#~ msgid "Li-Ming Patch"
-#~ msgstr "Patch Li-Ming"
-
-#~ msgid "Greymane Patch"
-#~ msgstr "Patch Greymane"
-
-#~ msgid "Lunara Patch"
-#~ msgstr "Patch Lunara"
-
-#~ msgid "Final"
-#~ msgstr "Finale"
-
-#~ msgid "Grand Final"
-#~ msgstr "Gran finale"
-
-#~ msgid "Losers Final"
-#~ msgstr "Finale degli Sconfitti"
-
 #~ msgid "Winners Final"
 #~ msgstr "Finale dei Vincitori"
-
-#~ msgid "1/2 Final"
-#~ msgstr "1/2 finale"
-
-#~ msgid "1/2 Final LB"
-#~ msgstr "Finale 1/2lb"
-
-#~ msgid "1/2 Final WB"
-#~ msgstr "1/2 finale WB"
-
-#~ msgid "1/4 Final WB"
-#~ msgstr "1/4 finale WB"
-
-#~ msgid "1/4 Final LB"
-#~ msgstr "1/4 finale LB"
-
-#~ msgid "1/8 Final LB"
-#~ msgstr "1/8 finale LB"
 
 #~ msgid "Showmatch"
 #~ msgstr "Showmatch"
@@ -2100,78 +2322,9 @@ msgstr "Aiutarci a tradurre il sito!"
 #~ msgid "Tiebreak"
 #~ msgstr "Spareggio"
 
-#~ msgid "Zarya Patch"
-#~ msgstr "Patch Zarya"
-
 #~ msgid ""
 #~ "Too few matches played (%(total_match_count)s of 50 minimum required) in "
 #~ "the selected period to generate a reliable report."
 #~ msgstr ""
 #~ "Troppe poche partite giocate (%(total_match_count)s su 50 minime "
 #~ "richieste) nel periodo selezionato per generare un rapporto affidabile."
-
-#~ msgid "Varian Patch"
-#~ msgstr "Patch Varian"
-
-#~ msgid "Varian"
-#~ msgstr "Varian"
-
-#~ msgid "1/4 Final"
-#~ msgstr "1/4 finale"
-
-#~ msgid "1/8 Final"
-#~ msgstr "1/8 finale"
-
-#~ msgid "Zerg rush. Opposing score: %(opposing_score)s%%."
-#~ msgstr "Zerg rush. Punteggio di opposizione: %(opposing_score)s%%."
-
-#~ msgid "Nuke launch"
-#~ msgstr "Lancio di Bombe Atomiche"
-
-#~ msgid "Temple shots fired. Total Shot Damage: %(total_shot_damage)s."
-#~ msgstr "Colpi sparati ai Templi. Totale danni: %(total_shot_damage)s."
-
-#~ msgid "Boss camp"
-#~ msgstr "Campo Boss"
-
-#~ msgid "Infernal shrine captured"
-#~ msgstr "Santuario Infernale catturato"
-
-#~ msgid "Immortal defeated"
-#~ msgstr "Immortale battuto"
-
-#~ msgid "Altar captured. Shots fired: %(shots_fired)s."
-#~ msgstr "Altare catturato. Colpi sparati: %(shots_fired)s."
-
-#~ msgid "Webweavers spawned"
-#~ msgstr "Tessitrici generate"
-
-#~ msgid "Dragon Knight activated"
-#~ msgstr "Drago Cavaliere attivato"
-
-#~ msgid "Garden Terror activated"
-#~ msgstr "Giardino del Terrore attivato"
-
-#~ msgid "Ghost ship captured"
-#~ msgstr "Nave fantasma catturata"
-
-#~ msgid "Raven curse activated"
-#~ msgstr "Maledizione del Corvo attivata"
-
-#~ msgid "Ragnaros"
-#~ msgstr "Ragnaros"
-
-#~ msgid "Ragnaros Patch"
-#~ msgstr "Patch Ragnaros"
-
-#~ msgid "Zul'jin Patch"
-#~ msgstr "Patch Zul'jin"
-
-#~ msgid "Zul'jin"
-#~ msgstr "Zul'jin"
-
-#~ msgid "Valeera"
-#~ msgstr "Valeera"
-
-#~ msgid "Valeera Patch"
-#~ msgstr "Patch Valeera"

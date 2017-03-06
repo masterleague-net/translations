@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-03 21:54+0000\n"
+"POT-Creation-Date: 2017-03-06 21:40+0000\n"
 "Language: zh-TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -220,51 +220,51 @@ msgstr ""
 msgid "You must be logged in to leave a comment"
 msgstr ""
 
-#: comments/templates/comments/comment_nodes.html:126
+#: comments/templates/comments/comment_nodes.html:128
 msgid "Delete the comment?"
 msgstr ""
 
-#: comments/templates/comments/comment_nodes.html:168
+#: comments/templates/comments/comment_nodes.html:170
 msgid "Comment was removed"
 msgstr ""
 
-#: comments/templates/comments/comment_nodes.html:181
-#: comments/templates/comments/comment_nodes.html:256
+#: comments/templates/comments/comment_nodes.html:183
+#: comments/templates/comments/comment_nodes.html:258
 #: comments/templates/profiles/base.html:29
 msgid "Rating"
 msgstr ""
 
-#: comments/templates/comments/comment_nodes.html:196
+#: comments/templates/comments/comment_nodes.html:198
 #: comments/templates/profiles/base.html:20
 msgid "Administrator"
 msgstr ""
 
-#: comments/templates/comments/comment_nodes.html:198
+#: comments/templates/comments/comment_nodes.html:200
 #: comments/templates/profiles/base.html:22
 msgid "Moderator"
 msgstr ""
 
-#: comments/templates/comments/comment_nodes.html:218
+#: comments/templates/comments/comment_nodes.html:220
 msgid "Reply"
 msgstr ""
 
-#: comments/templates/comments/comment_nodes.html:223
+#: comments/templates/comments/comment_nodes.html:225
 msgid "Edit"
 msgstr ""
 
-#: comments/templates/comments/comment_nodes.html:228
+#: comments/templates/comments/comment_nodes.html:230
 msgid "Delete"
 msgstr ""
 
-#: comments/templates/comments/comment_nodes.html:231
+#: comments/templates/comments/comment_nodes.html:233
 msgid "Permalink"
 msgstr ""
 
-#: comments/templates/comments/comment_nodes.html:234
+#: comments/templates/comments/comment_nodes.html:236
 msgid "Mark read"
 msgstr ""
 
-#: comments/templates/comments/comment_nodes.html:273
+#: comments/templates/comments/comment_nodes.html:275
 msgid "Post a comment"
 msgstr ""
 
@@ -623,6 +623,511 @@ msgstr "警告！"
 msgctxt "[SEO] Page title"
 msgid "Maps"
 msgstr "地圖"
+
+#: masterleague/lc_strings.py:7
+msgid "Grand Final"
+msgstr "總決賽"
+
+#: masterleague/lc_strings.py:8
+msgid "Losers Final"
+msgstr "敗者組決賽"
+
+#: masterleague/lc_strings.py:9
+msgid "Final"
+msgstr "決賽"
+
+#: masterleague/lc_strings.py:10
+msgid "1/2 Final"
+msgstr "半決賽"
+
+#: masterleague/lc_strings.py:11
+msgid "1/2 Final LB"
+msgstr "敗者組半決賽"
+
+#: masterleague/lc_strings.py:12
+msgid "1/2 Final WB"
+msgstr "勝者組半決賽"
+
+#: masterleague/lc_strings.py:13
+msgid "1/4 Final"
+msgstr "1/4決賽"
+
+#: masterleague/lc_strings.py:14
+msgid "1/4 Final LB"
+msgstr "敗者組1/4決賽"
+
+#: masterleague/lc_strings.py:15
+msgid "1/4 Final WB"
+msgstr "勝者組1/4決賽"
+
+#: masterleague/lc_strings.py:16
+msgid "1/8 Final"
+msgstr "1/8決賽"
+
+#: masterleague/lc_strings.py:17
+msgid "1/8 Final LB"
+msgstr "敗者組1/8決賽"
+
+#: masterleague/lc_strings.py:18
+#, fuzzy
+#| msgid "1/8 Final LB"
+msgid "1/8 Final WB"
+msgstr "敗者組1/8決賽"
+
+#: masterleague/lc_strings.py:19
+#, fuzzy
+#| msgid "1/2 Final"
+msgid "1/16 Final"
+msgstr "半決賽"
+
+#: masterleague/lc_strings.py:20
+msgid "3rd place"
+msgstr ""
+
+#: masterleague/lc_strings.py:24
+msgid "Battlefield of Eternity"
+msgstr "永恆戰場"
+
+#: masterleague/lc_strings.py:25
+msgid "Blackheart’s Bay"
+msgstr "黑心灣"
+
+#: masterleague/lc_strings.py:26
+msgid "Braxis Holdout"
+msgstr "布萊希斯實驗所"
+
+#: masterleague/lc_strings.py:27
+msgid "Cursed Hollow"
+msgstr "詛咒谷地"
+
+#: masterleague/lc_strings.py:28
+msgid "Dragon Shire"
+msgstr "巨龍郡"
+
+#: masterleague/lc_strings.py:29
+msgid "Garden of Terror"
+msgstr "恐魔花園"
+
+#: masterleague/lc_strings.py:30
+msgid "Haunted Mines"
+msgstr "亡骸礦坑"
+
+#: masterleague/lc_strings.py:31
+msgid "Infernal Shrines"
+msgstr "煉獄聖壇"
+
+#: masterleague/lc_strings.py:32
+msgid "Sky Temple"
+msgstr "天空神殿"
+
+#: masterleague/lc_strings.py:33
+msgid "Tomb of the Spider Queen"
+msgstr "蛛后之墓"
+
+#: masterleague/lc_strings.py:34
+msgid "Towers of Doom"
+msgstr "厄運之塔"
+
+#: masterleague/lc_strings.py:35
+msgid "Warhead Junction"
+msgstr "核武戰地"
+
+#: masterleague/lc_strings.py:39
+#, python-format
+msgid "Altar captured. Shots fired: %(shots_fired)s."
+msgstr "Altar captured. Shots fired: %(shots_fired)s."
+
+#: masterleague/lc_strings.py:40
+msgid "Dragon Knight activated"
+msgstr ""
+
+#: masterleague/lc_strings.py:41
+#, fuzzy
+#| msgid "Garden of Terror"
+msgid "Garden Terror activated"
+msgstr "恐魔花園"
+
+#: masterleague/lc_strings.py:42
+msgid "Ghost ship captured"
+msgstr ""
+
+#: masterleague/lc_strings.py:43
+msgid "Immortal defeated"
+msgstr ""
+
+#: masterleague/lc_strings.py:44
+#, fuzzy
+#| msgid "Infernal Shrines"
+msgid "Infernal shrine captured"
+msgstr "煉獄聖壇"
+
+#: masterleague/lc_strings.py:45
+msgid "Boss camp"
+msgstr ""
+
+#: masterleague/lc_strings.py:46
+msgid "Nuke launch"
+msgstr ""
+
+#: masterleague/lc_strings.py:47
+msgid "Raven curse activated"
+msgstr ""
+
+#: masterleague/lc_strings.py:48
+#, python-format
+msgid "Temple shots fired. Total Shot Damage: %(total_shot_damage)s."
+msgstr "Temple shots fired. Total Shot Damage: %(total_shot_damage)s."
+
+#: masterleague/lc_strings.py:49
+msgid "Webweavers spawned"
+msgstr ""
+
+#: masterleague/lc_strings.py:50
+#, python-format
+msgid "Zerg rush. Opposing score: %(opposing_score)s%%."
+msgstr "Zerg rush. Opposing score: %(opposing_score)s%%."
+
+#: masterleague/lc_strings.py:54
+msgid "Samuro Patch"
+msgstr "薩姆羅更新檔"
+
+#: masterleague/lc_strings.py:55
+msgid "Alarak Patch"
+msgstr "亞拉瑞克更新檔"
+
+#: masterleague/lc_strings.py:56
+msgid "Auriel Patch"
+msgstr "奧莉爾更新檔"
+
+#: masterleague/lc_strings.py:57
+msgid "Gul'dan Patch"
+msgstr "古爾丹更新檔"
+
+#: masterleague/lc_strings.py:58
+msgid "Medivh Patch"
+msgstr "麥迪文更新檔"
+
+#: masterleague/lc_strings.py:59
+msgid "Chromie Patch"
+msgstr "克羅米更新檔"
+
+#: masterleague/lc_strings.py:60
+msgid "Tracer Patch"
+msgstr "閃光更新檔"
+
+#: masterleague/lc_strings.py:61
+msgid "Dehaka Patch"
+msgstr "德哈卡更新檔"
+
+#: masterleague/lc_strings.py:62
+msgid "Xul Patch"
+msgstr "蘇爾更新檔"
+
+#: masterleague/lc_strings.py:63
+msgid "Li-Ming Patch"
+msgstr "李敏更新檔"
+
+#: masterleague/lc_strings.py:64
+msgid "Greymane Patch"
+msgstr "葛雷邁恩更新檔"
+
+#: masterleague/lc_strings.py:65
+msgid "Lunara Patch"
+msgstr "露娜拉更新檔"
+
+#: masterleague/lc_strings.py:66
+msgid "Zarya Patch"
+msgstr "扎莉雅更新檔"
+
+#: masterleague/lc_strings.py:67
+msgid "Varian Patch"
+msgstr "瓦里安更新檔"
+
+#: masterleague/lc_strings.py:68
+#, fuzzy
+#| msgid "Samuro Patch"
+msgid "Ragnaros Patch"
+msgstr "薩姆羅更新檔"
+
+#: masterleague/lc_strings.py:69
+#, fuzzy
+#| msgid "Gul'dan Patch"
+msgid "Zul'jin Patch"
+msgstr "古爾丹更新檔"
+
+#: masterleague/lc_strings.py:70
+#, fuzzy
+#| msgid "Varian Patch"
+msgid "Valeera Patch"
+msgstr "瓦里安更新檔"
+
+#: masterleague/lc_strings.py:71
+#, fuzzy
+#| msgid "Xul Patch"
+msgid "Lucio Patch"
+msgstr "蘇爾更新檔"
+
+#: masterleague/lc_strings.py:72
+#, fuzzy
+#| msgid "Chromie Patch"
+msgid "Probius Patch"
+msgstr "克羅米更新檔"
+
+#: masterleague/lc_strings.py:76
+msgid "Abathur"
+msgstr "阿巴瑟"
+
+#: masterleague/lc_strings.py:77
+msgid "Alarak"
+msgstr "亞拉瑞克"
+
+#: masterleague/lc_strings.py:78
+msgid "Anub'arak"
+msgstr "阿努巴拉克"
+
+#: masterleague/lc_strings.py:79
+msgid "Artanis"
+msgstr "亞坦尼斯"
+
+#: masterleague/lc_strings.py:80
+msgid "Arthas"
+msgstr "阿薩斯"
+
+#: masterleague/lc_strings.py:81
+msgid "Auriel"
+msgstr "奧莉爾"
+
+#: masterleague/lc_strings.py:82
+msgid "Azmodan"
+msgstr "阿茲莫丹"
+
+#: masterleague/lc_strings.py:83
+msgid "Brightwing"
+msgstr "亮翼"
+
+#: masterleague/lc_strings.py:84
+msgid "Chen"
+msgstr "老陳"
+
+#: masterleague/lc_strings.py:85
+msgid "Cho"
+msgstr "丘"
+
+#: masterleague/lc_strings.py:86
+msgid "Chromie"
+msgstr "克羅米"
+
+#: masterleague/lc_strings.py:87
+msgid "Dehaka"
+msgstr "德哈卡"
+
+#: masterleague/lc_strings.py:88
+msgid "Diablo"
+msgstr "迪亞布羅"
+
+#: masterleague/lc_strings.py:89
+msgid "E.T.C."
+msgstr "精英牛頭大佬"
+
+#: masterleague/lc_strings.py:90
+msgid "Falstad"
+msgstr "弗斯塔德"
+
+#: masterleague/lc_strings.py:91
+msgid "Gall"
+msgstr "加利"
+
+#: masterleague/lc_strings.py:92
+msgid "Gazlowe"
+msgstr "加茲魯維"
+
+#: masterleague/lc_strings.py:93
+msgid "Greymane"
+msgstr "葛雷邁恩"
+
+#: masterleague/lc_strings.py:94
+msgid "Gul'dan"
+msgstr "古爾丹"
+
+#: masterleague/lc_strings.py:95
+msgid "Illidan"
+msgstr "伊利丹"
+
+#: masterleague/lc_strings.py:96
+msgid "Jaina"
+msgstr "珍娜"
+
+#: masterleague/lc_strings.py:97
+msgid "Johanna"
+msgstr "喬安娜"
+
+#: masterleague/lc_strings.py:98
+msgid "Kael'thas"
+msgstr "凱爾薩斯"
+
+#: masterleague/lc_strings.py:99
+msgid "Kerrigan"
+msgstr "凱莉根"
+
+#: masterleague/lc_strings.py:100
+msgid "Kharazim"
+msgstr "克拉辛"
+
+#: masterleague/lc_strings.py:101
+msgid "Leoric"
+msgstr "李奧瑞克"
+
+#: masterleague/lc_strings.py:102
+msgid "Li Li"
+msgstr "莉莉"
+
+#: masterleague/lc_strings.py:103
+msgid "Li-Ming"
+msgstr "李敏"
+
+#: masterleague/lc_strings.py:104
+msgid "Lt. Morales"
+msgstr "莫拉萊斯中尉"
+
+#: masterleague/lc_strings.py:105
+msgid "Lucio"
+msgstr ""
+
+#: masterleague/lc_strings.py:106
+msgid "Lunara"
+msgstr "露娜拉"
+
+#: masterleague/lc_strings.py:107
+msgid "Malfurion"
+msgstr "瑪法里恩"
+
+#: masterleague/lc_strings.py:108
+msgid "Medivh"
+msgstr "麥迪文"
+
+#: masterleague/lc_strings.py:109
+msgid "Muradin"
+msgstr "穆拉丁"
+
+#: masterleague/lc_strings.py:110
+msgid "Murky"
+msgstr "莫奇"
+
+#: masterleague/lc_strings.py:111
+msgid "Nazeebo"
+msgstr "納奇班"
+
+#: masterleague/lc_strings.py:112
+msgid "Nova"
+msgstr "諾娃"
+
+#: masterleague/lc_strings.py:113
+msgid "Ragnaros"
+msgstr ""
+
+#: masterleague/lc_strings.py:114
+msgid "Raynor"
+msgstr "雷諾"
+
+#: masterleague/lc_strings.py:115
+msgid "Rehgar"
+msgstr "雷加"
+
+#: masterleague/lc_strings.py:116
+msgid "Rexxar"
+msgstr "雷克薩"
+
+#: masterleague/lc_strings.py:117
+msgid "Samuro"
+msgstr "薩姆羅"
+
+#: masterleague/lc_strings.py:118
+msgid "Sgt. Hammer"
+msgstr "榔頭中士"
+
+#: masterleague/lc_strings.py:119
+msgid "Sonya"
+msgstr "桑雅"
+
+#: masterleague/lc_strings.py:120
+msgid "Stitches"
+msgstr "縫合怪"
+
+#: masterleague/lc_strings.py:121
+msgid "Sylvanas"
+msgstr "希瓦娜斯"
+
+#: masterleague/lc_strings.py:122
+msgid "Tassadar"
+msgstr "塔薩達"
+
+#: masterleague/lc_strings.py:123
+msgid "The Butcher"
+msgstr "屠夫"
+
+#: masterleague/lc_strings.py:124
+msgid "The Lost Vikings"
+msgstr "失落的維京人"
+
+#: masterleague/lc_strings.py:125
+msgid "Thrall"
+msgstr "索爾"
+
+#: masterleague/lc_strings.py:126
+msgid "Tracer"
+msgstr "閃光"
+
+#: masterleague/lc_strings.py:127
+msgid "Tychus"
+msgstr "泰科斯"
+
+#: masterleague/lc_strings.py:128
+msgid "Tyrael"
+msgstr "泰瑞爾"
+
+#: masterleague/lc_strings.py:129
+msgid "Tyrande"
+msgstr "泰蘭妲"
+
+#: masterleague/lc_strings.py:130
+msgid "Uther"
+msgstr "烏瑟"
+
+#: masterleague/lc_strings.py:131
+msgid "Valeera"
+msgstr ""
+
+#: masterleague/lc_strings.py:132
+msgid "Valla"
+msgstr "維拉"
+
+#: masterleague/lc_strings.py:133
+msgid "Varian"
+msgstr "瓦里安"
+
+#: masterleague/lc_strings.py:134
+msgid "Xul"
+msgstr "蘇爾"
+
+#: masterleague/lc_strings.py:135
+msgid "Zagara"
+msgstr "扎迦拉"
+
+#: masterleague/lc_strings.py:136
+msgid "Zarya"
+msgstr "扎莉雅"
+
+#: masterleague/lc_strings.py:137
+msgid "Zeratul"
+msgstr "澤拉圖"
+
+#: masterleague/lc_strings.py:138
+msgid "Zul'jin"
+msgstr ""
+
+#: masterleague/lc_strings.py:139
+msgid "Probius"
+msgstr ""
 
 #: matches/forms.py:17 teams/forms.py:15 teams/forms.py:40
 msgid "Patch"
@@ -1809,281 +2314,8 @@ msgstr "幫助我們進行本地化！"
 #~ msgid "Australia & New Zealand"
 #~ msgstr "澳洲和紐西蘭"
 
-#~ msgid "Abathur"
-#~ msgstr "阿巴瑟"
-
-#~ msgid "Alarak"
-#~ msgstr "亞拉瑞克"
-
-#~ msgid "Anub'arak"
-#~ msgstr "阿努巴拉克"
-
-#~ msgid "Artanis"
-#~ msgstr "亞坦尼斯"
-
-#~ msgid "Arthas"
-#~ msgstr "阿薩斯"
-
-#~ msgid "Auriel"
-#~ msgstr "奧莉爾"
-
-#~ msgid "Azmodan"
-#~ msgstr "阿茲莫丹"
-
-#~ msgid "Brightwing"
-#~ msgstr "亮翼"
-
-#~ msgid "Chen"
-#~ msgstr "老陳"
-
-#~ msgid "Cho"
-#~ msgstr "丘"
-
-#~ msgid "Chromie"
-#~ msgstr "克羅米"
-
-#~ msgid "Dehaka"
-#~ msgstr "德哈卡"
-
-#~ msgid "Diablo"
-#~ msgstr "迪亞布羅"
-
-#~ msgid "E.T.C."
-#~ msgstr "精英牛頭大佬"
-
-#~ msgid "Falstad"
-#~ msgstr "弗斯塔德"
-
-#~ msgid "Gall"
-#~ msgstr "加利"
-
-#~ msgid "Gazlowe"
-#~ msgstr "加茲魯維"
-
-#~ msgid "Greymane"
-#~ msgstr "葛雷邁恩"
-
-#~ msgid "Gul'dan"
-#~ msgstr "古爾丹"
-
-#~ msgid "Illidan"
-#~ msgstr "伊利丹"
-
-#~ msgid "Jaina"
-#~ msgstr "珍娜"
-
-#~ msgid "Johanna"
-#~ msgstr "喬安娜"
-
-#~ msgid "Kael'thas"
-#~ msgstr "凱爾薩斯"
-
-#~ msgid "Kerrigan"
-#~ msgstr "凱莉根"
-
-#~ msgid "Kharazim"
-#~ msgstr "克拉辛"
-
-#~ msgid "Leoric"
-#~ msgstr "李奧瑞克"
-
-#~ msgid "Li Li"
-#~ msgstr "莉莉"
-
-#~ msgid "Li-Ming"
-#~ msgstr "李敏"
-
-#~ msgid "Lt. Morales"
-#~ msgstr "莫拉萊斯中尉"
-
-#~ msgid "Lunara"
-#~ msgstr "露娜拉"
-
-#~ msgid "Malfurion"
-#~ msgstr "瑪法里恩"
-
-#~ msgid "Medivh"
-#~ msgstr "麥迪文"
-
-#~ msgid "Muradin"
-#~ msgstr "穆拉丁"
-
-#~ msgid "Murky"
-#~ msgstr "莫奇"
-
-#~ msgid "Nazeebo"
-#~ msgstr "納奇班"
-
-#~ msgid "Nova"
-#~ msgstr "諾娃"
-
-#~ msgid "Raynor"
-#~ msgstr "雷諾"
-
-#~ msgid "Rehgar"
-#~ msgstr "雷加"
-
-#~ msgid "Rexxar"
-#~ msgstr "雷克薩"
-
-#~ msgid "Sgt. Hammer"
-#~ msgstr "榔頭中士"
-
-#~ msgid "Sonya"
-#~ msgstr "桑雅"
-
-#~ msgid "Stitches"
-#~ msgstr "縫合怪"
-
-#~ msgid "Sylvanas"
-#~ msgstr "希瓦娜斯"
-
-#~ msgid "Tassadar"
-#~ msgstr "塔薩達"
-
-#~ msgid "The Butcher"
-#~ msgstr "屠夫"
-
-#~ msgid "The Lost Vikings"
-#~ msgstr "失落的維京人"
-
-#~ msgid "Thrall"
-#~ msgstr "索爾"
-
-#~ msgid "Tracer"
-#~ msgstr "閃光"
-
-#~ msgid "Tychus"
-#~ msgstr "泰科斯"
-
-#~ msgid "Tyrael"
-#~ msgstr "泰瑞爾"
-
-#~ msgid "Tyrande"
-#~ msgstr "泰蘭妲"
-
-#~ msgid "Uther"
-#~ msgstr "烏瑟"
-
-#~ msgid "Valla"
-#~ msgstr "維拉"
-
-#~ msgid "Xul"
-#~ msgstr "蘇爾"
-
-#~ msgid "Zagara"
-#~ msgstr "扎迦拉"
-
-#~ msgid "Zarya"
-#~ msgstr "扎莉雅"
-
-#~ msgid "Zeratul"
-#~ msgstr "澤拉圖"
-
-#~ msgid "Samuro"
-#~ msgstr "薩姆羅"
-
-#~ msgid "Battlefield of Eternity"
-#~ msgstr "永恆戰場"
-
-#~ msgid "Blackheart’s Bay"
-#~ msgstr "黑心灣"
-
-#~ msgid "Braxis Holdout"
-#~ msgstr "布萊希斯實驗所"
-
-#~ msgid "Cursed Hollow"
-#~ msgstr "詛咒谷地"
-
-#~ msgid "Dragon Shire"
-#~ msgstr "巨龍郡"
-
-#~ msgid "Garden of Terror"
-#~ msgstr "恐魔花園"
-
-#~ msgid "Haunted Mines"
-#~ msgstr "亡骸礦坑"
-
-#~ msgid "Infernal Shrines"
-#~ msgstr "煉獄聖壇"
-
-#~ msgid "Sky Temple"
-#~ msgstr "天空神殿"
-
-#~ msgid "Tomb of the Spider Queen"
-#~ msgstr "蛛后之墓"
-
-#~ msgid "Towers of Doom"
-#~ msgstr "厄運之塔"
-
-#~ msgid "Warhead Junction"
-#~ msgstr "核武戰地"
-
-#~ msgid "Samuro Patch"
-#~ msgstr "薩姆羅更新檔"
-
-#~ msgid "Alarak Patch"
-#~ msgstr "亞拉瑞克更新檔"
-
-#~ msgid "Auriel Patch"
-#~ msgstr "奧莉爾更新檔"
-
-#~ msgid "Gul'dan Patch"
-#~ msgstr "古爾丹更新檔"
-
-#~ msgid "Medivh Patch"
-#~ msgstr "麥迪文更新檔"
-
-#~ msgid "Chromie Patch"
-#~ msgstr "克羅米更新檔"
-
-#~ msgid "Tracer Patch"
-#~ msgstr "閃光更新檔"
-
-#~ msgid "Dehaka Patch"
-#~ msgstr "德哈卡更新檔"
-
-#~ msgid "Xul Patch"
-#~ msgstr "蘇爾更新檔"
-
-#~ msgid "Li-Ming Patch"
-#~ msgstr "李敏更新檔"
-
-#~ msgid "Greymane Patch"
-#~ msgstr "葛雷邁恩更新檔"
-
-#~ msgid "Lunara Patch"
-#~ msgstr "露娜拉更新檔"
-
-#~ msgid "Final"
-#~ msgstr "決賽"
-
-#~ msgid "Grand Final"
-#~ msgstr "總決賽"
-
-#~ msgid "Losers Final"
-#~ msgstr "敗者組決賽"
-
 #~ msgid "Winners Final"
 #~ msgstr "勝者組決賽"
-
-#~ msgid "1/2 Final"
-#~ msgstr "半決賽"
-
-#~ msgid "1/2 Final LB"
-#~ msgstr "敗者組半決賽"
-
-#~ msgid "1/2 Final WB"
-#~ msgstr "勝者組半決賽"
-
-#~ msgid "1/4 Final WB"
-#~ msgstr "勝者組1/4決賽"
-
-#~ msgid "1/4 Final LB"
-#~ msgstr "敗者組1/4決賽"
-
-#~ msgid "1/8 Final LB"
-#~ msgstr "敗者組1/8決賽"
 
 #~ msgid "Showmatch"
 #~ msgstr "表演賽"
@@ -2091,33 +2323,9 @@ msgstr "幫助我們進行本地化！"
 #~ msgid "Tiebreak"
 #~ msgstr "加賽"
 
-#~ msgid "Zarya Patch"
-#~ msgstr "扎莉雅更新檔"
-
 #~ msgid ""
 #~ "Too few matches played (%(total_match_count)s of 50 minimum required) in "
 #~ "the selected period to generate a reliable report."
 #~ msgstr ""
 #~ "因為所選期間收錄的比賽過少 (最少要求50場，目前僅收錄%(total_match_count)s"
 #~ "場) ，無法生成準確的報告。"
-
-#~ msgid "Varian Patch"
-#~ msgstr "瓦里安更新檔"
-
-#~ msgid "Varian"
-#~ msgstr "瓦里安"
-
-#~ msgid "1/4 Final"
-#~ msgstr "1/4決賽"
-
-#~ msgid "1/8 Final"
-#~ msgstr "1/8決賽"
-
-#~ msgid "Zerg rush. Opposing score: %(opposing_score)s%%."
-#~ msgstr "Zerg rush. Opposing score: %(opposing_score)s%%."
-
-#~ msgid "Temple shots fired. Total Shot Damage: %(total_shot_damage)s."
-#~ msgstr "Temple shots fired. Total Shot Damage: %(total_shot_damage)s."
-
-#~ msgid "Altar captured. Shots fired: %(shots_fired)s."
-#~ msgstr "Altar captured. Shots fired: %(shots_fired)s."
