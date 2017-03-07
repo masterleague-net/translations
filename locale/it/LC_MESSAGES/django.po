@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-06 23:31+0000\n"
+"POT-Creation-Date: 2017-03-07 21:55+0000\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -632,7 +632,7 @@ msgstr "America del Nord"
 msgid "Europe"
 msgstr "Europa"
 
-#: masterleague/lc_strings.py:9 masterleague/lc_strings.py:21
+#: masterleague/lc_strings.py:9 masterleague/lc_strings.py:22
 msgid "Final"
 msgstr "Finale"
 
@@ -665,489 +665,501 @@ msgid "Grand Final"
 msgstr "Gran finale"
 
 #: masterleague/lc_strings.py:20
+msgid "Winners Final"
+msgstr "Finale dei Vincitori"
+
+#: masterleague/lc_strings.py:21
 msgid "Losers Final"
 msgstr "Finale degli Sconfitti"
 
-#: masterleague/lc_strings.py:22
+#: masterleague/lc_strings.py:23
 msgid "1/2 Final"
 msgstr "1/2 finale"
 
-#: masterleague/lc_strings.py:23
+#: masterleague/lc_strings.py:24
 msgid "1/2 Final LB"
 msgstr "Finale 1/2lb"
 
-#: masterleague/lc_strings.py:24
+#: masterleague/lc_strings.py:25
 msgid "1/2 Final WB"
 msgstr "1/2 finale WB"
 
-#: masterleague/lc_strings.py:25
+#: masterleague/lc_strings.py:26
 msgid "1/4 Final"
 msgstr "1/4 finale"
 
-#: masterleague/lc_strings.py:26
+#: masterleague/lc_strings.py:27
 msgid "1/4 Final LB"
 msgstr "1/4 finale LB"
 
-#: masterleague/lc_strings.py:27
+#: masterleague/lc_strings.py:28
 msgid "1/4 Final WB"
 msgstr "1/4 finale WB"
 
-#: masterleague/lc_strings.py:28
+#: masterleague/lc_strings.py:29
 msgid "1/8 Final"
 msgstr "1/8 finale"
 
-#: masterleague/lc_strings.py:29
+#: masterleague/lc_strings.py:30
 msgid "1/8 Final LB"
 msgstr "1/8 finale LB"
 
-#: masterleague/lc_strings.py:30
+#: masterleague/lc_strings.py:31
 #, fuzzy
 #| msgid "1/8 Final LB"
 msgid "1/8 Final WB"
 msgstr "1/8 finale LB"
 
-#: masterleague/lc_strings.py:31
+#: masterleague/lc_strings.py:32
 #, fuzzy
 #| msgid "1/2 Final"
 msgid "1/16 Final"
 msgstr "1/2 finale"
 
-#: masterleague/lc_strings.py:32
+#: masterleague/lc_strings.py:33
 msgid "3rd place"
 msgstr ""
 
-#: masterleague/lc_strings.py:36
+#: masterleague/lc_strings.py:34
+msgid "Tiebreak"
+msgstr "Spareggio"
+
+#: masterleague/lc_strings.py:35
+msgid "Showmatch"
+msgstr "Showmatch"
+
+#: masterleague/lc_strings.py:39
 msgid "Battlefield of Eternity"
 msgstr "Campo di battaglia Eterni"
 
-#: masterleague/lc_strings.py:37
+#: masterleague/lc_strings.py:40
 msgid "Blackheart’s Bay"
 msgstr "Baia di Cuornero"
 
-#: masterleague/lc_strings.py:38
+#: masterleague/lc_strings.py:41
 msgid "Braxis Holdout"
 msgstr "Distaccamento di Braxis"
 
-#: masterleague/lc_strings.py:39
+#: masterleague/lc_strings.py:42
 msgid "Cursed Hollow"
 msgstr "Valle Maledetta"
 
-#: masterleague/lc_strings.py:40
+#: masterleague/lc_strings.py:43
 msgid "Dragon Shire"
 msgstr "Contea del Drago"
 
-#: masterleague/lc_strings.py:41
+#: masterleague/lc_strings.py:44
 msgid "Garden of Terror"
 msgstr "Giardino del Terrore"
 
-#: masterleague/lc_strings.py:42
+#: masterleague/lc_strings.py:45
 msgid "Haunted Mines"
 msgstr "Miniere Infestate"
 
-#: masterleague/lc_strings.py:43
+#: masterleague/lc_strings.py:46
 msgid "Infernal Shrines"
 msgstr "Altari Infernali"
 
-#: masterleague/lc_strings.py:44
+#: masterleague/lc_strings.py:47
 msgid "Sky Temple"
 msgstr "Tempio Celeste"
 
-#: masterleague/lc_strings.py:45
+#: masterleague/lc_strings.py:48
 msgid "Tomb of the Spider Queen"
 msgstr "Tomba della Regina Ragno"
 
-#: masterleague/lc_strings.py:46
+#: masterleague/lc_strings.py:49
 msgid "Towers of Doom"
 msgstr "Torri della Rovina"
 
-#: masterleague/lc_strings.py:47
+#: masterleague/lc_strings.py:50
 msgid "Warhead Junction"
 msgstr "Stazione Atomica"
 
-#: masterleague/lc_strings.py:51
+#: masterleague/lc_strings.py:54
 #, python-format
 msgid "Altar captured. Shots fired: %(shots_fired)s."
 msgstr "Altare catturato. Colpi sparati: %(shots_fired)s."
 
-#: masterleague/lc_strings.py:52
+#: masterleague/lc_strings.py:55
 msgid "Dragon Knight activated"
 msgstr "Drago Cavaliere attivato"
 
-#: masterleague/lc_strings.py:53
+#: masterleague/lc_strings.py:56
 msgid "Garden Terror activated"
 msgstr "Giardino del Terrore attivato"
 
-#: masterleague/lc_strings.py:54
+#: masterleague/lc_strings.py:57
 msgid "Ghost ship captured"
 msgstr "Nave fantasma catturata"
 
-#: masterleague/lc_strings.py:55
+#: masterleague/lc_strings.py:58
 msgid "Immortal defeated"
 msgstr "Immortale battuto"
 
-#: masterleague/lc_strings.py:56
+#: masterleague/lc_strings.py:59
 msgid "Infernal shrine captured"
 msgstr "Santuario Infernale catturato"
 
-#: masterleague/lc_strings.py:57
+#: masterleague/lc_strings.py:60
 msgid "Boss camp"
 msgstr "Campo Boss"
 
-#: masterleague/lc_strings.py:58
+#: masterleague/lc_strings.py:61
 msgid "Nuke launch"
 msgstr "Lancio di Bombe Atomiche"
 
-#: masterleague/lc_strings.py:59
+#: masterleague/lc_strings.py:62
 msgid "Raven curse activated"
 msgstr "Maledizione del Corvo attivata"
 
-#: masterleague/lc_strings.py:60
+#: masterleague/lc_strings.py:63
 #, python-format
 msgid "Temple shots fired. Total Shot Damage: %(total_shot_damage)s."
 msgstr "Colpi sparati ai Templi. Totale danni: %(total_shot_damage)s."
 
-#: masterleague/lc_strings.py:61
+#: masterleague/lc_strings.py:64
 msgid "Webweavers spawned"
 msgstr "Tessitrici generate"
 
-#: masterleague/lc_strings.py:62
+#: masterleague/lc_strings.py:65
 #, python-format
 msgid "Zerg rush. Opposing score: %(opposing_score)s%%."
 msgstr "Zerg rush. Punteggio di opposizione: %(opposing_score)s%%."
 
-#: masterleague/lc_strings.py:66
+#: masterleague/lc_strings.py:69
 msgid "Samuro Patch"
 msgstr "Patch Samuro"
 
-#: masterleague/lc_strings.py:67
+#: masterleague/lc_strings.py:70
 msgid "Alarak Patch"
 msgstr "Patch Alarak"
 
-#: masterleague/lc_strings.py:68
+#: masterleague/lc_strings.py:71
 msgid "Auriel Patch"
 msgstr "Patch Auriel"
 
-#: masterleague/lc_strings.py:69
+#: masterleague/lc_strings.py:72
 msgid "Gul'dan Patch"
 msgstr "Patch Gul'dan"
 
-#: masterleague/lc_strings.py:70
+#: masterleague/lc_strings.py:73
 msgid "Medivh Patch"
 msgstr "Patch Medivh"
 
-#: masterleague/lc_strings.py:71
+#: masterleague/lc_strings.py:74
 msgid "Chromie Patch"
 msgstr "Patch Chromie"
 
-#: masterleague/lc_strings.py:72
+#: masterleague/lc_strings.py:75
 msgid "Tracer Patch"
 msgstr "Patch Tracer"
 
-#: masterleague/lc_strings.py:73
+#: masterleague/lc_strings.py:76
 msgid "Dehaka Patch"
 msgstr "Patch Dehaka"
 
-#: masterleague/lc_strings.py:74
+#: masterleague/lc_strings.py:77
 msgid "Xul Patch"
 msgstr "Patch XUL"
 
-#: masterleague/lc_strings.py:75
+#: masterleague/lc_strings.py:78
 msgid "Li-Ming Patch"
 msgstr "Patch Li-Ming"
 
-#: masterleague/lc_strings.py:76
+#: masterleague/lc_strings.py:79
 msgid "Greymane Patch"
 msgstr "Patch Greymane"
 
-#: masterleague/lc_strings.py:77
+#: masterleague/lc_strings.py:80
 msgid "Lunara Patch"
 msgstr "Patch Lunara"
 
-#: masterleague/lc_strings.py:78
+#: masterleague/lc_strings.py:81
 msgid "Zarya Patch"
 msgstr "Patch Zarya"
 
-#: masterleague/lc_strings.py:79
+#: masterleague/lc_strings.py:82
 msgid "Varian Patch"
 msgstr "Patch Varian"
 
-#: masterleague/lc_strings.py:80
+#: masterleague/lc_strings.py:83
 msgid "Ragnaros Patch"
 msgstr "Patch Ragnaros"
 
-#: masterleague/lc_strings.py:81
+#: masterleague/lc_strings.py:84
 msgid "Zul'jin Patch"
 msgstr "Patch Zul'jin"
 
-#: masterleague/lc_strings.py:82
+#: masterleague/lc_strings.py:85
 msgid "Valeera Patch"
 msgstr "Patch Valeera"
 
-#: masterleague/lc_strings.py:83
+#: masterleague/lc_strings.py:86
 #, fuzzy
 #| msgid "Xul Patch"
 msgid "Lucio Patch"
 msgstr "Patch XUL"
 
-#: masterleague/lc_strings.py:84
+#: masterleague/lc_strings.py:87
 #, fuzzy
 #| msgid "Chromie Patch"
 msgid "Probius Patch"
 msgstr "Patch Chromie"
 
-#: masterleague/lc_strings.py:88
+#: masterleague/lc_strings.py:91
 msgid "Abathur"
 msgstr "Abathur"
 
-#: masterleague/lc_strings.py:89
+#: masterleague/lc_strings.py:92
 msgid "Alarak"
 msgstr "Alarak"
 
-#: masterleague/lc_strings.py:90
+#: masterleague/lc_strings.py:93
 msgid "Anub'arak"
 msgstr "Anub'arak"
 
-#: masterleague/lc_strings.py:91
+#: masterleague/lc_strings.py:94
 msgid "Artanis"
 msgstr "Artanis"
 
-#: masterleague/lc_strings.py:92
+#: masterleague/lc_strings.py:95
 msgid "Arthas"
 msgstr "Arthas"
 
-#: masterleague/lc_strings.py:93
+#: masterleague/lc_strings.py:96
 msgid "Auriel"
 msgstr "Auriel"
 
-#: masterleague/lc_strings.py:94
+#: masterleague/lc_strings.py:97
 msgid "Azmodan"
 msgstr "Azmodan"
 
-#: masterleague/lc_strings.py:95
+#: masterleague/lc_strings.py:98
 msgid "Brightwing"
 msgstr "Alachiara"
 
-#: masterleague/lc_strings.py:96
+#: masterleague/lc_strings.py:99
 msgid "Chen"
 msgstr "Chen"
 
-#: masterleague/lc_strings.py:97
+#: masterleague/lc_strings.py:100
 msgid "Cho"
 msgstr "Cho"
 
-#: masterleague/lc_strings.py:98
+#: masterleague/lc_strings.py:101
 msgid "Chromie"
 msgstr "Chromie"
 
-#: masterleague/lc_strings.py:99
+#: masterleague/lc_strings.py:102
 msgid "Dehaka"
 msgstr "Dehaka"
 
-#: masterleague/lc_strings.py:100
+#: masterleague/lc_strings.py:103
 msgid "Diablo"
 msgstr "Diablo"
 
-#: masterleague/lc_strings.py:101
+#: masterleague/lc_strings.py:104
 msgid "E.T.C."
 msgstr "E.T.C."
 
-#: masterleague/lc_strings.py:102
+#: masterleague/lc_strings.py:105
 msgid "Falstad"
 msgstr "Falstad"
 
-#: masterleague/lc_strings.py:103
+#: masterleague/lc_strings.py:106
 msgid "Gall"
 msgstr "Gall"
 
-#: masterleague/lc_strings.py:104
+#: masterleague/lc_strings.py:107
 msgid "Gazlowe"
 msgstr "Sparachiodi"
 
-#: masterleague/lc_strings.py:105
+#: masterleague/lc_strings.py:108
 msgid "Greymane"
 msgstr "Mantogrigio"
 
-#: masterleague/lc_strings.py:106
+#: masterleague/lc_strings.py:109
 msgid "Gul'dan"
 msgstr "Gul'Dan"
 
-#: masterleague/lc_strings.py:107
+#: masterleague/lc_strings.py:110
 msgid "Illidan"
 msgstr "Illidan"
 
-#: masterleague/lc_strings.py:108
+#: masterleague/lc_strings.py:111
 msgid "Jaina"
 msgstr "Jaina"
 
-#: masterleague/lc_strings.py:109
+#: masterleague/lc_strings.py:112
 msgid "Johanna"
 msgstr "Johanna"
 
-#: masterleague/lc_strings.py:110
+#: masterleague/lc_strings.py:113
 msgid "Kael'thas"
 msgstr "Kael'thas"
 
-#: masterleague/lc_strings.py:111
+#: masterleague/lc_strings.py:114
 msgid "Kerrigan"
 msgstr "Kerrigan"
 
-#: masterleague/lc_strings.py:112
+#: masterleague/lc_strings.py:115
 msgid "Kharazim"
 msgstr "Kharazim"
 
-#: masterleague/lc_strings.py:113
+#: masterleague/lc_strings.py:116
 msgid "Leoric"
 msgstr "Leoric"
 
-#: masterleague/lc_strings.py:114
+#: masterleague/lc_strings.py:117
 msgid "Li Li"
 msgstr "Li Li"
 
-#: masterleague/lc_strings.py:115
+#: masterleague/lc_strings.py:118
 msgid "Li-Ming"
 msgstr "Li-Ming"
 
-#: masterleague/lc_strings.py:116
+#: masterleague/lc_strings.py:119
 msgid "Lt. Morales"
 msgstr "Ten. Morales"
 
-#: masterleague/lc_strings.py:117
+#: masterleague/lc_strings.py:120
 msgid "Lucio"
 msgstr ""
 
-#: masterleague/lc_strings.py:118
+#: masterleague/lc_strings.py:121
 msgid "Lunara"
 msgstr "Lunara"
 
-#: masterleague/lc_strings.py:119
+#: masterleague/lc_strings.py:122
 msgid "Malfurion"
 msgstr "Malfurion"
 
-#: masterleague/lc_strings.py:120
+#: masterleague/lc_strings.py:123
 msgid "Medivh"
 msgstr "Medivh"
 
-#: masterleague/lc_strings.py:121
+#: masterleague/lc_strings.py:124
 msgid "Muradin"
 msgstr "Muradin"
 
-#: masterleague/lc_strings.py:122
+#: masterleague/lc_strings.py:125
 msgid "Murky"
 msgstr "Fosky"
 
-#: masterleague/lc_strings.py:123
+#: masterleague/lc_strings.py:126
 msgid "Nazeebo"
 msgstr "Nazeebo"
 
-#: masterleague/lc_strings.py:124
+#: masterleague/lc_strings.py:127
 msgid "Nova"
 msgstr "Nova"
 
-#: masterleague/lc_strings.py:125
+#: masterleague/lc_strings.py:128
 msgid "Ragnaros"
 msgstr "Ragnaros"
 
-#: masterleague/lc_strings.py:126
+#: masterleague/lc_strings.py:129
 msgid "Raynor"
 msgstr "Raynor"
 
-#: masterleague/lc_strings.py:127
+#: masterleague/lc_strings.py:130
 msgid "Rehgar"
 msgstr "Rehgar"
 
-#: masterleague/lc_strings.py:128
+#: masterleague/lc_strings.py:131
 msgid "Rexxar"
 msgstr "Rexxar"
 
-#: masterleague/lc_strings.py:129
+#: masterleague/lc_strings.py:132
 msgid "Samuro"
 msgstr "Samuro"
 
-#: masterleague/lc_strings.py:130
+#: masterleague/lc_strings.py:133
 msgid "Sgt. Hammer"
 msgstr "Sgt. Hammer"
 
-#: masterleague/lc_strings.py:131
+#: masterleague/lc_strings.py:134
 msgid "Sonya"
 msgstr "Sonya"
 
-#: masterleague/lc_strings.py:132
+#: masterleague/lc_strings.py:135
 msgid "Stitches"
 msgstr "Tritacarne"
 
-#: masterleague/lc_strings.py:133
+#: masterleague/lc_strings.py:136
 msgid "Sylvanas"
 msgstr "Sylvanas"
 
-#: masterleague/lc_strings.py:134
+#: masterleague/lc_strings.py:137
 msgid "Tassadar"
 msgstr "Tassadar"
 
-#: masterleague/lc_strings.py:135
+#: masterleague/lc_strings.py:138
 msgid "The Butcher"
 msgstr "Macellaio"
 
-#: masterleague/lc_strings.py:136
+#: masterleague/lc_strings.py:139
 msgid "The Lost Vikings"
 msgstr "Vichinghi Sperduti"
 
-#: masterleague/lc_strings.py:137
+#: masterleague/lc_strings.py:140
 msgid "Thrall"
 msgstr "Thrall"
 
-#: masterleague/lc_strings.py:138
+#: masterleague/lc_strings.py:141
 msgid "Tracer"
 msgstr "Tracer"
 
-#: masterleague/lc_strings.py:139
+#: masterleague/lc_strings.py:142
 msgid "Tychus"
 msgstr "Tychus"
 
-#: masterleague/lc_strings.py:140
+#: masterleague/lc_strings.py:143
 msgid "Tyrael"
 msgstr "Tyrael"
 
-#: masterleague/lc_strings.py:141
+#: masterleague/lc_strings.py:144
 msgid "Tyrande"
 msgstr "Tyrande"
 
-#: masterleague/lc_strings.py:142
+#: masterleague/lc_strings.py:145
 msgid "Uther"
 msgstr "Uther"
 
-#: masterleague/lc_strings.py:143
+#: masterleague/lc_strings.py:146
 msgid "Valeera"
 msgstr "Valeera"
 
-#: masterleague/lc_strings.py:144
+#: masterleague/lc_strings.py:147
 msgid "Valla"
 msgstr "Valla"
 
-#: masterleague/lc_strings.py:145
+#: masterleague/lc_strings.py:148
 msgid "Varian"
 msgstr "Varian"
 
-#: masterleague/lc_strings.py:146
+#: masterleague/lc_strings.py:149
 msgid "Xul"
 msgstr "Xul"
 
-#: masterleague/lc_strings.py:147
+#: masterleague/lc_strings.py:150
 msgid "Zagara"
 msgstr "Zagara"
 
-#: masterleague/lc_strings.py:148
+#: masterleague/lc_strings.py:151
 msgid "Zarya"
 msgstr "Zarya"
 
-#: masterleague/lc_strings.py:149
+#: masterleague/lc_strings.py:152
 msgid "Zeratul"
 msgstr "Zeratul"
 
-#: masterleague/lc_strings.py:150
+#: masterleague/lc_strings.py:153
 msgid "Zul'jin"
 msgstr "Zul'jin"
 
-#: masterleague/lc_strings.py:151
+#: masterleague/lc_strings.py:154
 msgid "Probius"
 msgstr ""
 
@@ -1580,8 +1592,8 @@ msgstr "Confronta i giocatori"
 
 #: meta/templates/meta/players.html:105 meta/templates/meta/teams.html:93
 #: teams/templates/players/player_heroes.html:41
-#: teams/templates/players/player_overview.html:24 teams/views.py:586
-#: teams/views.py:609
+#: teams/templates/players/player_overview.html:24 teams/views.py:587
+#: teams/views.py:610
 msgid "KDA"
 msgstr "KDA"
 
@@ -1973,7 +1985,7 @@ msgstr "Danni da assedio"
 msgid "Average Match Time"
 msgstr "Tempo Medio Partita"
 
-#: teams/templates/players/player_overview.html:102 teams/views.py:617
+#: teams/templates/players/player_overview.html:102 teams/views.py:618
 msgid "Analyzed Replays"
 msgstr "Replay Analizzati"
 
@@ -2196,27 +2208,27 @@ msgstr ""
 "Il rateo si basa sulle statistiche di quel giocatore comparato alle "
 "statistiche di altri giocatori con lo stesso eroe nelle stesse patch"
 
-#: teams/views.py:587
+#: teams/views.py:588
 msgctxt "Hero damage"
 msgid "Hero"
 msgstr "Hero"
 
-#: teams/views.py:588
+#: teams/views.py:589
 msgctxt "Siege damage"
 msgid "Siege"
 msgstr "Assedio"
 
-#: teams/views.py:589
+#: teams/views.py:590
 msgctxt "Amount of time player was not dead during the match"
 msgid "Lifetime"
 msgstr "Corso della vita"
 
-#: teams/views.py:590
+#: teams/views.py:591
 msgctxt "Crowd control duration"
 msgid "CC"
 msgstr "CC"
 
-#: teams/views.py:591
+#: teams/views.py:592
 #, fuzzy
 #| msgctxt "Expirience"
 #| msgid "XP"
@@ -2224,37 +2236,37 @@ msgctxt "Experience"
 msgid "XP"
 msgstr "ESP"
 
-#: teams/views.py:592
+#: teams/views.py:593
 msgctxt "Healing amount (for healers) or Damage taken (for warriors)"
 msgid "Role"
 msgstr "Ruolo"
 
-#: teams/views.py:610
+#: teams/views.py:611
 msgctxt "Amount of time player was not dead during the match"
 msgid "Lifetime / Min"
 msgstr "Durata / Min"
 
-#: teams/views.py:611
+#: teams/views.py:612
 msgid "Siege Damage / Min"
 msgstr "Assedio di danni / Min"
 
-#: teams/views.py:612
+#: teams/views.py:613
 msgid "Hero Damage / Min"
 msgstr "Danno agli eroi/ Min"
 
-#: teams/views.py:613
+#: teams/views.py:614
 msgid "Healing / Min"
 msgstr "Guarigione / Min"
 
-#: teams/views.py:614
+#: teams/views.py:615
 msgid "Damage Taken / Min"
 msgstr "Danni subiti / Min"
 
-#: teams/views.py:615
+#: teams/views.py:616
 msgid "CC Duration / Min"
 msgstr "Durata CC / Min"
 
-#: teams/views.py:616
+#: teams/views.py:617
 msgid "Experience / Min"
 msgstr "Esperienza / Min"
 
@@ -2320,15 +2332,6 @@ msgstr "Aiutarci a tradurre il sito!"
 #~ "<br><br>Calcolata analizzando <strong>%(ppr_match_count)s partite "
 #~ "corrispondenti</strong> con replay di <strong>%(match_count)s partite</"
 #~ "strong> in totale."
-
-#~ msgid "Winners Final"
-#~ msgstr "Finale dei Vincitori"
-
-#~ msgid "Showmatch"
-#~ msgstr "Showmatch"
-
-#~ msgid "Tiebreak"
-#~ msgstr "Spareggio"
 
 #~ msgid ""
 #~ "Too few matches played (%(total_match_count)s of 50 minimum required) in "
