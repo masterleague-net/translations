@@ -112,8 +112,7 @@ msgstr "Zaloguj przez Battle.net"
 msgid "Matches"
 msgstr "Mecze"
 
-#: bets/templates/bets/bets_base.html:54
-#: bets/templates/bets/leaderboard.html:5
+#: bets/templates/bets/bets_base.html:54 bets/templates/bets/leaderboard.html:5
 #: bets/templates/bets/leaderboard.html:7
 #: bets/templates/bets/leaderboard.html:27
 msgid "Leaderboard"
@@ -566,9 +565,8 @@ msgctxt "minutes"
 msgid "mins"
 msgstr "min"
 
-#: maps/templates/maps/map_detail.html:8
-#: maps/templates/maps/map_detail.html:30 maps/templates/maps/map_list.html:8
-#: maps/templates/maps/map_list.html:13
+#: maps/templates/maps/map_detail.html:8 maps/templates/maps/map_detail.html:30
+#: maps/templates/maps/map_list.html:8 maps/templates/maps/map_list.html:13
 #: matches/templates/tournaments/tournament_overview.html:155
 #: meta/templates/meta/base.html:44 meta/templates/meta/maps.html:5
 #: meta/templates/meta/maps.html:6 templates/base.html:208
@@ -707,20 +705,16 @@ msgid "1/8 Final LB"
 msgstr "1/8 finału DP"
 
 #: masterleague/lc_strings.py:31
-#, fuzzy
-#| msgid "1/8 Final LB"
 msgid "1/8 Final WB"
-msgstr "1/8 finału DP"
+msgstr "1/8 finału DW"
 
 #: masterleague/lc_strings.py:32
-#, fuzzy
-#| msgid "1/2 Final"
 msgid "1/16 Final"
-msgstr "Półfinał"
+msgstr "1/16 finału"
 
 #: masterleague/lc_strings.py:33
 msgid "3rd place"
-msgstr ""
+msgstr "Trzecie miejsce"
 
 #: masterleague/lc_strings.py:34
 msgid "Tiebreak"
@@ -898,16 +892,12 @@ msgid "Valeera Patch"
 msgstr "Wersja Valeera"
 
 #: masterleague/lc_strings.py:86
-#, fuzzy
-#| msgid "Xul Patch"
 msgid "Lucio Patch"
-msgstr "Wersja Xul"
+msgstr "Wersja Lucio"
 
 #: masterleague/lc_strings.py:87
-#, fuzzy
-#| msgid "Chromie Patch"
 msgid "Probius Patch"
-msgstr "Wersja Chromie"
+msgstr "Wersja Probiusz"
 
 #: masterleague/lc_strings.py:91
 msgid "Abathur"
@@ -1027,7 +1017,7 @@ msgstr "Por. Morales"
 
 #: masterleague/lc_strings.py:120
 msgid "Lucio"
-msgstr ""
+msgstr "Lucio"
 
 #: masterleague/lc_strings.py:121
 msgid "Lunara"
@@ -1163,7 +1153,7 @@ msgstr "Zul'jin"
 
 #: masterleague/lc_strings.py:154
 msgid "Probius"
-msgstr ""
+msgstr "Probiusz"
 
 #: matches/forms.py:17 teams/forms.py:15 teams/forms.py:40
 msgid "Patch"
