@@ -138,7 +138,7 @@ msgstr "选手"
 #: bets/templates/bets/leaderboard.html:62
 msgctxt "Bets count"
 msgid "Bets"
-msgstr ""
+msgstr "投注数"
 
 #: bets/templates/bets/leaderboard.html:63
 msgid "Predicted winner"
@@ -266,7 +266,7 @@ msgstr "标记为已读"
 
 #: comments/templates/comments/comment_nodes.html:275
 msgid "Post a comment"
-msgstr "发表一条评论"
+msgstr "发表评论"
 
 #: comments/templates/profiles/base.html:25
 msgid "Comments count"
@@ -715,7 +715,7 @@ msgstr "半决赛"
 
 #: masterleague/lc_strings.py:33
 msgid "3rd place"
-msgstr ""
+msgstr "第三名"
 
 #: masterleague/lc_strings.py:34
 msgid "Tiebreak"
@@ -896,7 +896,7 @@ msgstr "瓦莉拉版本"
 #, fuzzy
 #| msgid "Xul Patch"
 msgid "Lucio Patch"
-msgstr "祖尔版本"
+msgstr "卢西奥版本"
 
 #: masterleague/lc_strings.py:87
 #, fuzzy
@@ -1022,7 +1022,7 @@ msgstr "莫拉莉斯中尉"
 
 #: masterleague/lc_strings.py:120
 msgid "Lucio"
-msgstr ""
+msgstr "卢西奥"
 
 #: masterleague/lc_strings.py:121
 msgid "Lunara"
@@ -1158,7 +1158,7 @@ msgstr "祖尔金"
 
 #: masterleague/lc_strings.py:154
 msgid "Probius"
-msgstr ""
+msgstr "普罗比斯"
 
 #: matches/forms.py:17 teams/forms.py:15 teams/forms.py:40
 msgid "Patch"
@@ -1180,7 +1180,7 @@ msgstr "所有英雄"
 #: matches/templates/admin/tabular.html:121
 #, python-format
 msgid "Add another %(verbose_name)s"
-msgstr ""
+msgstr "添加另一个 %(verbose_name)s"
 
 #: matches/templates/matches/match_detail.html:45
 #: matches/templates/matches/match_stats.html:225
@@ -1503,13 +1503,13 @@ msgstr "主流战术"
 #, fuzzy
 #| msgid "Top First Picks"
 msgid "Top First Bans"
-msgstr "最常首选的英雄"
+msgstr "最常首禁的英雄"
 
 #: meta/templates/meta/drafts.html:49 meta/templates/meta/drafts.html:100
 #: meta/templates/meta/drafts.html:153 meta/templates/meta/drafts.html:204
 #: meta/templates/meta/maps.html:36
 msgid "Summary"
-msgstr "全英雄"
+msgstr "所有英雄"
 
 #: meta/templates/meta/drafts.html:63
 msgid "Top First Picks"
@@ -1517,11 +1517,11 @@ msgstr "最常首选的英雄"
 
 #: meta/templates/meta/drafts.html:116
 msgid "Top Second Bans"
-msgstr ""
+msgstr "最常第二禁选的英雄"
 
 #: meta/templates/meta/drafts.html:167
 msgid "Top Second Picks (two heroes)"
-msgstr ""
+msgstr "最常第二选的2个英雄"
 
 #: meta/templates/meta/drafts.html:220
 msgid "Most Common Compositions"
@@ -1539,7 +1539,7 @@ msgstr "局数"
 #: meta/templates/meta/heroes.html:12
 #, python-format
 msgid "Unpicked Heroes (%(unpicked_heroes_count)s of %(heroes_count)s)"
-msgstr ""
+msgstr "未选英雄数 %(unpicked_heroes_count)s of %(heroes_count)s)"
 
 #: meta/templates/meta/include/meta_filter_form.html:36
 #: teams/templates/players/player_detail.html:117
@@ -1571,18 +1571,18 @@ msgstr "最常禁用的英雄"
 
 #: meta/templates/meta/players.html:12
 msgid "Widest Hero Pool by Players"
-msgstr ""
+msgstr "英雄池深度排名"
 
 #: meta/templates/meta/players.html:52
 msgid "Smallest Hero Pool by Players"
-msgstr ""
+msgstr "英雄池浅度排名"
 
 #: meta/templates/meta/players.html:94
 #, fuzzy
 #| msgctxt "[SEO] Page title"
 #| msgid "Compare Players"
 msgid "Top KDA Players"
-msgstr "选手比较"
+msgstr "选手KDA排名"
 
 #: meta/templates/meta/players.html:105 meta/templates/meta/teams.html:93
 #: teams/templates/players/player_heroes.html:41
@@ -1595,35 +1595,35 @@ msgstr "KDA"
 #, fuzzy
 #| msgid "Player Performance Rating"
 msgid "Players performance"
-msgstr "选手表现评分"
+msgstr "选手表现"
 
 #: meta/templates/meta/players.html:143 meta/templates/meta/teams.html:128
 #, fuzzy
 #| msgid "Player Performance Rating"
 msgid "Performance"
-msgstr "选手表现评分"
+msgstr "表现"
 
 #: meta/templates/meta/players.html:145 meta/templates/meta/teams.html:130
 msgid "Value"
-msgstr ""
+msgstr "数值"
 
 #: meta/templates/meta/teams.html:12
 msgid "Widest Hero Pool by Teams"
-msgstr ""
+msgstr "队伍英雄池深度排名"
 
 #: meta/templates/meta/teams.html:47
 msgid "Smallest Hero Pool by Teams"
-msgstr ""
+msgstr "队伍英雄池浅度排名"
 
 #: meta/templates/meta/teams.html:84
 #, fuzzy
 #| msgid "To Team"
 msgid "Top KDA Teams"
-msgstr "新队伍"
+msgstr "队伍KDA排名"
 
 #: meta/templates/meta/teams.html:119
 msgid "Teams performance"
-msgstr ""
+msgstr "队伍表现"
 
 #: meta/views.py:119
 msgid "No matches played in the selected period."
@@ -1651,31 +1651,31 @@ msgstr ""
 
 #: meta/views.py:270
 msgid "The highest average number of kills"
-msgstr ""
+msgstr "平均击杀数最多的选手"
 
 #: meta/views.py:281
 msgid "The highest average number of assists"
-msgstr ""
+msgstr "平均助攻数最多的选手"
 
 #: meta/views.py:292
 msgid "Player that spent the most time alive"
-msgstr ""
+msgstr "游戏存活时间最长的选手"
 
 #: meta/views.py:303
 msgid "Player that spent the most time dead"
-msgstr ""
+msgstr "游戏死亡时间最长的选手"
 
 #: meta/views.py:347
 msgid "The highest average deaths"
-msgstr ""
+msgstr "平均死亡率最高"
 
 #: meta/views.py:358
 msgid "Team that spent the most time alive"
-msgstr ""
+msgstr "游戏存活时间最长的队伍"
 
 #: meta/views.py:369
 msgid "Team that spent the most time dead"
-msgstr ""
+msgstr "游戏死亡时间最长的队伍"
 
 #: pages/templates/calendar.html:5
 msgctxt "[SEO] Page title"
@@ -1697,8 +1697,8 @@ msgid ""
 "Google Calendar, find 'Other Calendars', choose 'Add by URL' and paste the "
 "link into the URL field."
 msgstr ""
-"如果你是Google Calendar的用户，请复制按钮的链接，打开Google Calendar，找"
-"到“Other Calendars”，选择“Add by URL”，然后把链接地址粘贴到URL栏里。"
+"如果你是 Google日历 的用户，请复制按钮的链接，打开 Google日历，找"
+"到“其它日历”，选择“通过URL添加”，然后把链接地址粘贴到URL栏里。"
 
 #: pages/templates/calendar_inline.html:48
 msgid "Subscribe to Calendar"
@@ -1725,7 +1725,7 @@ msgstr "即将到来"
 
 #: pages/templates/calendar_inline.html:147
 msgid "Times displayed in your local time"
-msgstr "显示的是您的本地时间"
+msgstr "当前显示的是您的本地时间"
 
 #: pages/templates/mainpage.html:7
 msgctxt "Greeting"
@@ -1811,7 +1811,7 @@ msgstr "所有地图"
 #: teams/forms.py:79
 msgctxt "Form filter, any team choice"
 msgid "Any"
-msgstr "任选"
+msgstr "任何队伍"
 
 #: teams/forms.py:80
 msgctxt "Player w/o team"
@@ -1821,7 +1821,7 @@ msgstr "自由选手"
 #: teams/forms.py:84
 msgctxt "Form filter, any player position choice"
 msgid "Any"
-msgstr "任选"
+msgstr "任何位置"
 
 #: teams/forms.py:91 teams/templates/players/player_list.html:79
 #: teams/templates/teams/team_overview.html:20
@@ -1904,7 +1904,7 @@ msgstr "经验值/分钟"
 
 #: teams/templates/players/player_heroes.html:47
 msgid "PPR"
-msgstr ""
+msgstr "PPR"
 
 #: teams/templates/players/player_list.html:34
 #: teams/templates/players/players_compare.html:122
@@ -1958,7 +1958,7 @@ msgstr "参赛队伍"
 
 #: teams/templates/players/player_overview.html:59
 msgid "Time Dead"
-msgstr ""
+msgstr "死亡时间"
 
 #: teams/templates/players/player_overview.html:68
 #, fuzzy
@@ -1974,7 +1974,7 @@ msgstr "攻城伤害"
 
 #: teams/templates/players/player_overview.html:95
 msgid "Average Match Time"
-msgstr ""
+msgstr "平均比赛时间"
 
 #: teams/templates/players/player_overview.html:102 teams/views.py:618
 msgid "Analyzed Replays"
@@ -2029,7 +2029,7 @@ msgstr "搜索中..."
 #: teams/templates/players/players_compare.html:163
 msgctxt "Button label for players compare"
 msgid "Compare"
-msgstr "比較"
+msgstr "比较"
 
 #: teams/templates/players/players_compare.html:182
 msgctxt "Players compare page"
