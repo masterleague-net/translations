@@ -3,11 +3,14 @@ msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-07 21:55+0000\n"
-"Language: zh-CN\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
+"X-Generator: Poedit 1.8.12\n"
+"PO-Revision-Date: \n"
+"Last-Translator: LJ <jeklau@gmail.com>\n"
+"Language-Team: \n"
 
 #: bets/forms.py:18
 msgid "Season"
@@ -65,11 +68,11 @@ msgstr "预测结果"
 
 #: bets/templates/bets/bets_base.html:34
 msgid "earn points"
-msgstr "已得积分"
+msgstr "赢取积分"
 
 #: bets/templates/bets/bets_base.html:35
 msgid "win prizes"
-msgstr "获胜奖励"
+msgstr "获得奖励"
 
 #: bets/templates/bets/bets_base.html:45
 #: bets/templates/bets/leaderboard.html:65
@@ -80,7 +83,7 @@ msgstr "分数"
 #: bets/templates/bets/bets_base.html:48
 #: comments/templates/comments/comment_list.html:38
 msgid "Login via Battle.net"
-msgstr "由战网登录"
+msgstr "通过战网登录"
 
 #: bets/templates/bets/bets_base.html:53 bets/templates/bets/matches.html:7
 #: heroes/templates/heroes/hero_builds.html:68
@@ -109,8 +112,7 @@ msgstr "由战网登录"
 msgid "Matches"
 msgstr "比赛"
 
-#: bets/templates/bets/bets_base.html:54
-#: bets/templates/bets/leaderboard.html:5
+#: bets/templates/bets/bets_base.html:54 bets/templates/bets/leaderboard.html:5
 #: bets/templates/bets/leaderboard.html:7
 #: bets/templates/bets/leaderboard.html:27
 msgid "Leaderboard"
@@ -150,7 +152,7 @@ msgstr "预测比分"
 
 #: bets/templates/bets/matches.html:59
 msgid "Time until"
-msgstr "时间直到"
+msgstr "截止时间"
 
 #: bets/templates/bets/matches.html:59
 #: changelog/templates/changelog/changelog_list.html:18
@@ -189,7 +191,7 @@ msgstr "已经结束的比赛"
 #: bets/templates/bets/matches_include.html:41
 #: bets/templates/bets/matches_include.html:45
 msgid "Your bet"
-msgstr "你的下注"
+msgstr "你的投注"
 
 #: bets/templates/bets/matches_include.html:34
 #: bets/templates/bets/matches_include.html:36
@@ -197,7 +199,7 @@ msgstr "你的下注"
 #: bets/templates/bets/matches_include.html:41
 #: bets/templates/bets/matches_include.html:45
 msgid "Total bets"
-msgstr "总计下注"
+msgstr "总计投注"
 
 #: changelog/templates/changelog/changelog_list.html:19
 msgctxt "News title"
@@ -214,11 +216,11 @@ msgstr "取消"
 
 #: comments/templates/comments/comment_list.html:31
 msgid "Write a comment"
-msgstr "写一条讨论"
+msgstr "写一条评论"
 
 #: comments/templates/comments/comment_list.html:37
 msgid "You must be logged in to leave a comment"
-msgstr "你必须登录才能进行评论"
+msgstr "必须登录后才能进行评论"
 
 #: comments/templates/comments/comment_nodes.html:128
 msgid "Delete the comment?"
@@ -226,7 +228,7 @@ msgstr "删除这条评论吗？"
 
 #: comments/templates/comments/comment_nodes.html:170
 msgid "Comment was removed"
-msgstr "评论已经移除。"
+msgstr "评论已经移除"
 
 #: comments/templates/comments/comment_nodes.html:183
 #: comments/templates/comments/comment_nodes.html:258
@@ -294,6 +296,7 @@ msgstr "标记所有为已读"
 msgid "No new notifications"
 msgstr "没有新的通知"
 
+# I can't find this on site..
 #: comments/templatetags/comments_tags.py:72
 #, python-format
 msgid "%s tag requires a queryset"
@@ -345,7 +348,7 @@ msgstr "天赋点法"
 #: teams/templates/teams/team_heroes.html:26
 #, python-format
 msgid "Win %%"
-msgstr "胜率"
+msgstr "胜率 %%"
 
 #: heroes/templates/heroes/hero_builds.html:99
 msgid "Show matches"
@@ -561,9 +564,8 @@ msgctxt "minutes"
 msgid "mins"
 msgstr "分钟"
 
-#: maps/templates/maps/map_detail.html:8
-#: maps/templates/maps/map_detail.html:30 maps/templates/maps/map_list.html:8
-#: maps/templates/maps/map_list.html:13
+#: maps/templates/maps/map_detail.html:8 maps/templates/maps/map_detail.html:30
+#: maps/templates/maps/map_list.html:8 maps/templates/maps/map_list.html:13
 #: matches/templates/tournaments/tournament_overview.html:155
 #: meta/templates/meta/base.html:44 meta/templates/meta/maps.html:5
 #: meta/templates/meta/maps.html:6 templates/base.html:208
@@ -702,20 +704,17 @@ msgid "1/8 Final LB"
 msgstr "败者组1/8决赛"
 
 #: masterleague/lc_strings.py:31
-#, fuzzy
-#| msgid "1/8 Final LB"
 msgid "1/8 Final WB"
-msgstr "败者组1/8决赛"
+msgstr "胜者组1/8决赛"
 
 #: masterleague/lc_strings.py:32
-#, fuzzy
-#| msgid "1/2 Final"
 msgid "1/16 Final"
-msgstr "半决赛"
+msgstr "1/16 决赛"
 
+# I can't find this on site..
 #: masterleague/lc_strings.py:33
 msgid "3rd place"
-msgstr "第三名"
+msgstr ""
 
 #: masterleague/lc_strings.py:34
 msgid "Tiebreak"
@@ -893,16 +892,12 @@ msgid "Valeera Patch"
 msgstr "瓦莉拉版本"
 
 #: masterleague/lc_strings.py:86
-#, fuzzy
-#| msgid "Xul Patch"
 msgid "Lucio Patch"
 msgstr "卢西奥版本"
 
 #: masterleague/lc_strings.py:87
-#, fuzzy
-#| msgid "Chromie Patch"
 msgid "Probius Patch"
-msgstr "克罗米版本"
+msgstr "普罗比斯版本"
 
 #: masterleague/lc_strings.py:91
 msgid "Abathur"
@@ -1177,6 +1172,7 @@ msgstr "所有地图"
 msgid "All Heroes"
 msgstr "所有英雄"
 
+# I can't find this on site..
 #: matches/templates/admin/tabular.html:121
 #, python-format
 msgid "Add another %(verbose_name)s"
@@ -1202,7 +1198,7 @@ msgstr "先选方"
 #: matches/templates/matches/match_detail.html:48
 msgctxt "Banned heroes list on match page"
 msgid "Bans"
-msgstr "禁用名单"
+msgstr "禁用的英雄"
 
 #: matches/templates/matches/match_detail.html:172
 msgid "Previous Matches"
@@ -1211,7 +1207,7 @@ msgstr "过往比赛"
 #: matches/templates/matches/match_detail.html:178
 msgctxt "Watch VODs"
 msgid "Watch"
-msgstr "观看"
+msgstr "观看视频"
 
 #: matches/templates/matches/match_detail.html:195
 #: matches/templates/matches/match_list.html:68
@@ -1221,7 +1217,7 @@ msgstr "游戏录像"
 
 #: matches/templates/matches/match_detail.html:200
 msgid "Download"
-msgstr "下载"
+msgstr "下载录像"
 
 #: matches/templates/matches/match_detail.html:209
 #: matches/templates/matches/match_stats.html:418
@@ -1271,6 +1267,7 @@ msgctxt "Some hero killed by some heroes"
 msgid "killed by"
 msgstr "死于"
 
+# I can't find this on site.
 #: matches/templates/matches/match_stats.html:180
 msgid "Nexus forces"
 msgstr ""
@@ -1358,7 +1355,7 @@ msgstr "显示比赛结果"
 #: matches/templates/matches/matches_inline.html:91
 #, python-format
 msgid "Game %(game_number)s"
-msgstr "第%(game_number)s局"
+msgstr "第 %(game_number)s 局"
 
 #: matches/templates/matches/matches_inline.html:108
 msgctxt "Tooltip for match score"
@@ -1484,8 +1481,6 @@ msgid "Main Event Statistics"
 msgstr "正赛统计数据"
 
 #: meta/forms.py:26 teams/forms.py:64
-#, fuzzy
-#| msgid "All Heroes"
 msgid "All heroes"
 msgstr "所有英雄"
 
@@ -1500,10 +1495,8 @@ msgid "Meta"
 msgstr "主流战术"
 
 #: meta/templates/meta/drafts.html:12
-#, fuzzy
-#| msgid "Top First Picks"
 msgid "Top First Bans"
-msgstr "最常首禁的英雄"
+msgstr "最常第一禁选的英雄"
 
 #: meta/templates/meta/drafts.html:49 meta/templates/meta/drafts.html:100
 #: meta/templates/meta/drafts.html:153 meta/templates/meta/drafts.html:204
@@ -1521,7 +1514,7 @@ msgstr "最常第二禁选的英雄"
 
 #: meta/templates/meta/drafts.html:167
 msgid "Top Second Picks (two heroes)"
-msgstr "最常第二选的2个英雄"
+msgstr "最常第二选的英雄(2个)"
 
 #: meta/templates/meta/drafts.html:220
 msgid "Most Common Compositions"
@@ -1539,8 +1532,9 @@ msgstr "局数"
 #: meta/templates/meta/heroes.html:12
 #, python-format
 msgid "Unpicked Heroes (%(unpicked_heroes_count)s of %(heroes_count)s)"
-msgstr "未选英雄数 %(unpicked_heroes_count)s of %(heroes_count)s)"
+msgstr "未选英雄数 (%(unpicked_heroes_count)s of %(heroes_count)s)"
 
+# I cant find the words on site
 #: meta/templates/meta/include/meta_filter_form.html:36
 #: teams/templates/players/player_detail.html:117
 msgid "Show only main stage matches (exclude qualifiers)"
@@ -1548,15 +1542,15 @@ msgstr ""
 
 #: meta/templates/meta/maps.html:22
 msgid "Shortest"
-msgstr ""
+msgstr "最短比赛时间"
 
 #: meta/templates/meta/maps.html:23
 msgid "Average"
-msgstr ""
+msgstr "平均比赛时间"
 
 #: meta/templates/meta/maps.html:24
 msgid "Longest"
-msgstr ""
+msgstr "最长比赛时间"
 
 #: meta/templates/meta/maps.html:25 teams/templates/teams/team_heroes.html:55
 msgctxt "Popular picks"
@@ -1564,23 +1558,18 @@ msgid "Most Played Heroes"
 msgstr "最常用的英雄"
 
 #: meta/templates/meta/maps.html:26
-#, fuzzy
-#| msgid "Most Banned Heroes"
 msgid "Most Banned"
-msgstr "最常禁用的英雄"
+msgstr "禁用次数最多的英雄"
 
 #: meta/templates/meta/players.html:12
 msgid "Widest Hero Pool by Players"
-msgstr "英雄池深度排名"
+msgstr "本次赛事的英雄池深度排名"
 
 #: meta/templates/meta/players.html:52
 msgid "Smallest Hero Pool by Players"
-msgstr "英雄池浅度排名"
+msgstr "本次赛事的英雄池浅度排名"
 
 #: meta/templates/meta/players.html:94
-#, fuzzy
-#| msgctxt "[SEO] Page title"
-#| msgid "Compare Players"
 msgid "Top KDA Players"
 msgstr "选手KDA排名"
 
@@ -1592,14 +1581,10 @@ msgid "KDA"
 msgstr "KDA"
 
 #: meta/templates/meta/players.html:134
-#, fuzzy
-#| msgid "Player Performance Rating"
 msgid "Players performance"
-msgstr "选手表现"
+msgstr "本次赛事的选手表现"
 
 #: meta/templates/meta/players.html:143 meta/templates/meta/teams.html:128
-#, fuzzy
-#| msgid "Player Performance Rating"
 msgid "Performance"
 msgstr "表现"
 
@@ -1609,21 +1594,19 @@ msgstr "数值"
 
 #: meta/templates/meta/teams.html:12
 msgid "Widest Hero Pool by Teams"
-msgstr "队伍英雄池深度排名"
+msgstr "本次赛事的队伍英雄池深度排名"
 
 #: meta/templates/meta/teams.html:47
 msgid "Smallest Hero Pool by Teams"
-msgstr "队伍英雄池浅度排名"
+msgstr "本次赛事的队伍英雄池浅度排名"
 
 #: meta/templates/meta/teams.html:84
-#, fuzzy
-#| msgid "To Team"
 msgid "Top KDA Teams"
 msgstr "队伍KDA排名"
 
 #: meta/templates/meta/teams.html:119
 msgid "Teams performance"
-msgstr "队伍表现"
+msgstr "本次赛事的队伍表现"
 
 #: meta/views.py:119
 msgid "No matches played in the selected period."
@@ -1647,15 +1630,17 @@ msgstr "专业型"
 
 #: meta/views.py:259 meta/views.py:336
 msgid "The highest average number of takedowns"
-msgstr ""
+msgstr "平均击杀数最高"
 
+# Is this highest mean lowest?
+# What is the difference between kills and takedowns?
 #: meta/views.py:270
 msgid "The highest average number of kills"
-msgstr "平均击杀数最多的选手"
+msgstr ""
 
 #: meta/views.py:281
 msgid "The highest average number of assists"
-msgstr "平均助攻数最多的选手"
+msgstr "平均助攻数最多的"
 
 #: meta/views.py:292
 msgid "Player that spent the most time alive"
@@ -1697,8 +1682,8 @@ msgid ""
 "Google Calendar, find 'Other Calendars', choose 'Add by URL' and paste the "
 "link into the URL field."
 msgstr ""
-"如果你是 Google日历 的用户，请复制按钮的链接，打开 Google日历，找"
-"到“其它日历”，选择“通过URL添加”，然后把链接地址粘贴到URL栏里。"
+"如果你是 Google日历 的用户，请复制按钮的链接，打开 Google日历，找到“其它日"
+"历”，选择“通过URL添加”，然后把链接地址粘贴到URL栏里。"
 
 #: pages/templates/calendar_inline.html:48
 msgid "Subscribe to Calendar"
@@ -1745,13 +1730,13 @@ msgid ""
 "href=\"%(player_list_url)s\"><strong>%(player_count)s</strong></a> "
 "professional players in our database."
 msgstr ""
-"在这里你能看到<a href=\"http://a.163.com/\" target=\"_blank\"><strong>风暴英"
-"雄</strong></a>的最新的比赛结果，VOD和录像。还能找到关于各个地区各个选手和战"
-"队的深度统计，以及更多精彩的內容。目前为止我们的数据库已经收录了约 <a href="
-"\"%(match_list_url)s\"><strong>%(match_count)s</strong></a>场比赛，<a href="
-"\"%(team_list_url)s\"><strong>%(team_count)s</strong></a>支队伍和<a href="
-"\"%(player_list_url)s\"><strong>%(player_count)s</strong></a>名职业选手的资"
-"料。"
+"在这里你能看到<a href=\"http://heroes.blizzard.cn/\" target=\"_blank"
+"\"><strong>风暴英雄</strong></a>的最新的比赛结果，VOD和录像。还能找到关于各个"
+"地区各个选手和战队的深度统计，以及更多精彩的內容。目前为止我们的数据库已经收"
+"录了约 <a href=\"%(match_list_url)s\"><strong>%(match_count)s</strong></a>场"
+"比赛，<a href=\"%(team_list_url)s\"><strong>%(team_count)s</strong></a>支队伍"
+"和<a href=\"%(player_list_url)s\"><strong>%(player_count)s</strong></a>名职业"
+"选手的资料。"
 
 #: pages/templates/mainpage.html:27
 msgid "Latest News"
@@ -1863,44 +1848,29 @@ msgid "Flex"
 msgstr "补位"
 
 #: teams/templates/players/player_detail.html:79
-#, fuzzy
-#| msgctxt "Hero overview"
-#| msgid "Overview"
 msgid "Overview"
 msgstr "概况"
 
 #: teams/templates/players/player_heroes.html:42
-#, fuzzy
-#| msgctxt "Live events in eSports Calendar"
-#| msgid "Live"
 msgid "Live Time"
 msgstr "正在直播"
 
 #: teams/templates/players/player_heroes.html:43
-#, fuzzy
-#| msgid "Hero Dmg"
 msgid "Hero dmg"
 msgstr "英雄伤害"
 
 #: teams/templates/players/player_heroes.html:44
-#, fuzzy
-#| msgid "Siege Dmg"
 msgid "Siege dmg"
 msgstr "攻城伤害"
 
 #: teams/templates/players/player_heroes.html:45
-#, fuzzy
-#| msgctxt "Hero role"
-#| msgid "Role"
 msgid "Role"
 msgstr "角色"
 
 #: teams/templates/players/player_heroes.html:46
 #: teams/templates/players/player_overview.html:86
-#, fuzzy
-#| msgid "Experience / Min"
 msgid "Experience"
-msgstr "经验值/分钟"
+msgstr "经验值/每分钟"
 
 #: teams/templates/players/player_heroes.html:47
 msgid "PPR"
@@ -1928,47 +1898,34 @@ msgstr "名字"
 
 #: teams/templates/players/player_overview.html:5
 #: teams/templates/players/player_overview.html:11
-#, fuzzy
-#| msgctxt "[SEO] Page title"
-#| msgid "Player Statistics"
 msgid "Player Statistics"
 msgstr "选手统计数据"
 
 #: teams/templates/players/player_overview.html:18
-#, fuzzy
-#| msgid "Player"
 msgid "Player Avg"
-msgstr "选手"
+msgstr "选手平均"
 
 #: teams/templates/players/player_overview.html:19
-#, fuzzy
-#| msgid "Team"
 msgid "Team Avg"
-msgstr "队伍"
+msgstr "队伍平均"
 
 #: teams/templates/players/player_overview.html:33
 msgid "Takedowns"
-msgstr ""
+msgstr "击杀数"
 
 #: teams/templates/players/player_overview.html:51
-#, fuzzy
-#| msgid "Participating Teams"
 msgid "Kill Participation"
-msgstr "参赛队伍"
+msgstr "击杀参与"
 
 #: teams/templates/players/player_overview.html:59
 msgid "Time Dead"
 msgstr "死亡时间"
 
 #: teams/templates/players/player_overview.html:68
-#, fuzzy
-#| msgid "Hero Dmg"
 msgid "Hero Damage"
 msgstr "英雄伤害"
 
 #: teams/templates/players/player_overview.html:77
-#, fuzzy
-#| msgid "Siege Dmg"
 msgid "Siege Damage"
 msgstr "攻城伤害"
 
@@ -2113,7 +2070,7 @@ msgstr "最常用的英雄"
 #: teams/templates/teams/team_heroes.html:94
 #, python-format
 msgid "Most Banned by %(team)s"
-msgstr "%(team)s最常禁用的英雄"
+msgstr "%(team)s 最常禁用的英雄"
 
 #: teams/templates/teams/team_heroes.html:131
 msgid "Most Banned by Opponents"
@@ -2122,7 +2079,7 @@ msgstr "对手最常禁用的英雄"
 #: teams/templates/teams/team_heroes.html:140
 #, python-format
 msgid "Loss %%"
-msgstr "败率"
+msgstr "败率 %%"
 
 #: teams/templates/teams/team_list.html:5
 msgctxt "[SEO] Page title"
@@ -2218,9 +2175,6 @@ msgid "CC"
 msgstr "控场时间"
 
 #: teams/views.py:592
-#, fuzzy
-#| msgctxt "Expirience"
-#| msgid "XP"
 msgctxt "Experience"
 msgid "XP"
 msgstr "经验值"
@@ -2294,7 +2248,7 @@ msgstr "搜索"
 
 #: templates/base.html:290
 msgid "Help us localize the site!"
-msgstr "帮助我们进行本地化！"
+msgstr "帮助我们进行汉化！"
 
 #~ msgctxt "Map overview"
 #~ msgid "Overview"
