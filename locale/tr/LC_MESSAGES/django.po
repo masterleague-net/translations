@@ -1,0 +1,2251 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-19 01:04+0300\n"
+"PO-Revision-Date: 2017-03-19 03:13+0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: tr_TR\n"
+
+#: bets/forms.py:18
+msgid "Season"
+msgstr "Sezon"
+
+#: bets/forms.py:22 matches/forms.py:14
+#: matches/templates/tournaments/tournament_list_inline.html:11
+#: teams/forms.py:86 teams/templates/players/player_list.html:75
+msgid "Region"
+msgstr "Bölge"
+
+#: bets/forms.py:25 heroes/forms.py:15 matches/forms.py:15 meta/forms.py:16
+#: teams/forms.py:87
+msgid "All Regions"
+msgstr "Tüm Bölgeler"
+
+#: bets/forms.py:27
+msgid "Week"
+msgstr "Hafta"
+
+#: bets/forms.py:28
+msgid "All weeks"
+msgstr "Tüm Haftalar"
+
+#: bets/templates/bets/bets_base.html:7 bets/templates/bets/leaderboard.html:5
+#: bets/templates/bets/leaderboard.html:26 bets/templates/bets/matches.html:5
+#: bets/templates/bets/matches.html:8 templates/base.html:211
+msgid "Challenges"
+msgstr "Meydan Okumalar!"
+
+#: bets/templates/bets/bets_base.html:23
+#: changelog/templates/changelog/changelog_detail.html:22
+#: changelog/templates/changelog/changelog_list.html:10
+#: heroes/templates/heroes/hero_detail.html:155
+#: heroes/templates/heroes/hero_list.html:51
+#: maps/templates/maps/map_detail.html:29 maps/templates/maps/map_list.html:12
+#: matches/templates/matches/match_detail.html:51
+#: matches/templates/matches/match_list.html:25
+#: matches/templates/tournaments/tournament_detail.html:19
+#: matches/templates/tournaments/tournament_list.html:12
+#: meta/templates/meta/base.html:28 search/templates/search/search.html:16
+#: teams/templates/players/player_detail.html:37
+#: teams/templates/players/player_list.html:25
+#: teams/templates/players/players_compare.html:112
+#: teams/templates/players/players_transfers.html:42
+#: teams/templates/teams/team_detail.html:26
+#: teams/templates/teams/team_list.html:53
+msgctxt "Link to the main page"
+msgid "Home"
+msgstr "Anasayfa"
+
+#: bets/templates/bets/bets_base.html:33
+msgid "Predict results"
+msgstr "Sonuçları Tahmin Et"
+
+#: bets/templates/bets/bets_base.html:34
+msgid "earn points"
+msgstr "Puanları Kazanın"
+
+#: bets/templates/bets/bets_base.html:35
+msgid "win prizes"
+msgstr "Ödülleri Kazanın"
+
+#: bets/templates/bets/bets_base.html:45
+#: bets/templates/bets/leaderboard.html:65
+#: bets/templates/bets/matches_include.html:61
+msgid "Points"
+msgstr "Puanlar"
+
+#: bets/templates/bets/bets_base.html:48
+#: comments/templates/comments/comment_list.html:38
+msgid "Login via Battle.net"
+msgstr "Battle.net ile Bağlan"
+
+#: bets/templates/bets/bets_base.html:53 bets/templates/bets/matches.html:7
+#: heroes/templates/heroes/hero_builds.html:68
+#: heroes/templates/heroes/hero_detail.html:204
+#: heroes/templates/heroes/hero_matches.html:7
+#: heroes/templates/heroes/hero_overview.html:173
+#: maps/templates/maps/map_detail.html:46
+#: matches/templates/matches/match_detail.html:8
+#: matches/templates/matches/match_list.html:8
+#: matches/templates/matches/match_list.html:26
+#: meta/templates/meta/base.html:49 meta/templates/meta/drafts.html:18
+#: meta/templates/meta/drafts.html:69 meta/templates/meta/drafts.html:122
+#: meta/templates/meta/drafts.html:173 meta/templates/meta/maps.html:21
+#: meta/templates/meta/matches.html:5 meta/templates/meta/matches.html:6
+#: meta/templates/meta/players.html:24 meta/templates/meta/players.html:64
+#: meta/templates/meta/players.html:106 meta/templates/meta/players.html:146
+#: meta/templates/meta/teams.html:22 meta/templates/meta/teams.html:57
+#: meta/templates/meta/teams.html:94 meta/templates/meta/teams.html:131
+#: teams/templates/players/player_detail.html:81
+#: teams/templates/players/player_heroes.html:39
+#: teams/templates/players/player_list.html:80
+#: teams/templates/teams/summary.html:3
+#: teams/templates/teams/team_detail.html:63
+#: teams/templates/teams/team_heroes.html:25
+#: teams/templates/teams/team_matches.html:8 templates/base.html:207
+msgid "Matches"
+msgstr "Maçlar"
+
+#: bets/templates/bets/bets_base.html:54 bets/templates/bets/leaderboard.html:5
+#: bets/templates/bets/leaderboard.html:7
+#: bets/templates/bets/leaderboard.html:27
+msgid "Leaderboard"
+msgstr "Lider Tablosu"
+
+#: bets/templates/bets/leaderboard.html:45
+#: heroes/templates/heroes/hero_detail.html:174
+#: meta/templates/meta/include/meta_filter_form.html:46
+#: teams/templates/players/player_detail.html:127
+msgctxt "Button label"
+msgid "Just Do It!"
+msgstr "Sadece Yap"
+
+#: bets/templates/bets/leaderboard.html:60
+msgid "Position"
+msgstr "Pozisyon"
+
+#: bets/templates/bets/leaderboard.html:61
+#: teams/templates/players/player_list.html:77
+#: teams/templates/teams/team_overview.html:19
+#: teams/templates/teams/team_transfers.html:17
+msgid "Nickname"
+msgstr "Takma Ad"
+
+#: bets/templates/bets/leaderboard.html:62
+msgctxt "Bets count"
+msgid "Bets"
+msgstr "Bahisler"
+
+#: bets/templates/bets/leaderboard.html:63
+msgid "Predicted winner"
+msgstr "Kazananı Tahmin Et"
+
+#: bets/templates/bets/leaderboard.html:64
+msgid "Predicted score"
+msgstr "Sonucu Tahmin Et"
+
+#: bets/templates/bets/matches.html:59
+msgid "Time until"
+msgstr "Kalan Zaman"
+
+#: bets/templates/bets/matches.html:59
+#: changelog/templates/changelog/changelog_list.html:18
+#: matches/templates/matches/matches_inline.html:13
+#: matches/templates/matches/matches_inline.html:17
+#: pages/templates/calendar_inline.html:62 pages/templates/mainpage.html:33
+#: pages/templates/mainpage.html:63
+#: teams/templates/players/players_transfers.html:64
+#: teams/templates/teams/team_overview.html:52
+msgid "Date"
+msgstr "Tarih"
+
+#: bets/templates/bets/matches.html:60
+msgid "Stage"
+msgstr "Kademe"
+
+#: bets/templates/bets/matches.html:62
+msgid "Reward"
+msgstr "Ödül"
+
+#: bets/templates/bets/matches.html:69
+msgid "Upcoming matches"
+msgstr "Gelecek Maçlar"
+
+#: bets/templates/bets/matches.html:135
+msgid "Ongoing matches"
+msgstr "Devam Eden Maçlar"
+
+#: bets/templates/bets/matches.html:143
+msgid "Completed matches"
+msgstr "Bitmiş Maçlar"
+
+#: bets/templates/bets/matches_include.html:34
+#: bets/templates/bets/matches_include.html:36
+#: bets/templates/bets/matches_include.html:38
+#: bets/templates/bets/matches_include.html:41
+#: bets/templates/bets/matches_include.html:45
+msgid "Your bet"
+msgstr "Senin Bahisin"
+
+#: bets/templates/bets/matches_include.html:34
+#: bets/templates/bets/matches_include.html:36
+#: bets/templates/bets/matches_include.html:38
+#: bets/templates/bets/matches_include.html:41
+#: bets/templates/bets/matches_include.html:45
+msgid "Total bets"
+msgstr "Toplam Bahisler"
+
+#: changelog/templates/changelog/changelog_list.html:19
+msgctxt "News title"
+msgid "Title"
+msgstr "Başlık"
+
+#: comments/templates/comments/comment_edit_form.html:13
+msgid "Save changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: comments/templates/comments/comment_edit_form.html:14
+msgid "Cancel"
+msgstr "İptal"
+
+#: comments/templates/comments/comment_list.html:31
+msgid "Write a comment"
+msgstr "Yorum Yaz"
+
+#: comments/templates/comments/comment_list.html:37
+msgid "You must be logged in to leave a comment"
+msgstr "Yorum yazabilmek için Oturum Açmalısınız"
+
+#: comments/templates/comments/comment_nodes.html:128
+msgid "Delete the comment?"
+msgstr "Yorumu Sil ?"
+
+#: comments/templates/comments/comment_nodes.html:170
+msgid "Comment was removed"
+msgstr "Yorum Kaldırıldı"
+
+#: comments/templates/comments/comment_nodes.html:183
+#: comments/templates/comments/comment_nodes.html:258
+#: comments/templates/profiles/base.html:29
+msgid "Rating"
+msgstr "Derece"
+
+#: comments/templates/comments/comment_nodes.html:198
+#: comments/templates/profiles/base.html:20
+msgid "Administrator"
+msgstr "Yönetici"
+
+#: comments/templates/comments/comment_nodes.html:200
+#: comments/templates/profiles/base.html:22
+msgid "Moderator"
+msgstr "Moderatör"
+
+#: comments/templates/comments/comment_nodes.html:220
+msgid "Reply"
+msgstr "Yanıtla"
+
+#: comments/templates/comments/comment_nodes.html:225
+msgid "Edit"
+msgstr "Düzenle"
+
+#: comments/templates/comments/comment_nodes.html:230
+msgid "Delete"
+msgstr "Sil"
+
+#: comments/templates/comments/comment_nodes.html:233
+msgid "Permalink"
+msgstr "Kalıcı Link"
+
+#: comments/templates/comments/comment_nodes.html:236
+msgid "Mark read"
+msgstr "Okundu olarak işaretle"
+
+#: comments/templates/comments/comment_nodes.html:275
+msgid "Post a comment"
+msgstr "Bir yorum yaz"
+
+#: comments/templates/profiles/base.html:25
+msgid "Comments count"
+msgstr "Yorum sayısı"
+
+#: comments/templates/profiles/base.html:37
+#: matches/templates/matches/match_detail.html:214
+#: matches/templates/matches/matches_inline.html:142
+msgid "Comments"
+msgstr "Yorumlar"
+
+#: comments/templates/profiles/base.html:41 templates/base.html:225
+msgid "Notifications"
+msgstr "Bildirimler"
+
+#: comments/templates/profiles/comment_list.html:27
+msgid "User didn't leave any comments"
+msgstr "Kullanıcı herhangi bir yorum yapmamış"
+
+#: comments/templates/profiles/notification_list.html:61
+msgid "Mark read all"
+msgstr "Hepsini okundu işaretle"
+
+#: comments/templates/profiles/notification_list.html:68
+msgid "No new notifications"
+msgstr "Yeni bildirim yok"
+
+#: comments/templatetags/comments_tags.py:72
+#, python-format
+msgid "%s tag requires a queryset"
+msgstr "%s etiketi sorgulama seti gerektirir"
+
+#: core/templates/core/pagination.html:3
+msgctxt "Page navigation"
+msgid "Previous"
+msgstr "Önceki"
+
+#: core/templates/core/pagination.html:4
+msgctxt "Page navigation"
+msgid "Next"
+msgstr "Sonraki"
+
+#: heroes/forms.py:12 meta/forms.py:13
+msgid "Regions"
+msgstr "Bölgeler"
+
+#: heroes/forms.py:17 meta/forms.py:18 teams/forms.py:55
+msgid "Patches"
+msgstr "Yamalar"
+
+#: heroes/forms.py:20 meta/forms.py:21 teams/forms.py:25 teams/forms.py:58
+msgid "All patches"
+msgstr "Tüm Yamalar"
+
+#: heroes/forms.py:23 matches/templates/tournaments/tournament_detail.html:8
+#: matches/templates/tournaments/tournament_detail.html:20
+#: matches/templates/tournaments/tournament_list.html:8
+#: matches/templates/tournaments/tournament_list.html:13 meta/forms.py:29
+#: teams/forms.py:67 templates/base.html:206
+msgid "Tournaments"
+msgstr "Turnuvalar"
+
+#: heroes/forms.py:26 meta/forms.py:32 teams/forms.py:70
+msgid "All tournaments"
+msgstr "Tüm Turnuvalar"
+
+#: heroes/templates/heroes/hero_builds.html:7
+#: heroes/templates/heroes/hero_detail.html:203
+msgctxt "Hero builds"
+msgid "Builds"
+msgstr "Derlemeler"
+
+#: heroes/templates/heroes/hero_builds.html:69
+#: heroes/templates/heroes/hero_overview.html:174
+#: teams/templates/teams/summary.html:4
+#: teams/templates/teams/team_heroes.html:26
+#, python-format
+msgid "Win %%"
+msgstr "Kazanma %%"
+
+#: heroes/templates/heroes/hero_builds.html:99
+msgid "Show matches"
+msgstr "Maçları göster"
+
+#: heroes/templates/heroes/hero_builds.html:134
+msgid "No replays found in the selected period."
+msgstr "Belirtilen aralıkta herhangi bir replay bulunamadı."
+
+#: heroes/templates/heroes/hero_detail.html:5
+msgid "statistics"
+msgstr "İstatikler"
+
+#: heroes/templates/heroes/hero_detail.html:8
+#: heroes/templates/heroes/hero_detail.html:156
+#: heroes/templates/heroes/hero_list.html:8
+#: heroes/templates/heroes/hero_list.html:52
+#: maps/templates/maps/map_detail.html:43
+#: matches/templates/tournaments/tournament_overview.html:157 meta/forms.py:23
+#: meta/templates/meta/base.html:46 meta/templates/meta/heroes.html:5
+#: meta/templates/meta/heroes.html:6 meta/templates/meta/players.html:23
+#: meta/templates/meta/players.html:63 meta/templates/meta/teams.html:21
+#: meta/templates/meta/teams.html:56
+#: teams/templates/players/player_detail.html:80
+#: teams/templates/players/player_heroes.html:5
+#: teams/templates/teams/team_detail.html:62
+#: teams/templates/teams/team_heroes.html:8 templates/base.html:209
+msgid "Heroes"
+msgstr "Kahramanlar"
+
+#: heroes/templates/heroes/hero_detail.html:65
+#, python-format
+msgid "First wave pick (%(pick1_count)s matches)"
+msgstr "İlk El Seçimi (%(pick1_count)s matches)"
+
+#: heroes/templates/heroes/hero_detail.html:66
+#, python-format
+msgid "Second wave pick (%(pick2_count)s matches)"
+msgstr "İkinci El Seçimi (%(pick2_count)s matches)"
+
+#: heroes/templates/heroes/hero_detail.html:67
+#, python-format
+msgid "First wave ban (%(ban1_count)s matches)"
+msgstr "İlk El Yasaklanan  (%(ban1_count)s matches)"
+
+#: heroes/templates/heroes/hero_detail.html:68
+#, python-format
+msgid "Second wave ban (%(ban2_count)s matches)"
+msgstr "İkinci El Yasaklanan (%(ban2_count)s matches)"
+
+#: heroes/templates/heroes/hero_detail.html:69
+#, python-format
+msgid "Not banned or picked (%(popularity_blank_count)s matches)"
+msgstr "Yasaklanmaya veya seçilmeyen (%(popularity_blank_count)s matches)"
+
+#: heroes/templates/heroes/hero_detail.html:183
+#: heroes/templates/heroes/stats_table_inline.html:17
+#: meta/templates/meta/include/heroes_table.html:17
+msgid "Popularity"
+msgstr "Popülerlik"
+
+#: heroes/templates/heroes/hero_detail.html:184
+#, python-format
+msgid "%(match_count)s of %(total_matches)s matches"
+msgstr "%(match_count)s nın%(total_matches)s maçlar"
+
+#: heroes/templates/heroes/hero_detail.html:196
+#: teams/templates/teams/team_detail.html:22
+msgid "Wins"
+msgstr "Kazanılan"
+
+#: heroes/templates/heroes/hero_detail.html:197
+#, python-format
+msgid "%(win_count)s of %(pick_count)s matches"
+msgstr "%(win_count)s nın %(pick_count)s maçları"
+
+#: heroes/templates/heroes/hero_detail.html:202
+#: heroes/templates/heroes/hero_overview.html:5
+msgctxt "Hero overview"
+msgid "Overview"
+msgstr "Tanıtım"
+
+#: heroes/templates/heroes/hero_list.html:5
+msgctxt "[SEO] Page title"
+msgid "Heroes"
+msgstr "Kahramanlar"
+
+#: heroes/templates/heroes/hero_list.html:58
+#: meta/templates/meta/drafts.html:237
+msgctxt "Hero role"
+msgid "Warrior"
+msgstr "Savaşçı"
+
+#: heroes/templates/heroes/hero_list.html:59
+#: meta/templates/meta/drafts.html:239
+msgctxt "Hero role"
+msgid "Support"
+msgstr "Destek"
+
+#: heroes/templates/heroes/hero_list.html:60
+#: meta/templates/meta/drafts.html:241
+msgctxt "Hero role"
+msgid "Assassin"
+msgstr "Suikastçı"
+
+#: heroes/templates/heroes/hero_list.html:61
+#: meta/templates/meta/drafts.html:243
+msgctxt "Hero role"
+msgid "Specialist"
+msgstr "Uzman"
+
+#: heroes/templates/heroes/hero_list.html:66
+msgid "Start typing to search"
+msgstr "Aramak için yazmaya başlayın"
+
+#: heroes/templates/heroes/hero_overview.html:20
+#: heroes/templates/heroes/stats_table_inline.html:15
+#: meta/templates/meta/include/heroes_table.html:15
+msgid "Ban Rate"
+msgstr "Yasaklama Oranı"
+
+#: heroes/templates/heroes/hero_overview.html:35
+#: heroes/templates/heroes/stats_table_inline.html:16
+#: meta/templates/meta/include/heroes_table.html:16
+msgid "Pick Rate"
+msgstr "Seçme Oranı"
+
+#: heroes/templates/heroes/hero_overview.html:50
+#: heroes/templates/heroes/hero_overview.html:114
+#: heroes/templates/heroes/stats_table_inline.html:14
+#: meta/templates/meta/drafts.html:19 meta/templates/meta/drafts.html:70
+#: meta/templates/meta/drafts.html:123 meta/templates/meta/drafts.html:174
+#: meta/templates/meta/drafts.html:228
+#: meta/templates/meta/include/heroes_table.html:14
+#: teams/templates/players/player_heroes.html:40
+msgid "Win Rate"
+msgstr "Kazanma Oranı"
+
+#: heroes/templates/heroes/hero_overview.html:70
+msgid "Popularity per Patch"
+msgstr "Yama başına Popülerlik"
+
+#: heroes/templates/heroes/hero_overview.html:135
+msgid "Win Rate vs Game Duration"
+msgstr "Kazanma Oranı karşılık Oyun Süresi"
+
+#: heroes/templates/heroes/hero_overview.html:186
+msgid ""
+"Popularity per Patch chart is based on the analysis of the latest patches "
+"for the selected region(s)."
+msgstr ""
+"Yama başına Popülerlik tablosu  seçilen bölge(ler)deki en son yamaya göre "
+"analiz edilmiştir."
+
+#: heroes/templates/heroes/hero_overview.html:191
+msgctxt "Hero"
+msgid "Most Popular On Maps"
+msgstr "Haritadalardaki En Popüler"
+
+#: heroes/templates/heroes/hero_overview.html:197 matches/forms.py:20
+#: meta/templates/meta/maps.html:20 teams/forms.py:19 teams/forms.py:46
+#: teams/forms.py:60 teams/templates/teams/summary.html:50
+msgid "Map"
+msgstr "Harita"
+
+#: heroes/templates/heroes/hero_overview.html:231
+msgctxt "Hero"
+msgid "Most Played By Teams"
+msgstr "Takımlar tarafında En Çok Oynanan"
+
+#: heroes/templates/heroes/hero_overview.html:237
+#: matches/templates/tournaments/tournament_overview.html:7
+#: meta/templates/meta/players.html:22 meta/templates/meta/players.html:62
+#: meta/templates/meta/players.html:104 meta/templates/meta/teams.html:20
+#: meta/templates/meta/teams.html:55 meta/templates/meta/teams.html:92
+#: meta/templates/meta/teams.html:129 teams/forms.py:49 teams/forms.py:89
+#: teams/templates/players/player_list.html:76
+#: teams/templates/players/player_overview.html:119
+#: teams/templates/teams/team_transfers.html:19
+msgid "Team"
+msgstr "Takım"
+
+#: heroes/templates/heroes/stats_table_inline.html:10 matches/forms.py:23
+#: matches/templates/matches/match_stats.html:5
+#: meta/templates/meta/drafts.html:17 meta/templates/meta/drafts.html:68
+#: meta/templates/meta/drafts.html:121 meta/templates/meta/drafts.html:172
+#: meta/templates/meta/include/heroes_table.html:10 teams/forms.py:16
+#: teams/forms.py:43 teams/forms.py:63 teams/forms.py:98
+#: teams/templates/players/player_heroes.html:38
+#: teams/templates/teams/summary.html:13
+#: teams/templates/teams/team_heroes.html:24
+msgid "Hero"
+msgstr "Kahraman"
+
+#: heroes/templates/heroes/stats_table_inline.html:11
+#: meta/templates/meta/include/heroes_table.html:11
+msgctxt "Wins count"
+msgid "Wins"
+msgstr "Zaferler"
+
+#: heroes/templates/heroes/stats_table_inline.html:12
+#: meta/templates/meta/include/heroes_table.html:12
+msgctxt "Losses count"
+msgid "Losses"
+msgstr "Kayıplar"
+
+#: heroes/templates/heroes/stats_table_inline.html:13
+#: meta/templates/meta/include/heroes_table.html:13
+msgctxt "Bans count"
+msgid "Bans"
+msgstr "Yasaklar"
+
+#: heroes/views.py:195 heroes/views.py:196
+msgctxt "minutes"
+msgid "mins"
+msgstr "Dakikalar"
+
+#: maps/templates/maps/map_detail.html:8 maps/templates/maps/map_detail.html:30
+#: maps/templates/maps/map_list.html:8 maps/templates/maps/map_list.html:13
+#: matches/templates/tournaments/tournament_overview.html:155
+#: meta/templates/meta/base.html:44 meta/templates/meta/maps.html:5
+#: meta/templates/meta/maps.html:6 templates/base.html:208
+msgid "Maps"
+msgstr "Haritalar"
+
+#: maps/templates/maps/map_detail.html:42
+#: matches/templates/matches/matches_inline.html:21
+#: matches/templates/tournaments/tournament_overview.html:156
+#: meta/templates/meta/base.html:45 meta/templates/meta/drafts.html:5
+#: meta/templates/meta/drafts.html:6
+msgid "Drafts"
+msgstr "Taslaklar"
+
+#: maps/templates/maps/map_detail.html:44
+#: matches/templates/tournaments/tournament_overview.html:158
+#: meta/templates/meta/base.html:47 meta/templates/meta/players.html:5
+#: meta/templates/meta/players.html:6 search/templates/search/search.html:39
+#: teams/templates/players/player_detail.html:8
+#: teams/templates/players/player_detail.html:38
+#: teams/templates/players/player_list.html:5
+#: teams/templates/players/player_list.html:8
+#: teams/templates/players/player_list.html:26
+#: teams/templates/players/player_list.html:31
+#: teams/templates/players/players_compare.html:8
+#: teams/templates/players/players_compare.html:113
+#: teams/templates/players/players_compare.html:119
+#: teams/templates/players/players_transfers.html:8
+#: teams/templates/players/players_transfers.html:43
+#: teams/templates/players/players_transfers.html:49
+#: teams/templates/teams/team_detail.html:61
+#: teams/templates/teams/team_transfers.html:8 templates/base.html:94
+#: templates/base.html:205
+msgid "Players"
+msgstr "Oyuncular"
+
+#: maps/templates/maps/map_detail.html:45
+#: matches/templates/tournaments/tournament_overview.html:159
+#: meta/templates/meta/base.html:48 meta/templates/meta/teams.html:5
+#: meta/templates/meta/teams.html:6 search/templates/search/search.html:21
+#: teams/templates/teams/team_detail.html:8
+#: teams/templates/teams/team_detail.html:27
+#: teams/templates/teams/team_list.html:8
+#: teams/templates/teams/team_list.html:54 templates/base.html:79
+#: templates/base.html:204
+msgid "Teams"
+msgstr "Takımlar"
+
+#: maps/templates/maps/map_detail.html:51 meta/templates/meta/base.html:37
+msgid "Warning!"
+msgstr "Uyarı!"
+
+#: maps/templates/maps/map_list.html:5
+msgctxt "[SEO] Page title"
+msgid "Maps"
+msgstr "Haritalar"
+
+#: masterleague/lc_strings.py:7
+msgid "North America"
+msgstr "Kuzey Amerika"
+
+#: masterleague/lc_strings.py:8
+msgid "Europe"
+msgstr "Avrupa"
+
+#: masterleague/lc_strings.py:9 masterleague/lc_strings.py:22
+msgid "Final"
+msgstr "Final"
+
+#: masterleague/lc_strings.py:10
+msgid "South Korea"
+msgstr "Güney Kore"
+
+#: masterleague/lc_strings.py:11
+msgid "China"
+msgstr "Çin"
+
+#: masterleague/lc_strings.py:12
+msgid "Taiwan"
+msgstr "Tayvan"
+
+#: masterleague/lc_strings.py:13
+msgid "Southeast Asia"
+msgstr "Güneydoğu Asya"
+
+#: masterleague/lc_strings.py:14
+msgid "Latin America"
+msgstr "Latin Amerika"
+
+#: masterleague/lc_strings.py:15
+msgid "Australia & New Zealand"
+msgstr "Avustralya & Yeni Zelanda"
+
+#: masterleague/lc_strings.py:19
+msgid "Grand Final"
+msgstr "Büyük Final"
+
+#: masterleague/lc_strings.py:20
+msgid "Winners Final"
+msgstr "Kazananlar Finalı"
+
+#: masterleague/lc_strings.py:21
+msgid "Losers Final"
+msgstr "Kaybedenler Finalı"
+
+#: masterleague/lc_strings.py:23
+msgid "1/2 Final"
+msgstr "Yarı Final"
+
+#: masterleague/lc_strings.py:24
+msgid "1/2 Final LB"
+msgstr "Yarı Final Kaybedenler Grubu"
+
+#: masterleague/lc_strings.py:25
+msgid "1/2 Final WB"
+msgstr "Yarı Final Kazananlar Grubu"
+
+#: masterleague/lc_strings.py:26
+msgid "1/4 Final"
+msgstr "Çeyrek Final"
+
+#: masterleague/lc_strings.py:27
+msgid "1/4 Final LB"
+msgstr "Çeyrek Final Kaybedenler Grubu"
+
+#: masterleague/lc_strings.py:28
+msgid "1/4 Final WB"
+msgstr "Çeyrek Final Kazananlar Grubu"
+
+#: masterleague/lc_strings.py:29
+msgid "1/8 Final"
+msgstr "1/8 Final"
+
+#: masterleague/lc_strings.py:30
+msgid "1/8 Final LB"
+msgstr "1/8 Final Kaybedenler Grubu"
+
+#: masterleague/lc_strings.py:31
+msgid "1/8 Final WB"
+msgstr "1/8 Final Kazananlar Grubu"
+
+#: masterleague/lc_strings.py:32
+msgid "1/16 Final"
+msgstr "1/16 Final"
+
+#: masterleague/lc_strings.py:33
+msgid "3rd place"
+msgstr "Üçünçülük"
+
+#: masterleague/lc_strings.py:34
+msgid "Tiebreak"
+msgstr "Uzatma"
+
+#: masterleague/lc_strings.py:35
+msgid "Showmatch"
+msgstr "Gösteri Maçı"
+
+#: masterleague/lc_strings.py:39
+msgid "Battlefield of Eternity"
+msgstr "Battlefield of Eternity"
+
+#: masterleague/lc_strings.py:40
+msgid "Blackheart’s Bay"
+msgstr "Blackheart’s Bay"
+
+#: masterleague/lc_strings.py:41
+msgid "Braxis Holdout"
+msgstr "Braxis Holdout"
+
+#: masterleague/lc_strings.py:42
+msgid "Cursed Hollow"
+msgstr "Cursed Hollow"
+
+#: masterleague/lc_strings.py:43
+msgid "Dragon Shire"
+msgstr "Dragon Shire"
+
+#: masterleague/lc_strings.py:44
+msgid "Garden of Terror"
+msgstr "Garden of Terror"
+
+#: masterleague/lc_strings.py:45
+msgid "Haunted Mines"
+msgstr "Haunted Mines"
+
+#: masterleague/lc_strings.py:46
+msgid "Infernal Shrines"
+msgstr "Infernal Shrines"
+
+#: masterleague/lc_strings.py:47
+msgid "Sky Temple"
+msgstr "Sky Temple"
+
+#: masterleague/lc_strings.py:48
+msgid "Tomb of the Spider Queen"
+msgstr "Tomb of the Spider Queen"
+
+#: masterleague/lc_strings.py:49
+msgid "Towers of Doom"
+msgstr "Towers of Doom"
+
+#: masterleague/lc_strings.py:50
+msgid "Warhead Junction"
+msgstr "Warhead Junction"
+
+#: masterleague/lc_strings.py:54
+#, python-format
+msgid "Altar captured. Shots fired: %(shots_fired)s."
+msgstr "Mihrap ele geçirildi. Ateşlenen atışlar%(shots_fired)s."
+
+#: masterleague/lc_strings.py:55
+msgid "Dragon Knight activated"
+msgstr "Dragon Knight aktif edildi"
+
+#: masterleague/lc_strings.py:56
+msgid "Garden Terror activated"
+msgstr "Garden Terror aktif edildi"
+
+#: masterleague/lc_strings.py:57
+msgid "Ghost ship captured"
+msgstr "Ghost Ship ele geçirildi"
+
+#: masterleague/lc_strings.py:58
+msgid "Immortal defeated"
+msgstr "Immortal yenildi."
+
+#: masterleague/lc_strings.py:59
+msgid "Infernal shrine captured"
+msgstr "Infernal shrine ele geçirildi"
+
+#: masterleague/lc_strings.py:60
+msgid "Boss camp"
+msgstr "Boss kampı"
+
+#: masterleague/lc_strings.py:61
+msgid "Nuke launch"
+msgstr "Nuke atıldı"
+
+#: masterleague/lc_strings.py:62
+msgid "Raven curse activated"
+msgstr "Raven curse aktif edildi"
+
+#: masterleague/lc_strings.py:63
+#, python-format
+msgid "Temple shots fired. Total Shot Damage: %(total_shot_damage)s."
+msgstr "Tapınak atışı ateşlendi. Toplam Atış Hasarı: %(total_shot_damage)s."
+
+#: masterleague/lc_strings.py:64
+msgid "Webweavers spawned"
+msgstr "Webweavers oluşturuldu"
+
+#: masterleague/lc_strings.py:65
+#, python-format
+msgid "Zerg rush. Opposing score: %(opposing_score)s%%."
+msgstr "Zerg rush. Muhalif skoru:%(opposing_score)s%%."
+
+#: masterleague/lc_strings.py:69
+msgid "Samuro Patch"
+msgstr "Samuro Yaması"
+
+#: masterleague/lc_strings.py:70
+msgid "Alarak Patch"
+msgstr "Alarak Yaması"
+
+#: masterleague/lc_strings.py:71
+msgid "Auriel Patch"
+msgstr "Auriel Yaması"
+
+#: masterleague/lc_strings.py:72
+msgid "Gul'dan Patch"
+msgstr "Gul'dan Yaması"
+
+#: masterleague/lc_strings.py:73
+msgid "Medivh Patch"
+msgstr "Medivh Yaması"
+
+#: masterleague/lc_strings.py:74
+msgid "Chromie Patch"
+msgstr "Chromie Yaması"
+
+#: masterleague/lc_strings.py:75
+msgid "Tracer Patch"
+msgstr "Tracer Yaması"
+
+#: masterleague/lc_strings.py:76
+msgid "Dehaka Patch"
+msgstr "Dehaka Yaması"
+
+#: masterleague/lc_strings.py:77
+msgid "Xul Patch"
+msgstr "Xul Yaması"
+
+#: masterleague/lc_strings.py:78
+msgid "Li-Ming Patch"
+msgstr "Li-Ming Yaması"
+
+#: masterleague/lc_strings.py:79
+msgid "Greymane Patch"
+msgstr "Greymane Yaması"
+
+#: masterleague/lc_strings.py:80
+msgid "Lunara Patch"
+msgstr "Lunara Yaması"
+
+#: masterleague/lc_strings.py:81
+msgid "Zarya Patch"
+msgstr "Zarya Yaması"
+
+#: masterleague/lc_strings.py:82
+msgid "Varian Patch"
+msgstr "Varian Yaması"
+
+#: masterleague/lc_strings.py:83
+msgid "Ragnaros Patch"
+msgstr "Ragnaros Yaması"
+
+#: masterleague/lc_strings.py:84
+msgid "Zul'jin Patch"
+msgstr "Zul'jin Yaması"
+
+#: masterleague/lc_strings.py:85
+msgid "Valeera Patch"
+msgstr "Valeera Yaması"
+
+#: masterleague/lc_strings.py:86
+msgid "Lucio Patch"
+msgstr "Lucio Yaması"
+
+#: masterleague/lc_strings.py:87
+msgid "Probius Patch"
+msgstr "Probius Yaması"
+
+#: masterleague/lc_strings.py:91
+msgid "Abathur"
+msgstr "Abathur"
+
+#: masterleague/lc_strings.py:92
+msgid "Alarak"
+msgstr "Alarak"
+
+#: masterleague/lc_strings.py:93
+msgid "Anub'arak"
+msgstr "Anub'arak"
+
+#: masterleague/lc_strings.py:94
+msgid "Artanis"
+msgstr "Artanis"
+
+#: masterleague/lc_strings.py:95
+msgid "Arthas"
+msgstr "Arthas"
+
+#: masterleague/lc_strings.py:96
+msgid "Auriel"
+msgstr "Auriel"
+
+#: masterleague/lc_strings.py:97
+msgid "Azmodan"
+msgstr "Azmodan"
+
+#: masterleague/lc_strings.py:98
+msgid "Brightwing"
+msgstr "Brightwing"
+
+#: masterleague/lc_strings.py:99
+msgid "Chen"
+msgstr "Chen"
+
+#: masterleague/lc_strings.py:100
+msgid "Cho"
+msgstr "Cho"
+
+#: masterleague/lc_strings.py:101
+msgid "Chromie"
+msgstr "Chromie"
+
+#: masterleague/lc_strings.py:102
+msgid "Dehaka"
+msgstr "Dehaka"
+
+#: masterleague/lc_strings.py:103
+msgid "Diablo"
+msgstr "Diablo"
+
+#: masterleague/lc_strings.py:104
+msgid "E.T.C."
+msgstr "E.T.C."
+
+#: masterleague/lc_strings.py:105
+msgid "Falstad"
+msgstr "Falstad"
+
+#: masterleague/lc_strings.py:106
+msgid "Gall"
+msgstr "Gall"
+
+#: masterleague/lc_strings.py:107
+msgid "Gazlowe"
+msgstr "Gazlowe"
+
+#: masterleague/lc_strings.py:108
+msgid "Greymane"
+msgstr "Greymane"
+
+#: masterleague/lc_strings.py:109
+msgid "Gul'dan"
+msgstr "Gul'dan"
+
+#: masterleague/lc_strings.py:110
+msgid "Illidan"
+msgstr "Illidan"
+
+#: masterleague/lc_strings.py:111
+msgid "Jaina"
+msgstr "Jaina"
+
+#: masterleague/lc_strings.py:112
+msgid "Johanna"
+msgstr "Johanna"
+
+#: masterleague/lc_strings.py:113
+msgid "Kael'thas"
+msgstr "Kael'thas"
+
+#: masterleague/lc_strings.py:114
+msgid "Kerrigan"
+msgstr "Kerrigan"
+
+#: masterleague/lc_strings.py:115
+msgid "Kharazim"
+msgstr "Kharazim"
+
+#: masterleague/lc_strings.py:116
+msgid "Leoric"
+msgstr "Leoric"
+
+#: masterleague/lc_strings.py:117
+msgid "Li Li"
+msgstr "Li Li"
+
+#: masterleague/lc_strings.py:118
+msgid "Li-Ming"
+msgstr "Li-Ming"
+
+#: masterleague/lc_strings.py:119
+msgid "Lt. Morales"
+msgstr "Lt. Morales"
+
+#: masterleague/lc_strings.py:120
+msgid "Lucio"
+msgstr "Lucio"
+
+#: masterleague/lc_strings.py:121
+msgid "Lunara"
+msgstr "Lunara"
+
+#: masterleague/lc_strings.py:122
+msgid "Malfurion"
+msgstr "Malfurion"
+
+#: masterleague/lc_strings.py:123
+msgid "Medivh"
+msgstr "Medivh"
+
+#: masterleague/lc_strings.py:124
+msgid "Muradin"
+msgstr "Muradin"
+
+#: masterleague/lc_strings.py:125
+msgid "Murky"
+msgstr "Murky"
+
+#: masterleague/lc_strings.py:126
+msgid "Nazeebo"
+msgstr "Nazeebo"
+
+#: masterleague/lc_strings.py:127
+msgid "Nova"
+msgstr "Nova"
+
+#: masterleague/lc_strings.py:128
+msgid "Ragnaros"
+msgstr "Ragnaros"
+
+#: masterleague/lc_strings.py:129
+msgid "Raynor"
+msgstr "Raynor"
+
+#: masterleague/lc_strings.py:130
+msgid "Rehgar"
+msgstr "Rehgar"
+
+#: masterleague/lc_strings.py:131
+msgid "Rexxar"
+msgstr "Rexxar"
+
+#: masterleague/lc_strings.py:132
+msgid "Samuro"
+msgstr "Samuro"
+
+#: masterleague/lc_strings.py:133
+msgid "Sgt. Hammer"
+msgstr "Sgt. Hammer"
+
+#: masterleague/lc_strings.py:134
+msgid "Sonya"
+msgstr "Sonya"
+
+#: masterleague/lc_strings.py:135
+msgid "Stitches"
+msgstr "Stitches"
+
+#: masterleague/lc_strings.py:136
+msgid "Sylvanas"
+msgstr "Sylvanas"
+
+#: masterleague/lc_strings.py:137
+msgid "Tassadar"
+msgstr "Tassadar"
+
+#: masterleague/lc_strings.py:138
+msgid "The Butcher"
+msgstr "The Butcher"
+
+#: masterleague/lc_strings.py:139
+msgid "The Lost Vikings"
+msgstr "The Lost Vikings"
+
+#: masterleague/lc_strings.py:140
+msgid "Thrall"
+msgstr "Thrall"
+
+#: masterleague/lc_strings.py:141
+msgid "Tracer"
+msgstr "Tracer"
+
+#: masterleague/lc_strings.py:142
+msgid "Tychus"
+msgstr "Tychus"
+
+#: masterleague/lc_strings.py:143
+msgid "Tyrael"
+msgstr "Tyrael"
+
+#: masterleague/lc_strings.py:144
+msgid "Tyrande"
+msgstr "Tyrande"
+
+#: masterleague/lc_strings.py:145
+msgid "Uther"
+msgstr "Uther"
+
+#: masterleague/lc_strings.py:146
+msgid "Valeera"
+msgstr "Valeera"
+
+#: masterleague/lc_strings.py:147
+msgid "Valla"
+msgstr "Valla"
+
+#: masterleague/lc_strings.py:148
+msgid "Varian"
+msgstr "Varian"
+
+#: masterleague/lc_strings.py:149
+msgid "Xul"
+msgstr "Xul"
+
+#: masterleague/lc_strings.py:150
+msgid "Zagara"
+msgstr "Zagara"
+
+#: masterleague/lc_strings.py:151
+msgid "Zarya"
+msgstr "Zarya"
+
+#: masterleague/lc_strings.py:152
+msgid "Zeratul"
+msgstr "Zeratul"
+
+#: masterleague/lc_strings.py:153
+msgid "Zul'jin"
+msgstr "Zul'jin"
+
+#: masterleague/lc_strings.py:154
+msgid "Probius"
+msgstr "Probius"
+
+#: matches/forms.py:17 teams/forms.py:15 teams/forms.py:40
+msgid "Patch"
+msgstr "Yama"
+
+#: matches/forms.py:18 teams/forms.py:41 teams/views.py:98
+msgctxt "All patches"
+msgid "All Time"
+msgstr "Tüm Zamanlar"
+
+#: matches/forms.py:21 teams/forms.py:20 teams/forms.py:47
+msgid "All Maps"
+msgstr "Tüm Haritalar"
+
+#: matches/forms.py:24 meta/views.py:221 teams/forms.py:17 teams/forms.py:44
+msgid "All Heroes"
+msgstr "Tüm Kahramanlar"
+
+#: matches/templates/admin/tabular.html:121
+#, python-format
+msgid "Add another %(verbose_name)s"
+msgstr "Başka ekle %(verbose_name)s"
+
+#: matches/templates/matches/match_detail.html:45
+#: matches/templates/matches/match_stats.html:225
+msgctxt "Match winner"
+msgid "Winner"
+msgstr "Kazanan"
+
+#: matches/templates/matches/match_detail.html:46
+#: matches/templates/matches/match_stats.html:226
+msgctxt "Match loser"
+msgid "Loser"
+msgstr "Kaybeden"
+
+#: matches/templates/matches/match_detail.html:47
+msgctxt "First pick mark on match page"
+msgid "First pick"
+msgstr "İlk Seçilen"
+
+#: matches/templates/matches/match_detail.html:48
+msgctxt "Banned heroes list on match page"
+msgid "Bans"
+msgstr "Yasaklananlar"
+
+#: matches/templates/matches/match_detail.html:172
+msgid "Previous Matches"
+msgstr "Önceki Maçlar"
+
+#: matches/templates/matches/match_detail.html:178
+msgctxt "Watch VODs"
+msgid "Watch"
+msgstr "İzle"
+
+#: matches/templates/matches/match_detail.html:195
+#: matches/templates/matches/match_list.html:68
+#: matches/templates/matches/matches_inline.html:137
+msgid "Replay"
+msgstr "Tekrar Oynat"
+
+#: matches/templates/matches/match_detail.html:200
+msgid "Download"
+msgstr "İndir"
+
+#: matches/templates/matches/match_detail.html:209
+#: matches/templates/matches/match_stats.html:418
+msgid "Statistics"
+msgstr "İstatikler"
+
+#: matches/templates/matches/match_list.html:5
+msgctxt "[SEO] Page title"
+msgid "Match List"
+msgstr "Maç Listesi"
+
+#: matches/templates/matches/match_list.html:61
+#: meta/templates/meta/include/meta_filter_form.html:34
+#: teams/templates/players/player_detail.html:115
+msgctxt "Form filter options"
+msgid "Options"
+msgstr "Seçenekler"
+
+#: matches/templates/matches/match_list.html:63
+#: matches/templates/matches/matches_inline.html:132
+msgid "VOD"
+msgstr "Videolar"
+
+#: matches/templates/matches/match_stats.html:3
+msgid "Level"
+msgstr "Level"
+
+#: matches/templates/matches/match_stats.html:4
+#: teams/templatetags/ppr_tags.py:13
+msgid "Player Performance Rating"
+msgstr "Oyuncu Performans Derecesi"
+
+#: matches/templates/matches/match_stats.html:6
+#: meta/templates/meta/players.html:21 meta/templates/meta/players.html:61
+#: meta/templates/meta/players.html:103 meta/templates/meta/players.html:144
+#: pages/templates/mainpage.html:64
+#: teams/templates/players/players_transfers.html:65
+msgid "Player"
+msgstr "Oyuncu"
+
+#: matches/templates/matches/match_stats.html:134
+msgid "XP difference"
+msgstr "XP farkı"
+
+#: matches/templates/matches/match_stats.html:180
+msgctxt "Some hero killed by some heroes"
+msgid "killed by"
+msgstr "tarafından Öldürüldü"
+
+#: matches/templates/matches/match_stats.html:180
+msgid "Nexus forces"
+msgstr "Nexus kuvvetleri"
+
+#: matches/templates/matches/match_stats.html:250
+msgctxt "Match time"
+msgid "Duration"
+msgstr "Süre"
+
+#: matches/templates/matches/match_stats.html:301
+msgid "Kills"
+msgstr "Öldürmeler"
+
+#: matches/templates/matches/match_stats.html:302
+msgid "Assists"
+msgstr "Yardımlar"
+
+#: matches/templates/matches/match_stats.html:303
+#: teams/templates/players/player_overview.html:42
+msgid "Deaths"
+msgstr "Ölümler"
+
+#: matches/templates/matches/match_stats.html:304
+msgid "Siege Dmg"
+msgstr "Kuşatma Hasarı"
+
+#: matches/templates/matches/match_stats.html:305
+msgid "Hero Dmg"
+msgstr "Kahraman Hasarı"
+
+#: matches/templates/matches/match_stats.html:306
+msgctxt "Hero role"
+msgid "Role"
+msgstr "Rol"
+
+#: matches/templates/matches/match_stats.html:307
+msgctxt "Experience"
+msgid "Exp"
+msgstr "Deneyim"
+
+#: matches/templates/matches/match_stats.html:347
+msgid ""
+"The rating hasn't been calculated yet or cannot be calculated due to the "
+"small amount of games on this hero."
+msgstr ""
+"Derece henüz hesaplanmadı yada bu kahraman ile oynanan az sayıdaki oyun "
+"sebebiyle hesaplanamadı."
+
+#: matches/templates/matches/match_stats.html:349
+msgid ""
+"The rating is based on statistics of the player as compared to statistics of "
+"other players on the same hero in the same patches."
+msgstr ""
+"Derece aynı kahramanı oynayan diğer oyuncuların aynı yamadaki istatiklerine "
+"göre karşılaştırılmıştır."
+
+#: matches/templates/matches/match_stats.html:419
+msgctxt "Hero talents"
+msgid "Talents"
+msgstr "Yetenekler"
+
+#: matches/templates/matches/match_stats.html:420
+msgid "Match Log"
+msgstr "Maç Günlüğü"
+
+#: matches/templates/matches/matches_inline.html:12
+#: matches/templates/tournaments/tournament_overview.html:79
+#: pages/templates/calendar_inline.html:64
+msgctxt "Tournament stage"
+msgid "Stage"
+msgstr "Kademe"
+
+#: matches/templates/matches/matches_inline.html:15
+msgctxt "Tournament stage / Map"
+msgid "Stage / Map"
+msgstr "Kademe / Harita"
+
+#: matches/templates/matches/matches_inline.html:18
+msgid "Tournament / Map"
+msgstr "Turnuva / Harita"
+
+#: matches/templates/matches/matches_inline.html:23
+msgctxt "Spoilers switcher title"
+msgid "Spoilers"
+msgstr "Spoilerlar"
+
+#: matches/templates/matches/matches_inline.html:91
+#, python-format
+msgid "Game %(game_number)s"
+msgstr "Maç  %(game_number)s"
+
+#: matches/templates/matches/matches_inline.html:108
+msgctxt "Tooltip for match score"
+msgid "Win"
+msgstr "Kazanma"
+
+#: matches/templates/matches/matches_inline.html:109
+msgctxt "Tooltip for match score"
+msgid "Lose"
+msgstr "Kayıp"
+
+#: matches/templates/matches/matches_inline.html:110
+msgctxt "W for Win"
+msgid "W"
+msgstr "Kazanma"
+
+#: matches/templates/matches/matches_inline.html:111
+msgctxt "L for Lose"
+msgid "L"
+msgstr "Kayıp"
+
+#: matches/templates/matches/matches_inline.html:122
+msgid "Show"
+msgstr "Göster"
+
+#: matches/templates/tournaments/tournament_detail.html:16
+msgctxt "Tournament overview"
+msgid "Overview"
+msgstr "Tanıtım"
+
+#: matches/templates/tournaments/tournament_list.html:5
+msgctxt "[SEO] Page title"
+msgid "Tournaments"
+msgstr "Turnuvalar"
+
+#: matches/templates/tournaments/tournament_list.html:17
+msgid "Upcoming tournaments"
+msgstr "Gelecek turnuvalar"
+
+#: matches/templates/tournaments/tournament_list.html:22
+msgid "Ongoing tournaments"
+msgstr "Devam eden turnuvalar"
+
+#: matches/templates/tournaments/tournament_list.html:26
+msgid "Completed tournaments"
+msgstr "Tamamlanan turnuvalar"
+
+#: matches/templates/tournaments/tournament_list_inline.html:12
+#: matches/templates/tournaments/tournament_overview.html:20
+msgid "Start Date"
+msgstr "Başlangıç Tarihi"
+
+#: matches/templates/tournaments/tournament_list_inline.html:13
+#: matches/templates/tournaments/tournament_overview.html:24
+msgid "End Date"
+msgstr "Bitiş Tarihi"
+
+#: matches/templates/tournaments/tournament_list_inline.html:14
+msgctxt "Tournament name"
+msgid "Name"
+msgstr "İsim"
+
+#: matches/templates/tournaments/tournament_list_inline.html:15
+#: matches/templates/tournaments/tournament_overview.html:41
+msgid "Prize Pool"
+msgstr "Ödül Havuzu"
+
+#: matches/templates/tournaments/tournament_overview.html:6
+msgctxt "Place in table of winners"
+msgid "Place"
+msgstr "Sıralama"
+
+#: matches/templates/tournaments/tournament_overview.html:8
+msgctxt "Tournament prize pool"
+msgid "Prize"
+msgstr "Ödül"
+
+#: matches/templates/tournaments/tournament_overview.html:9
+#: meta/templates/meta/heroes.html:32
+msgctxt "Hero tier"
+msgid "Tier"
+msgstr "Rütbe"
+
+#: matches/templates/tournaments/tournament_overview.html:16
+msgid "General Information"
+msgstr "Genel Bilgiler"
+
+#: matches/templates/tournaments/tournament_overview.html:28
+msgctxt "Tournament format"
+msgid "Format"
+msgstr "Format"
+
+#: matches/templates/tournaments/tournament_overview.html:33
+msgctxt "The venue of the tournament"
+msgid "Location"
+msgstr "Konum"
+
+#: matches/templates/tournaments/tournament_overview.html:45
+msgctxt "Tournament matches count"
+msgid "Total Matches"
+msgstr "Toplam Maçlar"
+
+#: matches/templates/tournaments/tournament_overview.html:48
+msgctxt "Tournament matches count (w/o qualifiers)"
+msgid "Main event matches count"
+msgstr "Ana yarışma maç sayısı"
+
+#: matches/templates/tournaments/tournament_overview.html:48
+msgctxt "Tournament total matches count (w/ qualifiers)"
+msgid "Total matches count"
+msgstr "Toplam maç sayısı"
+
+#: matches/templates/tournaments/tournament_overview.html:56
+msgid "Description"
+msgstr "Tanım"
+
+#: matches/templates/tournaments/tournament_overview.html:130
+msgid "Participating Teams"
+msgstr "Katılan Takımlar"
+
+#: matches/templates/tournaments/tournament_overview.html:152
+msgid "Main Event Statistics"
+msgstr "Ana Yarışma İstatikleri"
+
+#: meta/forms.py:26 teams/forms.py:64
+msgid "All heroes"
+msgstr "Tüm Kahramanlar"
+
+#: meta/templates/meta/base.html:5
+msgctxt "[SEO] Page title"
+msgid "Meta"
+msgstr "Meta"
+
+#: meta/templates/meta/base.html:8 meta/templates/meta/base.html:29
+#: templates/base.html:210
+msgid "Meta"
+msgstr "Meta"
+
+#: meta/templates/meta/drafts.html:12
+msgid "Top First Bans"
+msgstr "En Çok İlk Yasaklananlar"
+
+#: meta/templates/meta/drafts.html:49 meta/templates/meta/drafts.html:100
+#: meta/templates/meta/drafts.html:153 meta/templates/meta/drafts.html:204
+#: meta/templates/meta/maps.html:36
+msgid "Summary"
+msgstr "Özet"
+
+#: meta/templates/meta/drafts.html:63
+msgid "Top First Picks"
+msgstr "En Çok İlk Seçilenler"
+
+#: meta/templates/meta/drafts.html:116
+msgid "Top Second Bans"
+msgstr "En çok İkinci Yasaklananlar"
+
+#: meta/templates/meta/drafts.html:167
+msgid "Top Second Picks (two heroes)"
+msgstr "En Çok İkinci Seçilenler"
+
+#: meta/templates/meta/drafts.html:220
+msgid "Most Common Compositions"
+msgstr "En Yaygın Kompozisyon"
+
+#: meta/templates/meta/drafts.html:226
+msgctxt "Team composition"
+msgid "Composition"
+msgstr "Kompozisyon"
+
+#: meta/templates/meta/drafts.html:227
+msgid "Count"
+msgstr "Sayı"
+
+#: meta/templates/meta/heroes.html:12
+#, python-format
+msgid "Unpicked Heroes (%(unpicked_heroes_count)s of %(heroes_count)s)"
+msgstr "Seçilmeyen Kahramanlar (%(unpicked_heroes_count)s of %(heroes_count)s)"
+
+#: meta/templates/meta/include/meta_filter_form.html:36
+#: teams/templates/players/player_detail.html:117
+msgid "Show only main stage matches (exclude qualifiers)"
+msgstr "Sadece ana kademe maçlarını göster (Elemeleri hariç tut)"
+
+#: meta/templates/meta/maps.html:22
+msgid "Shortest"
+msgstr "En Kısa"
+
+#: meta/templates/meta/maps.html:23
+msgid "Average"
+msgstr "Ortalama"
+
+#: meta/templates/meta/maps.html:24
+msgid "Longest"
+msgstr "En Uzun"
+
+#: meta/templates/meta/maps.html:25 teams/templates/teams/team_heroes.html:55
+msgctxt "Popular picks"
+msgid "Most Played Heroes"
+msgstr "En Çok Oynanan Kahramanlar"
+
+#: meta/templates/meta/maps.html:26
+msgid "Most Banned"
+msgstr "En Çok Yasaklananlar"
+
+#: meta/templates/meta/players.html:12
+msgid "Widest Hero Pool by Players"
+msgstr "Oyuncuların En Geniş Kahraman Havuzu"
+
+#: meta/templates/meta/players.html:52
+msgid "Smallest Hero Pool by Players"
+msgstr "Oyuncuların En Küçük Oyuncu Havuzu"
+
+#: meta/templates/meta/players.html:94
+msgid "Top KDA Players"
+msgstr "En Yüksek KDA Oyuncuları"
+
+#: meta/templates/meta/players.html:105 meta/templates/meta/teams.html:93
+#: teams/templates/players/player_heroes.html:41
+#: teams/templates/players/player_overview.html:24 teams/views.py:587
+#: teams/views.py:610
+msgid "KDA"
+msgstr "KDA"
+
+#: meta/templates/meta/players.html:134
+msgid "Players performance"
+msgstr "Oyuncuların performansı"
+
+#: meta/templates/meta/players.html:143 meta/templates/meta/teams.html:128
+msgid "Performance"
+msgstr "Performans"
+
+#: meta/templates/meta/players.html:145 meta/templates/meta/teams.html:130
+msgid "Value"
+msgstr "Değer"
+
+#: meta/templates/meta/teams.html:12
+msgid "Widest Hero Pool by Teams"
+msgstr "Takımların En Geniş Kahraman Havuzu"
+
+#: meta/templates/meta/teams.html:47
+msgid "Smallest Hero Pool by Teams"
+msgstr "Takımların En Küçük Kahraman Havuzu"
+
+#: meta/templates/meta/teams.html:84
+msgid "Top KDA Teams"
+msgstr "En Yüksek KDA Takımları"
+
+#: meta/templates/meta/teams.html:119
+msgid "Teams performance"
+msgstr "Takımların Performansı"
+
+#: meta/views.py:119
+msgid "No matches played in the selected period."
+msgstr "Seçilen aralıkta hiç maç oynanmamış."
+
+#: meta/views.py:222
+msgid "Warriors"
+msgstr "Savaşcılar"
+
+#: meta/views.py:223
+msgid "Supports"
+msgstr "Destek"
+
+#: meta/views.py:224
+msgid "Assassins"
+msgstr "Suikastçılar"
+
+#: meta/views.py:225
+msgid "Specialists"
+msgstr "Uzmanlar"
+
+#: meta/views.py:259 meta/views.py:336
+msgid "The highest average number of takedowns"
+msgstr "En Yüksek ortalama kahraman avlama sayısı"
+
+#: meta/views.py:270
+msgid "The highest average number of kills"
+msgstr "En Yüksek ortalama öldürme sayısı"
+
+#: meta/views.py:281
+msgid "The highest average number of assists"
+msgstr "En yüksek ortalama yardım sayısı"
+
+#: meta/views.py:292
+msgid "Player that spent the most time alive"
+msgstr "En uzun süre yaşayan oyuncu"
+
+#: meta/views.py:303
+msgid "Player that spent the most time dead"
+msgstr "En uzun süre ölü olan oyuncu"
+
+#: meta/views.py:347
+msgid "The highest average deaths"
+msgstr "En yüksek ortalama ölüm"
+
+#: meta/views.py:358
+msgid "Team that spent the most time alive"
+msgstr "En uzun süre yaşayan takım"
+
+#: meta/views.py:369
+msgid "Team that spent the most time dead"
+msgstr "En uzun süre ölü olan takım"
+
+#: pages/templates/calendar.html:5
+msgctxt "[SEO] Page title"
+msgid "eSports Calendar"
+msgstr "eSpor Takvimi"
+
+#: pages/templates/calendar.html:6
+msgid "Upcoming and ongoing events."
+msgstr "Gelecek ve devam eden yarışmalar"
+
+#: pages/templates/calendar_inline.html:40
+msgctxt "eSports Calendar tooltip for events start time"
+msgid "Your local time"
+msgstr "Yerel saatin"
+
+#: pages/templates/calendar_inline.html:45
+msgid ""
+"If you are a Google Calendar user, copy the button link location, open "
+"Google Calendar, find 'Other Calendars', choose 'Add by URL' and paste the "
+"link into the URL field."
+msgstr ""
+"Eğer Google Takvim kullanıcısıysanız, tuş link lokasyonunu kopyalayın, "
+"Google Takvimi açın, 'Diğer Takvimleri' bulun, 'URL ye göre ekle'yi seçin ve "
+"URL kısmına linki yapıştırın."
+
+#: pages/templates/calendar_inline.html:48
+msgid "Subscribe to Calendar"
+msgstr "Takvime Kaydol"
+
+#: pages/templates/calendar_inline.html:51
+msgid "eSports Calendar"
+msgstr "eSpor Takvimi"
+
+#: pages/templates/calendar_inline.html:63
+msgctxt "eSports Calendar"
+msgid "Tournament / Stream"
+msgstr "Turnuva / Yayın"
+
+#: pages/templates/calendar_inline.html:70
+msgctxt "Live events in eSports Calendar"
+msgid "Live"
+msgstr "Canlı"
+
+#: pages/templates/calendar_inline.html:116
+msgctxt "Upcoming events in eSports Calendar"
+msgid "Upcoming"
+msgstr "Gelecek"
+
+#: pages/templates/calendar_inline.html:147
+msgid "Times displayed in your local time"
+msgstr "Yerel saatinizde gösterilen zamanlar"
+
+#: pages/templates/mainpage.html:7
+msgctxt "Greeting"
+msgid "Welcome to Master League"
+msgstr "Master Lige hoş geldiniz."
+
+#: pages/templates/mainpage.html:13
+#, python-format
+msgctxt "Greeting"
+msgid ""
+"Here you can find the latest results, VODs and replays of <a href=\"http://"
+"heroesofthestorm.com/\" target=\"_blank\"><strong>Heroes of the Storm</"
+"strong></a> competitive games, indepth statistics of players and teams from "
+"different regions and more. Currently we have detailed information about <a "
+"href=\"%(match_list_url)s\"><strong>%(match_count)s</strong></a> matches, <a "
+"href=\"%(team_list_url)s\"><strong>%(team_count)s</strong></a> teams and <a "
+"href=\"%(player_list_url)s\"><strong>%(player_count)s</strong></a> "
+"professional players in our database."
+msgstr ""
+"Burada <a href=\"http://heroesofthestorm.com/\" target=\"_blank"
+"\"><strong>Heroes of the Storm</strong></a> oyununa ait en güncel sonuçları, "
+"videoları ve replayları, değişik bölgelerdeki detaylı oyuncu ve takım "
+"istatiklerini ve daha fazlasını bulabilirsiniz. Şu anda <a href="
+"\"%(match_list_url)s\"><strong>%(match_count)s</strong></a> adet maç, <a "
+"href=\"%(team_list_url)s\"><strong>%(team_count)s</strong></a> adet takım ve "
+"<a href=\"%(player_list_url)s\"><strong>%(player_count)s</strong></a> adet "
+"profesyonel oyuncular veritabanımızda bulunmaktadır."
+
+#: pages/templates/mainpage.html:27
+msgid "Latest News"
+msgstr "En Son Haberler"
+
+#: pages/templates/mainpage.html:34
+msgctxt "Latest News"
+msgid "Title"
+msgstr "Başlık"
+
+#: pages/templates/mainpage.html:56
+msgid "Latest Transfers"
+msgstr "En Son Transferler"
+
+#: pages/templates/mainpage.html:65
+msgid "From Team"
+msgstr "Hangi Takımdan"
+
+#: pages/templates/mainpage.html:66
+msgid "To Team"
+msgstr "Hangi Takıma"
+
+#: pages/templates/mainpage.html:115
+#: teams/templates/players/player_matches.html:5
+#: teams/templates/teams/team_overview.html:104
+msgid "Latest Matches"
+msgstr "En Son Maçlar"
+
+#: search/templates/search/search.html:5
+msgctxt "[SEO] Page title"
+msgid "Search results"
+msgstr "Araştırma sonuçları"
+
+#: search/templates/search/search.html:13
+msgctxt "Search results"
+msgid "Not found"
+msgstr "Bulunamadı"
+
+#: search/templates/search/search.html:17
+msgid "Search"
+msgstr "Ara"
+
+#: teams/forms.py:27 teams/views.py:104
+msgid "Current Roster"
+msgstr "Şu anki Oyuncu Listesi"
+
+#: teams/forms.py:50
+msgid "Any Team"
+msgstr "Herhangi Bir Takım"
+
+#: teams/forms.py:61
+msgid "All maps"
+msgstr "Tüm Haritalar"
+
+#: teams/forms.py:79
+msgctxt "Form filter, any team choice"
+msgid "Any"
+msgstr "Herhangi"
+
+#: teams/forms.py:80
+msgctxt "Player w/o team"
+msgid "Free Agent"
+msgstr "Serbest Oyuncular"
+
+#: teams/forms.py:84
+msgctxt "Form filter, any player position choice"
+msgid "Any"
+msgstr "Herhangi"
+
+#: teams/forms.py:91 teams/templates/players/player_list.html:79
+#: teams/templates/teams/team_overview.html:20
+#: teams/templates/teams/team_transfers.html:18
+msgctxt "Player role/team position"
+msgid "Position"
+msgstr "Pozisyon"
+
+#: teams/forms.py:96
+msgid "First Player"
+msgstr "İlk Oyuncu"
+
+#: teams/forms.py:97
+msgid "Second Player"
+msgstr "İkinci Oyuncu"
+
+#: teams/forms.py:101 teams/templates/players/players_compare.html:35
+msgid "Select and begin typing"
+msgstr "Seçin ve yazmaya başlayın"
+
+#: teams/models.py:131 teams/templates/players/player_card_inline.html:10
+msgctxt "Player role"
+msgid "Warrior"
+msgstr "Savaşçı"
+
+#: teams/models.py:132 teams/templates/players/player_card_inline.html:12
+msgctxt "Player role"
+msgid "Support"
+msgstr "Destek"
+
+#: teams/models.py:133 teams/templates/players/player_card_inline.html:14
+msgctxt "Player role"
+msgid "Assassin"
+msgstr "Suikastçı"
+
+#: teams/models.py:134 teams/templates/players/player_card_inline.html:16
+msgctxt "Player role"
+msgid "Flex"
+msgstr "Esnek"
+
+#: teams/templates/players/player_detail.html:79
+msgid "Overview"
+msgstr "Tanıtım"
+
+#: teams/templates/players/player_heroes.html:42
+msgid "Live Time"
+msgstr "Canlı Zamanı"
+
+#: teams/templates/players/player_heroes.html:43
+msgid "Hero dmg"
+msgstr "Kahraman Hasarı"
+
+#: teams/templates/players/player_heroes.html:44
+msgid "Siege dmg"
+msgstr "Kuşatma Hasarı"
+
+#: teams/templates/players/player_heroes.html:45
+msgid "Role"
+msgstr "Rol"
+
+#: teams/templates/players/player_heroes.html:46
+#: teams/templates/players/player_overview.html:86
+msgid "Experience"
+msgstr "Deneyim"
+
+#: teams/templates/players/player_heroes.html:47
+msgid "PPR"
+msgstr "PPR"
+
+#: teams/templates/players/player_list.html:34
+#: teams/templates/players/players_compare.html:122
+#: teams/templates/players/players_transfers.html:44
+#: teams/templates/players/players_transfers.html:52
+msgid "Transfers"
+msgstr "Transferler"
+
+#: teams/templates/players/player_list.html:37
+#: teams/templates/players/players_compare.html:114
+#: teams/templates/players/players_compare.html:125
+#: teams/templates/players/players_transfers.html:55
+msgctxt "Players compare"
+msgid "Compare"
+msgstr "Karşılaştır"
+
+#: teams/templates/players/player_list.html:78
+msgctxt "Player real name"
+msgid "Name"
+msgstr "İsim"
+
+#: teams/templates/players/player_overview.html:5
+#: teams/templates/players/player_overview.html:11
+msgid "Player Statistics"
+msgstr "Oyuncu İstatikleri"
+
+#: teams/templates/players/player_overview.html:18
+msgid "Player Avg"
+msgstr "Oyuncu Ortalaması"
+
+#: teams/templates/players/player_overview.html:19
+msgid "Team Avg"
+msgstr "Takım Ortalaması"
+
+#: teams/templates/players/player_overview.html:33
+msgid "Takedowns"
+msgstr "Kahraman Avlama Sayısı"
+
+#: teams/templates/players/player_overview.html:51
+msgid "Kill Participation"
+msgstr "Öldürme Katılımı"
+
+#: teams/templates/players/player_overview.html:59
+msgid "Time Dead"
+msgstr "Ölü Zamanı"
+
+#: teams/templates/players/player_overview.html:68
+msgid "Hero Damage"
+msgstr "Kahraman Hasarı"
+
+#: teams/templates/players/player_overview.html:77
+msgid "Siege Damage"
+msgstr "Kuşatma Hasarı"
+
+#: teams/templates/players/player_overview.html:95
+msgid "Average Match Time"
+msgstr "Ortalama Maç Süresi"
+
+#: teams/templates/players/player_overview.html:102 teams/views.py:618
+msgid "Analyzed Replays"
+msgstr "Analiz edilmiş Replayler"
+
+#: teams/templates/players/player_overview.html:102
+msgid "Total Matches"
+msgstr "Toplam Maçlar"
+
+#: teams/templates/players/player_overview.html:110
+msgctxt "Player transfers history"
+msgid "Team history"
+msgstr "Takım Geçmişi"
+
+#: teams/templates/players/player_overview.html:117
+msgid "From date"
+msgstr "Tarihinden"
+
+#: teams/templates/players/player_overview.html:118
+msgid "To date"
+msgstr "Tarihe"
+
+#: teams/templates/players/players_compare.html:5
+msgctxt "[SEO] Page title"
+msgid "Compare Players"
+msgstr "Oyuncuları Karşılaştır"
+
+#: teams/templates/players/players_compare.html:34
+msgid "Currently Selected"
+msgstr "Şu an Seçili"
+
+#: teams/templates/players/players_compare.html:36
+msgid "Unable to retrieve results"
+msgstr "Sonuçlar alınamıyor"
+
+#: teams/templates/players/players_compare.html:37
+msgid "Search..."
+msgstr "Ara"
+
+#: teams/templates/players/players_compare.html:38
+msgid "Start typing a search query"
+msgstr "Aramak için yazmaya başlayın"
+
+#: teams/templates/players/players_compare.html:39
+msgid "No Results"
+msgstr "Sonuç Yok"
+
+#: teams/templates/players/players_compare.html:40
+msgid "Searching..."
+msgstr "Aranıyor"
+
+#: teams/templates/players/players_compare.html:163
+msgctxt "Button label for players compare"
+msgid "Compare"
+msgstr "Karşılaştır"
+
+#: teams/templates/players/players_compare.html:182
+msgctxt "Players compare page"
+msgid "All Time Avg. Stats"
+msgstr "Tüm Zamanlar Ortalama İstatikleri"
+
+#: teams/templates/players/players_compare.html:204
+msgid "KDA is calculated as (Kills + Assists) / (Deaths + 1)"
+msgstr "KDA hesaplaması (Öldürme+Yardım)/(Ölüm+1) şeklinde yapılır"
+
+#: teams/templates/players/players_compare.html:205
+msgid "Lifetime is calculated as (Match time - Time spend dead) / Match time"
+msgstr ""
+"Yaşama süresi (Maç süresi - ölü harcanan zaman) / Maç zamanı şeklinde yapılır"
+
+#: teams/templates/players/players_transfers.html:5
+msgctxt "[SEO] Page title"
+msgid "Players transfers"
+msgstr "Oyuncu Transferleri"
+
+#: teams/templates/players/players_transfers.html:66
+msgctxt "Player transfer"
+msgid "From Team"
+msgstr "Hangi Takımdan"
+
+#: teams/templates/players/players_transfers.html:67
+msgctxt "Player transfer"
+msgid "To Team"
+msgstr "Hangi Takıma"
+
+#: teams/templates/players/players_transfers.html:89
+msgid "Load more"
+msgstr "Daha Fazla Yükle"
+
+#: teams/templates/teams/summary.html:8
+msgid "Most Played Heroes"
+msgstr "En Çok Oynanan Kahramanlar"
+
+#: teams/templates/teams/summary.html:45
+msgid "Most Played Maps"
+msgstr "En Çok Oynanan Haritalar"
+
+#: teams/templates/teams/summary.html:82
+msgid "Summary Stats"
+msgstr "Özet İstatikler"
+
+#: teams/templates/teams/summary.html:99
+msgctxt "First pick stats"
+msgid "First pick"
+msgstr "İlk Seçilen"
+
+#: teams/templates/teams/summary.html:114
+msgctxt "Second pick stats"
+msgid "Second pick"
+msgstr "İkinci Seçilen"
+
+#: teams/templates/teams/summary.html:129
+msgctxt "Total team stats"
+msgid "Total"
+msgstr "Toplam"
+
+#: teams/templates/teams/team_detail.html:5
+msgctxt "[SEO] Page title"
+msgid "Team Statistics"
+msgstr "Takım İstatikleri"
+
+#: teams/templates/teams/team_detail.html:23
+msgid "Losses"
+msgstr "Kayıplar"
+
+#: teams/templates/teams/team_detail.html:60
+#: teams/templates/teams/team_overview.html:6
+msgctxt "Team overview"
+msgid "Overview"
+msgstr "Tanıtım"
+
+#: teams/templates/teams/team_heroes.html:5
+msgctxt "[SEO] Page title"
+msgid "Most Played Heroes"
+msgstr "En Çok Oynanan Kahramanlar"
+
+#: teams/templates/teams/team_heroes.html:94
+#, python-format
+msgid "Most Banned by %(team)s"
+msgstr "%(team)s Tarafından En Çok Yasaklananlar "
+
+#: teams/templates/teams/team_heroes.html:131
+msgid "Most Banned by Opponents"
+msgstr "Rakipler Tarafından En Çok Yasaklananlar"
+
+#: teams/templates/teams/team_heroes.html:140
+#, python-format
+msgid "Loss %%"
+msgstr "Kayıp %%"
+
+#: teams/templates/teams/team_list.html:5
+msgctxt "[SEO] Page title"
+msgid "Teams"
+msgstr "Takımlar"
+
+#: teams/templates/teams/team_list.html:75
+msgctxt "Disbanded teams visibility switcher"
+msgid "Show disbanded"
+msgstr "Dağılanları göster"
+
+#: teams/templates/teams/team_list.html:80
+msgctxt "Search field tooltip"
+msgid "Start typing to search"
+msgstr "Aramak için yazmaya başlayın"
+
+#: teams/templates/teams/team_matches.html:5
+msgctxt "[SEO] Page title"
+msgid "Latest Matches"
+msgstr "En Son Maçlar"
+
+#: teams/templates/teams/team_overview.html:11
+msgid "Player Roster"
+msgstr "Oyuncu Listesi"
+
+#: teams/templates/teams/team_overview.html:21
+msgctxt "Plays for team since date"
+msgid "Plays since"
+msgstr "Den beri oynuyor"
+
+#: teams/templates/teams/team_overview.html:44
+msgctxt "Team achievements in tournaments"
+msgid "Achievements"
+msgstr "Başarılar"
+
+#: teams/templates/teams/team_overview.html:53
+msgid "Place"
+msgstr "Sıralama"
+
+#: teams/templates/teams/team_overview.html:54
+msgid "Tournament"
+msgstr "Turnuva"
+
+#: teams/templates/teams/team_overview.html:55
+msgid "Prize"
+msgstr "Ödül"
+
+#: teams/templates/teams/team_transfers.html:5
+msgctxt "[SEO] Page title"
+msgid "Players"
+msgstr "Oyuncular"
+
+#: teams/templates/teams/team_transfers.html:15
+msgctxt "Player transfer"
+msgid "From date"
+msgstr "Tarihinden"
+
+#: teams/templates/teams/team_transfers.html:16
+msgctxt "Player transfer"
+msgid "To date"
+msgstr "Tarihine"
+
+#: teams/templatetags/ppr_tags.py:14
+msgid ""
+"The rating is based on statistics of the player as compared to statistics of "
+"other players on the "
+msgstr ""
+"Derece aynı kahramanı oynayan diğer oyuncu istatiklerine göre "
+"karşılaştırılmıştır."
+
+#: teams/views.py:588
+msgctxt "Hero damage"
+msgid "Hero"
+msgstr "Kahraman"
+
+#: teams/views.py:589
+msgctxt "Siege damage"
+msgid "Siege"
+msgstr "Kuşatma"
+
+#: teams/views.py:590
+msgctxt "Amount of time player was not dead during the match"
+msgid "Lifetime"
+msgstr "Yaşama Süresi"
+
+#: teams/views.py:591
+msgctxt "Crowd control duration"
+msgid "CC"
+msgstr "CC"
+
+#: teams/views.py:592
+msgctxt "Experience"
+msgid "XP"
+msgstr "XP"
+
+#: teams/views.py:593
+msgctxt "Healing amount (for healers) or Damage taken (for warriors)"
+msgid "Role"
+msgstr "Rol"
+
+#: teams/views.py:611
+msgctxt "Amount of time player was not dead during the match"
+msgid "Lifetime / Min"
+msgstr "Yaşama Süresi / Dakika"
+
+#: teams/views.py:612
+msgid "Siege Damage / Min"
+msgstr "Kuşatma Hasarı / Dakika"
+
+#: teams/views.py:613
+msgid "Hero Damage / Min"
+msgstr "Kahraman Hasarı / Dakika"
+
+#: teams/views.py:614
+msgid "Healing / Min"
+msgstr "İyileştirme / Dakika"
+
+#: teams/views.py:615
+msgid "Damage Taken / Min"
+msgstr "Alınan Hasar / Dakika"
+
+#: teams/views.py:616
+msgid "CC Duration / Min"
+msgstr "CC Süresi / Dakika"
+
+#: teams/views.py:617
+msgid "Experience / Min"
+msgstr "Deneyim / Dakika"
+
+#: templates/404.html:6
+msgctxt "404 page"
+msgid "Page Not Found"
+msgstr "Sayfa Bulunamadı"
+
+#: templates/404.html:20
+msgctxt "404 page"
+msgid "There's nothing here"
+msgstr "Burada hiç bir şey yok"
+
+#: templates/base.html:6
+msgid "eSport statistics"
+msgstr "eSpor İstatikleri"
+
+#: templates/base.html:78
+msgctxt "Search results"
+msgid "Teams not found"
+msgstr "Takımlar bulunamadı"
+
+#: templates/base.html:93
+msgctxt "Search results"
+msgid "Players not found"
+msgstr "Oyuncular Bulunamadı"
+
+#: templates/base.html:232
+msgid "Log out"
+msgstr "Çıkış Yap"
+
+#: templates/base.html:243
+msgctxt "Search field tooltip"
+msgid "Search"
+msgstr "Ara"
+
+#: templates/base.html:290
+msgid "Help us localize the site!"
+msgstr "Siteyi çevirmemize yardım et!"
