@@ -9,7 +9,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.12\n"
 "PO-Revision-Date: \n"
-"Last-Translator: LJ <jeklau@gmail.com>\n"
+"Last-Translator: DKWings <dkwingsmt@gmail.com>\n"
 "Language-Team: \n"
 
 #: bets/forms.py:18
@@ -216,7 +216,7 @@ msgstr "取消"
 
 #: comments/templates/comments/comment_list.html:31
 msgid "Write a comment"
-msgstr "写一条评论"
+msgstr "进行评论"
 
 #: comments/templates/comments/comment_list.html:37
 msgid "You must be logged in to leave a comment"
@@ -224,7 +224,7 @@ msgstr "必须登录后才能进行评论"
 
 #: comments/templates/comments/comment_nodes.html:128
 msgid "Delete the comment?"
-msgstr "删除这条评论吗？"
+msgstr "确认删除这条评论吗？"
 
 #: comments/templates/comments/comment_nodes.html:170
 msgid "Comment was removed"
@@ -714,7 +714,7 @@ msgstr "1/16 决赛"
 # I can't find this on site..
 #: masterleague/lc_strings.py:33
 msgid "3rd place"
-msgstr ""
+msgstr "第三名"
 
 #: masterleague/lc_strings.py:34
 msgid "Tiebreak"
@@ -775,7 +775,7 @@ msgstr "弹头枢纽"
 #: masterleague/lc_strings.py:54
 #, python-format
 msgid "Altar captured. Shots fired: %(shots_fired)s."
-msgstr "占领祭坛。祭坛伤害:%(shots_fired)s。"
+msgstr "占领祭坛。祭坛伤害：%(shots_fired)s。"
 
 #: masterleague/lc_strings.py:55
 msgid "Dragon Knight activated"
@@ -812,7 +812,7 @@ msgstr "激活乌鸦之神的诅咒"
 #: masterleague/lc_strings.py:63
 #, python-format
 msgid "Temple shots fired. Total Shot Damage: %(total_shot_damage)s."
-msgstr "神殿开火。神殿总伤害:%(total_shot_damage)s。"
+msgstr "神殿开火。神殿总伤害：%(total_shot_damage)s。"
 
 #: masterleague/lc_strings.py:64
 msgid "Webweavers spawned"
@@ -821,7 +821,7 @@ msgstr "召唤织网者"
 #: masterleague/lc_strings.py:65
 #, python-format
 msgid "Zerg rush. Opposing score: %(opposing_score)s%%."
-msgstr "异虫冲锋。对手虫群百分比:%(opposing_score)s%%。"
+msgstr "异虫冲锋。对手虫群百分比：%(opposing_score)s%%。"
 
 #: masterleague/lc_strings.py:69
 msgid "Samuro Patch"
@@ -1176,7 +1176,7 @@ msgstr "所有英雄"
 #: matches/templates/admin/tabular.html:121
 #, python-format
 msgid "Add another %(verbose_name)s"
-msgstr "添加另一个 %(verbose_name)s"
+msgstr "添加另一个%(verbose_name)s"
 
 #: matches/templates/matches/match_detail.html:45
 #: matches/templates/matches/match_stats.html:225
@@ -1270,7 +1270,7 @@ msgstr "死于"
 # I can't find this on site.
 #: matches/templates/matches/match_stats.html:180
 msgid "Nexus forces"
-msgstr ""
+msgstr "时空枢纽军队"
 
 #: matches/templates/matches/match_stats.html:250
 msgctxt "Match time"
@@ -1355,7 +1355,7 @@ msgstr "显示比赛结果"
 #: matches/templates/matches/matches_inline.html:91
 #, python-format
 msgid "Game %(game_number)s"
-msgstr "第 %(game_number)s 局"
+msgstr "第%(game_number)s局"
 
 #: matches/templates/matches/matches_inline.html:108
 msgctxt "Tooltip for match score"
@@ -1514,7 +1514,7 @@ msgstr "最常第二禁选的英雄"
 
 #: meta/templates/meta/drafts.html:167
 msgid "Top Second Picks (two heroes)"
-msgstr "最常第二选的英雄(2个)"
+msgstr "最常第二选的英雄（2名）"
 
 #: meta/templates/meta/drafts.html:220
 msgid "Most Common Compositions"
@@ -1532,13 +1532,13 @@ msgstr "局数"
 #: meta/templates/meta/heroes.html:12
 #, python-format
 msgid "Unpicked Heroes (%(unpicked_heroes_count)s of %(heroes_count)s)"
-msgstr "未选英雄数 (%(unpicked_heroes_count)s of %(heroes_count)s)"
+msgstr "%(unpicked_heroes_count)s位英雄未选（总%(heroes_count)s）"
 
 # I cant find the words on site
 #: meta/templates/meta/include/meta_filter_form.html:36
 #: teams/templates/players/player_detail.html:117
 msgid "Show only main stage matches (exclude qualifiers)"
-msgstr ""
+msgstr "只显示主要赛事（排除资格赛）"
 
 #: meta/templates/meta/maps.html:22
 msgid "Shortest"
@@ -1571,14 +1571,14 @@ msgstr "本次赛事的英雄池浅度排名"
 
 #: meta/templates/meta/players.html:94
 msgid "Top KDA Players"
-msgstr "选手KDA排名"
+msgstr "选手击杀死亡率排名"
 
 #: meta/templates/meta/players.html:105 meta/templates/meta/teams.html:93
 #: teams/templates/players/player_heroes.html:41
 #: teams/templates/players/player_overview.html:24 teams/views.py:587
 #: teams/views.py:610
 msgid "KDA"
-msgstr "KDA"
+msgstr "击杀死亡率"
 
 #: meta/templates/meta/players.html:134
 msgid "Players performance"
@@ -1602,7 +1602,7 @@ msgstr "本次赛事的队伍英雄池浅度排名"
 
 #: meta/templates/meta/teams.html:84
 msgid "Top KDA Teams"
-msgstr "队伍KDA排名"
+msgstr "队伍击杀死亡率排名"
 
 #: meta/templates/meta/teams.html:119
 msgid "Teams performance"
@@ -1630,37 +1630,38 @@ msgstr "专业型"
 
 #: meta/views.py:259 meta/views.py:336
 msgid "The highest average number of takedowns"
-msgstr "平均击杀数最高"
+msgstr "平均总击杀数最高"
 
 # Is this highest mean lowest?
 # What is the difference between kills and takedowns?
 #: meta/views.py:270
 msgid "The highest average number of kills"
-msgstr ""
+msgstr "平均直接击杀数最高"
 
 #: meta/views.py:281
 msgid "The highest average number of assists"
-msgstr "平均助攻数最多的"
+msgstr "平均助攻数最多"
 
+# Omit "Player that" because the other parallel items doesnt have that, so that it looks better
 #: meta/views.py:292
 msgid "Player that spent the most time alive"
-msgstr "游戏存活时间最长的选手"
+msgstr "游戏存活时间最长"
 
 #: meta/views.py:303
 msgid "Player that spent the most time dead"
-msgstr "游戏死亡时间最长的选手"
+msgstr "游戏死亡时间最长"
 
 #: meta/views.py:347
 msgid "The highest average deaths"
-msgstr "平均死亡率最高"
+msgstr "平均死亡数最高"
 
 #: meta/views.py:358
 msgid "Team that spent the most time alive"
-msgstr "游戏存活时间最长的队伍"
+msgstr "游戏存活时间最长"
 
 #: meta/views.py:369
 msgid "Team that spent the most time dead"
-msgstr "游戏死亡时间最长的队伍"
+msgstr "游戏死亡时间最长"
 
 #: pages/templates/calendar.html:5
 msgctxt "[SEO] Page title"
@@ -1682,8 +1683,8 @@ msgid ""
 "Google Calendar, find 'Other Calendars', choose 'Add by URL' and paste the "
 "link into the URL field."
 msgstr ""
-"如果你是 Google日历 的用户，请复制按钮的链接，打开 Google日历，找到“其它日"
-"历”，选择“通过URL添加”，然后把链接地址粘贴到URL栏里。"
+"如果你是Google日历的用户，请复制按钮的链接，打开Google日历，找到“其它日历”，"
+"选择“通过URL添加”，然后把链接地址粘贴到URL栏里。"
 
 #: pages/templates/calendar_inline.html:48
 msgid "Subscribe to Calendar"
@@ -1731,12 +1732,12 @@ msgid ""
 "professional players in our database."
 msgstr ""
 "在这里你能看到<a href=\"http://heroes.blizzard.cn/\" target=\"_blank"
-"\"><strong>风暴英雄</strong></a>的最新的比赛结果，VOD和录像。还能找到关于各个"
-"地区各个选手和战队的深度统计，以及更多精彩的內容。目前为止我们的数据库已经收"
-"录了约 <a href=\"%(match_list_url)s\"><strong>%(match_count)s</strong></a>场"
-"比赛，<a href=\"%(team_list_url)s\"><strong>%(team_count)s</strong></a>支队伍"
-"和<a href=\"%(player_list_url)s\"><strong>%(player_count)s</strong></a>名职业"
-"选手的资料。"
+"\"><strong>风暴英雄</strong></a>的最新的比赛结果，回放和录像，还能找到关于各"
+"个地区各个选手和战队的深度统计，以及更多精彩的內容。目前为止我们的数据库已经"
+"收录了约 <a href=\"%(match_list_url)s\"><strong>%(match_count)s</strong></a>"
+"场比赛，<a href=\"%(team_list_url)s\"><strong>%(team_count)s</strong></a>支队"
+"伍和<a href=\"%(player_list_url)s\"><strong>%(player_count)s</strong></a>名职"
+"业选手的资料。"
 
 #: pages/templates/mainpage.html:27
 msgid "Latest News"
@@ -1870,7 +1871,7 @@ msgstr "角色"
 #: teams/templates/players/player_heroes.html:46
 #: teams/templates/players/player_overview.html:86
 msgid "Experience"
-msgstr "经验值/每分钟"
+msgstr "经验值每分钟"
 
 #: teams/templates/players/player_heroes.html:47
 msgid "PPR"
@@ -1995,11 +1996,11 @@ msgstr "全时间段平均统计数据"
 
 #: teams/templates/players/players_compare.html:204
 msgid "KDA is calculated as (Kills + Assists) / (Deaths + 1)"
-msgstr "KDA等于（击杀+助攻）/（死亡+1）"
+msgstr "击杀死亡率定义为 (击杀 + 助攻) / (死亡 + 1)"
 
 #: teams/templates/players/players_compare.html:205
 msgid "Lifetime is calculated as (Match time - Time spend dead) / Match time"
-msgstr "存活时间等于（比赛时间 - 死亡时间）/比赛时间"
+msgstr "存活时间比例等于 (比赛时间 - 死亡时间) / 比赛时间"
 
 #: teams/templates/players/players_transfers.html:5
 msgctxt "[SEO] Page title"
@@ -2070,7 +2071,7 @@ msgstr "最常用的英雄"
 #: teams/templates/teams/team_heroes.html:94
 #, python-format
 msgid "Most Banned by %(team)s"
-msgstr "%(team)s 最常禁用的英雄"
+msgstr "%(team)s最常禁用的英雄"
 
 #: teams/templates/teams/team_heroes.html:131
 msgid "Most Banned by Opponents"
@@ -2167,7 +2168,7 @@ msgstr "攻城伤害"
 #: teams/views.py:590
 msgctxt "Amount of time player was not dead during the match"
 msgid "Lifetime"
-msgstr "存活时间"
+msgstr "存活时间比例"
 
 #: teams/views.py:591
 msgctxt "Crowd control duration"
