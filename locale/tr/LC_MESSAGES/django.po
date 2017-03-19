@@ -230,7 +230,7 @@ msgstr "Yorum yazabilmek için Oturum Açmalısınız"
 
 #: comments/templates/comments/comment_nodes.html:128
 msgid "Delete the comment?"
-msgstr "Yorumu Sil ?"
+msgstr "Yorumu Sil?"
 
 #: comments/templates/comments/comment_nodes.html:170
 msgid "Comment was removed"
@@ -387,27 +387,27 @@ msgstr "Kahramanlar"
 #: heroes/templates/heroes/hero_detail.html:65
 #, python-format
 msgid "First wave pick (%(pick1_count)s matches)"
-msgstr "İlk El Seçimi (%(pick1_count)s matches)"
+msgstr "İlk El Seçimi (%(pick1_count)s maçlar)"
 
 #: heroes/templates/heroes/hero_detail.html:66
 #, python-format
 msgid "Second wave pick (%(pick2_count)s matches)"
-msgstr "İkinci El Seçimi (%(pick2_count)s matches)"
+msgstr "İkinci El Seçimi (%(pick2_count)s maçlar)"
 
 #: heroes/templates/heroes/hero_detail.html:67
 #, python-format
 msgid "First wave ban (%(ban1_count)s matches)"
-msgstr "İlk El Yasaklanan  (%(ban1_count)s matches)"
+msgstr "İlk El Yasaklanan  (%(ban1_count)s maçlar)"
 
 #: heroes/templates/heroes/hero_detail.html:68
 #, python-format
 msgid "Second wave ban (%(ban2_count)s matches)"
-msgstr "İkinci El Yasaklanan (%(ban2_count)s matches)"
+msgstr "İkinci El Yasaklanan (%(ban2_count)s maçlar)"
 
 #: heroes/templates/heroes/hero_detail.html:69
 #, python-format
 msgid "Not banned or picked (%(popularity_blank_count)s matches)"
-msgstr "Yasaklanmaya veya seçilmeyen (%(popularity_blank_count)s matches)"
+msgstr "Yasaklanmaya veya seçilmeyen (%(popularity_blank_count)s maçlar)"
 
 #: heroes/templates/heroes/hero_detail.html:183
 #: heroes/templates/heroes/stats_table_inline.html:17
@@ -418,7 +418,7 @@ msgstr "Popülerlik"
 #: heroes/templates/heroes/hero_detail.html:184
 #, python-format
 msgid "%(match_count)s of %(total_matches)s matches"
-msgstr "%(match_count)s nın%(total_matches)s maçlar"
+msgstr "%(match_count)s nın %(total_matches)s maçları"
 
 #: heroes/templates/heroes/hero_detail.html:196
 #: teams/templates/teams/team_detail.html:22
@@ -781,7 +781,7 @@ msgstr "Warhead Junction"
 #: masterleague/lc_strings.py:54
 #, python-format
 msgid "Altar captured. Shots fired: %(shots_fired)s."
-msgstr "Mihrap ele geçirildi. Ateşlenen atışlar%(shots_fired)s."
+msgstr "Mihrap ele geçirildi. Ateşlenen atışlar: %(shots_fired)s."
 
 #: masterleague/lc_strings.py:55
 msgid "Dragon Knight activated"
@@ -797,7 +797,7 @@ msgstr "Ghost Ship ele geçirildi"
 
 #: masterleague/lc_strings.py:58
 msgid "Immortal defeated"
-msgstr "Immortal yenildi."
+msgstr "Immortal yenildi"
 
 #: masterleague/lc_strings.py:59
 msgid "Infernal shrine captured"
@@ -827,7 +827,7 @@ msgstr "Webweavers oluşturuldu"
 #: masterleague/lc_strings.py:65
 #, python-format
 msgid "Zerg rush. Opposing score: %(opposing_score)s%%."
-msgstr "Zerg rush. Muhalif skoru:%(opposing_score)s%%."
+msgstr "Zerg rush. Muhalif skoru: %(opposing_score)s%%."
 
 #: masterleague/lc_strings.py:69
 msgid "Samuro Patch"
@@ -1361,7 +1361,7 @@ msgstr "Spoilerlar"
 #: matches/templates/matches/matches_inline.html:91
 #, python-format
 msgid "Game %(game_number)s"
-msgstr "Maç  %(game_number)s"
+msgstr "Maç %(game_number)s"
 
 #: matches/templates/matches/matches_inline.html:108
 msgctxt "Tooltip for match score"
@@ -1538,7 +1538,7 @@ msgstr "Sayı"
 #: meta/templates/meta/heroes.html:12
 #, python-format
 msgid "Unpicked Heroes (%(unpicked_heroes_count)s of %(heroes_count)s)"
-msgstr "Seçilmeyen Kahramanlar (%(unpicked_heroes_count)s of %(heroes_count)s)"
+msgstr "Seçilmeyen Kahramanlar (%(unpicked_heroes_count)s nın %(heroes_count)s)"
 
 #: meta/templates/meta/include/meta_filter_form.html:36
 #: teams/templates/players/player_detail.html:117
@@ -1719,7 +1719,7 @@ msgstr "Yerel saatinizde gösterilen zamanlar"
 #: pages/templates/mainpage.html:7
 msgctxt "Greeting"
 msgid "Welcome to Master League"
-msgstr "Master Lige hoş geldiniz."
+msgstr "Master Lige hoş geldiniz"
 
 #: pages/templates/mainpage.html:13
 #, python-format
@@ -1998,12 +1998,12 @@ msgstr "Tüm Zamanlar Ortalama İstatikleri"
 
 #: teams/templates/players/players_compare.html:204
 msgid "KDA is calculated as (Kills + Assists) / (Deaths + 1)"
-msgstr "KDA hesaplaması (Öldürme+Yardım)/(Ölüm+1) şeklinde yapılır"
+msgstr "KDA hesaplaması (Öldürme + Yardım)/(Ölüm + 1) şeklinde yapılır"
 
 #: teams/templates/players/players_compare.html:205
 msgid "Lifetime is calculated as (Match time - Time spend dead) / Match time"
 msgstr ""
-"Yaşama süresi (Maç süresi - ölü harcanan zaman) / Maç zamanı şeklinde yapılır"
+"Yaşama süresi (Maç süresi - Ölü harcanan zaman) / Maç zamanı şeklinde yapılır"
 
 #: teams/templates/players/players_transfers.html:5
 msgctxt "[SEO] Page title"
@@ -2074,7 +2074,7 @@ msgstr "En Çok Oynanan Kahramanlar"
 #: teams/templates/teams/team_heroes.html:94
 #, python-format
 msgid "Most Banned by %(team)s"
-msgstr "%(team)s Tarafından En Çok Yasaklananlar "
+msgstr "%(team)s Tarafından En Çok Yasaklananlar"
 
 #: teams/templates/teams/team_heroes.html:131
 msgid "Most Banned by Opponents"
@@ -2152,7 +2152,7 @@ msgid ""
 "other players on the "
 msgstr ""
 "Derece aynı kahramanı oynayan diğer oyuncu istatiklerine göre "
-"karşılaştırılmıştır."
+"karşılaştırılmıştır "
 
 #: teams/views.py:588
 msgctxt "Hero damage"
