@@ -1361,22 +1361,22 @@ msgstr "Maç %(game_number)s"
 #: matches/templates/matches/matches_inline.html:108
 msgctxt "Tooltip for match score"
 msgid "Win"
-msgstr "Kazanma"
+msgstr "Kazanma (W)"
 
 #: matches/templates/matches/matches_inline.html:109
 msgctxt "Tooltip for match score"
 msgid "Lose"
-msgstr "Kayıp"
+msgstr "Kayıp (L)"
 
 #: matches/templates/matches/matches_inline.html:110
 msgctxt "W for Win"
 msgid "W"
-msgstr "Kazanma"
+msgstr "W"
 
 #: matches/templates/matches/matches_inline.html:111
 msgctxt "L for Lose"
 msgid "L"
-msgstr "Kayıp"
+msgstr "L"
 
 #: matches/templates/matches/matches_inline.html:122
 msgid "Show"
