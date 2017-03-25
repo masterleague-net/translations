@@ -1545,7 +1545,7 @@ msgstr ""
 
 #: meta/templates/meta/maps.html:23
 msgid "Average"
-msgstr ""
+msgstr "Среднее"
 
 #: meta/templates/meta/maps.html:24
 msgid "Longest"
