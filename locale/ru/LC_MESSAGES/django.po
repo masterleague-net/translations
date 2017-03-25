@@ -7,7 +7,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
+"X-Generator: Poedit 1.8.12\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
 
 #: bets/forms.py:18
 msgid "Season"
@@ -109,8 +112,7 @@ msgstr "Войти через Battle.net"
 msgid "Matches"
 msgstr "Матчи"
 
-#: bets/templates/bets/bets_base.html:54
-#: bets/templates/bets/leaderboard.html:5
+#: bets/templates/bets/bets_base.html:54 bets/templates/bets/leaderboard.html:5
 #: bets/templates/bets/leaderboard.html:7
 #: bets/templates/bets/leaderboard.html:27
 msgid "Leaderboard"
@@ -343,10 +345,9 @@ msgstr "Билды"
 #: heroes/templates/heroes/hero_overview.html:174
 #: teams/templates/teams/summary.html:4
 #: teams/templates/teams/team_heroes.html:26
-#, fuzzy, python-format
-#| msgid "Win %%"
+#, python-format
 msgid "Win %%"
-msgstr "Побед, %"
+msgstr "Побед, %%"
 
 #: heroes/templates/heroes/hero_builds.html:99
 msgid "Show matches"
@@ -564,9 +565,8 @@ msgctxt "minutes"
 msgid "mins"
 msgstr "мин"
 
-#: maps/templates/maps/map_detail.html:8
-#: maps/templates/maps/map_detail.html:30 maps/templates/maps/map_list.html:8
-#: maps/templates/maps/map_list.html:13
+#: maps/templates/maps/map_detail.html:8 maps/templates/maps/map_detail.html:30
+#: maps/templates/maps/map_list.html:8 maps/templates/maps/map_list.html:13
 #: matches/templates/tournaments/tournament_overview.html:155
 #: meta/templates/meta/base.html:44 meta/templates/meta/maps.html:5
 #: meta/templates/meta/maps.html:6 templates/base.html:208
@@ -705,20 +705,16 @@ msgid "1/8 Final LB"
 msgstr "1/8 финала НС"
 
 #: masterleague/lc_strings.py:31
-#, fuzzy
-#| msgid "1/8 Final LB"
 msgid "1/8 Final WB"
 msgstr "1/8 финала НС"
 
 #: masterleague/lc_strings.py:32
-#, fuzzy
-#| msgid "1/2 Final"
 msgid "1/16 Final"
-msgstr "1/2 финала"
+msgstr "1/16 финала"
 
 #: masterleague/lc_strings.py:33
 msgid "3rd place"
-msgstr ""
+msgstr "3-е место"
 
 #: masterleague/lc_strings.py:34
 msgid "Tiebreak"
@@ -900,10 +896,8 @@ msgid "Lucio Patch"
 msgstr "Патч Лусио"
 
 #: masterleague/lc_strings.py:87
-#, fuzzy
-#| msgid "Chromie Patch"
 msgid "Probius Patch"
-msgstr "Патч Хроми"
+msgstr "Патч Пробиус"
 
 #: masterleague/lc_strings.py:91
 msgid "Abathur"
@@ -1159,7 +1153,7 @@ msgstr "Зул'джин"
 
 #: masterleague/lc_strings.py:154
 msgid "Probius"
-msgstr ""
+msgstr "Пробиус"
 
 #: matches/forms.py:17 teams/forms.py:15 teams/forms.py:40
 msgid "Patch"
@@ -1274,7 +1268,7 @@ msgstr "убит с помощью"
 
 #: matches/templates/matches/match_stats.html:180
 msgid "Nexus forces"
-msgstr ""
+msgstr "Силы Нексуса"
 
 #: matches/templates/matches/match_stats.html:250
 msgctxt "Match time"
@@ -1487,8 +1481,6 @@ msgid "Main Event Statistics"
 msgstr "Статистика турнира"
 
 #: meta/forms.py:26 teams/forms.py:64
-#, fuzzy
-#| msgid "All Heroes"
 msgid "All heroes"
 msgstr "Все герои"
 
@@ -1503,10 +1495,8 @@ msgid "Meta"
 msgstr "Мета"
 
 #: meta/templates/meta/drafts.html:12
-#, fuzzy
-#| msgid "Top First Picks"
 msgid "Top First Bans"
-msgstr "Популярные первые пики"
+msgstr "Популярные первые баны"
 
 #: meta/templates/meta/drafts.html:49 meta/templates/meta/drafts.html:100
 #: meta/templates/meta/drafts.html:153 meta/templates/meta/drafts.html:204
@@ -1567,8 +1557,6 @@ msgid "Most Played Heroes"
 msgstr "Популярные пики"
 
 #: meta/templates/meta/maps.html:26
-#, fuzzy
-#| msgid "Most Banned Heroes"
 msgid "Most Banned"
 msgstr "Популярные баны"
 
@@ -1581,11 +1569,8 @@ msgid "Smallest Hero Pool by Players"
 msgstr ""
 
 #: meta/templates/meta/players.html:94
-#, fuzzy
-#| msgctxt "[SEO] Page title"
-#| msgid "Compare Players"
 msgid "Top KDA Players"
-msgstr "Сравнение игроков"
+msgstr ""
 
 #: meta/templates/meta/players.html:105 meta/templates/meta/teams.html:93
 #: teams/templates/players/player_heroes.html:41
@@ -1595,16 +1580,12 @@ msgid "KDA"
 msgstr "KDA"
 
 #: meta/templates/meta/players.html:134
-#, fuzzy
-#| msgid "Player Performance Rating"
 msgid "Players performance"
-msgstr "Рейтинг эффективности игрока"
+msgstr ""
 
 #: meta/templates/meta/players.html:143 meta/templates/meta/teams.html:128
-#, fuzzy
-#| msgid "Player Performance Rating"
 msgid "Performance"
-msgstr "Рейтинг эффективности игрока"
+msgstr ""
 
 #: meta/templates/meta/players.html:145 meta/templates/meta/teams.html:130
 msgid "Value"
@@ -1619,10 +1600,8 @@ msgid "Smallest Hero Pool by Teams"
 msgstr ""
 
 #: meta/templates/meta/teams.html:84
-#, fuzzy
-#| msgid "To Team"
 msgid "Top KDA Teams"
-msgstr "Куда"
+msgstr ""
 
 #: meta/templates/meta/teams.html:119
 msgid "Teams performance"
@@ -1808,8 +1787,6 @@ msgid "Any Team"
 msgstr "Любая команда"
 
 #: teams/forms.py:61
-#, fuzzy
-#| msgid "All Maps"
 msgid "All maps"
 msgstr "Все карты"
 
@@ -1868,48 +1845,33 @@ msgid "Flex"
 msgstr "Универсал"
 
 #: teams/templates/players/player_detail.html:79
-#, fuzzy
-#| msgctxt "Hero overview"
-#| msgid "Overview"
 msgid "Overview"
 msgstr "Общая"
 
 #: teams/templates/players/player_heroes.html:42
-#, fuzzy
-#| msgctxt "Live events in eSports Calendar"
-#| msgid "Live"
 msgid "Live Time"
 msgstr "Прямой эфир"
 
 #: teams/templates/players/player_heroes.html:43
-#, fuzzy
-#| msgid "Hero Dmg"
 msgid "Hero dmg"
 msgstr "Героич."
 
 #: teams/templates/players/player_heroes.html:44
-#, fuzzy
-#| msgid "Siege Dmg"
 msgid "Siege dmg"
 msgstr "Осадный"
 
 #: teams/templates/players/player_heroes.html:45
-#, fuzzy
-#| msgctxt "Hero role"
-#| msgid "Role"
 msgid "Role"
 msgstr "Роль"
 
 #: teams/templates/players/player_heroes.html:46
 #: teams/templates/players/player_overview.html:86
-#, fuzzy
-#| msgid "Experience / Min"
 msgid "Experience"
-msgstr "Опыт / мин"
+msgstr "Опыт"
 
 #: teams/templates/players/player_heroes.html:47
 msgid "PPR"
-msgstr ""
+msgstr "PPR"
 
 #: teams/templates/players/player_list.html:34
 #: teams/templates/players/players_compare.html:122
@@ -1933,53 +1895,40 @@ msgstr "Имя"
 
 #: teams/templates/players/player_overview.html:5
 #: teams/templates/players/player_overview.html:11
-#, fuzzy
-#| msgctxt "[SEO] Page title"
-#| msgid "Player Statistics"
 msgid "Player Statistics"
 msgstr "Статистика игрока"
 
 #: teams/templates/players/player_overview.html:18
-#, fuzzy
-#| msgid "Player"
 msgid "Player Avg"
-msgstr "Игрок"
+msgstr ""
 
 #: teams/templates/players/player_overview.html:19
-#, fuzzy
-#| msgid "Team"
 msgid "Team Avg"
-msgstr "Команда"
+msgstr ""
 
 #: teams/templates/players/player_overview.html:33
 msgid "Takedowns"
 msgstr ""
 
 #: teams/templates/players/player_overview.html:51
-#, fuzzy
-#| msgid "Participating Teams"
 msgid "Kill Participation"
-msgstr "Команды-участницы"
+msgstr ""
 
 #: teams/templates/players/player_overview.html:59
 msgid "Time Dead"
 msgstr ""
 
 #: teams/templates/players/player_overview.html:68
-#, fuzzy
-#| msgid "Hero Dmg"
 msgid "Hero Damage"
-msgstr "Героич."
+msgstr ""
 
 #: teams/templates/players/player_overview.html:77
-#, fuzzy
-#| msgid "Siege Dmg"
 msgid "Siege Damage"
-msgstr "Осадный"
+msgstr "Осадный урон"
 
 #: teams/templates/players/player_overview.html:95
 msgid "Average Match Time"
-msgstr ""
+msgstr "Сред. длительность матча"
 
 #: teams/templates/players/player_overview.html:102 teams/views.py:618
 msgid "Analyzed Replays"
@@ -2127,10 +2076,9 @@ msgid "Most Banned by Opponents"
 msgstr "Популярные баны противников"
 
 #: teams/templates/teams/team_heroes.html:140
-#, fuzzy, python-format
-#| msgid "Loss %%"
+#, python-format
 msgid "Loss %%"
-msgstr "Пораж., %"
+msgstr "Пораж., %%"
 
 #: teams/templates/teams/team_list.html:5
 msgctxt "[SEO] Page title"
@@ -2194,16 +2142,10 @@ msgid "To date"
 msgstr "По"
 
 #: teams/templatetags/ppr_tags.py:14
-#, fuzzy
-#| msgid ""
-#| "The rating is based on statistics of the player as compared to statistics "
-#| "of other players on the same hero in the same patches."
 msgid ""
 "The rating is based on statistics of the player as compared to statistics of "
 "other players on the "
 msgstr ""
-"Рейтинг основан на сравнении статистики игрока со статистикой других игроков "
-"на том же герое за тот же игровой период."
 
 #: teams/views.py:588
 msgctxt "Hero damage"
@@ -2226,9 +2168,6 @@ msgid "CC"
 msgstr "Контроль"
 
 #: teams/views.py:592
-#, fuzzy
-#| msgctxt "Expirience"
-#| msgid "XP"
 msgctxt "Experience"
 msgid "XP"
 msgstr "Опыт"
