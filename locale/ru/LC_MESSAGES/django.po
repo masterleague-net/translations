@@ -1510,11 +1510,11 @@ msgstr "Популярные первые пики"
 
 #: meta/templates/meta/drafts.html:116
 msgid "Top Second Bans"
-msgstr ""
+msgstr "Популярные вторые баны"
 
 #: meta/templates/meta/drafts.html:167
 msgid "Top Second Picks (two heroes)"
-msgstr ""
+msgstr "Популярные вторые пики (два героя)"
 
 #: meta/templates/meta/drafts.html:220
 msgid "Most Common Compositions"
@@ -1537,7 +1537,7 @@ msgstr ""
 #: meta/templates/meta/include/meta_filter_form.html:36
 #: teams/templates/players/player_detail.html:117
 msgid "Show only main stage matches (exclude qualifiers)"
-msgstr ""
+msgstr "Показать только главные матчи (исключить квалификации)"
 
 #: meta/templates/meta/maps.html:22
 msgid "Shortest"
