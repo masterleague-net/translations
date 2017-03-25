@@ -1518,7 +1518,7 @@ msgstr "Популярные вторые пики (два героя)"
 
 #: meta/templates/meta/drafts.html:220
 msgid "Most Common Compositions"
-msgstr "Популярные композиции"
+msgstr "Популярные составы"
 
 #: meta/templates/meta/drafts.html:226
 msgctxt "Team composition"
@@ -1532,7 +1532,7 @@ msgstr "Кол-во"
 #: meta/templates/meta/heroes.html:12
 #, python-format
 msgid "Unpicked Heroes (%(unpicked_heroes_count)s of %(heroes_count)s)"
-msgstr ""
+msgstr "Невыбранные герои (%(unpicked_heroes_count)s из %(heroes_count)s)"
 
 #: meta/templates/meta/include/meta_filter_form.html:36
 #: teams/templates/players/player_detail.html:117
