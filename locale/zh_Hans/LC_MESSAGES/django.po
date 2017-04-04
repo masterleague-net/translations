@@ -9,7 +9,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.12\n"
 "PO-Revision-Date: \n"
-"Last-Translator: DKWings <dkwingsmt@gmail.com>\n"
+"Last-Translator: Jiahao Liang <gzliangjiahao@gmail.com>\n"
 "Language-Team: \n"
 
 #: bets/forms.py:18
@@ -1702,7 +1702,7 @@ msgstr "赛事 / 直播"
 #: pages/templates/calendar_inline.html:70
 msgctxt "Live events in eSports Calendar"
 msgid "Live"
-msgstr "正在直播"
+msgstr "存活时间"
 
 #: pages/templates/calendar_inline.html:116
 msgctxt "Upcoming events in eSports Calendar"

@@ -8,6 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
+"Last-Translator: Jiahao Liang <gzliangjiahao@gmail.com>\n"
 
 #: bets/forms.py:18
 msgid "Season"
@@ -1660,35 +1661,35 @@ msgstr "專家"
 
 #: meta/views.py:259 meta/views.py:336
 msgid "The highest average number of takedowns"
-msgstr ""
+msgstr "平均總擊殺最高"
 
 #: meta/views.py:270
 msgid "The highest average number of kills"
-msgstr ""
+msgstr "平均直接擊殺最高"
 
 #: meta/views.py:281
 msgid "The highest average number of assists"
-msgstr ""
+msgstr "平均助攻數最多"
 
 #: meta/views.py:292
 msgid "Player that spent the most time alive"
-msgstr ""
+msgstr "遊戲存活時間最長"
 
 #: meta/views.py:303
 msgid "Player that spent the most time dead"
-msgstr ""
+msgstr "遊戲死亡時間最長"
 
 #: meta/views.py:347
 msgid "The highest average deaths"
-msgstr ""
+msgstr "平均死亡數最高"
 
 #: meta/views.py:358
 msgid "Team that spent the most time alive"
-msgstr ""
+msgstr "遊戲存活時間最長"
 
 #: meta/views.py:369
 msgid "Team that spent the most time dead"
-msgstr ""
+msgstr "遊戲死亡時間最長"
 
 #: pages/templates/calendar.html:5
 msgctxt "[SEO] Page title"
@@ -1887,7 +1888,7 @@ msgstr "概況"
 #| msgctxt "Live events in eSports Calendar"
 #| msgid "Live"
 msgid "Live Time"
-msgstr "正在直播"
+msgstr "存活時間"
 
 #: teams/templates/players/player_heroes.html:43
 #, fuzzy
