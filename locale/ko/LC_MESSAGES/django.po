@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-07 21:55+0000\n"
+"POT-Creation-Date: 2017-04-09 19:27+0000\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,12 +15,12 @@ msgstr "시즌"
 
 #: bets/forms.py:22 matches/forms.py:14
 #: matches/templates/tournaments/tournament_list_inline.html:11
-#: teams/forms.py:86 teams/templates/players/player_list.html:75
+#: teams/forms.py:90 teams/templates/players/player_list.html:75
 msgid "Region"
 msgstr "지역"
 
-#: bets/forms.py:25 heroes/forms.py:15 matches/forms.py:15 meta/forms.py:16
-#: teams/forms.py:87
+#: bets/forms.py:25 heroes/forms.py:15 matches/forms.py:15 meta/forms.py:17
+#: teams/forms.py:91
 msgid "All Regions"
 msgstr "모든 지역"
 
@@ -43,12 +43,12 @@ msgstr ""
 #: changelog/templates/changelog/changelog_list.html:10
 #: heroes/templates/heroes/hero_detail.html:155
 #: heroes/templates/heroes/hero_list.html:51
-#: maps/templates/maps/map_detail.html:29 maps/templates/maps/map_list.html:12
+#: maps/templates/maps/map_detail.html:12 maps/templates/maps/map_list.html:12
 #: matches/templates/matches/match_detail.html:51
 #: matches/templates/matches/match_list.html:25
 #: matches/templates/tournaments/tournament_detail.html:19
 #: matches/templates/tournaments/tournament_list.html:12
-#: meta/templates/meta/base.html:28 search/templates/search/search.html:16
+#: meta/templates/meta/base.html:12 search/templates/search/search.html:16
 #: teams/templates/players/player_detail.html:37
 #: teams/templates/players/player_list.html:25
 #: teams/templates/players/players_compare.html:112
@@ -71,27 +71,27 @@ msgstr ""
 msgid "win prizes"
 msgstr ""
 
-#: bets/templates/bets/bets_base.html:45
+#: bets/templates/bets/bets_base.html:47
 #: bets/templates/bets/leaderboard.html:65
 #: bets/templates/bets/matches_include.html:61
 msgid "Points"
 msgstr "포인트"
 
-#: bets/templates/bets/bets_base.html:48
+#: bets/templates/bets/bets_base.html:50
 #: comments/templates/comments/comment_list.html:38
 msgid "Login via Battle.net"
 msgstr "베틀넷으로 로그인 하기"
 
-#: bets/templates/bets/bets_base.html:53 bets/templates/bets/matches.html:7
+#: bets/templates/bets/bets_base.html:55 bets/templates/bets/matches.html:7
 #: heroes/templates/heroes/hero_builds.html:68
 #: heroes/templates/heroes/hero_detail.html:204
 #: heroes/templates/heroes/hero_matches.html:7
 #: heroes/templates/heroes/hero_overview.html:173
-#: maps/templates/maps/map_detail.html:46
+#: maps/templates/maps/map_detail.html:29
 #: matches/templates/matches/match_detail.html:8
 #: matches/templates/matches/match_list.html:8
 #: matches/templates/matches/match_list.html:26
-#: meta/templates/meta/base.html:49 meta/templates/meta/drafts.html:18
+#: meta/templates/meta/base.html:33 meta/templates/meta/drafts.html:18
 #: meta/templates/meta/drafts.html:69 meta/templates/meta/drafts.html:122
 #: meta/templates/meta/drafts.html:173 meta/templates/meta/maps.html:21
 #: meta/templates/meta/matches.html:5 meta/templates/meta/matches.html:6
@@ -109,7 +109,7 @@ msgstr "베틀넷으로 로그인 하기"
 msgid "Matches"
 msgstr "경기"
 
-#: bets/templates/bets/bets_base.html:54
+#: bets/templates/bets/bets_base.html:56
 #: bets/templates/bets/leaderboard.html:5
 #: bets/templates/bets/leaderboard.html:7
 #: bets/templates/bets/leaderboard.html:27
@@ -118,7 +118,7 @@ msgstr ""
 
 #: bets/templates/bets/leaderboard.html:45
 #: heroes/templates/heroes/hero_detail.html:174
-#: meta/templates/meta/include/meta_filter_form.html:46
+#: meta/templates/meta/include/meta_filter_form.html:58
 #: teams/templates/players/player_detail.html:127
 msgctxt "Button label"
 msgid "Just Do It!"
@@ -146,6 +146,22 @@ msgstr ""
 
 #: bets/templates/bets/leaderboard.html:64
 msgid "Predicted score"
+msgstr ""
+
+#: bets/templates/bets/leaderboard.html:87
+msgid "Legendary badge"
+msgstr ""
+
+#: bets/templates/bets/leaderboard.html:93
+msgid "Epic badge"
+msgstr ""
+
+#: bets/templates/bets/leaderboard.html:99
+msgid "Rare badge"
+msgstr ""
+
+#: bets/templates/bets/leaderboard.html:105
+msgid "Common badge"
 msgstr ""
 
 #: bets/templates/bets/matches.html:59
@@ -230,17 +246,17 @@ msgstr ""
 
 #: comments/templates/comments/comment_nodes.html:183
 #: comments/templates/comments/comment_nodes.html:258
-#: comments/templates/profiles/base.html:29
+#: comments/templates/profiles/base.html:40
 msgid "Rating"
 msgstr ""
 
 #: comments/templates/comments/comment_nodes.html:198
-#: comments/templates/profiles/base.html:20
+#: comments/templates/profiles/base.html:31
 msgid "Administrator"
 msgstr ""
 
 #: comments/templates/comments/comment_nodes.html:200
-#: comments/templates/profiles/base.html:22
+#: comments/templates/profiles/base.html:33
 msgid "Moderator"
 msgstr ""
 
@@ -268,17 +284,17 @@ msgstr ""
 msgid "Post a comment"
 msgstr ""
 
-#: comments/templates/profiles/base.html:25
+#: comments/templates/profiles/base.html:36
 msgid "Comments count"
 msgstr ""
 
-#: comments/templates/profiles/base.html:37
+#: comments/templates/profiles/base.html:56
 #: matches/templates/matches/match_detail.html:214
 #: matches/templates/matches/matches_inline.html:142
 msgid "Comments"
 msgstr "코멘트"
 
-#: comments/templates/profiles/base.html:41 templates/base.html:225
+#: comments/templates/profiles/base.html:60 templates/base.html:225
 msgid "Notifications"
 msgstr ""
 
@@ -313,23 +329,23 @@ msgstr "다음"
 msgid "Regions"
 msgstr "지역"
 
-#: heroes/forms.py:17 meta/forms.py:18 teams/forms.py:55
+#: heroes/forms.py:17 meta/forms.py:19 teams/forms.py:55
 msgid "Patches"
 msgstr "패치"
 
-#: heroes/forms.py:20 meta/forms.py:21 teams/forms.py:25 teams/forms.py:58
+#: heroes/forms.py:20 meta/forms.py:23 teams/forms.py:25 teams/forms.py:58
 msgid "All patches"
 msgstr "모든 패치"
 
 #: heroes/forms.py:23 matches/templates/tournaments/tournament_detail.html:8
 #: matches/templates/tournaments/tournament_detail.html:20
 #: matches/templates/tournaments/tournament_list.html:8
-#: matches/templates/tournaments/tournament_list.html:13 meta/forms.py:29
-#: teams/forms.py:67 templates/base.html:206
+#: matches/templates/tournaments/tournament_list.html:13 meta/forms.py:35
+#: teams/forms.py:71 templates/base.html:206
 msgid "Tournaments"
 msgstr "대회"
 
-#: heroes/forms.py:26 meta/forms.py:32 teams/forms.py:70
+#: heroes/forms.py:26 meta/forms.py:39 teams/forms.py:74
 msgid "All tournaments"
 msgstr "모든 토너먼트"
 
@@ -363,9 +379,9 @@ msgstr "통계"
 #: heroes/templates/heroes/hero_detail.html:156
 #: heroes/templates/heroes/hero_list.html:8
 #: heroes/templates/heroes/hero_list.html:52
-#: maps/templates/maps/map_detail.html:43
-#: matches/templates/tournaments/tournament_overview.html:157 meta/forms.py:23
-#: meta/templates/meta/base.html:46 meta/templates/meta/heroes.html:5
+#: maps/templates/maps/map_detail.html:26
+#: matches/templates/tournaments/tournament_overview.html:157 meta/forms.py:25
+#: meta/templates/meta/base.html:30 meta/templates/meta/heroes.html:5
 #: meta/templates/meta/heroes.html:6 meta/templates/meta/players.html:23
 #: meta/templates/meta/players.html:63 meta/templates/meta/teams.html:21
 #: meta/templates/meta/teams.html:56
@@ -524,7 +540,7 @@ msgstr ""
 #: meta/templates/meta/players.html:22 meta/templates/meta/players.html:62
 #: meta/templates/meta/players.html:104 meta/templates/meta/teams.html:20
 #: meta/templates/meta/teams.html:55 meta/templates/meta/teams.html:92
-#: meta/templates/meta/teams.html:129 teams/forms.py:49 teams/forms.py:89
+#: meta/templates/meta/teams.html:129 teams/forms.py:49 teams/forms.py:93
 #: teams/templates/players/player_list.html:76
 #: teams/templates/players/player_overview.html:119
 #: teams/templates/teams/team_transfers.html:19
@@ -536,7 +552,7 @@ msgstr "팀"
 #: meta/templates/meta/drafts.html:17 meta/templates/meta/drafts.html:68
 #: meta/templates/meta/drafts.html:121 meta/templates/meta/drafts.html:172
 #: meta/templates/meta/include/heroes_table.html:10 teams/forms.py:16
-#: teams/forms.py:43 teams/forms.py:63 teams/forms.py:98
+#: teams/forms.py:43 teams/forms.py:63 teams/forms.py:102
 #: teams/templates/players/player_heroes.html:38
 #: teams/templates/teams/summary.html:13
 #: teams/templates/teams/team_heroes.html:24
@@ -567,25 +583,25 @@ msgid "mins"
 msgstr "분"
 
 #: maps/templates/maps/map_detail.html:8
-#: maps/templates/maps/map_detail.html:30 maps/templates/maps/map_list.html:8
+#: maps/templates/maps/map_detail.html:13 maps/templates/maps/map_list.html:8
 #: maps/templates/maps/map_list.html:13
 #: matches/templates/tournaments/tournament_overview.html:155
-#: meta/templates/meta/base.html:44 meta/templates/meta/maps.html:5
+#: meta/templates/meta/base.html:28 meta/templates/meta/maps.html:5
 #: meta/templates/meta/maps.html:6 templates/base.html:208
 msgid "Maps"
 msgstr "맵"
 
-#: maps/templates/maps/map_detail.html:42
+#: maps/templates/maps/map_detail.html:25
 #: matches/templates/matches/matches_inline.html:21
 #: matches/templates/tournaments/tournament_overview.html:156
-#: meta/templates/meta/base.html:45 meta/templates/meta/drafts.html:5
+#: meta/templates/meta/base.html:29 meta/templates/meta/drafts.html:5
 #: meta/templates/meta/drafts.html:6
 msgid "Drafts"
 msgstr "벤픽"
 
-#: maps/templates/maps/map_detail.html:44
+#: maps/templates/maps/map_detail.html:27
 #: matches/templates/tournaments/tournament_overview.html:158
-#: meta/templates/meta/base.html:47 meta/templates/meta/players.html:5
+#: meta/templates/meta/base.html:31 meta/templates/meta/players.html:5
 #: meta/templates/meta/players.html:6 search/templates/search/search.html:39
 #: teams/templates/players/player_detail.html:8
 #: teams/templates/players/player_detail.html:38
@@ -605,9 +621,9 @@ msgstr "벤픽"
 msgid "Players"
 msgstr "선수"
 
-#: maps/templates/maps/map_detail.html:45
+#: maps/templates/maps/map_detail.html:28
 #: matches/templates/tournaments/tournament_overview.html:159
-#: meta/templates/meta/base.html:48 meta/templates/meta/teams.html:5
+#: meta/templates/meta/base.html:32 meta/templates/meta/teams.html:5
 #: meta/templates/meta/teams.html:6 search/templates/search/search.html:21
 #: teams/templates/teams/team_detail.html:8
 #: teams/templates/teams/team_detail.html:27
@@ -617,7 +633,7 @@ msgstr "선수"
 msgid "Teams"
 msgstr "팀"
 
-#: maps/templates/maps/map_detail.html:51 meta/templates/meta/base.html:37
+#: maps/templates/maps/map_detail.html:34 meta/templates/meta/base.html:21
 msgid "Warning!"
 msgstr "경고!"
 
@@ -927,259 +943,265 @@ msgstr "줄 패치"
 msgid "Probius Patch"
 msgstr "크로미 패치"
 
-#: masterleague/lc_strings.py:91
+#: masterleague/lc_strings.py:88
+#, fuzzy
+#| msgid "Varian Patch"
+msgid "Cassia Patch"
+msgstr "바리안 패치"
+
+#: masterleague/lc_strings.py:92
 msgid "Abathur"
 msgstr "아바투르"
 
-#: masterleague/lc_strings.py:92
+#: masterleague/lc_strings.py:93
 msgid "Alarak"
 msgstr "알라라크"
 
-#: masterleague/lc_strings.py:93
+#: masterleague/lc_strings.py:94
 msgid "Anub'arak"
 msgstr "아눕아락"
 
-#: masterleague/lc_strings.py:94
+#: masterleague/lc_strings.py:95
 msgid "Artanis"
 msgstr "아르타니스"
 
-#: masterleague/lc_strings.py:95
+#: masterleague/lc_strings.py:96
 msgid "Arthas"
 msgstr "아서스"
 
-#: masterleague/lc_strings.py:96
+#: masterleague/lc_strings.py:97
 msgid "Auriel"
 msgstr "아우리엘"
 
-#: masterleague/lc_strings.py:97
+#: masterleague/lc_strings.py:98
 msgid "Azmodan"
 msgstr "아즈모단"
 
-#: masterleague/lc_strings.py:98
+#: masterleague/lc_strings.py:99
 msgid "Brightwing"
 msgstr "빛나래"
 
-#: masterleague/lc_strings.py:99
+#: masterleague/lc_strings.py:100
 msgid "Chen"
 msgstr "첸"
 
-#: masterleague/lc_strings.py:100
+#: masterleague/lc_strings.py:101
 msgid "Cho"
 msgstr "초"
 
-#: masterleague/lc_strings.py:101
+#: masterleague/lc_strings.py:102
 msgid "Chromie"
 msgstr "크로미"
 
-#: masterleague/lc_strings.py:102
+#: masterleague/lc_strings.py:103
 msgid "Dehaka"
 msgstr "데하카"
 
-#: masterleague/lc_strings.py:103
+#: masterleague/lc_strings.py:104
 msgid "Diablo"
 msgstr "디아블로"
 
-#: masterleague/lc_strings.py:104
+#: masterleague/lc_strings.py:105
 msgid "E.T.C."
 msgstr "정예 타우렌 족장"
 
-#: masterleague/lc_strings.py:105
+#: masterleague/lc_strings.py:106
 msgid "Falstad"
 msgstr "폴스타트"
 
-#: masterleague/lc_strings.py:106
+#: masterleague/lc_strings.py:107
 msgid "Gall"
 msgstr "갈"
 
-#: masterleague/lc_strings.py:107
+#: masterleague/lc_strings.py:108
 msgid "Gazlowe"
 msgstr "가즈로"
 
-#: masterleague/lc_strings.py:108
+#: masterleague/lc_strings.py:109
 msgid "Greymane"
 msgstr "그레이메인"
 
-#: masterleague/lc_strings.py:109
+#: masterleague/lc_strings.py:110
 msgid "Gul'dan"
 msgstr "굴단"
 
-#: masterleague/lc_strings.py:110
+#: masterleague/lc_strings.py:111
 msgid "Illidan"
 msgstr "일리단"
 
-#: masterleague/lc_strings.py:111
+#: masterleague/lc_strings.py:112
 msgid "Jaina"
 msgstr "제이나"
 
-#: masterleague/lc_strings.py:112
+#: masterleague/lc_strings.py:113
 msgid "Johanna"
 msgstr "요한나"
 
-#: masterleague/lc_strings.py:113
+#: masterleague/lc_strings.py:114
 msgid "Kael'thas"
 msgstr "캘타스"
 
-#: masterleague/lc_strings.py:114
+#: masterleague/lc_strings.py:115
 msgid "Kerrigan"
 msgstr "케리건"
 
-#: masterleague/lc_strings.py:115
+#: masterleague/lc_strings.py:116
 msgid "Kharazim"
 msgstr "카라짐"
 
-#: masterleague/lc_strings.py:116
+#: masterleague/lc_strings.py:117
 msgid "Leoric"
 msgstr "레오릭"
 
-#: masterleague/lc_strings.py:117
+#: masterleague/lc_strings.py:118
 msgid "Li Li"
 msgstr "리리"
 
-#: masterleague/lc_strings.py:118
+#: masterleague/lc_strings.py:119
 msgid "Li-Ming"
 msgstr "리밍"
 
-#: masterleague/lc_strings.py:119
+#: masterleague/lc_strings.py:120
 msgid "Lt. Morales"
 msgstr "모랄레스 중위"
 
-#: masterleague/lc_strings.py:120
+#: masterleague/lc_strings.py:121
 msgid "Lucio"
 msgstr ""
 
-#: masterleague/lc_strings.py:121
+#: masterleague/lc_strings.py:122
 msgid "Lunara"
 msgstr "루나라"
 
-#: masterleague/lc_strings.py:122
+#: masterleague/lc_strings.py:123
 msgid "Malfurion"
 msgstr "말퓨리온"
 
-#: masterleague/lc_strings.py:123
+#: masterleague/lc_strings.py:124
 msgid "Medivh"
 msgstr "메디브"
 
-#: masterleague/lc_strings.py:124
+#: masterleague/lc_strings.py:125
 msgid "Muradin"
 msgstr "무라딘"
 
-#: masterleague/lc_strings.py:125
+#: masterleague/lc_strings.py:126
 msgid "Murky"
 msgstr "머키"
 
-#: masterleague/lc_strings.py:126
+#: masterleague/lc_strings.py:127
 msgid "Nazeebo"
 msgstr "나지보"
 
-#: masterleague/lc_strings.py:127
+#: masterleague/lc_strings.py:128
 msgid "Nova"
 msgstr "노바"
 
-#: masterleague/lc_strings.py:128
+#: masterleague/lc_strings.py:129
 msgid "Ragnaros"
 msgstr "라그나로스"
 
-#: masterleague/lc_strings.py:129
+#: masterleague/lc_strings.py:130
 msgid "Raynor"
 msgstr "레이너"
 
-#: masterleague/lc_strings.py:130
+#: masterleague/lc_strings.py:131
 msgid "Rehgar"
 msgstr "레가르"
 
-#: masterleague/lc_strings.py:131
+#: masterleague/lc_strings.py:132
 msgid "Rexxar"
 msgstr "렉사르"
 
-#: masterleague/lc_strings.py:132
+#: masterleague/lc_strings.py:133
 msgid "Samuro"
 msgstr "사무로"
 
-#: masterleague/lc_strings.py:133
+#: masterleague/lc_strings.py:134
 msgid "Sgt. Hammer"
 msgstr "해머 상사"
 
-#: masterleague/lc_strings.py:134
+#: masterleague/lc_strings.py:135
 msgid "Sonya"
 msgstr "소냐"
 
-#: masterleague/lc_strings.py:135
+#: masterleague/lc_strings.py:136
 msgid "Stitches"
 msgstr "누더기"
 
-#: masterleague/lc_strings.py:136
+#: masterleague/lc_strings.py:137
 msgid "Sylvanas"
 msgstr "실바나스"
 
-#: masterleague/lc_strings.py:137
+#: masterleague/lc_strings.py:138
 msgid "Tassadar"
 msgstr "태사다르"
 
-#: masterleague/lc_strings.py:138
+#: masterleague/lc_strings.py:139
 msgid "The Butcher"
 msgstr "도살자"
 
-#: masterleague/lc_strings.py:139
+#: masterleague/lc_strings.py:140
 msgid "The Lost Vikings"
 msgstr "길 잃은 바이킹"
 
-#: masterleague/lc_strings.py:140
+#: masterleague/lc_strings.py:141
 msgid "Thrall"
 msgstr "쓰랄"
 
-#: masterleague/lc_strings.py:141
+#: masterleague/lc_strings.py:142
 msgid "Tracer"
 msgstr "트레이서"
 
-#: masterleague/lc_strings.py:142
+#: masterleague/lc_strings.py:143
 msgid "Tychus"
 msgstr "타이커스"
 
-#: masterleague/lc_strings.py:143
+#: masterleague/lc_strings.py:144
 msgid "Tyrael"
 msgstr "티리엘"
 
-#: masterleague/lc_strings.py:144
+#: masterleague/lc_strings.py:145
 msgid "Tyrande"
 msgstr "티란데"
 
-#: masterleague/lc_strings.py:145
+#: masterleague/lc_strings.py:146
 msgid "Uther"
 msgstr "우서"
 
-#: masterleague/lc_strings.py:146
+#: masterleague/lc_strings.py:147
 msgid "Valeera"
 msgstr "발리라"
 
-#: masterleague/lc_strings.py:147
+#: masterleague/lc_strings.py:148
 msgid "Valla"
 msgstr "발라"
 
-#: masterleague/lc_strings.py:148
+#: masterleague/lc_strings.py:149
 msgid "Varian"
 msgstr "바리안"
 
-#: masterleague/lc_strings.py:149
+#: masterleague/lc_strings.py:150
 msgid "Xul"
 msgstr "줄"
 
-#: masterleague/lc_strings.py:150
+#: masterleague/lc_strings.py:151
 msgid "Zagara"
 msgstr "자가라"
 
-#: masterleague/lc_strings.py:151
+#: masterleague/lc_strings.py:152
 msgid "Zarya"
 msgstr "자리야"
 
-#: masterleague/lc_strings.py:152
+#: masterleague/lc_strings.py:153
 msgid "Zeratul"
 msgstr "제라툴"
 
-#: masterleague/lc_strings.py:153
+#: masterleague/lc_strings.py:154
 msgid "Zul'jin"
 msgstr "줄진"
 
-#: masterleague/lc_strings.py:154
+#: masterleague/lc_strings.py:155
 msgid "Probius"
 msgstr ""
 
@@ -1257,7 +1279,7 @@ msgid "Match List"
 msgstr "경기 목록"
 
 #: matches/templates/matches/match_list.html:61
-#: meta/templates/meta/include/meta_filter_form.html:34
+#: meta/templates/meta/include/meta_filter_form.html:46
 #: teams/templates/players/player_detail.html:115
 msgctxt "Form filter options"
 msgid "Options"
@@ -1508,7 +1530,7 @@ msgstr "참가 팀"
 msgid "Main Event Statistics"
 msgstr "메인 이벤트 통계"
 
-#: meta/forms.py:26 teams/forms.py:64
+#: meta/forms.py:32 teams/forms.py:64
 #, fuzzy
 #| msgid "All Heroes"
 msgid "All heroes"
@@ -1519,7 +1541,7 @@ msgctxt "[SEO] Page title"
 msgid "Meta"
 msgstr "메타"
 
-#: meta/templates/meta/base.html:8 meta/templates/meta/base.html:29
+#: meta/templates/meta/base.html:8 meta/templates/meta/base.html:13
 #: templates/base.html:210
 msgid "Meta"
 msgstr "메타"
@@ -1566,7 +1588,7 @@ msgstr ""
 msgid "Unpicked Heroes (%(unpicked_heroes_count)s of %(heroes_count)s)"
 msgstr ""
 
-#: meta/templates/meta/include/meta_filter_form.html:36
+#: meta/templates/meta/include/meta_filter_form.html:48
 #: teams/templates/players/player_detail.html:117
 msgid "Show only main stage matches (exclude qualifiers)"
 msgstr ""
@@ -1824,37 +1846,37 @@ msgstr ""
 msgid "All maps"
 msgstr "모든 맵"
 
-#: teams/forms.py:79
+#: teams/forms.py:83
 msgctxt "Form filter, any team choice"
 msgid "Any"
 msgstr "모두"
 
-#: teams/forms.py:80
+#: teams/forms.py:84
 msgctxt "Player w/o team"
 msgid "Free Agent"
 msgstr "자유계약 상태"
 
-#: teams/forms.py:84
+#: teams/forms.py:88
 msgctxt "Form filter, any player position choice"
 msgid "Any"
 msgstr "모두"
 
-#: teams/forms.py:91 teams/templates/players/player_list.html:79
+#: teams/forms.py:95 teams/templates/players/player_list.html:79
 #: teams/templates/teams/team_overview.html:20
 #: teams/templates/teams/team_transfers.html:18
 msgctxt "Player role/team position"
 msgid "Position"
 msgstr "포지션"
 
-#: teams/forms.py:96
+#: teams/forms.py:100
 msgid "First Player"
 msgstr "첫번째 플레이어"
 
-#: teams/forms.py:97
+#: teams/forms.py:101
 msgid "Second Player"
 msgstr "두번째 플레이어"
 
-#: teams/forms.py:101 teams/templates/players/players_compare.html:35
+#: teams/forms.py:105 teams/templates/players/players_compare.html:35
 msgid "Select and begin typing"
 msgstr ""
 
@@ -2280,10 +2302,17 @@ msgctxt "404 page"
 msgid "Page Not Found"
 msgstr "페이지를 찾을 수 없음"
 
-#: templates/404.html:20
+#: templates/404.html:21
 msgctxt "404 page"
 msgid "There's nothing here"
 msgstr "여기 암것도 음쪄여"
+
+#: templates/404.html:24
+#, fuzzy
+#| msgctxt "Link to the main page"
+#| msgid "Home"
+msgid "Home"
+msgstr "홈"
 
 #: templates/base.html:6
 msgid "eSport statistics"

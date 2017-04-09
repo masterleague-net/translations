@@ -2,15 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-07 21:55+0000\n"
+"POT-Creation-Date: 2017-04-09 19:27+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jiahao Liang <gzliangjiahao@gmail.com>\n"
+"Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.12\n"
-"PO-Revision-Date: \n"
-"Last-Translator: Jiahao Liang <gzliangjiahao@gmail.com>\n"
-"Language-Team: \n"
 
 #: bets/forms.py:18
 msgid "Season"
@@ -18,12 +18,12 @@ msgstr "赛季"
 
 #: bets/forms.py:22 matches/forms.py:14
 #: matches/templates/tournaments/tournament_list_inline.html:11
-#: teams/forms.py:86 teams/templates/players/player_list.html:75
+#: teams/forms.py:90 teams/templates/players/player_list.html:75
 msgid "Region"
 msgstr "地区"
 
-#: bets/forms.py:25 heroes/forms.py:15 matches/forms.py:15 meta/forms.py:16
-#: teams/forms.py:87
+#: bets/forms.py:25 heroes/forms.py:15 matches/forms.py:15 meta/forms.py:17
+#: teams/forms.py:91
 msgid "All Regions"
 msgstr "所有地区"
 
@@ -46,12 +46,12 @@ msgstr "挑战"
 #: changelog/templates/changelog/changelog_list.html:10
 #: heroes/templates/heroes/hero_detail.html:155
 #: heroes/templates/heroes/hero_list.html:51
-#: maps/templates/maps/map_detail.html:29 maps/templates/maps/map_list.html:12
+#: maps/templates/maps/map_detail.html:12 maps/templates/maps/map_list.html:12
 #: matches/templates/matches/match_detail.html:51
 #: matches/templates/matches/match_list.html:25
 #: matches/templates/tournaments/tournament_detail.html:19
 #: matches/templates/tournaments/tournament_list.html:12
-#: meta/templates/meta/base.html:28 search/templates/search/search.html:16
+#: meta/templates/meta/base.html:12 search/templates/search/search.html:16
 #: teams/templates/players/player_detail.html:37
 #: teams/templates/players/player_list.html:25
 #: teams/templates/players/players_compare.html:112
@@ -74,27 +74,27 @@ msgstr "赢取积分"
 msgid "win prizes"
 msgstr "获得奖励"
 
-#: bets/templates/bets/bets_base.html:45
+#: bets/templates/bets/bets_base.html:47
 #: bets/templates/bets/leaderboard.html:65
 #: bets/templates/bets/matches_include.html:61
 msgid "Points"
 msgstr "分数"
 
-#: bets/templates/bets/bets_base.html:48
+#: bets/templates/bets/bets_base.html:50
 #: comments/templates/comments/comment_list.html:38
 msgid "Login via Battle.net"
 msgstr "通过战网登录"
 
-#: bets/templates/bets/bets_base.html:53 bets/templates/bets/matches.html:7
+#: bets/templates/bets/bets_base.html:55 bets/templates/bets/matches.html:7
 #: heroes/templates/heroes/hero_builds.html:68
 #: heroes/templates/heroes/hero_detail.html:204
 #: heroes/templates/heroes/hero_matches.html:7
 #: heroes/templates/heroes/hero_overview.html:173
-#: maps/templates/maps/map_detail.html:46
+#: maps/templates/maps/map_detail.html:29
 #: matches/templates/matches/match_detail.html:8
 #: matches/templates/matches/match_list.html:8
 #: matches/templates/matches/match_list.html:26
-#: meta/templates/meta/base.html:49 meta/templates/meta/drafts.html:18
+#: meta/templates/meta/base.html:33 meta/templates/meta/drafts.html:18
 #: meta/templates/meta/drafts.html:69 meta/templates/meta/drafts.html:122
 #: meta/templates/meta/drafts.html:173 meta/templates/meta/maps.html:21
 #: meta/templates/meta/matches.html:5 meta/templates/meta/matches.html:6
@@ -112,7 +112,8 @@ msgstr "通过战网登录"
 msgid "Matches"
 msgstr "比赛"
 
-#: bets/templates/bets/bets_base.html:54 bets/templates/bets/leaderboard.html:5
+#: bets/templates/bets/bets_base.html:56
+#: bets/templates/bets/leaderboard.html:5
 #: bets/templates/bets/leaderboard.html:7
 #: bets/templates/bets/leaderboard.html:27
 msgid "Leaderboard"
@@ -120,7 +121,7 @@ msgstr "排行榜"
 
 #: bets/templates/bets/leaderboard.html:45
 #: heroes/templates/heroes/hero_detail.html:174
-#: meta/templates/meta/include/meta_filter_form.html:46
+#: meta/templates/meta/include/meta_filter_form.html:58
 #: teams/templates/players/player_detail.html:127
 msgctxt "Button label"
 msgid "Just Do It!"
@@ -149,6 +150,22 @@ msgstr "预测获胜方"
 #: bets/templates/bets/leaderboard.html:64
 msgid "Predicted score"
 msgstr "预测比分"
+
+#: bets/templates/bets/leaderboard.html:87
+msgid "Legendary badge"
+msgstr ""
+
+#: bets/templates/bets/leaderboard.html:93
+msgid "Epic badge"
+msgstr ""
+
+#: bets/templates/bets/leaderboard.html:99
+msgid "Rare badge"
+msgstr ""
+
+#: bets/templates/bets/leaderboard.html:105
+msgid "Common badge"
+msgstr ""
 
 #: bets/templates/bets/matches.html:59
 msgid "Time until"
@@ -232,17 +249,17 @@ msgstr "评论已经移除"
 
 #: comments/templates/comments/comment_nodes.html:183
 #: comments/templates/comments/comment_nodes.html:258
-#: comments/templates/profiles/base.html:29
+#: comments/templates/profiles/base.html:40
 msgid "Rating"
 msgstr "等级"
 
 #: comments/templates/comments/comment_nodes.html:198
-#: comments/templates/profiles/base.html:20
+#: comments/templates/profiles/base.html:31
 msgid "Administrator"
 msgstr "管理员"
 
 #: comments/templates/comments/comment_nodes.html:200
-#: comments/templates/profiles/base.html:22
+#: comments/templates/profiles/base.html:33
 msgid "Moderator"
 msgstr "版主"
 
@@ -270,17 +287,17 @@ msgstr "标记为已读"
 msgid "Post a comment"
 msgstr "发表评论"
 
-#: comments/templates/profiles/base.html:25
+#: comments/templates/profiles/base.html:36
 msgid "Comments count"
 msgstr "评论统计"
 
-#: comments/templates/profiles/base.html:37
+#: comments/templates/profiles/base.html:56
 #: matches/templates/matches/match_detail.html:214
 #: matches/templates/matches/matches_inline.html:142
 msgid "Comments"
 msgstr "评论"
 
-#: comments/templates/profiles/base.html:41 templates/base.html:225
+#: comments/templates/profiles/base.html:60 templates/base.html:225
 msgid "Notifications"
 msgstr "通知"
 
@@ -316,23 +333,23 @@ msgstr "下一页"
 msgid "Regions"
 msgstr "地区"
 
-#: heroes/forms.py:17 meta/forms.py:18 teams/forms.py:55
+#: heroes/forms.py:17 meta/forms.py:19 teams/forms.py:55
 msgid "Patches"
 msgstr "版本"
 
-#: heroes/forms.py:20 meta/forms.py:21 teams/forms.py:25 teams/forms.py:58
+#: heroes/forms.py:20 meta/forms.py:23 teams/forms.py:25 teams/forms.py:58
 msgid "All patches"
 msgstr "所有版本"
 
 #: heroes/forms.py:23 matches/templates/tournaments/tournament_detail.html:8
 #: matches/templates/tournaments/tournament_detail.html:20
 #: matches/templates/tournaments/tournament_list.html:8
-#: matches/templates/tournaments/tournament_list.html:13 meta/forms.py:29
-#: teams/forms.py:67 templates/base.html:206
+#: matches/templates/tournaments/tournament_list.html:13 meta/forms.py:35
+#: teams/forms.py:71 templates/base.html:206
 msgid "Tournaments"
 msgstr "赛事"
 
-#: heroes/forms.py:26 meta/forms.py:32 teams/forms.py:70
+#: heroes/forms.py:26 meta/forms.py:39 teams/forms.py:74
 msgid "All tournaments"
 msgstr "所有比赛"
 
@@ -366,9 +383,9 @@ msgstr "统计数据"
 #: heroes/templates/heroes/hero_detail.html:156
 #: heroes/templates/heroes/hero_list.html:8
 #: heroes/templates/heroes/hero_list.html:52
-#: maps/templates/maps/map_detail.html:43
-#: matches/templates/tournaments/tournament_overview.html:157 meta/forms.py:23
-#: meta/templates/meta/base.html:46 meta/templates/meta/heroes.html:5
+#: maps/templates/maps/map_detail.html:26
+#: matches/templates/tournaments/tournament_overview.html:157 meta/forms.py:25
+#: meta/templates/meta/base.html:30 meta/templates/meta/heroes.html:5
 #: meta/templates/meta/heroes.html:6 meta/templates/meta/players.html:23
 #: meta/templates/meta/players.html:63 meta/templates/meta/teams.html:21
 #: meta/templates/meta/teams.html:56
@@ -522,7 +539,7 @@ msgstr "各个战队的使用频率"
 #: meta/templates/meta/players.html:22 meta/templates/meta/players.html:62
 #: meta/templates/meta/players.html:104 meta/templates/meta/teams.html:20
 #: meta/templates/meta/teams.html:55 meta/templates/meta/teams.html:92
-#: meta/templates/meta/teams.html:129 teams/forms.py:49 teams/forms.py:89
+#: meta/templates/meta/teams.html:129 teams/forms.py:49 teams/forms.py:93
 #: teams/templates/players/player_list.html:76
 #: teams/templates/players/player_overview.html:119
 #: teams/templates/teams/team_transfers.html:19
@@ -534,7 +551,7 @@ msgstr "队伍"
 #: meta/templates/meta/drafts.html:17 meta/templates/meta/drafts.html:68
 #: meta/templates/meta/drafts.html:121 meta/templates/meta/drafts.html:172
 #: meta/templates/meta/include/heroes_table.html:10 teams/forms.py:16
-#: teams/forms.py:43 teams/forms.py:63 teams/forms.py:98
+#: teams/forms.py:43 teams/forms.py:63 teams/forms.py:102
 #: teams/templates/players/player_heroes.html:38
 #: teams/templates/teams/summary.html:13
 #: teams/templates/teams/team_heroes.html:24
@@ -564,25 +581,26 @@ msgctxt "minutes"
 msgid "mins"
 msgstr "分钟"
 
-#: maps/templates/maps/map_detail.html:8 maps/templates/maps/map_detail.html:30
-#: maps/templates/maps/map_list.html:8 maps/templates/maps/map_list.html:13
+#: maps/templates/maps/map_detail.html:8
+#: maps/templates/maps/map_detail.html:13 maps/templates/maps/map_list.html:8
+#: maps/templates/maps/map_list.html:13
 #: matches/templates/tournaments/tournament_overview.html:155
-#: meta/templates/meta/base.html:44 meta/templates/meta/maps.html:5
+#: meta/templates/meta/base.html:28 meta/templates/meta/maps.html:5
 #: meta/templates/meta/maps.html:6 templates/base.html:208
 msgid "Maps"
 msgstr "地图"
 
-#: maps/templates/maps/map_detail.html:42
+#: maps/templates/maps/map_detail.html:25
 #: matches/templates/matches/matches_inline.html:21
 #: matches/templates/tournaments/tournament_overview.html:156
-#: meta/templates/meta/base.html:45 meta/templates/meta/drafts.html:5
+#: meta/templates/meta/base.html:29 meta/templates/meta/drafts.html:5
 #: meta/templates/meta/drafts.html:6
 msgid "Drafts"
 msgstr "阵容"
 
-#: maps/templates/maps/map_detail.html:44
+#: maps/templates/maps/map_detail.html:27
 #: matches/templates/tournaments/tournament_overview.html:158
-#: meta/templates/meta/base.html:47 meta/templates/meta/players.html:5
+#: meta/templates/meta/base.html:31 meta/templates/meta/players.html:5
 #: meta/templates/meta/players.html:6 search/templates/search/search.html:39
 #: teams/templates/players/player_detail.html:8
 #: teams/templates/players/player_detail.html:38
@@ -602,9 +620,9 @@ msgstr "阵容"
 msgid "Players"
 msgstr "选手"
 
-#: maps/templates/maps/map_detail.html:45
+#: maps/templates/maps/map_detail.html:28
 #: matches/templates/tournaments/tournament_overview.html:159
-#: meta/templates/meta/base.html:48 meta/templates/meta/teams.html:5
+#: meta/templates/meta/base.html:32 meta/templates/meta/teams.html:5
 #: meta/templates/meta/teams.html:6 search/templates/search/search.html:21
 #: teams/templates/teams/team_detail.html:8
 #: teams/templates/teams/team_detail.html:27
@@ -614,7 +632,7 @@ msgstr "选手"
 msgid "Teams"
 msgstr "队伍"
 
-#: maps/templates/maps/map_detail.html:51 meta/templates/meta/base.html:37
+#: maps/templates/maps/map_detail.html:34 meta/templates/meta/base.html:21
 msgid "Warning!"
 msgstr "警告！"
 
@@ -899,259 +917,265 @@ msgstr "卢西奥版本"
 msgid "Probius Patch"
 msgstr "普罗比斯版本"
 
-#: masterleague/lc_strings.py:91
+#: masterleague/lc_strings.py:88
+#, fuzzy
+#| msgid "Varian Patch"
+msgid "Cassia Patch"
+msgstr "瓦里安版本"
+
+#: masterleague/lc_strings.py:92
 msgid "Abathur"
 msgstr "阿巴瑟"
 
-#: masterleague/lc_strings.py:92
+#: masterleague/lc_strings.py:93
 msgid "Alarak"
 msgstr "阿拉纳克"
 
-#: masterleague/lc_strings.py:93
+#: masterleague/lc_strings.py:94
 msgid "Anub'arak"
 msgstr "阿努巴拉克"
 
-#: masterleague/lc_strings.py:94
+#: masterleague/lc_strings.py:95
 msgid "Artanis"
 msgstr "阿塔尼斯"
 
-#: masterleague/lc_strings.py:95
+#: masterleague/lc_strings.py:96
 msgid "Arthas"
 msgstr "阿尔萨斯"
 
-#: masterleague/lc_strings.py:96
+#: masterleague/lc_strings.py:97
 msgid "Auriel"
 msgstr "奥莉尔"
 
-#: masterleague/lc_strings.py:97
+#: masterleague/lc_strings.py:98
 msgid "Azmodan"
 msgstr "阿兹莫丹"
 
-#: masterleague/lc_strings.py:98
+#: masterleague/lc_strings.py:99
 msgid "Brightwing"
 msgstr "光明之翼"
 
-#: masterleague/lc_strings.py:99
+#: masterleague/lc_strings.py:100
 msgid "Chen"
 msgstr "陈"
 
-#: masterleague/lc_strings.py:100
+#: masterleague/lc_strings.py:101
 msgid "Cho"
 msgstr "古"
 
-#: masterleague/lc_strings.py:101
+#: masterleague/lc_strings.py:102
 msgid "Chromie"
 msgstr "克罗米"
 
-#: masterleague/lc_strings.py:102
+#: masterleague/lc_strings.py:103
 msgid "Dehaka"
 msgstr "德哈卡"
 
-#: masterleague/lc_strings.py:103
+#: masterleague/lc_strings.py:104
 msgid "Diablo"
 msgstr "迪亚波罗"
 
-#: masterleague/lc_strings.py:104
+#: masterleague/lc_strings.py:105
 msgid "E.T.C."
 msgstr "精英牛头人酋长"
 
-#: masterleague/lc_strings.py:105
+#: masterleague/lc_strings.py:106
 msgid "Falstad"
 msgstr "弗斯塔德"
 
-#: masterleague/lc_strings.py:106
+#: masterleague/lc_strings.py:107
 msgid "Gall"
 msgstr "加尔"
 
-#: masterleague/lc_strings.py:107
+#: masterleague/lc_strings.py:108
 msgid "Gazlowe"
 msgstr "加兹鲁维"
 
-#: masterleague/lc_strings.py:108
+#: masterleague/lc_strings.py:109
 msgid "Greymane"
 msgstr "格雷迈恩"
 
-#: masterleague/lc_strings.py:109
+#: masterleague/lc_strings.py:110
 msgid "Gul'dan"
 msgstr "古尔丹"
 
-#: masterleague/lc_strings.py:110
+#: masterleague/lc_strings.py:111
 msgid "Illidan"
 msgstr "伊利丹"
 
-#: masterleague/lc_strings.py:111
+#: masterleague/lc_strings.py:112
 msgid "Jaina"
 msgstr "吉安娜"
 
-#: masterleague/lc_strings.py:112
+#: masterleague/lc_strings.py:113
 msgid "Johanna"
 msgstr "乔汉娜"
 
-#: masterleague/lc_strings.py:113
+#: masterleague/lc_strings.py:114
 msgid "Kael'thas"
 msgstr "凯尔萨斯"
 
-#: masterleague/lc_strings.py:114
+#: masterleague/lc_strings.py:115
 msgid "Kerrigan"
 msgstr "凯瑞甘"
 
-#: masterleague/lc_strings.py:115
+#: masterleague/lc_strings.py:116
 msgid "Kharazim"
 msgstr "卡拉辛姆"
 
-#: masterleague/lc_strings.py:116
+#: masterleague/lc_strings.py:117
 msgid "Leoric"
 msgstr "李奥瑞克"
 
-#: masterleague/lc_strings.py:117
+#: masterleague/lc_strings.py:118
 msgid "Li Li"
 msgstr "丽丽"
 
-#: masterleague/lc_strings.py:118
+#: masterleague/lc_strings.py:119
 msgid "Li-Ming"
 msgstr "李敏"
 
-#: masterleague/lc_strings.py:119
+#: masterleague/lc_strings.py:120
 msgid "Lt. Morales"
 msgstr "莫拉莉斯中尉"
 
-#: masterleague/lc_strings.py:120
+#: masterleague/lc_strings.py:121
 msgid "Lucio"
 msgstr "卢西奥"
 
-#: masterleague/lc_strings.py:121
+#: masterleague/lc_strings.py:122
 msgid "Lunara"
 msgstr "露娜拉"
 
-#: masterleague/lc_strings.py:122
+#: masterleague/lc_strings.py:123
 msgid "Malfurion"
 msgstr "玛法里奥"
 
-#: masterleague/lc_strings.py:123
+#: masterleague/lc_strings.py:124
 msgid "Medivh"
 msgstr "麦迪文"
 
-#: masterleague/lc_strings.py:124
+#: masterleague/lc_strings.py:125
 msgid "Muradin"
 msgstr "穆拉丁"
 
-#: masterleague/lc_strings.py:125
+#: masterleague/lc_strings.py:126
 msgid "Murky"
 msgstr "奔波尔霸"
 
-#: masterleague/lc_strings.py:126
+#: masterleague/lc_strings.py:127
 msgid "Nazeebo"
 msgstr "纳兹波"
 
-#: masterleague/lc_strings.py:127
+#: masterleague/lc_strings.py:128
 msgid "Nova"
 msgstr "诺娃"
 
-#: masterleague/lc_strings.py:128
+#: masterleague/lc_strings.py:129
 msgid "Ragnaros"
 msgstr "拉格纳罗斯"
 
-#: masterleague/lc_strings.py:129
+#: masterleague/lc_strings.py:130
 msgid "Raynor"
 msgstr "雷诺"
 
-#: masterleague/lc_strings.py:130
+#: masterleague/lc_strings.py:131
 msgid "Rehgar"
 msgstr "雷加尔"
 
-#: masterleague/lc_strings.py:131
+#: masterleague/lc_strings.py:132
 msgid "Rexxar"
 msgstr "雷克萨"
 
-#: masterleague/lc_strings.py:132
+#: masterleague/lc_strings.py:133
 msgid "Samuro"
 msgstr "萨穆罗"
 
-#: masterleague/lc_strings.py:133
+#: masterleague/lc_strings.py:134
 msgid "Sgt. Hammer"
 msgstr "重锤军士"
 
-#: masterleague/lc_strings.py:134
+#: masterleague/lc_strings.py:135
 msgid "Sonya"
 msgstr "桑娅"
 
-#: masterleague/lc_strings.py:135
+#: masterleague/lc_strings.py:136
 msgid "Stitches"
 msgstr "缝合怪"
 
-#: masterleague/lc_strings.py:136
+#: masterleague/lc_strings.py:137
 msgid "Sylvanas"
 msgstr "希尔瓦娜斯"
 
-#: masterleague/lc_strings.py:137
+#: masterleague/lc_strings.py:138
 msgid "Tassadar"
 msgstr "塔萨达"
 
-#: masterleague/lc_strings.py:138
+#: masterleague/lc_strings.py:139
 msgid "The Butcher"
 msgstr "屠夫"
 
-#: masterleague/lc_strings.py:139
+#: masterleague/lc_strings.py:140
 msgid "The Lost Vikings"
 msgstr "失落的维京人"
 
-#: masterleague/lc_strings.py:140
+#: masterleague/lc_strings.py:141
 msgid "Thrall"
 msgstr "萨尔"
 
-#: masterleague/lc_strings.py:141
+#: masterleague/lc_strings.py:142
 msgid "Tracer"
 msgstr "猎空"
 
-#: masterleague/lc_strings.py:142
+#: masterleague/lc_strings.py:143
 msgid "Tychus"
 msgstr "泰凯斯"
 
-#: masterleague/lc_strings.py:143
+#: masterleague/lc_strings.py:144
 msgid "Tyrael"
 msgstr "泰瑞尔"
 
-#: masterleague/lc_strings.py:144
+#: masterleague/lc_strings.py:145
 msgid "Tyrande"
 msgstr "泰兰德"
 
-#: masterleague/lc_strings.py:145
+#: masterleague/lc_strings.py:146
 msgid "Uther"
 msgstr "乌瑟尔"
 
-#: masterleague/lc_strings.py:146
+#: masterleague/lc_strings.py:147
 msgid "Valeera"
 msgstr "瓦莉拉"
 
-#: masterleague/lc_strings.py:147
+#: masterleague/lc_strings.py:148
 msgid "Valla"
 msgstr "维拉"
 
-#: masterleague/lc_strings.py:148
+#: masterleague/lc_strings.py:149
 msgid "Varian"
 msgstr "瓦里安"
 
-#: masterleague/lc_strings.py:149
+#: masterleague/lc_strings.py:150
 msgid "Xul"
 msgstr "祖尔"
 
-#: masterleague/lc_strings.py:150
+#: masterleague/lc_strings.py:151
 msgid "Zagara"
 msgstr "扎加拉"
 
-#: masterleague/lc_strings.py:151
+#: masterleague/lc_strings.py:152
 msgid "Zarya"
 msgstr "查莉娅"
 
-#: masterleague/lc_strings.py:152
+#: masterleague/lc_strings.py:153
 msgid "Zeratul"
 msgstr "泽拉图"
 
-#: masterleague/lc_strings.py:153
+#: masterleague/lc_strings.py:154
 msgid "Zul'jin"
 msgstr "祖尔金"
 
-#: masterleague/lc_strings.py:154
+#: masterleague/lc_strings.py:155
 msgid "Probius"
 msgstr "普罗比斯"
 
@@ -1230,7 +1254,7 @@ msgid "Match List"
 msgstr "比赛列表"
 
 #: matches/templates/matches/match_list.html:61
-#: meta/templates/meta/include/meta_filter_form.html:34
+#: meta/templates/meta/include/meta_filter_form.html:46
 #: teams/templates/players/player_detail.html:115
 msgctxt "Form filter options"
 msgid "Options"
@@ -1480,7 +1504,7 @@ msgstr "参赛队伍"
 msgid "Main Event Statistics"
 msgstr "正赛统计数据"
 
-#: meta/forms.py:26 teams/forms.py:64
+#: meta/forms.py:32 teams/forms.py:64
 msgid "All heroes"
 msgstr "所有英雄"
 
@@ -1489,7 +1513,7 @@ msgctxt "[SEO] Page title"
 msgid "Meta"
 msgstr "主流战术"
 
-#: meta/templates/meta/base.html:8 meta/templates/meta/base.html:29
+#: meta/templates/meta/base.html:8 meta/templates/meta/base.html:13
 #: templates/base.html:210
 msgid "Meta"
 msgstr "主流战术"
@@ -1535,7 +1559,7 @@ msgid "Unpicked Heroes (%(unpicked_heroes_count)s of %(heroes_count)s)"
 msgstr "%(unpicked_heroes_count)s位英雄未选（总%(heroes_count)s）"
 
 # I cant find the words on site
-#: meta/templates/meta/include/meta_filter_form.html:36
+#: meta/templates/meta/include/meta_filter_form.html:48
 #: teams/templates/players/player_detail.html:117
 msgid "Show only main stage matches (exclude qualifiers)"
 msgstr "只显示主要赛事（排除资格赛）"
@@ -1794,37 +1818,37 @@ msgstr "任何队伍"
 msgid "All maps"
 msgstr "所有地图"
 
-#: teams/forms.py:79
+#: teams/forms.py:83
 msgctxt "Form filter, any team choice"
 msgid "Any"
 msgstr "任何队伍"
 
-#: teams/forms.py:80
+#: teams/forms.py:84
 msgctxt "Player w/o team"
 msgid "Free Agent"
 msgstr "自由选手"
 
-#: teams/forms.py:84
+#: teams/forms.py:88
 msgctxt "Form filter, any player position choice"
 msgid "Any"
 msgstr "任何位置"
 
-#: teams/forms.py:91 teams/templates/players/player_list.html:79
+#: teams/forms.py:95 teams/templates/players/player_list.html:79
 #: teams/templates/teams/team_overview.html:20
 #: teams/templates/teams/team_transfers.html:18
 msgctxt "Player role/team position"
 msgid "Position"
 msgstr "位置"
 
-#: teams/forms.py:96
+#: teams/forms.py:100
 msgid "First Player"
 msgstr "第一名选手"
 
-#: teams/forms.py:97
+#: teams/forms.py:101
 msgid "Second Player"
 msgstr "第二名选手"
 
-#: teams/forms.py:101 teams/templates/players/players_compare.html:35
+#: teams/forms.py:105 teams/templates/players/players_compare.html:35
 msgid "Select and begin typing"
 msgstr "选择并开始输入"
 
@@ -2219,10 +2243,17 @@ msgctxt "404 page"
 msgid "Page Not Found"
 msgstr "找不到网页"
 
-#: templates/404.html:20
+#: templates/404.html:21
 msgctxt "404 page"
 msgid "There's nothing here"
 msgstr "这里什么都没有"
+
+#: templates/404.html:24
+#, fuzzy
+#| msgctxt "Link to the main page"
+#| msgid "Home"
+msgid "Home"
+msgstr "首页"
 
 #: templates/base.html:6
 msgid "eSport statistics"
