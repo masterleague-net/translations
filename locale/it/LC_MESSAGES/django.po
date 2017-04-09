@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-09 19:27+0000\n"
+"POT-Creation-Date: 2017-04-09 20:10+0000\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -362,7 +362,7 @@ msgstr "Build"
 #, fuzzy, python-format
 #| msgid "Win %%"
 msgid "Win %%"
-msgstr "Vittoria %"
+msgstr "Vittoria %%"
 
 #: heroes/templates/heroes/hero_builds.html:99
 msgid "Show matches"
@@ -721,16 +721,12 @@ msgid "1/8 Final LB"
 msgstr "1/8 finale LB"
 
 #: masterleague/lc_strings.py:31
-#, fuzzy
-#| msgid "1/8 Final LB"
 msgid "1/8 Final WB"
 msgstr "1/8 finale LB"
 
 #: masterleague/lc_strings.py:32
-#, fuzzy
-#| msgid "1/2 Final"
 msgid "1/16 Final"
-msgstr "1/2 finale"
+msgstr "1/16 finale"
 
 #: masterleague/lc_strings.py:33
 msgid "3rd place"
@@ -912,22 +908,16 @@ msgid "Valeera Patch"
 msgstr "Patch Valeera"
 
 #: masterleague/lc_strings.py:86
-#, fuzzy
-#| msgid "Xul Patch"
 msgid "Lucio Patch"
-msgstr "Patch XUL"
+msgstr ""
 
 #: masterleague/lc_strings.py:87
-#, fuzzy
-#| msgid "Chromie Patch"
 msgid "Probius Patch"
-msgstr "Patch Chromie"
+msgstr ""
 
 #: masterleague/lc_strings.py:88
-#, fuzzy
-#| msgid "Varian Patch"
 msgid "Cassia Patch"
-msgstr "Patch Varian"
+msgstr ""
 
 #: masterleague/lc_strings.py:92
 msgid "Abathur"
@@ -1185,6 +1175,10 @@ msgstr "Zul'jin"
 msgid "Probius"
 msgstr ""
 
+#: masterleague/lc_strings.py:156
+msgid "Cassia"
+msgstr ""
+
 #: matches/forms.py:17 teams/forms.py:15 teams/forms.py:40
 msgid "Patch"
 msgstr "Patch"
@@ -1386,7 +1380,7 @@ msgstr "Spoiler"
 #, fuzzy, python-format
 #| msgid "Game %(game_number)s"
 msgid "Game %(game_number)s"
-msgstr "S gioco % (game_number)"
+msgstr "S gioco %(game_number)s"
 
 #: matches/templates/matches/matches_inline.html:108
 msgctxt "Tooltip for match score"
@@ -1512,8 +1506,6 @@ msgid "Main Event Statistics"
 msgstr "Statistiche evento principale"
 
 #: meta/forms.py:32 teams/forms.py:64
-#, fuzzy
-#| msgid "All Heroes"
 msgid "All heroes"
 msgstr "Tutti gli eroi"
 
@@ -1620,16 +1612,12 @@ msgid "KDA"
 msgstr "KDA"
 
 #: meta/templates/meta/players.html:134
-#, fuzzy
-#| msgid "Player Performance Rating"
 msgid "Players performance"
-msgstr "Rateo della Performance del Giocatore"
+msgstr "Performance del Giocatore"
 
 #: meta/templates/meta/players.html:143 meta/templates/meta/teams.html:128
-#, fuzzy
-#| msgid "Player Performance Rating"
 msgid "Performance"
-msgstr "Rateo della Performance del Giocatore"
+msgstr "Performance"
 
 #: meta/templates/meta/players.html:145 meta/templates/meta/teams.html:130
 msgid "Value"
@@ -1834,8 +1822,6 @@ msgid "Any Team"
 msgstr "Qualsiasi squadra"
 
 #: teams/forms.py:61
-#, fuzzy
-#| msgid "All Maps"
 msgid "All maps"
 msgstr "Tutte le mappe"
 
@@ -1894,42 +1880,27 @@ msgid "Flex"
 msgstr "Adattabile"
 
 #: teams/templates/players/player_detail.html:79
-#, fuzzy
-#| msgctxt "Hero overview"
-#| msgid "Overview"
 msgid "Overview"
 msgstr "Panoramica"
 
 #: teams/templates/players/player_heroes.html:42
-#, fuzzy
-#| msgctxt "Live events in eSports Calendar"
-#| msgid "Live"
 msgid "Live Time"
 msgstr "In Diretta"
 
 #: teams/templates/players/player_heroes.html:43
-#, fuzzy
-#| msgid "Hero Dmg"
 msgid "Hero dmg"
 msgstr "Danni Eroe"
 
 #: teams/templates/players/player_heroes.html:44
-#, fuzzy
-#| msgid "Siege Dmg"
 msgid "Siege dmg"
 msgstr "Danni da assedio"
 
 #: teams/templates/players/player_heroes.html:45
-#, fuzzy
-#| msgctxt "Hero role"
-#| msgid "Role"
 msgid "Role"
 msgstr "Ruolo"
 
 #: teams/templates/players/player_heroes.html:46
 #: teams/templates/players/player_overview.html:86
-#, fuzzy
-#| msgid "Experience / Min"
 msgid "Experience"
 msgstr "Esperienza / Min"
 
@@ -1959,9 +1930,6 @@ msgstr "Nome"
 
 #: teams/templates/players/player_overview.html:5
 #: teams/templates/players/player_overview.html:11
-#, fuzzy
-#| msgctxt "[SEO] Page title"
-#| msgid "Player Statistics"
 msgid "Player Statistics"
 msgstr "Statistiche dei giocatori"
 
@@ -1992,14 +1960,10 @@ msgid "Time Dead"
 msgstr "Tempo Morto"
 
 #: teams/templates/players/player_overview.html:68
-#, fuzzy
-#| msgid "Hero Dmg"
 msgid "Hero Damage"
 msgstr "Danni Eroe"
 
 #: teams/templates/players/player_overview.html:77
-#, fuzzy
-#| msgid "Siege Dmg"
 msgid "Siege Damage"
 msgstr "Danni da assedio"
 
@@ -2303,9 +2267,6 @@ msgid "There's nothing here"
 msgstr "Non c'è nulla qui"
 
 #: templates/404.html:24
-#, fuzzy
-#| msgctxt "Link to the main page"
-#| msgid "Home"
 msgid "Home"
 msgstr "Home"
 

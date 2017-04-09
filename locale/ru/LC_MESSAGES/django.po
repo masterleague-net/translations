@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-09 19:27+0000\n"
+"POT-Creation-Date: 2017-04-09 20:10+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1177,6 +1177,10 @@ msgstr "Зул'джин"
 msgid "Probius"
 msgstr "Пробиус"
 
+#: masterleague/lc_strings.py:156
+msgid "Cassia"
+msgstr "Кассия"
+
 #: matches/forms.py:17 teams/forms.py:15 teams/forms.py:40
 msgid "Patch"
 msgstr "Патч"
@@ -2239,9 +2243,6 @@ msgid "There's nothing here"
 msgstr "Здесь ничего нет"
 
 #: templates/404.html:24
-#, fuzzy
-#| msgctxt "Link to the main page"
-#| msgid "Home"
 msgid "Home"
 msgstr "Главная"
 

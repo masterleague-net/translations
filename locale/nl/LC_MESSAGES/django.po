@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-09 19:27+0000\n"
+"POT-Creation-Date: 2017-04-09 20:10+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -729,16 +729,12 @@ msgid "1/8 Final LB"
 msgstr "1/8ste finale LB"
 
 #: masterleague/lc_strings.py:31
-#, fuzzy
-#| msgid "1/8 Final LB"
 msgid "1/8 Final WB"
 msgstr "1/8ste finale LB"
 
 #: masterleague/lc_strings.py:32
-#, fuzzy
-#| msgid "1/2 Final"
 msgid "1/16 Final"
-msgstr "halve finale"
+msgstr ""
 
 #: masterleague/lc_strings.py:33
 msgid "3rd place"
@@ -924,16 +920,12 @@ msgid "Lucio Patch"
 msgstr "Lucio Patch"
 
 #: masterleague/lc_strings.py:87
-#, fuzzy
-#| msgid "Chromie Patch"
 msgid "Probius Patch"
-msgstr "Chromie Patch"
+msgstr ""
 
 #: masterleague/lc_strings.py:88
-#, fuzzy
-#| msgid "Varian Patch"
 msgid "Cassia Patch"
-msgstr "Varian Patch"
+msgstr ""
 
 #: masterleague/lc_strings.py:92
 msgid "Abathur"
@@ -1189,6 +1181,10 @@ msgstr "Zul'jin"
 
 #: masterleague/lc_strings.py:155
 msgid "Probius"
+msgstr ""
+
+#: masterleague/lc_strings.py:156
+msgid "Cassia"
 msgstr ""
 
 #: matches/forms.py:17 teams/forms.py:15 teams/forms.py:40
@@ -1517,8 +1513,6 @@ msgid "Main Event Statistics"
 msgstr "Hoofd evenement statistieken"
 
 #: meta/forms.py:32 teams/forms.py:64
-#, fuzzy
-#| msgid "All Heroes"
 msgid "All heroes"
 msgstr "Alle helden"
 
@@ -1597,10 +1591,8 @@ msgid "Most Played Heroes"
 msgstr "Meest gespeelde helden"
 
 #: meta/templates/meta/maps.html:26
-#, fuzzy
-#| msgid "Most Banned Heroes"
 msgid "Most Banned"
-msgstr "Meest verbannen helden"
+msgstr "Meest verbannen"
 
 #: meta/templates/meta/players.html:12
 msgid "Widest Hero Pool by Players"
@@ -1625,16 +1617,12 @@ msgid "KDA"
 msgstr "KDA"
 
 #: meta/templates/meta/players.html:134
-#, fuzzy
-#| msgid "Player Performance Rating"
 msgid "Players performance"
-msgstr "Speler prestatie beoordeling"
+msgstr "Speler prestatie"
 
 #: meta/templates/meta/players.html:143 meta/templates/meta/teams.html:128
-#, fuzzy
-#| msgid "Player Performance Rating"
 msgid "Performance"
-msgstr "Speler prestatie beoordeling"
+msgstr "Prestatie"
 
 #: meta/templates/meta/players.html:145 meta/templates/meta/teams.html:130
 msgid "Value"
@@ -1839,8 +1827,6 @@ msgid "Any Team"
 msgstr "Elk team"
 
 #: teams/forms.py:61
-#, fuzzy
-#| msgid "All Maps"
 msgid "All maps"
 msgstr "Alle kaarten"
 
@@ -1899,42 +1885,27 @@ msgid "Flex"
 msgstr "Flex"
 
 #: teams/templates/players/player_detail.html:79
-#, fuzzy
-#| msgctxt "Hero overview"
-#| msgid "Overview"
 msgid "Overview"
 msgstr "Overzicht"
 
 #: teams/templates/players/player_heroes.html:42
-#, fuzzy
-#| msgctxt "Live events in eSports Calendar"
-#| msgid "Live"
 msgid "Live Time"
 msgstr "Live"
 
 #: teams/templates/players/player_heroes.html:43
-#, fuzzy
-#| msgid "Hero Dmg"
 msgid "Hero dmg"
 msgstr "Heldenschade"
 
 #: teams/templates/players/player_heroes.html:44
-#, fuzzy
-#| msgid "Siege Dmg"
 msgid "Siege dmg"
 msgstr "Gebouwenschade"
 
 #: teams/templates/players/player_heroes.html:45
-#, fuzzy
-#| msgctxt "Hero role"
-#| msgid "Role"
 msgid "Role"
 msgstr "Rol"
 
 #: teams/templates/players/player_heroes.html:46
 #: teams/templates/players/player_overview.html:86
-#, fuzzy
-#| msgid "Experience / Min"
 msgid "Experience"
 msgstr "Experience / Min"
 
@@ -1964,9 +1935,6 @@ msgstr "Naam"
 
 #: teams/templates/players/player_overview.html:5
 #: teams/templates/players/player_overview.html:11
-#, fuzzy
-#| msgctxt "[SEO] Page title"
-#| msgid "Player Statistics"
 msgid "Player Statistics"
 msgstr "Speler statistieken"
 
@@ -2307,9 +2275,6 @@ msgid "There's nothing here"
 msgstr "Hier is niks"
 
 #: templates/404.html:24
-#, fuzzy
-#| msgctxt "Link to the main page"
-#| msgid "Home"
 msgid "Home"
 msgstr "Thuis"
 

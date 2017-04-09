@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-09 19:27+0000\n"
+"POT-Creation-Date: 2017-04-09 20:10+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -918,10 +918,8 @@ msgid "Probius Patch"
 msgstr "Wersja Probiusz"
 
 #: masterleague/lc_strings.py:88
-#, fuzzy
-#| msgid "Varian Patch"
 msgid "Cassia Patch"
-msgstr "Wersja Varian"
+msgstr ""
 
 #: masterleague/lc_strings.py:92
 msgid "Abathur"
@@ -1178,6 +1176,10 @@ msgstr "Zul'jin"
 #: masterleague/lc_strings.py:155
 msgid "Probius"
 msgstr "Probiusz"
+
+#: masterleague/lc_strings.py:156
+msgid "Cassia"
+msgstr ""
 
 #: matches/forms.py:17 teams/forms.py:15 teams/forms.py:40
 msgid "Patch"
@@ -2242,9 +2244,6 @@ msgid "There's nothing here"
 msgstr "Nic tu nie ma"
 
 #: templates/404.html:24
-#, fuzzy
-#| msgctxt "Link to the main page"
-#| msgid "Home"
 msgid "Home"
 msgstr "Strona główna"
 

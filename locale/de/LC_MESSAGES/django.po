@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-09 19:27+0000\n"
+"POT-Creation-Date: 2017-04-09 20:10+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -729,14 +729,10 @@ msgid "1/8 Final LB"
 msgstr "Achtel FInale LB"
 
 #: masterleague/lc_strings.py:31
-#, fuzzy
-#| msgid "1/8 Final LB"
 msgid "1/8 Final WB"
-msgstr "Achtel FInale LB"
+msgstr "Achtel Finale LB"
 
 #: masterleague/lc_strings.py:32
-#, fuzzy
-#| msgid "1/2 Final"
 msgid "1/16 Final"
 msgstr "Halb Finale"
 
@@ -859,16 +855,12 @@ msgid "Samuro Patch"
 msgstr ""
 
 #: masterleague/lc_strings.py:70
-#, fuzzy
-#| msgid "All patches"
 msgid "Alarak Patch"
-msgstr "Alle Patches"
+msgstr ""
 
 #: masterleague/lc_strings.py:71
-#, fuzzy
-#| msgid "Popularity per Patch"
 msgid "Auriel Patch"
-msgstr "Beliebtheit"
+msgstr ""
 
 #: masterleague/lc_strings.py:72
 msgid "Gul'dan Patch"
@@ -879,10 +871,8 @@ msgid "Medivh Patch"
 msgstr ""
 
 #: masterleague/lc_strings.py:74
-#, fuzzy
-#| msgid "Showmatch"
 msgid "Chromie Patch"
-msgstr "Freundschaftsspiel"
+msgstr ""
 
 #: masterleague/lc_strings.py:75
 msgid "Tracer Patch"
@@ -893,10 +883,8 @@ msgid "Dehaka Patch"
 msgstr ""
 
 #: masterleague/lc_strings.py:77
-#, fuzzy
-#| msgid "Patches"
 msgid "Xul Patch"
-msgstr "Patches"
+msgstr ""
 
 #: masterleague/lc_strings.py:78
 msgid "Li-Ming Patch"
@@ -935,16 +923,12 @@ msgid "Lucio Patch"
 msgstr ""
 
 #: masterleague/lc_strings.py:87
-#, fuzzy
-#| msgid "Previous Matches"
 msgid "Probius Patch"
-msgstr "Vorheriges Spiel"
+msgstr ""
 
 #: masterleague/lc_strings.py:88
-#, fuzzy
-#| msgid "All patches"
 msgid "Cassia Patch"
-msgstr "Alle Patches"
+msgstr ""
 
 #: masterleague/lc_strings.py:92
 msgid "Abathur"
@@ -1200,6 +1184,10 @@ msgstr ""
 
 #: masterleague/lc_strings.py:155
 msgid "Probius"
+msgstr ""
+
+#: masterleague/lc_strings.py:156
+msgid "Cassia"
 msgstr ""
 
 #: matches/forms.py:17 teams/forms.py:15 teams/forms.py:40
@@ -1528,8 +1516,6 @@ msgid "Main Event Statistics"
 msgstr "Übersicht Hauptevent"
 
 #: meta/forms.py:32 teams/forms.py:64
-#, fuzzy
-#| msgid "All Heroes"
 msgid "All heroes"
 msgstr "Alle Helden"
 
@@ -1544,8 +1530,6 @@ msgid "Meta"
 msgstr ""
 
 #: meta/templates/meta/drafts.html:12
-#, fuzzy
-#| msgid "Top First Picks"
 msgid "Top First Bans"
 msgstr "Häufigste First Picks"
 
@@ -1608,8 +1592,6 @@ msgid "Most Played Heroes"
 msgstr "Meist gespielte Helden"
 
 #: meta/templates/meta/maps.html:26
-#, fuzzy
-#| msgid "Most Banned Heroes"
 msgid "Most Banned"
 msgstr "Meist gebannte Helden"
 
@@ -1633,19 +1615,15 @@ msgstr "Vergleiche Spieler"
 #: teams/templates/players/player_overview.html:24 teams/views.py:587
 #: teams/views.py:610
 msgid "KDA"
-msgstr ""
+msgstr "KDA"
 
 #: meta/templates/meta/players.html:134
-#, fuzzy
-#| msgid "Player Performance Rating"
 msgid "Players performance"
 msgstr "Spieler Leistungs Rating"
 
 #: meta/templates/meta/players.html:143 meta/templates/meta/teams.html:128
-#, fuzzy
-#| msgid "Player Performance Rating"
 msgid "Performance"
-msgstr "Spieler Leistungs Rating"
+msgstr "Leistung"
 
 #: meta/templates/meta/players.html:145 meta/templates/meta/teams.html:130
 msgid "Value"
@@ -1660,10 +1638,8 @@ msgid "Smallest Hero Pool by Teams"
 msgstr "Kleinster Heldenpool nach Teams"
 
 #: meta/templates/meta/teams.html:84
-#, fuzzy
-#| msgid "To Team"
 msgid "Top KDA Teams"
-msgstr "Zu"
+msgstr ""
 
 #: meta/templates/meta/teams.html:119
 msgid "Teams performance"
@@ -1849,8 +1825,6 @@ msgid "Any Team"
 msgstr "Alle teams"
 
 #: teams/forms.py:61
-#, fuzzy
-#| msgid "All Maps"
 msgid "All maps"
 msgstr "Alle Karten"
 
@@ -1909,9 +1883,6 @@ msgid "Flex"
 msgstr ""
 
 #: teams/templates/players/player_detail.html:79
-#, fuzzy
-#| msgctxt "Hero overview"
-#| msgid "Overview"
 msgid "Overview"
 msgstr "Übersicht"
 
@@ -1920,8 +1891,6 @@ msgid "Live Time"
 msgstr ""
 
 #: teams/templates/players/player_heroes.html:43
-#, fuzzy
-#| msgid "Hero Dmg"
 msgid "Hero dmg"
 msgstr "Helden Schaden"
 
@@ -1930,16 +1899,11 @@ msgid "Siege dmg"
 msgstr ""
 
 #: teams/templates/players/player_heroes.html:45
-#, fuzzy
-#| msgctxt "Hero role"
-#| msgid "Role"
 msgid "Role"
 msgstr "Rolle"
 
 #: teams/templates/players/player_heroes.html:46
 #: teams/templates/players/player_overview.html:86
-#, fuzzy
-#| msgid "Experience / Min"
 msgid "Experience"
 msgstr "Erfahrung / Min"
 
@@ -1969,9 +1933,6 @@ msgstr ""
 
 #: teams/templates/players/player_overview.html:5
 #: teams/templates/players/player_overview.html:11
-#, fuzzy
-#| msgctxt "[SEO] Page title"
-#| msgid "Player Statistics"
 msgid "Player Statistics"
 msgstr "Spieler Statistik"
 
@@ -1988,8 +1949,6 @@ msgid "Takedowns"
 msgstr ""
 
 #: teams/templates/players/player_overview.html:51
-#, fuzzy
-#| msgid "Participating Teams"
 msgid "Kill Participation"
 msgstr "Teilnehmende Teams"
 
@@ -1998,14 +1957,10 @@ msgid "Time Dead"
 msgstr "Zeit Tod"
 
 #: teams/templates/players/player_overview.html:68
-#, fuzzy
-#| msgid "Hero Dmg"
 msgid "Hero Damage"
 msgstr "Helden Schaden"
 
 #: teams/templates/players/player_overview.html:77
-#, fuzzy
-#| msgid "Siege Damage / Min"
 msgid "Siege Damage"
 msgstr "Siege Schaden / Min"
 
@@ -2164,7 +2119,7 @@ msgstr "Niederlage %%"
 #: teams/templates/teams/team_list.html:5
 msgctxt "[SEO] Page title"
 msgid "Teams"
-msgstr ""
+msgstr "Teams"
 
 #: teams/templates/teams/team_list.html:75
 msgctxt "Disbanded teams visibility switcher"
@@ -2223,10 +2178,6 @@ msgid "To date"
 msgstr "Bis"
 
 #: teams/templatetags/ppr_tags.py:14
-#, fuzzy
-#| msgid ""
-#| "The rating is based on statistics of the player as compared to statistics "
-#| "of other players on the same hero in the same patches."
 msgid ""
 "The rating is based on statistics of the player as compared to statistics of "
 "other players on the "
@@ -2242,7 +2193,7 @@ msgstr "Held"
 #: teams/views.py:589
 msgctxt "Siege damage"
 msgid "Siege"
-msgstr ""
+msgstr "Siege"
 
 #: teams/views.py:590
 msgctxt "Amount of time player was not dead during the match"
@@ -2252,7 +2203,7 @@ msgstr "Am Leben"
 #: teams/views.py:591
 msgctxt "Crowd control duration"
 msgid "CC"
-msgstr ""
+msgstr "CC"
 
 #: teams/views.py:592
 msgctxt "Experience"
@@ -2304,9 +2255,6 @@ msgid "There's nothing here"
 msgstr "Hier gibt es nichts"
 
 #: templates/404.html:24
-#, fuzzy
-#| msgctxt "Link to the main page"
-#| msgid "Home"
 msgid "Home"
 msgstr "Startseite"
 
