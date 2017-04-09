@@ -899,6 +899,10 @@ msgstr "Патч Лусио"
 msgid "Probius Patch"
 msgstr "Патч Пробиус"
 
+#: masterleague/lc_strings.py:88
+msgid "Cassia Patch"
+msgstr "Патч Кассия"
+
 #: masterleague/lc_strings.py:91
 msgid "Abathur"
 msgstr "Абатур"
