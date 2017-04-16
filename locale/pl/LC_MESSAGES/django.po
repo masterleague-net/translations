@@ -10,7 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.12\n"
+"X-Generator: Poedit 2.0.1\n"
 
 #: bets/forms.py:18
 msgid "Season"
@@ -112,8 +112,7 @@ msgstr "Zaloguj przez Battle.net"
 msgid "Matches"
 msgstr "Mecze"
 
-#: bets/templates/bets/bets_base.html:56
-#: bets/templates/bets/leaderboard.html:5
+#: bets/templates/bets/bets_base.html:56 bets/templates/bets/leaderboard.html:5
 #: bets/templates/bets/leaderboard.html:7
 #: bets/templates/bets/leaderboard.html:27
 msgid "Leaderboard"
@@ -153,19 +152,19 @@ msgstr "Przewidziany wynik"
 
 #: bets/templates/bets/leaderboard.html:87
 msgid "Legendary badge"
-msgstr ""
+msgstr "Legendarna odznaka"
 
 #: bets/templates/bets/leaderboard.html:93
 msgid "Epic badge"
-msgstr ""
+msgstr "Epicka odznaka"
 
 #: bets/templates/bets/leaderboard.html:99
 msgid "Rare badge"
-msgstr ""
+msgstr "Rzadka odznaka"
 
 #: bets/templates/bets/leaderboard.html:105
 msgid "Common badge"
-msgstr ""
+msgstr "Powszechna odznaka"
 
 #: bets/templates/bets/matches.html:59
 msgid "Time until"
@@ -582,9 +581,8 @@ msgctxt "minutes"
 msgid "mins"
 msgstr "min"
 
-#: maps/templates/maps/map_detail.html:8
-#: maps/templates/maps/map_detail.html:13 maps/templates/maps/map_list.html:8
-#: maps/templates/maps/map_list.html:13
+#: maps/templates/maps/map_detail.html:8 maps/templates/maps/map_detail.html:13
+#: maps/templates/maps/map_list.html:8 maps/templates/maps/map_list.html:13
 #: matches/templates/tournaments/tournament_overview.html:155
 #: meta/templates/meta/base.html:28 meta/templates/meta/maps.html:5
 #: meta/templates/meta/maps.html:6 templates/base.html:208
@@ -919,7 +917,7 @@ msgstr "Wersja Probiusz"
 
 #: masterleague/lc_strings.py:88
 msgid "Cassia Patch"
-msgstr ""
+msgstr "Wersja Kasja"
 
 #: masterleague/lc_strings.py:92
 msgid "Abathur"
@@ -975,7 +973,7 @@ msgstr "Diablo"
 
 #: masterleague/lc_strings.py:105
 msgid "E.T.C."
-msgstr "E.T.C"
+msgstr "E.T.C."
 
 #: masterleague/lc_strings.py:106
 msgid "Falstad"
@@ -1179,7 +1177,7 @@ msgstr "Probiusz"
 
 #: masterleague/lc_strings.py:156
 msgid "Cassia"
-msgstr ""
+msgstr "Kasja"
 
 #: matches/forms.py:17 teams/forms.py:15 teams/forms.py:40
 msgid "Patch"
@@ -1294,7 +1292,7 @@ msgstr "zabity przez"
 
 #: matches/templates/matches/match_stats.html:180
 msgid "Nexus forces"
-msgstr "siły nexusa"
+msgstr "Siły nexusa"
 
 #: matches/templates/matches/match_stats.html:250
 msgctxt "Match time"
@@ -1635,7 +1633,7 @@ msgstr "Skuteczność zespołu"
 
 #: meta/views.py:119
 msgid "No matches played in the selected period."
-msgstr "Brak meczów w wybranym okresie"
+msgstr "Brak meczów w wybranym okresie."
 
 #: meta/views.py:222
 msgid "Warriors"
@@ -1692,7 +1690,7 @@ msgstr "Kalendarz eSportowy"
 
 #: pages/templates/calendar.html:6
 msgid "Upcoming and ongoing events."
-msgstr "Nadchodzące i trwające turnieje"
+msgstr "Nadchodzące i trwające turnieje."
 
 #: pages/templates/calendar_inline.html:40
 msgctxt "eSports Calendar tooltip for events start time"
@@ -2023,7 +2021,7 @@ msgstr "Wskaźnik ZAŚ jest obliczany jako (Zabójstwa + Asysty) / (Śmierci + 1
 #: teams/templates/players/players_compare.html:205
 msgid "Lifetime is calculated as (Match time - Time spend dead) / Match time"
 msgstr ""
-"Czas życia jest liczony jako (czas meczu - czas gdy zabity) / czas meczu."
+"Czas życia jest liczony jako (czas meczu - czas gdy zabity) / czas meczu"
 
 #: teams/templates/players/players_transfers.html:5
 msgctxt "[SEO] Page title"
@@ -2172,7 +2170,7 @@ msgid ""
 "other players on the "
 msgstr ""
 "Wskaźnik jest oparty na statystykach gracza w odniesieniu do wyników innych "
-"graczy tym samym bohaterem w tej samej wersji gry."
+"graczy tym samym bohaterem w tej samej wersji gry"
 
 #: teams/views.py:588
 msgctxt "Hero damage"
@@ -2197,7 +2195,7 @@ msgstr "CC"
 #: teams/views.py:592
 msgctxt "Experience"
 msgid "XP"
-msgstr "PD [Doświadczenie]"
+msgstr "PD"
 
 #: teams/views.py:593
 msgctxt "Healing amount (for healers) or Damage taken (for warriors)"
