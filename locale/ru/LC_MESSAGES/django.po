@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-09 20:10+0000\n"
+"POT-Creation-Date: 2017-04-17 09:57+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -22,7 +22,7 @@ msgstr "Сезон"
 msgid "Region"
 msgstr "Регион"
 
-#: bets/forms.py:25 heroes/forms.py:15 matches/forms.py:15 meta/forms.py:17
+#: bets/forms.py:25 heroes/forms.py:16 matches/forms.py:15 meta/forms.py:17
 #: teams/forms.py:91
 msgid "All Regions"
 msgstr "Все регионы"
@@ -37,17 +37,17 @@ msgstr "Все недели"
 
 #: bets/templates/bets/bets_base.html:7 bets/templates/bets/leaderboard.html:5
 #: bets/templates/bets/leaderboard.html:26 bets/templates/bets/matches.html:5
-#: bets/templates/bets/matches.html:8 templates/base.html:211
+#: bets/templates/bets/matches.html:8 templates/base.html:213
 msgid "Challenges"
 msgstr "Прогнозы"
 
 #: bets/templates/bets/bets_base.html:23
 #: changelog/templates/changelog/changelog_detail.html:22
 #: changelog/templates/changelog/changelog_list.html:10
-#: heroes/templates/heroes/hero_detail.html:155
+#: heroes/templates/heroes/hero_detail.html:199
 #: heroes/templates/heroes/hero_list.html:51
 #: maps/templates/maps/map_detail.html:12 maps/templates/maps/map_list.html:12
-#: matches/templates/matches/match_detail.html:51
+#: matches/templates/matches/match_detail.html:67
 #: matches/templates/matches/match_list.html:25
 #: matches/templates/tournaments/tournament_detail.html:19
 #: matches/templates/tournaments/tournament_list.html:12
@@ -76,19 +76,19 @@ msgstr "выигрывай призы"
 
 #: bets/templates/bets/bets_base.html:47
 #: bets/templates/bets/leaderboard.html:65
-#: bets/templates/bets/matches_include.html:61
+#: bets/templates/bets/matches_include.html:55
 msgid "Points"
 msgstr "Очки"
 
 #: bets/templates/bets/bets_base.html:50
-#: comments/templates/comments/comment_list.html:38
+#: comments/templates/comments/comment_list.html:38 templates/base.html:241
 msgid "Login via Battle.net"
 msgstr "Войти через Battle.net"
 
 #: bets/templates/bets/bets_base.html:55 bets/templates/bets/matches.html:7
-#: heroes/templates/heroes/hero_builds.html:68
-#: heroes/templates/heroes/hero_detail.html:204
-#: heroes/templates/heroes/hero_matches.html:7
+#: heroes/templates/heroes/hero_builds.html:27
+#: heroes/templates/heroes/hero_counters.html:22
+#: heroes/templates/heroes/hero_detail.html:271
 #: heroes/templates/heroes/hero_overview.html:173
 #: maps/templates/maps/map_detail.html:29
 #: matches/templates/matches/match_detail.html:8
@@ -108,7 +108,7 @@ msgstr "Войти через Battle.net"
 #: teams/templates/teams/summary.html:3
 #: teams/templates/teams/team_detail.html:63
 #: teams/templates/teams/team_heroes.html:25
-#: teams/templates/teams/team_matches.html:8 templates/base.html:207
+#: teams/templates/teams/team_matches.html:8 templates/base.html:209
 msgid "Matches"
 msgstr "Матчи"
 
@@ -120,7 +120,7 @@ msgid "Leaderboard"
 msgstr "Таблица лидеров"
 
 #: bets/templates/bets/leaderboard.html:45
-#: heroes/templates/heroes/hero_detail.html:174
+#: heroes/templates/heroes/hero_detail.html:240
 #: meta/templates/meta/include/meta_filter_form.html:58
 #: teams/templates/players/player_detail.html:127
 msgctxt "Button label"
@@ -167,54 +167,49 @@ msgstr ""
 msgid "Common badge"
 msgstr ""
 
-#: bets/templates/bets/matches.html:59
+#: bets/templates/bets/matches.html:58
 msgid "Time until"
 msgstr "До начала"
 
-#: bets/templates/bets/matches.html:59
+#: bets/templates/bets/matches.html:58
 #: changelog/templates/changelog/changelog_list.html:18
-#: matches/templates/matches/matches_inline.html:13
-#: matches/templates/matches/matches_inline.html:17
-#: pages/templates/calendar_inline.html:62 pages/templates/mainpage.html:33
+#: matches/templates/matches/matches_inline.html:16
+#: matches/templates/matches/matches_inline.html:20
+#: pages/templates/calendar_base.html:92 pages/templates/mainpage.html:33
 #: pages/templates/mainpage.html:63
 #: teams/templates/players/players_transfers.html:64
 #: teams/templates/teams/team_overview.html:52
 msgid "Date"
 msgstr "Дата"
 
-#: bets/templates/bets/matches.html:60
+#: bets/templates/bets/matches.html:59
 msgid "Stage"
 msgstr "Стадия"
 
-#: bets/templates/bets/matches.html:62
+#: bets/templates/bets/matches.html:61
 msgid "Reward"
 msgstr "Награда"
 
 #: bets/templates/bets/matches.html:69
-msgid "Upcoming matches"
-msgstr "Предстоящие матчи"
-
-#: bets/templates/bets/matches.html:135
 msgid "Ongoing matches"
 msgstr "Идущие матчи"
 
-#: bets/templates/bets/matches.html:143
+#: bets/templates/bets/matches.html:75
+msgid "Upcoming matches"
+msgstr "Предстоящие матчи"
+
+#: bets/templates/bets/matches.html:142
 msgid "Completed matches"
 msgstr "Прошедшие матчи"
 
-#: bets/templates/bets/matches_include.html:34
-#: bets/templates/bets/matches_include.html:36
-#: bets/templates/bets/matches_include.html:38
-#: bets/templates/bets/matches_include.html:41
-#: bets/templates/bets/matches_include.html:45
+#: bets/templates/bets/matches_include.html:33
+#: bets/templates/bets/matches_include.html:35
 msgid "Your bet"
 msgstr "Ваша ставка"
 
-#: bets/templates/bets/matches_include.html:34
-#: bets/templates/bets/matches_include.html:36
-#: bets/templates/bets/matches_include.html:38
-#: bets/templates/bets/matches_include.html:41
-#: bets/templates/bets/matches_include.html:45
+#: bets/templates/bets/matches_include.html:33
+#: bets/templates/bets/matches_include.html:35
+#: bets/templates/bets/matches_include.html:39
 msgid "Total bets"
 msgstr "Всего ставок"
 
@@ -249,17 +244,17 @@ msgstr "Комментарий удален"
 
 #: comments/templates/comments/comment_nodes.html:183
 #: comments/templates/comments/comment_nodes.html:258
-#: comments/templates/profiles/base.html:40
+#: comments/templates/profiles/base.html:29
 msgid "Rating"
 msgstr "Рейтинг"
 
 #: comments/templates/comments/comment_nodes.html:198
-#: comments/templates/profiles/base.html:31
+#: comments/templates/profiles/base.html:20
 msgid "Administrator"
 msgstr "Администратор"
 
 #: comments/templates/comments/comment_nodes.html:200
-#: comments/templates/profiles/base.html:33
+#: comments/templates/profiles/base.html:22
 msgid "Moderator"
 msgstr "Модератор"
 
@@ -287,19 +282,25 @@ msgstr "Отметить прочитанным"
 msgid "Post a comment"
 msgstr "Отправить"
 
-#: comments/templates/profiles/base.html:36
+#: comments/templates/profiles/base.html:25
 msgid "Comments count"
 msgstr "Комментариев"
 
-#: comments/templates/profiles/base.html:56
-#: matches/templates/matches/match_detail.html:214
-#: matches/templates/matches/matches_inline.html:142
+#: comments/templates/profiles/base.html:45
+#: matches/templates/matches/match_detail.html:246
 msgid "Comments"
 msgstr "Комментарии"
 
-#: comments/templates/profiles/base.html:60 templates/base.html:225
+#: comments/templates/profiles/base.html:49 templates/base.html:227
 msgid "Notifications"
 msgstr "Оповещения"
+
+#: comments/templates/profiles/base.html:55
+#: matches/templates/matches/match_list.html:73
+#: matches/templates/matches/matches_inline.html:146
+#: matches/templates/matches/matches_inline.html:148 templates/base.html:231
+msgid "Favorites"
+msgstr ""
 
 #: comments/templates/profiles/comment_list.html:27
 msgid "User didn't leave any comments"
@@ -328,37 +329,39 @@ msgctxt "Page navigation"
 msgid "Next"
 msgstr "Следующая"
 
-#: heroes/forms.py:12 meta/forms.py:13
+#: heroes/forms.py:13 meta/forms.py:13
 msgid "Regions"
 msgstr "Регионы"
 
-#: heroes/forms.py:17 meta/forms.py:19 teams/forms.py:55
+#: heroes/forms.py:18 meta/forms.py:19 teams/forms.py:55
 msgid "Patches"
 msgstr "Патчи"
 
-#: heroes/forms.py:20 meta/forms.py:23 teams/forms.py:25 teams/forms.py:58
+#: heroes/forms.py:21 meta/forms.py:23 teams/forms.py:25 teams/forms.py:58
 msgid "All patches"
 msgstr "Все патчи"
 
-#: heroes/forms.py:23 matches/templates/tournaments/tournament_detail.html:8
+#: heroes/forms.py:24 matches/templates/tournaments/tournament_detail.html:8
 #: matches/templates/tournaments/tournament_detail.html:20
 #: matches/templates/tournaments/tournament_list.html:8
 #: matches/templates/tournaments/tournament_list.html:13 meta/forms.py:35
-#: teams/forms.py:71 templates/base.html:206
+#: teams/forms.py:71 templates/base.html:208
 msgid "Tournaments"
 msgstr "Турниры"
 
-#: heroes/forms.py:26 meta/forms.py:39 teams/forms.py:74
+#: heroes/forms.py:27 meta/forms.py:39 teams/forms.py:74
 msgid "All tournaments"
 msgstr "Все турниры"
 
-#: heroes/templates/heroes/hero_builds.html:7
-#: heroes/templates/heroes/hero_detail.html:203
-msgctxt "Hero builds"
-msgid "Builds"
+#: heroes/templates/heroes/hero_builds.html:5
+#, fuzzy
+#| msgctxt "Hero builds"
+#| msgid "Builds"
+msgid "builds"
 msgstr "Билды"
 
-#: heroes/templates/heroes/hero_builds.html:69
+#: heroes/templates/heroes/hero_builds.html:28
+#: heroes/templates/heroes/hero_counters.html:23
 #: heroes/templates/heroes/hero_overview.html:174
 #: teams/templates/teams/summary.html:4
 #: teams/templates/teams/team_heroes.html:26
@@ -366,20 +369,57 @@ msgstr "Билды"
 msgid "Win %%"
 msgstr "Побед, %%"
 
-#: heroes/templates/heroes/hero_builds.html:99
+#: heroes/templates/heroes/hero_builds.html:58
+#: heroes/templates/heroes/hero_counters.html:47
+#: pages/templates/calendar_base.html:77
 msgid "Show matches"
 msgstr "Показать матчи"
 
-#: heroes/templates/heroes/hero_builds.html:134
+#: heroes/templates/heroes/hero_builds.html:93
 msgid "No replays found in the selected period."
 msgstr "Не найдено реплеев для выбранного периода"
+
+#: heroes/templates/heroes/hero_counters.html:5
+#, fuzzy
+#| msgctxt "Second pick stats"
+#| msgid "Second pick"
+msgid "counter picks"
+msgstr "Второй пик"
+
+#: heroes/templates/heroes/hero_counters.html:9
+msgid "Heroes that counter teams with"
+msgstr ""
+
+#: heroes/templates/heroes/hero_counters.html:21
+#: heroes/templates/heroes/stats_table_inline.html:10 matches/forms.py:23
+#: matches/templates/matches/match_stats.html:5
+#: meta/templates/meta/drafts.html:17 meta/templates/meta/drafts.html:68
+#: meta/templates/meta/drafts.html:121 meta/templates/meta/drafts.html:172
+#: meta/templates/meta/include/heroes_table.html:10 teams/forms.py:16
+#: teams/forms.py:43 teams/forms.py:63 teams/forms.py:102
+#: teams/templates/players/player_heroes.html:38
+#: teams/templates/teams/summary.html:13
+#: teams/templates/teams/team_heroes.html:24
+msgid "Hero"
+msgstr "Герой"
+
+#: heroes/templates/heroes/hero_counters.html:24
+#: matches/templates/matches/match_stats.html:301
+msgid "Kills"
+msgstr "Убийств"
+
+#: heroes/templates/heroes/hero_counters.html:25
+#, fuzzy
+#| msgid "All patches"
+msgid "Kills per match"
+msgstr "Все патчи"
 
 #: heroes/templates/heroes/hero_detail.html:5
 msgid "statistics"
 msgstr "статистика"
 
 #: heroes/templates/heroes/hero_detail.html:8
-#: heroes/templates/heroes/hero_detail.html:156
+#: heroes/templates/heroes/hero_detail.html:200
 #: heroes/templates/heroes/hero_list.html:8
 #: heroes/templates/heroes/hero_list.html:52
 #: maps/templates/maps/map_detail.html:26
@@ -391,61 +431,86 @@ msgstr "статистика"
 #: teams/templates/players/player_detail.html:80
 #: teams/templates/players/player_heroes.html:5
 #: teams/templates/teams/team_detail.html:62
-#: teams/templates/teams/team_heroes.html:8 templates/base.html:209
+#: teams/templates/teams/team_heroes.html:8 templates/base.html:211
 msgid "Heroes"
 msgstr "Герои"
 
-#: heroes/templates/heroes/hero_detail.html:65
+#: heroes/templates/heroes/hero_detail.html:66
 #, python-format
 msgid "First wave pick (%(pick1_count)s matches)"
 msgstr "Первая волна пиков (%(pick1_count)s матчей)"
 
-#: heroes/templates/heroes/hero_detail.html:66
+#: heroes/templates/heroes/hero_detail.html:67
 #, python-format
 msgid "Second wave pick (%(pick2_count)s matches)"
 msgstr "Вторая волна пиков (%(pick2_count)s матчей)"
 
-#: heroes/templates/heroes/hero_detail.html:67
+#: heroes/templates/heroes/hero_detail.html:68
 #, python-format
 msgid "First wave ban (%(ban1_count)s matches)"
 msgstr "Первая волна банов (%(ban1_count)s matches)"
 
-#: heroes/templates/heroes/hero_detail.html:68
+#: heroes/templates/heroes/hero_detail.html:69
 #, python-format
 msgid "Second wave ban (%(ban2_count)s matches)"
 msgstr "Вторая волна банов (%(ban2_count)s матчей)"
 
-#: heroes/templates/heroes/hero_detail.html:69
+#: heroes/templates/heroes/hero_detail.html:70
 #, python-format
 msgid "Not banned or picked (%(popularity_blank_count)s matches)"
 msgstr "Не в бане или пике (%(popularity_blank_count)s матчей)"
 
-#: heroes/templates/heroes/hero_detail.html:183
+#: heroes/templates/heroes/hero_detail.html:228
+#: matches/templates/matches/match_list.html:61
+#: meta/templates/meta/include/meta_filter_form.html:46
+#: teams/templates/players/player_detail.html:115
+msgctxt "Form filter options"
+msgid "Options"
+msgstr "Опции"
+
+#: heroes/templates/heroes/hero_detail.html:230
+#: meta/templates/meta/include/meta_filter_form.html:48
+#: teams/templates/players/player_detail.html:117
+msgid "Show only main stage matches (exclude qualifiers)"
+msgstr "Показать только главные матчи (исключить квалификации)"
+
+#: heroes/templates/heroes/hero_detail.html:249
 #: heroes/templates/heroes/stats_table_inline.html:17
 #: meta/templates/meta/include/heroes_table.html:17
 msgid "Popularity"
 msgstr "Популярность"
 
-#: heroes/templates/heroes/hero_detail.html:184
+#: heroes/templates/heroes/hero_detail.html:250
 #, python-format
 msgid "%(match_count)s of %(total_matches)s matches"
 msgstr "%(match_count)s из %(total_matches)s матчей"
 
-#: heroes/templates/heroes/hero_detail.html:196
+#: heroes/templates/heroes/hero_detail.html:262
 #: teams/templates/teams/team_detail.html:22
 msgid "Wins"
 msgstr "Побед"
 
-#: heroes/templates/heroes/hero_detail.html:197
+#: heroes/templates/heroes/hero_detail.html:263
 #, python-format
 msgid "%(win_count)s of %(pick_count)s matches"
 msgstr "%(win_count)s из %(pick_count)s матчей"
 
-#: heroes/templates/heroes/hero_detail.html:202
-#: heroes/templates/heroes/hero_overview.html:5
+#: heroes/templates/heroes/hero_detail.html:268
 msgctxt "Hero overview"
 msgid "Overview"
 msgstr "Общая"
+
+#: heroes/templates/heroes/hero_detail.html:269
+msgctxt "Hero builds"
+msgid "Builds"
+msgstr "Билды"
+
+#: heroes/templates/heroes/hero_detail.html:270
+#, fuzzy
+#| msgid "Count"
+msgctxt "Hero counter picks"
+msgid "Counters"
+msgstr "Кол-во"
 
 #: heroes/templates/heroes/hero_list.html:5
 msgctxt "[SEO] Page title"
@@ -479,6 +544,11 @@ msgstr "Специалист"
 #: heroes/templates/heroes/hero_list.html:66
 msgid "Start typing to search"
 msgstr "Быстрый поиск"
+
+#: heroes/templates/heroes/hero_matches_inline.html:9
+#: teams/templates/players/players_transfers.html:89
+msgid "Load more"
+msgstr "Загрузить еще"
 
 #: heroes/templates/heroes/hero_overview.html:20
 #: heroes/templates/heroes/stats_table_inline.html:15
@@ -547,18 +617,6 @@ msgstr "Популярность по командам"
 msgid "Team"
 msgstr "Команда"
 
-#: heroes/templates/heroes/stats_table_inline.html:10 matches/forms.py:23
-#: matches/templates/matches/match_stats.html:5
-#: meta/templates/meta/drafts.html:17 meta/templates/meta/drafts.html:68
-#: meta/templates/meta/drafts.html:121 meta/templates/meta/drafts.html:172
-#: meta/templates/meta/include/heroes_table.html:10 teams/forms.py:16
-#: teams/forms.py:43 teams/forms.py:63 teams/forms.py:102
-#: teams/templates/players/player_heroes.html:38
-#: teams/templates/teams/summary.html:13
-#: teams/templates/teams/team_heroes.html:24
-msgid "Hero"
-msgstr "Герой"
-
 #: heroes/templates/heroes/stats_table_inline.html:11
 #: meta/templates/meta/include/heroes_table.html:11
 msgctxt "Wins count"
@@ -577,7 +635,7 @@ msgctxt "Bans count"
 msgid "Bans"
 msgstr "Банов"
 
-#: heroes/views.py:195 heroes/views.py:196
+#: heroes/views.py:172 heroes/views.py:173
 msgctxt "minutes"
 msgid "mins"
 msgstr "мин"
@@ -587,12 +645,12 @@ msgstr "мин"
 #: maps/templates/maps/map_list.html:13
 #: matches/templates/tournaments/tournament_overview.html:155
 #: meta/templates/meta/base.html:28 meta/templates/meta/maps.html:5
-#: meta/templates/meta/maps.html:6 templates/base.html:208
+#: meta/templates/meta/maps.html:6 templates/base.html:210
 msgid "Maps"
 msgstr "Карты"
 
 #: maps/templates/maps/map_detail.html:25
-#: matches/templates/matches/matches_inline.html:21
+#: matches/templates/matches/matches_inline.html:24
 #: matches/templates/tournaments/tournament_overview.html:156
 #: meta/templates/meta/base.html:29 meta/templates/meta/drafts.html:5
 #: meta/templates/meta/drafts.html:6
@@ -616,8 +674,8 @@ msgstr "Драфты"
 #: teams/templates/players/players_transfers.html:43
 #: teams/templates/players/players_transfers.html:49
 #: teams/templates/teams/team_detail.html:61
-#: teams/templates/teams/team_transfers.html:8 templates/base.html:94
-#: templates/base.html:205
+#: teams/templates/teams/team_transfers.html:8 templates/base.html:96
+#: templates/base.html:207
 msgid "Players"
 msgstr "Игроки"
 
@@ -628,8 +686,8 @@ msgstr "Игроки"
 #: teams/templates/teams/team_detail.html:8
 #: teams/templates/teams/team_detail.html:27
 #: teams/templates/teams/team_list.html:8
-#: teams/templates/teams/team_list.html:54 templates/base.html:79
-#: templates/base.html:204
+#: teams/templates/teams/team_list.html:54 templates/base.html:81
+#: templates/base.html:206
 msgid "Teams"
 msgstr "Команды"
 
@@ -1194,7 +1252,7 @@ msgstr "За все время"
 msgid "All Maps"
 msgstr "Все карты"
 
-#: matches/forms.py:24 meta/views.py:221 teams/forms.py:17 teams/forms.py:44
+#: matches/forms.py:24 meta/views.py:224 teams/forms.py:17 teams/forms.py:44
 msgid "All Heroes"
 msgstr "Все герои"
 
@@ -1203,48 +1261,60 @@ msgstr "Все герои"
 msgid "Add another %(verbose_name)s"
 msgstr ""
 
-#: matches/templates/matches/match_detail.html:45
+#: matches/templates/matches/match_detail.html:61
 #: matches/templates/matches/match_stats.html:225
 msgctxt "Match winner"
 msgid "Winner"
 msgstr "Выиграли"
 
-#: matches/templates/matches/match_detail.html:46
+#: matches/templates/matches/match_detail.html:62
 #: matches/templates/matches/match_stats.html:226
 msgctxt "Match loser"
 msgid "Loser"
 msgstr "Проиграли"
 
-#: matches/templates/matches/match_detail.html:47
+#: matches/templates/matches/match_detail.html:63
 msgctxt "First pick mark on match page"
 msgid "First pick"
 msgstr "Первый пик"
 
-#: matches/templates/matches/match_detail.html:48
+#: matches/templates/matches/match_detail.html:64
 msgctxt "Banned heroes list on match page"
 msgid "Bans"
 msgstr "Баны"
 
-#: matches/templates/matches/match_detail.html:172
+#: matches/templates/matches/match_detail.html:78
+msgid "Remove from favorites"
+msgstr ""
+
+#: matches/templates/matches/match_detail.html:80
+msgid "Add to favorites"
+msgstr ""
+
+#: matches/templates/matches/match_detail.html:85
+msgid "Sign in to add match to favorites"
+msgstr ""
+
+#: matches/templates/matches/match_detail.html:204
 msgid "Previous Matches"
 msgstr "Предыдущие матчи"
 
-#: matches/templates/matches/match_detail.html:178
+#: matches/templates/matches/match_detail.html:210
 msgctxt "Watch VODs"
 msgid "Watch"
 msgstr "Смотреть"
 
-#: matches/templates/matches/match_detail.html:195
+#: matches/templates/matches/match_detail.html:227
 #: matches/templates/matches/match_list.html:68
-#: matches/templates/matches/matches_inline.html:137
+#: matches/templates/matches/matches_inline.html:140
 msgid "Replay"
 msgstr "Реплей"
 
-#: matches/templates/matches/match_detail.html:200
+#: matches/templates/matches/match_detail.html:232
 msgid "Download"
 msgstr "Скачать"
 
-#: matches/templates/matches/match_detail.html:209
+#: matches/templates/matches/match_detail.html:241
 #: matches/templates/matches/match_stats.html:418
 msgid "Statistics"
 msgstr "Статистика"
@@ -1254,15 +1324,8 @@ msgctxt "[SEO] Page title"
 msgid "Match List"
 msgstr "Список матчей"
 
-#: matches/templates/matches/match_list.html:61
-#: meta/templates/meta/include/meta_filter_form.html:46
-#: teams/templates/players/player_detail.html:115
-msgctxt "Form filter options"
-msgid "Options"
-msgstr "Опции"
-
 #: matches/templates/matches/match_list.html:63
-#: matches/templates/matches/matches_inline.html:132
+#: matches/templates/matches/matches_inline.html:135
 msgid "VOD"
 msgstr "Видео"
 
@@ -1300,10 +1363,6 @@ msgstr "Силы Нексуса"
 msgctxt "Match time"
 msgid "Duration"
 msgstr "Длительность"
-
-#: matches/templates/matches/match_stats.html:301
-msgid "Kills"
-msgstr "Убийств"
 
 #: matches/templates/matches/match_stats.html:302
 msgid "Assists"
@@ -1357,53 +1416,53 @@ msgstr "Таланты"
 msgid "Match Log"
 msgstr "Лог матча"
 
-#: matches/templates/matches/matches_inline.html:12
+#: matches/templates/matches/matches_inline.html:15
 #: matches/templates/tournaments/tournament_overview.html:79
-#: pages/templates/calendar_inline.html:64
+#: pages/templates/calendar_base.html:94
 msgctxt "Tournament stage"
 msgid "Stage"
 msgstr "Стадия"
 
-#: matches/templates/matches/matches_inline.html:15
+#: matches/templates/matches/matches_inline.html:18
 msgctxt "Tournament stage / Map"
 msgid "Stage / Map"
 msgstr "Стадия / Карта"
 
-#: matches/templates/matches/matches_inline.html:18
+#: matches/templates/matches/matches_inline.html:21
 msgid "Tournament / Map"
 msgstr "Турнир / Карта"
 
-#: matches/templates/matches/matches_inline.html:23
+#: matches/templates/matches/matches_inline.html:26
 msgctxt "Spoilers switcher title"
 msgid "Spoilers"
 msgstr "Спойлеры"
 
-#: matches/templates/matches/matches_inline.html:91
+#: matches/templates/matches/matches_inline.html:94
 #, python-format
 msgid "Game %(game_number)s"
 msgstr "Игра %(game_number)s"
 
-#: matches/templates/matches/matches_inline.html:108
+#: matches/templates/matches/matches_inline.html:111
 msgctxt "Tooltip for match score"
 msgid "Win"
 msgstr "Выигрыш"
 
-#: matches/templates/matches/matches_inline.html:109
+#: matches/templates/matches/matches_inline.html:112
 msgctxt "Tooltip for match score"
 msgid "Lose"
 msgstr "Проигрыш"
 
-#: matches/templates/matches/matches_inline.html:110
+#: matches/templates/matches/matches_inline.html:113
 msgctxt "W for Win"
 msgid "W"
 msgstr "В"
 
-#: matches/templates/matches/matches_inline.html:111
+#: matches/templates/matches/matches_inline.html:114
 msgctxt "L for Lose"
 msgid "L"
 msgstr "П"
 
-#: matches/templates/matches/matches_inline.html:122
+#: matches/templates/matches/matches_inline.html:125
 msgid "Show"
 msgstr "Показать"
 
@@ -1516,7 +1575,7 @@ msgid "Meta"
 msgstr "Мета"
 
 #: meta/templates/meta/base.html:8 meta/templates/meta/base.html:13
-#: templates/base.html:210
+#: templates/base.html:212
 msgid "Meta"
 msgstr "Мета"
 
@@ -1559,11 +1618,6 @@ msgstr "Кол-во"
 #, python-format
 msgid "Unpicked Heroes (%(unpicked_heroes_count)s of %(heroes_count)s)"
 msgstr "Невыбранные герои (%(unpicked_heroes_count)s из %(heroes_count)s)"
-
-#: meta/templates/meta/include/meta_filter_form.html:48
-#: teams/templates/players/player_detail.html:117
-msgid "Show only main stage matches (exclude qualifiers)"
-msgstr "Показать только главные матчи (исключить квалификации)"
 
 #: meta/templates/meta/maps.html:22
 msgid "Shortest"
@@ -1633,55 +1687,55 @@ msgstr ""
 msgid "Teams performance"
 msgstr ""
 
-#: meta/views.py:119
+#: meta/views.py:122
 msgid "No matches played in the selected period."
 msgstr "За выбранный период не сыграно ни одного матча."
 
-#: meta/views.py:222
+#: meta/views.py:225
 msgid "Warriors"
 msgstr "Бойцы"
 
-#: meta/views.py:223
+#: meta/views.py:226
 msgid "Supports"
 msgstr "Поддержка"
 
-#: meta/views.py:224
+#: meta/views.py:227
 msgid "Assassins"
 msgstr "Убийцы"
 
-#: meta/views.py:225
+#: meta/views.py:228
 msgid "Specialists"
 msgstr "Специалисты"
 
-#: meta/views.py:259 meta/views.py:336
+#: meta/views.py:262 meta/views.py:339
 msgid "The highest average number of takedowns"
 msgstr ""
 
-#: meta/views.py:270
+#: meta/views.py:273
 msgid "The highest average number of kills"
 msgstr ""
 
-#: meta/views.py:281
+#: meta/views.py:284
 msgid "The highest average number of assists"
 msgstr ""
 
-#: meta/views.py:292
+#: meta/views.py:295
 msgid "Player that spent the most time alive"
 msgstr ""
 
-#: meta/views.py:303
+#: meta/views.py:306
 msgid "Player that spent the most time dead"
 msgstr ""
 
-#: meta/views.py:347
+#: meta/views.py:350
 msgid "The highest average deaths"
 msgstr ""
 
-#: meta/views.py:358
+#: meta/views.py:361
 msgid "Team that spent the most time alive"
 msgstr ""
 
-#: meta/views.py:369
+#: meta/views.py:372
 msgid "Team that spent the most time dead"
 msgstr ""
 
@@ -1694,12 +1748,12 @@ msgstr "Киберспортивный календарь"
 msgid "Upcoming and ongoing events."
 msgstr "Предстоящие и идущие события"
 
-#: pages/templates/calendar_inline.html:40
+#: pages/templates/calendar_base.html:66
 msgctxt "eSports Calendar tooltip for events start time"
 msgid "Your local time"
 msgstr "Время указано в вашем часовом поясе"
 
-#: pages/templates/calendar_inline.html:45
+#: pages/templates/calendar_base.html:71
 msgid ""
 "If you are a Google Calendar user, copy the button link location, open "
 "Google Calendar, find 'Other Calendars', choose 'Add by URL' and paste the "
@@ -1709,30 +1763,30 @@ msgstr ""
 "откройте календарь, в разделе 'Другие календари' найдите пункт 'Добавить по "
 "URL' и вставьте ссылку в указанное поле."
 
-#: pages/templates/calendar_inline.html:48
+#: pages/templates/calendar_base.html:74
 msgid "Subscribe to Calendar"
 msgstr "Подписка на календарь"
 
-#: pages/templates/calendar_inline.html:51
+#: pages/templates/calendar_base.html:81
 msgid "eSports Calendar"
 msgstr "Киберспортивный календарь"
 
-#: pages/templates/calendar_inline.html:63
+#: pages/templates/calendar_base.html:93
 msgctxt "eSports Calendar"
 msgid "Tournament / Stream"
 msgstr "Турнир / Стрим"
 
-#: pages/templates/calendar_inline.html:70
+#: pages/templates/calendar_base.html:100
 msgctxt "Live events in eSports Calendar"
 msgid "Live"
 msgstr "Прямой эфир"
 
-#: pages/templates/calendar_inline.html:116
+#: pages/templates/calendar_base.html:162
 msgctxt "Upcoming events in eSports Calendar"
 msgid "Upcoming"
 msgstr "Предстоящие"
 
-#: pages/templates/calendar_inline.html:147
+#: pages/templates/calendar_base.html:200
 msgid "Times displayed in your local time"
 msgstr "Время указано в вашем часовом поясе"
 
@@ -2041,10 +2095,6 @@ msgctxt "Player transfer"
 msgid "To Team"
 msgstr "Куда"
 
-#: teams/templates/players/players_transfers.html:89
-msgid "Load more"
-msgstr "Загрузить еще"
-
 #: teams/templates/teams/summary.html:8
 msgid "Most Played Heroes"
 msgstr "Популярные герои"
@@ -2250,26 +2300,26 @@ msgstr "Главная"
 msgid "eSport statistics"
 msgstr "киберспортивная статистика"
 
-#: templates/base.html:78
+#: templates/base.html:80
 msgctxt "Search results"
 msgid "Teams not found"
 msgstr "Команды не найдены"
 
-#: templates/base.html:93
+#: templates/base.html:95
 msgctxt "Search results"
 msgid "Players not found"
 msgstr "Игроки не найдены"
 
-#: templates/base.html:232
+#: templates/base.html:235
 msgid "Log out"
 msgstr "Выйти"
 
-#: templates/base.html:243
+#: templates/base.html:248
 msgctxt "Search field tooltip"
 msgid "Search"
 msgstr "Поиск"
 
-#: templates/base.html:290
+#: templates/base.html:295
 msgid "Help us localize the site!"
 msgstr "Помогите нам с переводом!"
 
