@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-26 14:53+0000\n"
+"POT-Creation-Date: 2017-04-26 16:20+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -854,404 +854,408 @@ msgstr "Towers of Doom"
 msgid "Warhead Junction"
 msgstr "Warhead Junction"
 
-#: masterleague/lc_strings.py:54
+#: masterleague/lc_strings.py:51
+msgid "Hanamura"
+msgstr ""
+
+#: masterleague/lc_strings.py:55
 #, python-format
 msgid "Altar captured. Shots fired: %(shots_fired)s."
 msgstr "Tempel veroverd. Schoten gevuurd: %(shots_fired)s."
 
-#: masterleague/lc_strings.py:55
+#: masterleague/lc_strings.py:56
 msgid "Dragon Knight activated"
 msgstr "Draken ridder geactiveerd"
 
-#: masterleague/lc_strings.py:56
+#: masterleague/lc_strings.py:57
 msgid "Garden Terror activated"
 msgstr "Tuinterror geactiveerd"
 
-#: masterleague/lc_strings.py:57
+#: masterleague/lc_strings.py:58
 msgid "Ghost ship captured"
 msgstr "Geestenschip veroverd"
 
-#: masterleague/lc_strings.py:58
+#: masterleague/lc_strings.py:59
 msgid "Immortal defeated"
 msgstr "Onsterfelijke verslagen"
 
-#: masterleague/lc_strings.py:59
+#: masterleague/lc_strings.py:60
 msgid "Infernal shrine captured"
 msgstr "Helse heiligdom veroverd"
 
-#: masterleague/lc_strings.py:60
+#: masterleague/lc_strings.py:61
 msgid "Boss camp"
 msgstr "Bazenkamp"
 
-#: masterleague/lc_strings.py:61
+#: masterleague/lc_strings.py:62
 msgid "Nuke launch"
 msgstr "Atoombom lancering"
 
-#: masterleague/lc_strings.py:62
+#: masterleague/lc_strings.py:63
 msgid "Raven curse activated"
 msgstr "Raaf vloek geactiveerd"
 
-#: masterleague/lc_strings.py:63
+#: masterleague/lc_strings.py:64
 #, python-format
 msgid "Temple shots fired. Total Shot Damage: %(total_shot_damage)s."
 msgstr "Tempelschoten. Totale schade: %(total_shot_damage)s."
 
-#: masterleague/lc_strings.py:64
+#: masterleague/lc_strings.py:65
 msgid "Webweavers spawned"
 msgstr "Spinnen geactiveerd"
 
-#: masterleague/lc_strings.py:65
+#: masterleague/lc_strings.py:66
 #, python-format
 msgid "Zerg rush. Opposing score: %(opposing_score)s%%."
 msgstr "Zerg rush. Tegenoverliggende score: %(opposing_score)s%%"
 
-#: masterleague/lc_strings.py:69
+#: masterleague/lc_strings.py:70
 msgid "Samuro Patch"
 msgstr "Samuro Patch"
 
-#: masterleague/lc_strings.py:70
+#: masterleague/lc_strings.py:71
 msgid "Alarak Patch"
 msgstr "Alarak Patch"
 
-#: masterleague/lc_strings.py:71
+#: masterleague/lc_strings.py:72
 msgid "Auriel Patch"
 msgstr "Auriel Patch"
 
-#: masterleague/lc_strings.py:72
+#: masterleague/lc_strings.py:73
 msgid "Gul'dan Patch"
 msgstr "Gul'dan Patch"
 
-#: masterleague/lc_strings.py:73
+#: masterleague/lc_strings.py:74
 msgid "Medivh Patch"
 msgstr "Medivh Patch"
 
-#: masterleague/lc_strings.py:74
+#: masterleague/lc_strings.py:75
 msgid "Chromie Patch"
 msgstr "Chromie Patch"
 
-#: masterleague/lc_strings.py:75
+#: masterleague/lc_strings.py:76
 msgid "Tracer Patch"
 msgstr "Tracer Patch"
 
-#: masterleague/lc_strings.py:76
+#: masterleague/lc_strings.py:77
 msgid "Dehaka Patch"
 msgstr "Dehaka Patch"
 
-#: masterleague/lc_strings.py:77
+#: masterleague/lc_strings.py:78
 msgid "Xul Patch"
 msgstr "Xul Patch"
 
-#: masterleague/lc_strings.py:78
+#: masterleague/lc_strings.py:79
 msgid "Li-Ming Patch"
 msgstr "Li-Ming Patch"
 
-#: masterleague/lc_strings.py:79
+#: masterleague/lc_strings.py:80
 msgid "Greymane Patch"
 msgstr "Greymane Patch"
 
-#: masterleague/lc_strings.py:80
+#: masterleague/lc_strings.py:81
 msgid "Lunara Patch"
 msgstr "Lunara Patch"
 
-#: masterleague/lc_strings.py:81
+#: masterleague/lc_strings.py:82
 msgid "Zarya Patch"
 msgstr "Zarya Patch"
 
-#: masterleague/lc_strings.py:82
+#: masterleague/lc_strings.py:83
 msgid "Varian Patch"
 msgstr "Varian Patch"
 
-#: masterleague/lc_strings.py:83
+#: masterleague/lc_strings.py:84
 msgid "Ragnaros Patch"
 msgstr "Ragnaros Patch"
 
-#: masterleague/lc_strings.py:84
+#: masterleague/lc_strings.py:85
 msgid "Zul'jin Patch"
 msgstr "Zul'jin Patch"
 
-#: masterleague/lc_strings.py:85
+#: masterleague/lc_strings.py:86
 msgid "Valeera Patch"
 msgstr "Valeera Patch"
 
-#: masterleague/lc_strings.py:86
+#: masterleague/lc_strings.py:87
 msgid "Lucio Patch"
 msgstr "Lucio Patch"
 
-#: masterleague/lc_strings.py:87
+#: masterleague/lc_strings.py:88
 msgid "Probius Patch"
 msgstr ""
 
-#: masterleague/lc_strings.py:88
+#: masterleague/lc_strings.py:89
 msgid "Cassia Patch"
 msgstr ""
 
-#: masterleague/lc_strings.py:89
+#: masterleague/lc_strings.py:90
 #, fuzzy
 #| msgid "Greymane Patch"
 msgid "Genji Patch"
 msgstr "Greymane Patch"
 
-#: masterleague/lc_strings.py:93
+#: masterleague/lc_strings.py:94
 msgid "Abathur"
 msgstr "Abathur"
 
-#: masterleague/lc_strings.py:94
+#: masterleague/lc_strings.py:95
 msgid "Alarak"
 msgstr "Alarak"
 
-#: masterleague/lc_strings.py:95
+#: masterleague/lc_strings.py:96
 msgid "Anub'arak"
 msgstr "Anub'arak"
 
-#: masterleague/lc_strings.py:96
+#: masterleague/lc_strings.py:97
 msgid "Artanis"
 msgstr "Artanis"
 
-#: masterleague/lc_strings.py:97
+#: masterleague/lc_strings.py:98
 msgid "Arthas"
 msgstr "Arthas"
 
-#: masterleague/lc_strings.py:98
+#: masterleague/lc_strings.py:99
 msgid "Auriel"
 msgstr "Auriel"
 
-#: masterleague/lc_strings.py:99
+#: masterleague/lc_strings.py:100
 msgid "Azmodan"
 msgstr "Azmodan"
 
-#: masterleague/lc_strings.py:100
+#: masterleague/lc_strings.py:101
 msgid "Brightwing"
 msgstr "Brightwing"
 
-#: masterleague/lc_strings.py:101
+#: masterleague/lc_strings.py:102
 msgid "Chen"
 msgstr "Chen"
 
-#: masterleague/lc_strings.py:102
+#: masterleague/lc_strings.py:103
 msgid "Cho"
 msgstr "Cho"
 
-#: masterleague/lc_strings.py:103
+#: masterleague/lc_strings.py:104
 msgid "Chromie"
 msgstr "Chromie"
 
-#: masterleague/lc_strings.py:104
+#: masterleague/lc_strings.py:105
 msgid "Dehaka"
 msgstr "Dehaka"
 
-#: masterleague/lc_strings.py:105
+#: masterleague/lc_strings.py:106
 msgid "Diablo"
 msgstr "Diablo"
 
-#: masterleague/lc_strings.py:106
+#: masterleague/lc_strings.py:107
 msgid "E.T.C."
 msgstr "E.T.C."
 
-#: masterleague/lc_strings.py:107
+#: masterleague/lc_strings.py:108
 msgid "Falstad"
 msgstr "Falstad"
 
-#: masterleague/lc_strings.py:108
+#: masterleague/lc_strings.py:109
 msgid "Gall"
 msgstr "Gall"
 
-#: masterleague/lc_strings.py:109
+#: masterleague/lc_strings.py:110
 msgid "Gazlowe"
 msgstr "Gazlowe"
 
-#: masterleague/lc_strings.py:110
+#: masterleague/lc_strings.py:111
 msgid "Greymane"
 msgstr "Greymane"
 
-#: masterleague/lc_strings.py:111
+#: masterleague/lc_strings.py:112
 msgid "Gul'dan"
 msgstr "Gul'dan"
 
-#: masterleague/lc_strings.py:112
+#: masterleague/lc_strings.py:113
 msgid "Illidan"
 msgstr "Illidan"
 
-#: masterleague/lc_strings.py:113
+#: masterleague/lc_strings.py:114
 msgid "Jaina"
 msgstr "Jaina"
 
-#: masterleague/lc_strings.py:114
+#: masterleague/lc_strings.py:115
 msgid "Johanna"
 msgstr "Johanna"
 
-#: masterleague/lc_strings.py:115
+#: masterleague/lc_strings.py:116
 msgid "Kael'thas"
 msgstr "Kael'thas"
 
-#: masterleague/lc_strings.py:116
+#: masterleague/lc_strings.py:117
 msgid "Kerrigan"
 msgstr "Kerrigan"
 
-#: masterleague/lc_strings.py:117
+#: masterleague/lc_strings.py:118
 msgid "Kharazim"
 msgstr "Kharazim"
 
-#: masterleague/lc_strings.py:118
+#: masterleague/lc_strings.py:119
 msgid "Leoric"
 msgstr "Leoric"
 
-#: masterleague/lc_strings.py:119
+#: masterleague/lc_strings.py:120
 msgid "Li Li"
 msgstr "Li Li"
 
-#: masterleague/lc_strings.py:120
+#: masterleague/lc_strings.py:121
 msgid "Li-Ming"
 msgstr "Li-Ming"
 
-#: masterleague/lc_strings.py:121
+#: masterleague/lc_strings.py:122
 msgid "Lt. Morales"
 msgstr "Lt. Morales"
 
-#: masterleague/lc_strings.py:122
+#: masterleague/lc_strings.py:123
 msgid "Lucio"
 msgstr "Lucio"
 
-#: masterleague/lc_strings.py:123
+#: masterleague/lc_strings.py:124
 msgid "Lunara"
 msgstr "Lunara"
 
-#: masterleague/lc_strings.py:124
+#: masterleague/lc_strings.py:125
 msgid "Malfurion"
 msgstr "Malfurion"
 
-#: masterleague/lc_strings.py:125
+#: masterleague/lc_strings.py:126
 msgid "Medivh"
 msgstr "Medivh"
 
-#: masterleague/lc_strings.py:126
+#: masterleague/lc_strings.py:127
 msgid "Muradin"
 msgstr "Muradin"
 
-#: masterleague/lc_strings.py:127
+#: masterleague/lc_strings.py:128
 msgid "Murky"
 msgstr "Murky"
 
-#: masterleague/lc_strings.py:128
+#: masterleague/lc_strings.py:129
 msgid "Nazeebo"
 msgstr "Nazeebo"
 
-#: masterleague/lc_strings.py:129
+#: masterleague/lc_strings.py:130
 msgid "Nova"
 msgstr "Nova"
 
-#: masterleague/lc_strings.py:130
+#: masterleague/lc_strings.py:131
 msgid "Ragnaros"
 msgstr "Ragnaros"
 
-#: masterleague/lc_strings.py:131
+#: masterleague/lc_strings.py:132
 msgid "Raynor"
 msgstr "Raynor"
 
-#: masterleague/lc_strings.py:132
+#: masterleague/lc_strings.py:133
 msgid "Rehgar"
 msgstr "Rehgar"
 
-#: masterleague/lc_strings.py:133
+#: masterleague/lc_strings.py:134
 msgid "Rexxar"
 msgstr "Rexxar"
 
-#: masterleague/lc_strings.py:134
+#: masterleague/lc_strings.py:135
 msgid "Samuro"
 msgstr "Samuro"
 
-#: masterleague/lc_strings.py:135
+#: masterleague/lc_strings.py:136
 msgid "Sgt. Hammer"
 msgstr "Sgt. Hammer"
 
-#: masterleague/lc_strings.py:136
+#: masterleague/lc_strings.py:137
 msgid "Sonya"
 msgstr "Sonya"
 
-#: masterleague/lc_strings.py:137
+#: masterleague/lc_strings.py:138
 msgid "Stitches"
 msgstr "Stitches"
 
-#: masterleague/lc_strings.py:138
+#: masterleague/lc_strings.py:139
 msgid "Sylvanas"
 msgstr "Sylvanas"
 
-#: masterleague/lc_strings.py:139
+#: masterleague/lc_strings.py:140
 msgid "Tassadar"
 msgstr "Tassadar"
 
-#: masterleague/lc_strings.py:140
+#: masterleague/lc_strings.py:141
 msgid "The Butcher"
 msgstr "The Butcher"
 
-#: masterleague/lc_strings.py:141
+#: masterleague/lc_strings.py:142
 msgid "The Lost Vikings"
 msgstr "The Lost Vikings"
 
-#: masterleague/lc_strings.py:142
+#: masterleague/lc_strings.py:143
 msgid "Thrall"
 msgstr "Thrall"
 
-#: masterleague/lc_strings.py:143
+#: masterleague/lc_strings.py:144
 msgid "Tracer"
 msgstr "Tracer"
 
-#: masterleague/lc_strings.py:144
+#: masterleague/lc_strings.py:145
 msgid "Tychus"
 msgstr "Tychus"
 
-#: masterleague/lc_strings.py:145
+#: masterleague/lc_strings.py:146
 msgid "Tyrael"
 msgstr "Tyrael"
 
-#: masterleague/lc_strings.py:146
+#: masterleague/lc_strings.py:147
 msgid "Tyrande"
 msgstr "Tyrande"
 
-#: masterleague/lc_strings.py:147
+#: masterleague/lc_strings.py:148
 msgid "Uther"
 msgstr "Uther"
 
-#: masterleague/lc_strings.py:148
+#: masterleague/lc_strings.py:149
 msgid "Valeera"
 msgstr "Valeera"
 
-#: masterleague/lc_strings.py:149
+#: masterleague/lc_strings.py:150
 msgid "Valla"
 msgstr "Valla"
 
-#: masterleague/lc_strings.py:150
+#: masterleague/lc_strings.py:151
 msgid "Varian"
 msgstr "Varian"
 
-#: masterleague/lc_strings.py:151
+#: masterleague/lc_strings.py:152
 msgid "Xul"
 msgstr "Xul"
 
-#: masterleague/lc_strings.py:152
+#: masterleague/lc_strings.py:153
 msgid "Zagara"
 msgstr "Zagara"
 
-#: masterleague/lc_strings.py:153
+#: masterleague/lc_strings.py:154
 msgid "Zarya"
 msgstr "Zarya"
 
-#: masterleague/lc_strings.py:154
+#: masterleague/lc_strings.py:155
 msgid "Zeratul"
 msgstr "Zeratul"
 
-#: masterleague/lc_strings.py:155
+#: masterleague/lc_strings.py:156
 msgid "Zul'jin"
 msgstr "Zul'jin"
 
-#: masterleague/lc_strings.py:156
+#: masterleague/lc_strings.py:157
 msgid "Probius"
 msgstr ""
 
-#: masterleague/lc_strings.py:157
+#: masterleague/lc_strings.py:158
 msgid "Cassia"
 msgstr ""
 
-#: masterleague/lc_strings.py:158
+#: masterleague/lc_strings.py:159
 msgid "Genji"
 msgstr ""
 
