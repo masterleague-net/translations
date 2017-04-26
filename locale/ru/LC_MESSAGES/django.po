@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-17 09:57+0000\n"
+"POT-Creation-Date: 2017-04-26 14:53+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -22,7 +22,7 @@ msgstr "Сезон"
 msgid "Region"
 msgstr "Регион"
 
-#: bets/forms.py:25 heroes/forms.py:16 matches/forms.py:15 meta/forms.py:17
+#: bets/forms.py:25 heroes/forms.py:16 matches/forms.py:15 meta/forms.py:18
 #: teams/forms.py:91
 msgid "All Regions"
 msgstr "Все регионы"
@@ -329,27 +329,27 @@ msgctxt "Page navigation"
 msgid "Next"
 msgstr "Следующая"
 
-#: heroes/forms.py:13 meta/forms.py:13
+#: heroes/forms.py:13 meta/forms.py:14
 msgid "Regions"
 msgstr "Регионы"
 
-#: heroes/forms.py:18 meta/forms.py:19 teams/forms.py:55
+#: heroes/forms.py:18 meta/forms.py:20 teams/forms.py:55
 msgid "Patches"
 msgstr "Патчи"
 
-#: heroes/forms.py:21 meta/forms.py:23 teams/forms.py:25 teams/forms.py:58
+#: heroes/forms.py:21 meta/forms.py:24 teams/forms.py:25 teams/forms.py:58
 msgid "All patches"
 msgstr "Все патчи"
 
 #: heroes/forms.py:24 matches/templates/tournaments/tournament_detail.html:8
 #: matches/templates/tournaments/tournament_detail.html:20
 #: matches/templates/tournaments/tournament_list.html:8
-#: matches/templates/tournaments/tournament_list.html:13 meta/forms.py:35
+#: matches/templates/tournaments/tournament_list.html:13 meta/forms.py:36
 #: teams/forms.py:71 templates/base.html:208
 msgid "Tournaments"
 msgstr "Турниры"
 
-#: heroes/forms.py:27 meta/forms.py:39 teams/forms.py:74
+#: heroes/forms.py:27 meta/forms.py:40 teams/forms.py:74
 msgid "All tournaments"
 msgstr "Все турниры"
 
@@ -423,7 +423,7 @@ msgstr "статистика"
 #: heroes/templates/heroes/hero_list.html:8
 #: heroes/templates/heroes/hero_list.html:52
 #: maps/templates/maps/map_detail.html:26
-#: matches/templates/tournaments/tournament_overview.html:157 meta/forms.py:25
+#: matches/templates/tournaments/tournament_overview.html:157 meta/forms.py:26
 #: meta/templates/meta/base.html:30 meta/templates/meta/heroes.html:5
 #: meta/templates/meta/heroes.html:6 meta/templates/meta/players.html:23
 #: meta/templates/meta/players.html:63 meta/templates/meta/teams.html:21
@@ -635,7 +635,7 @@ msgctxt "Bans count"
 msgid "Bans"
 msgstr "Банов"
 
-#: heroes/views.py:172 heroes/views.py:173
+#: heroes/views.py:184 heroes/views.py:185
 msgctxt "minutes"
 msgid "mins"
 msgstr "мин"
@@ -979,271 +979,281 @@ msgstr "Патч Пробиус"
 msgid "Cassia Patch"
 msgstr "Патч Кассия"
 
-#: masterleague/lc_strings.py:92
+#: masterleague/lc_strings.py:89
+#, fuzzy
+#| msgid "Greymane Patch"
+msgid "Genji Patch"
+msgstr "Патч Седогрив"
+
+#: masterleague/lc_strings.py:93
 msgid "Abathur"
 msgstr "Абатур"
 
-#: masterleague/lc_strings.py:93
+#: masterleague/lc_strings.py:94
 msgid "Alarak"
 msgstr "Аларак"
 
-#: masterleague/lc_strings.py:94
+#: masterleague/lc_strings.py:95
 msgid "Anub'arak"
 msgstr "Ануб’арак"
 
-#: masterleague/lc_strings.py:95
+#: masterleague/lc_strings.py:96
 msgid "Artanis"
 msgstr "Артанис"
 
-#: masterleague/lc_strings.py:96
+#: masterleague/lc_strings.py:97
 msgid "Arthas"
 msgstr "Артас"
 
-#: masterleague/lc_strings.py:97
+#: masterleague/lc_strings.py:98
 msgid "Auriel"
 msgstr "Ауриэль"
 
-#: masterleague/lc_strings.py:98
+#: masterleague/lc_strings.py:99
 msgid "Azmodan"
 msgstr "Азмодан"
 
-#: masterleague/lc_strings.py:99
+#: masterleague/lc_strings.py:100
 msgid "Brightwing"
 msgstr "Светик"
 
-#: masterleague/lc_strings.py:100
+#: masterleague/lc_strings.py:101
 msgid "Chen"
 msgstr "Чэнь"
 
-#: masterleague/lc_strings.py:101
+#: masterleague/lc_strings.py:102
 msgid "Cho"
 msgstr "Чо"
 
-#: masterleague/lc_strings.py:102
+#: masterleague/lc_strings.py:103
 msgid "Chromie"
 msgstr "Хроми"
 
-#: masterleague/lc_strings.py:103
+#: masterleague/lc_strings.py:104
 msgid "Dehaka"
 msgstr "Дехака"
 
-#: masterleague/lc_strings.py:104
+#: masterleague/lc_strings.py:105
 msgid "Diablo"
 msgstr "Диабло"
 
-#: masterleague/lc_strings.py:105
+#: masterleague/lc_strings.py:106
 msgid "E.T.C."
 msgstr "E.T.C."
 
-#: masterleague/lc_strings.py:106
+#: masterleague/lc_strings.py:107
 msgid "Falstad"
 msgstr "Фалстад"
 
-#: masterleague/lc_strings.py:107
+#: masterleague/lc_strings.py:108
 msgid "Gall"
 msgstr "Галл"
 
-#: masterleague/lc_strings.py:108
+#: masterleague/lc_strings.py:109
 msgid "Gazlowe"
 msgstr "Газлоу"
 
-#: masterleague/lc_strings.py:109
+#: masterleague/lc_strings.py:110
 msgid "Greymane"
 msgstr "Седогрив"
 
-#: masterleague/lc_strings.py:110
+#: masterleague/lc_strings.py:111
 msgid "Gul'dan"
 msgstr "Гул'дан"
 
-#: masterleague/lc_strings.py:111
+#: masterleague/lc_strings.py:112
 msgid "Illidan"
 msgstr "Иллидан"
 
-#: masterleague/lc_strings.py:112
+#: masterleague/lc_strings.py:113
 msgid "Jaina"
 msgstr "Джайна"
 
-#: masterleague/lc_strings.py:113
+#: masterleague/lc_strings.py:114
 msgid "Johanna"
 msgstr "Джоанна"
 
-#: masterleague/lc_strings.py:114
+#: masterleague/lc_strings.py:115
 msgid "Kael'thas"
 msgstr "Кель'тас"
 
-#: masterleague/lc_strings.py:115
+#: masterleague/lc_strings.py:116
 msgid "Kerrigan"
 msgstr "Керриган"
 
-#: masterleague/lc_strings.py:116
+#: masterleague/lc_strings.py:117
 msgid "Kharazim"
 msgstr "Каразим"
 
-#: masterleague/lc_strings.py:117
+#: masterleague/lc_strings.py:118
 msgid "Leoric"
 msgstr "Леорик"
 
-#: masterleague/lc_strings.py:118
+#: masterleague/lc_strings.py:119
 msgid "Li Li"
 msgstr "Ли Ли"
 
-#: masterleague/lc_strings.py:119
+#: masterleague/lc_strings.py:120
 msgid "Li-Ming"
 msgstr "Ли-Мин"
 
-#: masterleague/lc_strings.py:120
+#: masterleague/lc_strings.py:121
 msgid "Lt. Morales"
 msgstr "Лейтенант Моралес"
 
-#: masterleague/lc_strings.py:121
+#: masterleague/lc_strings.py:122
 msgid "Lucio"
 msgstr "Лусио"
 
-#: masterleague/lc_strings.py:122
+#: masterleague/lc_strings.py:123
 msgid "Lunara"
 msgstr "Лунара"
 
-#: masterleague/lc_strings.py:123
+#: masterleague/lc_strings.py:124
 msgid "Malfurion"
 msgstr "Малфурион"
 
-#: masterleague/lc_strings.py:124
+#: masterleague/lc_strings.py:125
 msgid "Medivh"
 msgstr "Медив"
 
-#: masterleague/lc_strings.py:125
+#: masterleague/lc_strings.py:126
 msgid "Muradin"
 msgstr "Мурадин"
 
-#: masterleague/lc_strings.py:126
+#: masterleague/lc_strings.py:127
 msgid "Murky"
 msgstr "Мурчаль"
 
-#: masterleague/lc_strings.py:127
+#: masterleague/lc_strings.py:128
 msgid "Nazeebo"
 msgstr "Назибо"
 
-#: masterleague/lc_strings.py:128
+#: masterleague/lc_strings.py:129
 msgid "Nova"
 msgstr "Нова"
 
-#: masterleague/lc_strings.py:129
+#: masterleague/lc_strings.py:130
 msgid "Ragnaros"
 msgstr "Рагнарос"
 
-#: masterleague/lc_strings.py:130
+#: masterleague/lc_strings.py:131
 msgid "Raynor"
 msgstr "Рейнор"
 
-#: masterleague/lc_strings.py:131
+#: masterleague/lc_strings.py:132
 msgid "Rehgar"
 msgstr "Регар"
 
-#: masterleague/lc_strings.py:132
+#: masterleague/lc_strings.py:133
 msgid "Rexxar"
 msgstr "Рексар"
 
-#: masterleague/lc_strings.py:133
+#: masterleague/lc_strings.py:134
 msgid "Samuro"
 msgstr "Самуро"
 
-#: masterleague/lc_strings.py:134
+#: masterleague/lc_strings.py:135
 msgid "Sgt. Hammer"
 msgstr "Сержант Кувалда"
 
-#: masterleague/lc_strings.py:135
+#: masterleague/lc_strings.py:136
 msgid "Sonya"
 msgstr "Соня"
 
-#: masterleague/lc_strings.py:136
+#: masterleague/lc_strings.py:137
 msgid "Stitches"
 msgstr "Стежок"
 
-#: masterleague/lc_strings.py:137
+#: masterleague/lc_strings.py:138
 msgid "Sylvanas"
 msgstr "Сильвана"
 
-#: masterleague/lc_strings.py:138
+#: masterleague/lc_strings.py:139
 msgid "Tassadar"
 msgstr "Тассадар"
 
-#: masterleague/lc_strings.py:139
+#: masterleague/lc_strings.py:140
 msgid "The Butcher"
 msgstr "Мясник"
 
-#: masterleague/lc_strings.py:140
+#: masterleague/lc_strings.py:141
 msgid "The Lost Vikings"
 msgstr "Потерявшиеся викинги"
 
-#: masterleague/lc_strings.py:141
+#: masterleague/lc_strings.py:142
 msgid "Thrall"
 msgstr "Тралл"
 
-#: masterleague/lc_strings.py:142
+#: masterleague/lc_strings.py:143
 msgid "Tracer"
 msgstr "Трейсер"
 
-#: masterleague/lc_strings.py:143
+#: masterleague/lc_strings.py:144
 msgid "Tychus"
 msgstr "Тайкус"
 
-#: masterleague/lc_strings.py:144
+#: masterleague/lc_strings.py:145
 msgid "Tyrael"
 msgstr "Тираэль"
 
-#: masterleague/lc_strings.py:145
+#: masterleague/lc_strings.py:146
 msgid "Tyrande"
 msgstr "Тиранда"
 
-#: masterleague/lc_strings.py:146
+#: masterleague/lc_strings.py:147
 msgid "Uther"
 msgstr "Утер"
 
-#: masterleague/lc_strings.py:147
+#: masterleague/lc_strings.py:148
 msgid "Valeera"
 msgstr "Валира"
 
-#: masterleague/lc_strings.py:148
+#: masterleague/lc_strings.py:149
 msgid "Valla"
 msgstr "Валла"
 
-#: masterleague/lc_strings.py:149
+#: masterleague/lc_strings.py:150
 msgid "Varian"
 msgstr "Вариан"
 
-#: masterleague/lc_strings.py:150
+#: masterleague/lc_strings.py:151
 msgid "Xul"
 msgstr "Зул"
 
-#: masterleague/lc_strings.py:151
+#: masterleague/lc_strings.py:152
 msgid "Zagara"
 msgstr "Загара"
 
-#: masterleague/lc_strings.py:152
+#: masterleague/lc_strings.py:153
 msgid "Zarya"
 msgstr "Заря"
 
-#: masterleague/lc_strings.py:153
+#: masterleague/lc_strings.py:154
 msgid "Zeratul"
 msgstr "Зератул"
 
-#: masterleague/lc_strings.py:154
+#: masterleague/lc_strings.py:155
 msgid "Zul'jin"
 msgstr "Зул'джин"
 
-#: masterleague/lc_strings.py:155
+#: masterleague/lc_strings.py:156
 msgid "Probius"
 msgstr "Пробиус"
 
-#: masterleague/lc_strings.py:156
+#: masterleague/lc_strings.py:157
 msgid "Cassia"
 msgstr "Кассия"
+
+#: masterleague/lc_strings.py:158
+msgid "Genji"
+msgstr ""
 
 #: matches/forms.py:17 teams/forms.py:15 teams/forms.py:40
 msgid "Patch"
 msgstr "Патч"
 
-#: matches/forms.py:18 teams/forms.py:41 teams/views.py:98
+#: matches/forms.py:18 teams/forms.py:41 teams/views.py:108
 msgctxt "All patches"
 msgid "All Time"
 msgstr "За все время"
@@ -1565,7 +1575,7 @@ msgstr "Команды-участницы"
 msgid "Main Event Statistics"
 msgstr "Статистика турнира"
 
-#: meta/forms.py:32 teams/forms.py:64
+#: meta/forms.py:33 teams/forms.py:64
 msgid "All heroes"
 msgstr "Все герои"
 
@@ -1654,8 +1664,8 @@ msgstr ""
 
 #: meta/templates/meta/players.html:105 meta/templates/meta/teams.html:93
 #: teams/templates/players/player_heroes.html:41
-#: teams/templates/players/player_overview.html:24 teams/views.py:587
-#: teams/views.py:610
+#: teams/templates/players/player_overview.html:24 teams/views.py:598
+#: teams/views.py:621
 msgid "KDA"
 msgstr "KDA"
 
@@ -1858,7 +1868,7 @@ msgstr "Не найдено"
 msgid "Search"
 msgstr "Поиск"
 
-#: teams/forms.py:27 teams/views.py:104
+#: teams/forms.py:27 teams/views.py:114
 msgid "Current Roster"
 msgstr "Текущий состав"
 
@@ -2010,7 +2020,7 @@ msgstr "Осадный урон"
 msgid "Average Match Time"
 msgstr "Сред. длительность матча"
 
-#: teams/templates/players/player_overview.html:102 teams/views.py:618
+#: teams/templates/players/player_overview.html:102 teams/views.py:629
 msgid "Analyzed Replays"
 msgstr "Проанализировано реплеев"
 
@@ -2223,62 +2233,62 @@ msgid ""
 "other players on the "
 msgstr ""
 
-#: teams/views.py:588
+#: teams/views.py:599
 msgctxt "Hero damage"
 msgid "Hero"
 msgstr "Герои"
 
-#: teams/views.py:589
+#: teams/views.py:600
 msgctxt "Siege damage"
 msgid "Siege"
 msgstr "Осада"
 
-#: teams/views.py:590
+#: teams/views.py:601
 msgctxt "Amount of time player was not dead during the match"
 msgid "Lifetime"
 msgstr "Живучесть"
 
-#: teams/views.py:591
+#: teams/views.py:602
 msgctxt "Crowd control duration"
 msgid "CC"
 msgstr "Контроль"
 
-#: teams/views.py:592
+#: teams/views.py:603
 msgctxt "Experience"
 msgid "XP"
 msgstr "Опыт"
 
-#: teams/views.py:593
+#: teams/views.py:604
 msgctxt "Healing amount (for healers) or Damage taken (for warriors)"
 msgid "Role"
 msgstr "Роль"
 
-#: teams/views.py:611
+#: teams/views.py:622
 msgctxt "Amount of time player was not dead during the match"
 msgid "Lifetime / Min"
 msgstr "Живучесть / мин"
 
-#: teams/views.py:612
+#: teams/views.py:623
 msgid "Siege Damage / Min"
 msgstr "Осадный урон / мин"
 
-#: teams/views.py:613
+#: teams/views.py:624
 msgid "Hero Damage / Min"
 msgstr "Урон по героям / мин"
 
-#: teams/views.py:614
+#: teams/views.py:625
 msgid "Healing / Min"
 msgstr "Лечение / мин"
 
-#: teams/views.py:615
+#: teams/views.py:626
 msgid "Damage Taken / Min"
 msgstr "Заблокированный урон"
 
-#: teams/views.py:616
+#: teams/views.py:627
 msgid "CC Duration / Min"
 msgstr "Длительность контроля / мин"
 
-#: teams/views.py:617
+#: teams/views.py:628
 msgid "Experience / Min"
 msgstr "Опыт / мин"
 

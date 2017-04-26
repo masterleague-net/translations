@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-17 09:57+0000\n"
+"POT-Creation-Date: 2017-04-26 14:53+0000\n"
 "Last-Translator: Jiahao Liang <gzliangjiahao@gmail.com>\n"
 "Language: zh-TW\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 msgid "Region"
 msgstr "地區"
 
-#: bets/forms.py:25 heroes/forms.py:16 matches/forms.py:15 meta/forms.py:17
+#: bets/forms.py:25 heroes/forms.py:16 matches/forms.py:15 meta/forms.py:18
 #: teams/forms.py:91
 msgid "All Regions"
 msgstr "所有地區"
@@ -327,28 +327,28 @@ msgctxt "Page navigation"
 msgid "Next"
 msgstr "下一頁"
 
-#: heroes/forms.py:13 meta/forms.py:13
+#: heroes/forms.py:13 meta/forms.py:14
 msgid "Regions"
 msgstr "地區"
 
-#: heroes/forms.py:18 meta/forms.py:19 teams/forms.py:55
+#: heroes/forms.py:18 meta/forms.py:20 teams/forms.py:55
 msgid "Patches"
 msgstr "更新檔"
 
-#: heroes/forms.py:21 meta/forms.py:23 teams/forms.py:25 teams/forms.py:58
+#: heroes/forms.py:21 meta/forms.py:24 teams/forms.py:25 teams/forms.py:58
 msgid "All patches"
 msgstr "所有更新檔"
 
 #: heroes/forms.py:24 matches/templates/tournaments/tournament_detail.html:8
 #: matches/templates/tournaments/tournament_detail.html:20
 #: matches/templates/tournaments/tournament_list.html:8
-#: matches/templates/tournaments/tournament_list.html:13 meta/forms.py:35
+#: matches/templates/tournaments/tournament_list.html:13 meta/forms.py:36
 #: teams/forms.py:71 templates/base.html:208
 #, fuzzy
 msgid "Tournaments"
 msgstr "賽事"
 
-#: heroes/forms.py:27 meta/forms.py:39 teams/forms.py:74
+#: heroes/forms.py:27 meta/forms.py:40 teams/forms.py:74
 msgid "All tournaments"
 msgstr "所有比賽"
 
@@ -422,7 +422,7 @@ msgstr "統計數據"
 #: heroes/templates/heroes/hero_list.html:8
 #: heroes/templates/heroes/hero_list.html:52
 #: maps/templates/maps/map_detail.html:26
-#: matches/templates/tournaments/tournament_overview.html:157 meta/forms.py:25
+#: matches/templates/tournaments/tournament_overview.html:157 meta/forms.py:26
 #: meta/templates/meta/base.html:30 meta/templates/meta/heroes.html:5
 #: meta/templates/meta/heroes.html:6 meta/templates/meta/players.html:23
 #: meta/templates/meta/players.html:63 meta/templates/meta/teams.html:21
@@ -634,7 +634,7 @@ msgctxt "Bans count"
 msgid "Bans"
 msgstr "禁用場次"
 
-#: heroes/views.py:172 heroes/views.py:173
+#: heroes/views.py:184 heroes/views.py:185
 msgctxt "minutes"
 msgid "mins"
 msgstr "分鐘"
@@ -986,271 +986,281 @@ msgstr ""
 msgid "Cassia Patch"
 msgstr ""
 
-#: masterleague/lc_strings.py:92
+#: masterleague/lc_strings.py:89
+#, fuzzy
+#| msgid "Greymane Patch"
+msgid "Genji Patch"
+msgstr "葛雷邁恩更新檔"
+
+#: masterleague/lc_strings.py:93
 msgid "Abathur"
 msgstr "阿巴瑟"
 
-#: masterleague/lc_strings.py:93
+#: masterleague/lc_strings.py:94
 msgid "Alarak"
 msgstr "亞拉瑞克"
 
-#: masterleague/lc_strings.py:94
+#: masterleague/lc_strings.py:95
 msgid "Anub'arak"
 msgstr "阿努巴拉克"
 
-#: masterleague/lc_strings.py:95
+#: masterleague/lc_strings.py:96
 msgid "Artanis"
 msgstr "亞坦尼斯"
 
-#: masterleague/lc_strings.py:96
+#: masterleague/lc_strings.py:97
 msgid "Arthas"
 msgstr "阿薩斯"
 
-#: masterleague/lc_strings.py:97
+#: masterleague/lc_strings.py:98
 msgid "Auriel"
 msgstr "奧莉爾"
 
-#: masterleague/lc_strings.py:98
+#: masterleague/lc_strings.py:99
 msgid "Azmodan"
 msgstr "阿茲莫丹"
 
-#: masterleague/lc_strings.py:99
+#: masterleague/lc_strings.py:100
 msgid "Brightwing"
 msgstr "亮翼"
 
-#: masterleague/lc_strings.py:100
+#: masterleague/lc_strings.py:101
 msgid "Chen"
 msgstr "老陳"
 
-#: masterleague/lc_strings.py:101
+#: masterleague/lc_strings.py:102
 msgid "Cho"
 msgstr "丘"
 
-#: masterleague/lc_strings.py:102
+#: masterleague/lc_strings.py:103
 msgid "Chromie"
 msgstr "克羅米"
 
-#: masterleague/lc_strings.py:103
+#: masterleague/lc_strings.py:104
 msgid "Dehaka"
 msgstr "德哈卡"
 
-#: masterleague/lc_strings.py:104
+#: masterleague/lc_strings.py:105
 msgid "Diablo"
 msgstr "迪亞布羅"
 
-#: masterleague/lc_strings.py:105
+#: masterleague/lc_strings.py:106
 msgid "E.T.C."
 msgstr "精英牛頭大佬"
 
-#: masterleague/lc_strings.py:106
+#: masterleague/lc_strings.py:107
 msgid "Falstad"
 msgstr "弗斯塔德"
 
-#: masterleague/lc_strings.py:107
+#: masterleague/lc_strings.py:108
 msgid "Gall"
 msgstr "加利"
 
-#: masterleague/lc_strings.py:108
+#: masterleague/lc_strings.py:109
 msgid "Gazlowe"
 msgstr "加茲魯維"
 
-#: masterleague/lc_strings.py:109
+#: masterleague/lc_strings.py:110
 msgid "Greymane"
 msgstr "葛雷邁恩"
 
-#: masterleague/lc_strings.py:110
+#: masterleague/lc_strings.py:111
 msgid "Gul'dan"
 msgstr "古爾丹"
 
-#: masterleague/lc_strings.py:111
+#: masterleague/lc_strings.py:112
 msgid "Illidan"
 msgstr "伊利丹"
 
-#: masterleague/lc_strings.py:112
+#: masterleague/lc_strings.py:113
 msgid "Jaina"
 msgstr "珍娜"
 
-#: masterleague/lc_strings.py:113
+#: masterleague/lc_strings.py:114
 msgid "Johanna"
 msgstr "喬安娜"
 
-#: masterleague/lc_strings.py:114
+#: masterleague/lc_strings.py:115
 msgid "Kael'thas"
 msgstr "凱爾薩斯"
 
-#: masterleague/lc_strings.py:115
+#: masterleague/lc_strings.py:116
 msgid "Kerrigan"
 msgstr "凱莉根"
 
-#: masterleague/lc_strings.py:116
+#: masterleague/lc_strings.py:117
 msgid "Kharazim"
 msgstr "克拉辛"
 
-#: masterleague/lc_strings.py:117
+#: masterleague/lc_strings.py:118
 msgid "Leoric"
 msgstr "李奧瑞克"
 
-#: masterleague/lc_strings.py:118
+#: masterleague/lc_strings.py:119
 msgid "Li Li"
 msgstr "莉莉"
 
-#: masterleague/lc_strings.py:119
+#: masterleague/lc_strings.py:120
 msgid "Li-Ming"
 msgstr "李敏"
 
-#: masterleague/lc_strings.py:120
+#: masterleague/lc_strings.py:121
 msgid "Lt. Morales"
 msgstr "莫拉萊斯中尉"
 
-#: masterleague/lc_strings.py:121
+#: masterleague/lc_strings.py:122
 msgid "Lucio"
 msgstr ""
 
-#: masterleague/lc_strings.py:122
+#: masterleague/lc_strings.py:123
 msgid "Lunara"
 msgstr "露娜拉"
 
-#: masterleague/lc_strings.py:123
+#: masterleague/lc_strings.py:124
 msgid "Malfurion"
 msgstr "瑪法里恩"
 
-#: masterleague/lc_strings.py:124
+#: masterleague/lc_strings.py:125
 msgid "Medivh"
 msgstr "麥迪文"
 
-#: masterleague/lc_strings.py:125
+#: masterleague/lc_strings.py:126
 msgid "Muradin"
 msgstr "穆拉丁"
 
-#: masterleague/lc_strings.py:126
+#: masterleague/lc_strings.py:127
 msgid "Murky"
 msgstr "莫奇"
 
-#: masterleague/lc_strings.py:127
+#: masterleague/lc_strings.py:128
 msgid "Nazeebo"
 msgstr "納奇班"
 
-#: masterleague/lc_strings.py:128
+#: masterleague/lc_strings.py:129
 msgid "Nova"
 msgstr "諾娃"
 
-#: masterleague/lc_strings.py:129
+#: masterleague/lc_strings.py:130
 msgid "Ragnaros"
 msgstr ""
 
-#: masterleague/lc_strings.py:130
+#: masterleague/lc_strings.py:131
 msgid "Raynor"
 msgstr "雷諾"
 
-#: masterleague/lc_strings.py:131
+#: masterleague/lc_strings.py:132
 msgid "Rehgar"
 msgstr "雷加"
 
-#: masterleague/lc_strings.py:132
+#: masterleague/lc_strings.py:133
 msgid "Rexxar"
 msgstr "雷克薩"
 
-#: masterleague/lc_strings.py:133
+#: masterleague/lc_strings.py:134
 msgid "Samuro"
 msgstr "薩姆羅"
 
-#: masterleague/lc_strings.py:134
+#: masterleague/lc_strings.py:135
 msgid "Sgt. Hammer"
 msgstr "榔頭中士"
 
-#: masterleague/lc_strings.py:135
+#: masterleague/lc_strings.py:136
 msgid "Sonya"
 msgstr "桑雅"
 
-#: masterleague/lc_strings.py:136
+#: masterleague/lc_strings.py:137
 msgid "Stitches"
 msgstr "縫合怪"
 
-#: masterleague/lc_strings.py:137
+#: masterleague/lc_strings.py:138
 msgid "Sylvanas"
 msgstr "希瓦娜斯"
 
-#: masterleague/lc_strings.py:138
+#: masterleague/lc_strings.py:139
 msgid "Tassadar"
 msgstr "塔薩達"
 
-#: masterleague/lc_strings.py:139
+#: masterleague/lc_strings.py:140
 msgid "The Butcher"
 msgstr "屠夫"
 
-#: masterleague/lc_strings.py:140
+#: masterleague/lc_strings.py:141
 msgid "The Lost Vikings"
 msgstr "失落的維京人"
 
-#: masterleague/lc_strings.py:141
+#: masterleague/lc_strings.py:142
 msgid "Thrall"
 msgstr "索爾"
 
-#: masterleague/lc_strings.py:142
+#: masterleague/lc_strings.py:143
 msgid "Tracer"
 msgstr "閃光"
 
-#: masterleague/lc_strings.py:143
+#: masterleague/lc_strings.py:144
 msgid "Tychus"
 msgstr "泰科斯"
 
-#: masterleague/lc_strings.py:144
+#: masterleague/lc_strings.py:145
 msgid "Tyrael"
 msgstr "泰瑞爾"
 
-#: masterleague/lc_strings.py:145
+#: masterleague/lc_strings.py:146
 msgid "Tyrande"
 msgstr "泰蘭妲"
 
-#: masterleague/lc_strings.py:146
+#: masterleague/lc_strings.py:147
 msgid "Uther"
 msgstr "烏瑟"
 
-#: masterleague/lc_strings.py:147
+#: masterleague/lc_strings.py:148
 msgid "Valeera"
 msgstr ""
 
-#: masterleague/lc_strings.py:148
+#: masterleague/lc_strings.py:149
 msgid "Valla"
 msgstr "維拉"
 
-#: masterleague/lc_strings.py:149
+#: masterleague/lc_strings.py:150
 msgid "Varian"
 msgstr "瓦里安"
 
-#: masterleague/lc_strings.py:150
+#: masterleague/lc_strings.py:151
 msgid "Xul"
 msgstr "蘇爾"
 
-#: masterleague/lc_strings.py:151
+#: masterleague/lc_strings.py:152
 msgid "Zagara"
 msgstr "扎迦拉"
 
-#: masterleague/lc_strings.py:152
+#: masterleague/lc_strings.py:153
 msgid "Zarya"
 msgstr "扎莉雅"
 
-#: masterleague/lc_strings.py:153
+#: masterleague/lc_strings.py:154
 msgid "Zeratul"
 msgstr "澤拉圖"
 
-#: masterleague/lc_strings.py:154
+#: masterleague/lc_strings.py:155
 msgid "Zul'jin"
 msgstr ""
 
-#: masterleague/lc_strings.py:155
+#: masterleague/lc_strings.py:156
 msgid "Probius"
 msgstr ""
 
-#: masterleague/lc_strings.py:156
+#: masterleague/lc_strings.py:157
 msgid "Cassia"
+msgstr ""
+
+#: masterleague/lc_strings.py:158
+msgid "Genji"
 msgstr ""
 
 #: matches/forms.py:17 teams/forms.py:15 teams/forms.py:40
 msgid "Patch"
 msgstr "更新檔"
 
-#: matches/forms.py:18 teams/forms.py:41 teams/views.py:98
+#: matches/forms.py:18 teams/forms.py:41 teams/views.py:108
 msgctxt "All patches"
 msgid "All Time"
 msgstr "全時間段"
@@ -1570,7 +1580,7 @@ msgstr "參賽隊伍"
 msgid "Main Event Statistics"
 msgstr "正賽數據統計"
 
-#: meta/forms.py:32 teams/forms.py:64
+#: meta/forms.py:33 teams/forms.py:64
 #, fuzzy
 #| msgid "All Heroes"
 msgid "All heroes"
@@ -1668,8 +1678,8 @@ msgstr "選手比較"
 
 #: meta/templates/meta/players.html:105 meta/templates/meta/teams.html:93
 #: teams/templates/players/player_heroes.html:41
-#: teams/templates/players/player_overview.html:24 teams/views.py:587
-#: teams/views.py:610
+#: teams/templates/players/player_overview.html:24 teams/views.py:598
+#: teams/views.py:621
 msgid "KDA"
 msgstr "KDA"
 
@@ -1876,7 +1886,7 @@ msgstr "找不到"
 msgid "Search"
 msgstr "搜尋"
 
-#: teams/forms.py:27 teams/views.py:104
+#: teams/forms.py:27 teams/views.py:114
 msgid "Current Roster"
 msgstr "當前名單"
 
@@ -2058,7 +2068,7 @@ msgstr "攻城傷害"
 msgid "Average Match Time"
 msgstr ""
 
-#: teams/templates/players/player_overview.html:102 teams/views.py:618
+#: teams/templates/players/player_overview.html:102 teams/views.py:629
 msgid "Analyzed Replays"
 msgstr "已分析的錄影"
 
@@ -2275,27 +2285,27 @@ msgstr ""
 "該評分是根據該選手和其他選手在同一更新檔期間用同樣的英雄打出的統計數據相比算"
 "出的。"
 
-#: teams/views.py:588
+#: teams/views.py:599
 msgctxt "Hero damage"
 msgid "Hero"
 msgstr "英雄傷害"
 
-#: teams/views.py:589
+#: teams/views.py:600
 msgctxt "Siege damage"
 msgid "Siege"
 msgstr "攻城傷害"
 
-#: teams/views.py:590
+#: teams/views.py:601
 msgctxt "Amount of time player was not dead during the match"
 msgid "Lifetime"
 msgstr "存活時間"
 
-#: teams/views.py:591
+#: teams/views.py:602
 msgctxt "Crowd control duration"
 msgid "CC"
 msgstr "控場時間"
 
-#: teams/views.py:592
+#: teams/views.py:603
 #, fuzzy
 #| msgctxt "Expirience"
 #| msgid "XP"
@@ -2303,37 +2313,37 @@ msgctxt "Experience"
 msgid "XP"
 msgstr "經驗值"
 
-#: teams/views.py:593
+#: teams/views.py:604
 msgctxt "Healing amount (for healers) or Damage taken (for warriors)"
 msgid "Role"
 msgstr "角色"
 
-#: teams/views.py:611
+#: teams/views.py:622
 msgctxt "Amount of time player was not dead during the match"
 msgid "Lifetime / Min"
 msgstr "存活時間/分鐘"
 
-#: teams/views.py:612
+#: teams/views.py:623
 msgid "Siege Damage / Min"
 msgstr "攻城傷害/分鐘"
 
-#: teams/views.py:613
+#: teams/views.py:624
 msgid "Hero Damage / Min"
 msgstr "英雄傷害/分鐘"
 
-#: teams/views.py:614
+#: teams/views.py:625
 msgid "Healing / Min"
 msgstr "治療量/分鐘"
 
-#: teams/views.py:615
+#: teams/views.py:626
 msgid "Damage Taken / Min"
 msgstr "承受的傷害量/分鐘"
 
-#: teams/views.py:616
+#: teams/views.py:627
 msgid "CC Duration / Min"
 msgstr "控場時間/分鐘"
 
-#: teams/views.py:617
+#: teams/views.py:628
 msgid "Experience / Min"
 msgstr "經驗值/分鐘"
 
