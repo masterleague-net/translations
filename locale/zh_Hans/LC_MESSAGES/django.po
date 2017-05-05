@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-05 08:19+0000\n"
+"POT-Creation-Date: 2017-05-05 19:24+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Jiahao Liang <gzliangjiahao@gmail.com>\n"
 "Language-Team: \n"
@@ -314,6 +314,7 @@ msgid "No new notifications"
 msgstr "没有新的通知"
 
 #: comments/templatetags/comments_tags.py:72
+#, python-format
 msgid "%s tag requires a queryset"
 msgstr ""
 
@@ -361,6 +362,7 @@ msgstr "天赋点法"
 #: heroes/templates/heroes/hero_overview.html:174
 #: teams/templates/teams/summary.html:4
 #: teams/templates/teams/team_heroes.html:26
+#, python-format
 msgid "Win %%"
 msgstr "胜率 %%"
 
@@ -428,22 +430,27 @@ msgid "Heroes"
 msgstr "英雄"
 
 #: heroes/templates/heroes/hero_detail.html:66
+#, python-format
 msgid "First wave pick (%(pick1_count)s matches)"
 msgstr "第一阶段被选择的场次（%(pick1_count)s场）"
 
 #: heroes/templates/heroes/hero_detail.html:67
+#, python-format
 msgid "Second wave pick (%(pick2_count)s matches)"
 msgstr "第二阶段被选择的场次（%(pick2_count)s场）"
 
 #: heroes/templates/heroes/hero_detail.html:68
+#, python-format
 msgid "First wave ban (%(ban1_count)s matches)"
 msgstr "第一阶段被禁用的场次（%(ban1_count)s场）"
 
 #: heroes/templates/heroes/hero_detail.html:69
+#, python-format
 msgid "Second wave ban (%(ban2_count)s matches)"
 msgstr "第二阶段被禁用的场次（%(ban2_count)s场）"
 
 #: heroes/templates/heroes/hero_detail.html:70
+#, python-format
 msgid "Not banned or picked (%(popularity_blank_count)s matches)"
 msgstr "既没禁用也没选择的场次（%(popularity_blank_count)s场）"
 
@@ -468,6 +475,7 @@ msgid "Popularity"
 msgstr "出镜率"
 
 #: heroes/templates/heroes/hero_detail.html:250
+#, python-format
 msgid "%(match_count)s of %(total_matches)s matches"
 msgstr "总共%(total_matches)s场中的%(match_count)s场"
 
@@ -477,6 +485,7 @@ msgid "Wins"
 msgstr "胜场"
 
 #: heroes/templates/heroes/hero_detail.html:263
+#, python-format
 msgid "%(win_count)s of %(pick_count)s matches"
 msgstr "总共被选的%(pick_count)s场中的%(win_count)s场"
 
@@ -566,7 +575,9 @@ msgid "Win Rate vs Game Duration"
 msgstr "胜率 vs 游戏时长"
 
 #: heroes/templates/heroes/hero_overview.html:186
-msgid "Popularity per Patch chart is based on the analysis of the latest patches for the selected region(s)."
+msgid ""
+"Popularity per Patch chart is based on the analysis of the latest patches "
+"for the selected region(s)."
 msgstr "各个版本的出镜率趋势图是根据对所选地区最新补丁的比赛结果分析得到的。"
 
 #: heroes/templates/heroes/hero_overview.html:191
@@ -833,6 +844,7 @@ msgid "Hanamura"
 msgstr "花村"
 
 #: masterleague/lc_strings.py:55
+#, python-format
 msgid "Altar captured. Shots fired: %(shots_fired)s."
 msgstr "占领祭坛。祭坛伤害：%(shots_fired)s。"
 
@@ -869,6 +881,7 @@ msgid "Raven curse activated"
 msgstr "激活乌鸦之神的诅咒"
 
 #: masterleague/lc_strings.py:64
+#, python-format
 msgid "Temple shots fired. Total Shot Damage: %(total_shot_damage)s."
 msgstr "神殿开火。神殿总伤害：%(total_shot_damage)s。"
 
@@ -877,6 +890,7 @@ msgid "Webweavers spawned"
 msgstr "召唤织网者"
 
 #: masterleague/lc_strings.py:66
+#, python-format
 msgid "Zerg rush. Opposing score: %(opposing_score)s%%."
 msgstr "异虫冲锋。对手虫群百分比：%(opposing_score)s%%。"
 
@@ -1247,6 +1261,7 @@ msgid "All Heroes"
 msgstr "所有英雄"
 
 #: matches/templates/admin/tabular.html:121
+#, python-format
 msgid "Add another %(verbose_name)s"
 msgstr "添加另一个%(verbose_name)s"
 
@@ -1381,12 +1396,18 @@ msgid "Exp"
 msgstr "贡献经验"
 
 #: matches/templates/matches/match_stats.html:347
-msgid "The rating hasn't been calculated yet or cannot be calculated due to the small amount of games on this hero."
+msgid ""
+"The rating hasn't been calculated yet or cannot be calculated due to the "
+"small amount of games on this hero."
 msgstr "该评分尚未计算完毕或是因为比赛数量不足无法算出。"
 
 #: matches/templates/matches/match_stats.html:349
-msgid "The rating is based on statistics of the player as compared to statistics of other players on the same hero in the same patches."
-msgstr "该评分是根据该选手和其他选手在同一版本用同样的英雄打出的统计数据相比计算得出的。"
+msgid ""
+"The rating is based on statistics of the player as compared to statistics of "
+"other players on the same hero in the same patches."
+msgstr ""
+"该评分是根据该选手和其他选手在同一版本用同样的英雄打出的统计数据相比计算得出"
+"的。"
 
 #: matches/templates/matches/match_stats.html:419
 msgctxt "Hero talents"
@@ -1419,6 +1440,7 @@ msgid "Spoilers"
 msgstr "显示比赛结果"
 
 #: matches/templates/matches/matches_inline.html:94
+#, python-format
 msgid "Game %(game_number)s"
 msgstr "第%(game_number)s局"
 
@@ -1595,6 +1617,7 @@ msgid "Count"
 msgstr "局数"
 
 #: meta/templates/meta/heroes.html:12
+#, python-format
 msgid "Unpicked Heroes (%(unpicked_heroes_count)s of %(heroes_count)s)"
 msgstr "%(unpicked_heroes_count)s位英雄未选（总%(heroes_count)s）"
 
@@ -1690,8 +1713,6 @@ msgstr "专业型"
 msgid "The highest average number of takedowns"
 msgstr "平均总击杀数最高"
 
-#. Is this highest mean lowest?
-#. What is the difference between kills and takedowns?
 #: meta/views.py:273
 msgid "The highest average number of kills"
 msgstr "平均直接击杀数最高"
@@ -1700,7 +1721,6 @@ msgstr "平均直接击杀数最高"
 msgid "The highest average number of assists"
 msgstr "平均助攻数最多"
 
-#. Omit "Player that" because the other parallel items doesnt have that, so that it looks better
 #: meta/views.py:295
 msgid "Player that spent the most time alive"
 msgstr "游戏存活时间最长"
@@ -1736,8 +1756,13 @@ msgid "Your local time"
 msgstr "本地时间"
 
 #: pages/templates/calendar_base.html:71
-msgid "If you are a Google Calendar user, copy the button link location, open Google Calendar, find 'Other Calendars', choose 'Add by URL' and paste the link into the URL field."
-msgstr "如果你是Google日历的用户，请复制按钮的链接，打开Google日历，找到“其它日历”，选择“通过URL添加”，然后把链接地址粘贴到URL栏里。"
+msgid ""
+"If you are a Google Calendar user, copy the button link location, open "
+"Google Calendar, find 'Other Calendars', choose 'Add by URL' and paste the "
+"link into the URL field."
+msgstr ""
+"如果你是Google日历的用户，请复制按钮的链接，打开Google日历，找到“其它日历”，"
+"选择“通过URL添加”，然后把链接地址粘贴到URL栏里。"
 
 #: pages/templates/calendar_base.html:74
 msgid "Subscribe to Calendar"
@@ -1772,9 +1797,25 @@ msgid "Welcome to Master League"
 msgstr "欢迎来到Master League"
 
 #: pages/templates/mainpage.html:13
+#, python-format
 msgctxt "Greeting"
-msgid "Here you can find the latest results, VODs and replays of <a href=\"http://heroesofthestorm.com/\" target=\"_blank\"><strong>Heroes of the Storm</strong></a> competitive games, indepth statistics of players and teams from different regions and more. Currently we have detailed information about <a href=\"%(match_list_url)s\"><strong>%(match_count)s</strong></a> matches, <a href=\"%(team_list_url)s\"><strong>%(team_count)s</strong></a> teams and <a href=\"%(player_list_url)s\"><strong>%(player_count)s</strong></a> professional players in our database."
-msgstr "在这里你能看到<a href=\"http://heroes.blizzard.cn/\" target=\"_blank\"><strong>风暴英雄</strong></a>的最新的比赛结果，回放和录像，还能找到关于各个地区各个选手和战队的深度统计，以及更多精彩的內容。目前为止我们的数据库已经收录了约 <a href=\"%(match_list_url)s\"><strong>%(match_count)s</strong></a>场比赛，<a href=\"%(team_list_url)s\"><strong>%(team_count)s</strong></a>支队伍和<a href=\"%(player_list_url)s\"><strong>%(player_count)s</strong></a>名职业选手的资料。"
+msgid ""
+"Here you can find the latest results, VODs and replays of <a href=\"http://"
+"heroesofthestorm.com/\" target=\"_blank\"><strong>Heroes of the Storm</"
+"strong></a> competitive games, indepth statistics of players and teams from "
+"different regions and more. Currently we have detailed information about <a "
+"href=\"%(match_list_url)s\"><strong>%(match_count)s</strong></a> matches, <a "
+"href=\"%(team_list_url)s\"><strong>%(team_count)s</strong></a> teams and <a "
+"href=\"%(player_list_url)s\"><strong>%(player_count)s</strong></a> "
+"professional players in our database."
+msgstr ""
+"在这里你能看到<a href=\"http://heroes.blizzard.cn/\" target=\"_blank"
+"\"><strong>风暴英雄</strong></a>的最新的比赛结果，回放和录像，还能找到关于各"
+"个地区各个选手和战队的深度统计，以及更多精彩的內容。目前为止我们的数据库已经"
+"收录了约 <a href=\"%(match_list_url)s\"><strong>%(match_count)s</strong></a>"
+"场比赛，<a href=\"%(team_list_url)s\"><strong>%(team_count)s</strong></a>支队"
+"伍和<a href=\"%(player_list_url)s\"><strong>%(player_count)s</strong></a>名职"
+"业选手的资料。"
 
 #: pages/templates/mainpage.html:27
 msgid "Latest News"
@@ -2100,6 +2141,7 @@ msgid "Most Played Heroes"
 msgstr "最常用的英雄"
 
 #: teams/templates/teams/team_heroes.html:94
+#, python-format
 msgid "Most Banned by %(team)s"
 msgstr "%(team)s最常禁用的英雄"
 
@@ -2108,6 +2150,7 @@ msgid "Most Banned by Opponents"
 msgstr "对手最常禁用的英雄"
 
 #: teams/templates/teams/team_heroes.html:140
+#, python-format
 msgid "Loss %%"
 msgstr "败率 %%"
 
