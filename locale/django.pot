@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-26 16:20+0000\n"
+"POT-Creation-Date: 2017-05-05 08:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2206,9 +2206,12 @@ msgid "To date"
 msgstr ""
 
 #: teams/templatetags/ppr_tags.py:14
+#, python-format
 msgid ""
 "The rating is based on statistics of the player as compared to statistics of "
-"other players on the "
+"other players on the same hero in the same patches.<br /><br />Computed by "
+"analyzing <strong>%(ppr_match_count)s matches</strong> with replays out of "
+"<strong>%(match_count)s matches</strong> in total."
 msgstr ""
 
 #: teams/views.py:599

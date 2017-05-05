@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-26 16:20+0000\n"
+"POT-Creation-Date: 2017-05-05 08:19+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -112,7 +112,8 @@ msgstr "Войти через Battle.net"
 msgid "Matches"
 msgstr "Матчи"
 
-#: bets/templates/bets/bets_base.html:56 bets/templates/bets/leaderboard.html:5
+#: bets/templates/bets/bets_base.html:56
+#: bets/templates/bets/leaderboard.html:5
 #: bets/templates/bets/leaderboard.html:7
 #: bets/templates/bets/leaderboard.html:27
 msgid "Leaderboard"
@@ -629,8 +630,9 @@ msgctxt "minutes"
 msgid "mins"
 msgstr "мин"
 
-#: maps/templates/maps/map_detail.html:8 maps/templates/maps/map_detail.html:13
-#: maps/templates/maps/map_list.html:8 maps/templates/maps/map_list.html:13
+#: maps/templates/maps/map_detail.html:8
+#: maps/templates/maps/map_detail.html:13 maps/templates/maps/map_list.html:8
+#: maps/templates/maps/map_list.html:13
 #: matches/templates/tournaments/tournament_overview.html:155
 #: meta/templates/meta/base.html:28 meta/templates/meta/maps.html:5
 #: meta/templates/meta/maps.html:6 templates/base.html:210
@@ -2218,10 +2220,17 @@ msgid "To date"
 msgstr "По"
 
 #: teams/templatetags/ppr_tags.py:14
+#, python-format
 msgid ""
 "The rating is based on statistics of the player as compared to statistics of "
-"other players on the "
+"other players on the same hero in the same patches.<br /><br />Computed by "
+"analyzing <strong>%(ppr_match_count)s matches</strong> with replays out of "
+"<strong>%(match_count)s matches</strong> in total."
 msgstr ""
+"Рейтинг основан на сравнении статистики игрока со статистикой других игроков "
+"на том же герое за тот же игровой период.<br /><br />Вычислено на основе "
+"анализа <strong>%(ppr_match_count)s матчей</strong> с реплеями из <strong>"
+"%(match_count)s сыгранных матчей</strong>."
 
 #: teams/views.py:599
 msgctxt "Hero damage"
@@ -2336,17 +2345,6 @@ msgstr "Помогите нам с переводом!"
 #~ msgctxt "Player overview"
 #~ msgid "Overview"
 #~ msgstr "Общая"
-
-#~ msgid ""
-#~ "The rating is based on statistics of the player as compared to statistics "
-#~ "of other players on the same hero in the same patches.<br /><br /"
-#~ ">Computed by analyzing <strong>%(ppr_match_count)s matches</strong> with "
-#~ "replays out of <strong>%(match_count)s matches</strong> in total."
-#~ msgstr ""
-#~ "Рейтинг основан на сравнении статистики игрока со статистикой других "
-#~ "игроков на том же герое за тот же игровой период.<br /><br />Вычислено на "
-#~ "основе анализа <strong>%(ppr_match_count)s матчей</strong> с реплеями из "
-#~ "<strong>%(match_count)s сыгранных матчей</strong>."
 
 #~ msgid ""
 #~ "Too few matches played (%(total_match_count)s of 50 minimum required) in "
