@@ -112,8 +112,7 @@ msgstr "Zaloguj przez Battle.net"
 msgid "Matches"
 msgstr "Mecze"
 
-#: bets/templates/bets/bets_base.html:56
-#: bets/templates/bets/leaderboard.html:5
+#: bets/templates/bets/bets_base.html:56 bets/templates/bets/leaderboard.html:5
 #: bets/templates/bets/leaderboard.html:7
 #: bets/templates/bets/leaderboard.html:27
 msgid "Leaderboard"
@@ -630,9 +629,8 @@ msgctxt "minutes"
 msgid "mins"
 msgstr "min"
 
-#: maps/templates/maps/map_detail.html:8
-#: maps/templates/maps/map_detail.html:13 maps/templates/maps/map_list.html:8
-#: maps/templates/maps/map_list.html:13
+#: maps/templates/maps/map_detail.html:8 maps/templates/maps/map_detail.html:13
+#: maps/templates/maps/map_list.html:8 maps/templates/maps/map_list.html:13
 #: matches/templates/tournaments/tournament_overview.html:155
 #: meta/templates/meta/base.html:28 meta/templates/meta/maps.html:5
 #: meta/templates/meta/maps.html:6 templates/base.html:210
@@ -840,7 +838,7 @@ msgstr "Poligon Nuklearny"
 
 #: masterleague/lc_strings.py:51
 msgid "Hanamura"
-msgstr ""
+msgstr "Hanamura"
 
 #: masterleague/lc_strings.py:55
 #, python-format
@@ -974,10 +972,8 @@ msgid "Cassia Patch"
 msgstr "Wersja Kasja"
 
 #: masterleague/lc_strings.py:90
-#, fuzzy
-#| msgid "Greymane Patch"
 msgid "Genji Patch"
-msgstr "Wersja Greymane"
+msgstr "Wersja Genji"
 
 #: masterleague/lc_strings.py:94
 msgid "Abathur"
@@ -1241,7 +1237,7 @@ msgstr "Kasja"
 
 #: masterleague/lc_strings.py:159
 msgid "Genji"
-msgstr ""
+msgstr "Genji"
 
 #: matches/forms.py:17 teams/forms.py:15 teams/forms.py:40
 msgid "Patch"
