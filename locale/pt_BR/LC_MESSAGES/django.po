@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-05 19:24+0000\n"
+"POT-Creation-Date: 2017-05-23 16:24+0000\n"
 "Language: pt-br\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -73,7 +73,7 @@ msgstr "ganhe prêmios"
 
 #: bets/templates/bets/bets_base.html:47
 #: bets/templates/bets/leaderboard.html:65
-#: bets/templates/bets/matches_include.html:55
+#: bets/templates/bets/matches_include.html:63
 msgid "Points"
 msgstr "Pontos"
 
@@ -199,14 +199,14 @@ msgstr "Próximas partidas"
 msgid "Completed matches"
 msgstr "Partidas terminadas"
 
-#: bets/templates/bets/matches_include.html:33
-#: bets/templates/bets/matches_include.html:35
+#: bets/templates/bets/matches_include.html:37
+#: bets/templates/bets/matches_include.html:39
 msgid "Your bet"
 msgstr "Sua aposta"
 
-#: bets/templates/bets/matches_include.html:33
-#: bets/templates/bets/matches_include.html:35
+#: bets/templates/bets/matches_include.html:37
 #: bets/templates/bets/matches_include.html:39
+#: bets/templates/bets/matches_include.html:43
 msgid "Total bets"
 msgstr "Total de apostas"
 
@@ -326,6 +326,37 @@ msgctxt "Page navigation"
 msgid "Next"
 msgstr "Próximo"
 
+#: custom/templates/custom/team_heroes.html:5
+#: heroes/templates/heroes/hero_detail.html:8
+#: heroes/templates/heroes/hero_detail.html:200
+#: heroes/templates/heroes/hero_list.html:8
+#: heroes/templates/heroes/hero_list.html:52
+#: maps/templates/maps/map_detail.html:26
+#: matches/templates/tournaments/tournament_overview.html:155 meta/forms.py:26
+#: meta/templates/meta/base.html:30 meta/templates/meta/heroes.html:5
+#: meta/templates/meta/heroes.html:6 meta/templates/meta/players.html:23
+#: meta/templates/meta/players.html:63 meta/templates/meta/teams.html:21
+#: meta/templates/meta/teams.html:56
+#: teams/templates/players/player_detail.html:80
+#: teams/templates/players/player_heroes.html:5
+#: teams/templates/teams/team_detail.html:62
+#: teams/templates/teams/team_heroes.html:8 templates/base.html:211
+msgid "Heroes"
+msgstr "Heróis"
+
+#: custom/templates/custom/team_heroes.html:77
+#: meta/templates/meta/heroes.html:12
+#, python-format
+msgid "Unpicked Heroes (%(unpicked_heroes_count)s of %(heroes_count)s)"
+msgstr ""
+
+#: custom/templates/custom/team_heroes.html:97
+#: matches/templates/tournaments/tournament_overview.html:9
+#: meta/templates/meta/heroes.html:32
+msgctxt "Hero tier"
+msgid "Tier"
+msgstr "Tier"
+
 #: heroes/forms.py:13 meta/forms.py:14
 msgid "Regions"
 msgstr "Regiões"
@@ -380,7 +411,7 @@ msgstr "Nenhum replay para o período selecionado."
 #, fuzzy
 #| msgctxt "Second pick stats"
 #| msgid "Second pick"
-msgid "Second pick"
+msgid "counter picks"
 msgstr "Segundo Pick"
 
 #: heroes/templates/heroes/hero_counters.html:9
@@ -414,23 +445,6 @@ msgstr "Abates por partida"
 #: heroes/templates/heroes/hero_detail.html:5
 msgid "statistics"
 msgstr "Estatísticas"
-
-#: heroes/templates/heroes/hero_detail.html:8
-#: heroes/templates/heroes/hero_detail.html:200
-#: heroes/templates/heroes/hero_list.html:8
-#: heroes/templates/heroes/hero_list.html:52
-#: maps/templates/maps/map_detail.html:26
-#: matches/templates/tournaments/tournament_overview.html:157 meta/forms.py:26
-#: meta/templates/meta/base.html:30 meta/templates/meta/heroes.html:5
-#: meta/templates/meta/heroes.html:6 meta/templates/meta/players.html:23
-#: meta/templates/meta/players.html:63 meta/templates/meta/teams.html:21
-#: meta/templates/meta/teams.html:56
-#: teams/templates/players/player_detail.html:80
-#: teams/templates/players/player_heroes.html:5
-#: teams/templates/teams/team_detail.html:62
-#: teams/templates/teams/team_heroes.html:8 templates/base.html:211
-msgid "Heroes"
-msgstr "Heróis"
 
 #: heroes/templates/heroes/hero_detail.html:66
 #, fuzzy, python-format
@@ -645,7 +659,7 @@ msgstr "mins"
 #: maps/templates/maps/map_detail.html:8
 #: maps/templates/maps/map_detail.html:13 maps/templates/maps/map_list.html:8
 #: maps/templates/maps/map_list.html:13
-#: matches/templates/tournaments/tournament_overview.html:155
+#: matches/templates/tournaments/tournament_overview.html:153
 #: meta/templates/meta/base.html:28 meta/templates/meta/maps.html:5
 #: meta/templates/meta/maps.html:6 templates/base.html:210
 msgid "Maps"
@@ -653,14 +667,14 @@ msgstr "Mapas"
 
 #: maps/templates/maps/map_detail.html:25
 #: matches/templates/matches/matches_inline.html:24
-#: matches/templates/tournaments/tournament_overview.html:156
+#: matches/templates/tournaments/tournament_overview.html:154
 #: meta/templates/meta/base.html:29 meta/templates/meta/drafts.html:5
 #: meta/templates/meta/drafts.html:6
 msgid "Drafts"
 msgstr "Draft"
 
 #: maps/templates/maps/map_detail.html:27
-#: matches/templates/tournaments/tournament_overview.html:158
+#: matches/templates/tournaments/tournament_overview.html:156
 #: meta/templates/meta/base.html:31 meta/templates/meta/players.html:5
 #: meta/templates/meta/players.html:6 search/templates/search/search.html:39
 #: teams/templates/players/player_detail.html:8
@@ -682,7 +696,7 @@ msgid "Players"
 msgstr "Jogadores"
 
 #: maps/templates/maps/map_detail.html:28
-#: matches/templates/tournaments/tournament_overview.html:159
+#: matches/templates/tournaments/tournament_overview.html:157
 #: meta/templates/meta/base.html:32 meta/templates/meta/teams.html:5
 #: meta/templates/meta/teams.html:6 search/templates/search/search.html:21
 #: teams/templates/teams/team_detail.html:8
@@ -995,268 +1009,278 @@ msgstr ""
 msgid "Genji Patch"
 msgstr "Patch de Greymane"
 
-#: masterleague/lc_strings.py:94
+#: masterleague/lc_strings.py:91
+#, fuzzy
+#| msgid "Dehaka Patch"
+msgid "D.Va Patch"
+msgstr "Patch de Dehaka"
+
+#: masterleague/lc_strings.py:95
 msgid "Abathur"
 msgstr "Abathur"
 
-#: masterleague/lc_strings.py:95
+#: masterleague/lc_strings.py:96
 msgid "Alarak"
 msgstr "Alarak"
 
-#: masterleague/lc_strings.py:96
+#: masterleague/lc_strings.py:97
 msgid "Anub'arak"
 msgstr "Anub'arak"
 
-#: masterleague/lc_strings.py:97
+#: masterleague/lc_strings.py:98
 msgid "Artanis"
 msgstr "Artanis"
 
-#: masterleague/lc_strings.py:98
+#: masterleague/lc_strings.py:99
 msgid "Arthas"
 msgstr "Arthas"
 
-#: masterleague/lc_strings.py:99
+#: masterleague/lc_strings.py:100
 msgid "Auriel"
 msgstr "Auriel"
 
-#: masterleague/lc_strings.py:100
+#: masterleague/lc_strings.py:101
 msgid "Azmodan"
 msgstr "Azmodan"
 
-#: masterleague/lc_strings.py:101
+#: masterleague/lc_strings.py:102
 msgid "Brightwing"
 msgstr "Asaluz"
 
-#: masterleague/lc_strings.py:102
+#: masterleague/lc_strings.py:103
 msgid "Chen"
 msgstr "Chen"
 
-#: masterleague/lc_strings.py:103
+#: masterleague/lc_strings.py:104
 msgid "Cho"
 msgstr "Cho"
 
-#: masterleague/lc_strings.py:104
+#: masterleague/lc_strings.py:105
 msgid "Chromie"
 msgstr "Crona"
 
-#: masterleague/lc_strings.py:105
+#: masterleague/lc_strings.py:106
 msgid "Dehaka"
 msgstr "Dehaka"
 
-#: masterleague/lc_strings.py:106
+#: masterleague/lc_strings.py:107
 msgid "Diablo"
 msgstr "Diablo"
 
-#: masterleague/lc_strings.py:107
+#: masterleague/lc_strings.py:108
 msgid "E.T.C."
 msgstr "C.T.E."
 
-#: masterleague/lc_strings.py:108
+#: masterleague/lc_strings.py:109
 msgid "Falstad"
 msgstr "Falstad"
 
-#: masterleague/lc_strings.py:109
+#: masterleague/lc_strings.py:110
 msgid "Gall"
 msgstr "Gall"
 
-#: masterleague/lc_strings.py:110
+#: masterleague/lc_strings.py:111
 msgid "Gazlowe"
 msgstr "Gasganete"
 
-#: masterleague/lc_strings.py:111
+#: masterleague/lc_strings.py:112
 msgid "Greymane"
 msgstr "Greymane"
 
-#: masterleague/lc_strings.py:112
+#: masterleague/lc_strings.py:113
 msgid "Gul'dan"
 msgstr "Gul'dan"
 
-#: masterleague/lc_strings.py:113
+#: masterleague/lc_strings.py:114
 msgid "Illidan"
 msgstr "Illidan"
 
-#: masterleague/lc_strings.py:114
+#: masterleague/lc_strings.py:115
 msgid "Jaina"
 msgstr "Jaina"
 
-#: masterleague/lc_strings.py:115
+#: masterleague/lc_strings.py:116
 msgid "Johanna"
 msgstr "Johanna"
 
-#: masterleague/lc_strings.py:116
+#: masterleague/lc_strings.py:117
 msgid "Kael'thas"
 msgstr "Kael'thas"
 
-#: masterleague/lc_strings.py:117
+#: masterleague/lc_strings.py:118
 msgid "Kerrigan"
 msgstr "Kerrigan"
 
-#: masterleague/lc_strings.py:118
+#: masterleague/lc_strings.py:119
 msgid "Kharazim"
 msgstr "Kharazim"
 
-#: masterleague/lc_strings.py:119
+#: masterleague/lc_strings.py:120
 msgid "Leoric"
 msgstr "Leoric"
 
-#: masterleague/lc_strings.py:120
+#: masterleague/lc_strings.py:121
 msgid "Li Li"
 msgstr "Li Li"
 
-#: masterleague/lc_strings.py:121
+#: masterleague/lc_strings.py:122
 msgid "Li-Ming"
 msgstr "Li-Ming"
 
-#: masterleague/lc_strings.py:122
+#: masterleague/lc_strings.py:123
 msgid "Lt. Morales"
 msgstr "Ten. Morales"
 
-#: masterleague/lc_strings.py:123
+#: masterleague/lc_strings.py:124
 msgid "Lucio"
 msgstr ""
 
-#: masterleague/lc_strings.py:124
+#: masterleague/lc_strings.py:125
 msgid "Lunara"
 msgstr "Lunara"
 
-#: masterleague/lc_strings.py:125
+#: masterleague/lc_strings.py:126
 msgid "Malfurion"
 msgstr "Malfurion"
 
-#: masterleague/lc_strings.py:126
+#: masterleague/lc_strings.py:127
 msgid "Medivh"
 msgstr "Medivh"
 
-#: masterleague/lc_strings.py:127
+#: masterleague/lc_strings.py:128
 msgid "Muradin"
 msgstr "Muradin"
 
-#: masterleague/lc_strings.py:128
+#: masterleague/lc_strings.py:129
 msgid "Murky"
 msgstr "Murquinho"
 
-#: masterleague/lc_strings.py:129
+#: masterleague/lc_strings.py:130
 msgid "Nazeebo"
 msgstr "Nazibo"
 
-#: masterleague/lc_strings.py:130
+#: masterleague/lc_strings.py:131
 msgid "Nova"
 msgstr "Nova"
 
-#: masterleague/lc_strings.py:131
+#: masterleague/lc_strings.py:132
 msgid "Ragnaros"
 msgstr "Ragnaros"
 
-#: masterleague/lc_strings.py:132
+#: masterleague/lc_strings.py:133
 msgid "Raynor"
 msgstr "Raynor"
 
-#: masterleague/lc_strings.py:133
+#: masterleague/lc_strings.py:134
 msgid "Rehgar"
 msgstr "Rehgar"
 
-#: masterleague/lc_strings.py:134
+#: masterleague/lc_strings.py:135
 msgid "Rexxar"
 msgstr "Rexxar"
 
-#: masterleague/lc_strings.py:135
+#: masterleague/lc_strings.py:136
 msgid "Samuro"
 msgstr "Samuro"
 
-#: masterleague/lc_strings.py:136
+#: masterleague/lc_strings.py:137
 msgid "Sgt. Hammer"
 msgstr "Sgt. Marreta"
 
-#: masterleague/lc_strings.py:137
+#: masterleague/lc_strings.py:138
 msgid "Sonya"
 msgstr "Sonya"
 
-#: masterleague/lc_strings.py:138
+#: masterleague/lc_strings.py:139
 msgid "Stitches"
 msgstr "Suturino"
 
-#: masterleague/lc_strings.py:139
+#: masterleague/lc_strings.py:140
 msgid "Sylvanas"
 msgstr "Sylvana"
 
-#: masterleague/lc_strings.py:140
+#: masterleague/lc_strings.py:141
 msgid "Tassadar"
 msgstr "Tassadar"
 
-#: masterleague/lc_strings.py:141
+#: masterleague/lc_strings.py:142
 msgid "The Butcher"
 msgstr "O Açougueiro"
 
-#: masterleague/lc_strings.py:142
+#: masterleague/lc_strings.py:143
 msgid "The Lost Vikings"
 msgstr "Os Vikings Perdidos"
 
-#: masterleague/lc_strings.py:143
+#: masterleague/lc_strings.py:144
 msgid "Thrall"
 msgstr "Thrall"
 
-#: masterleague/lc_strings.py:144
+#: masterleague/lc_strings.py:145
 msgid "Tracer"
 msgstr "Tracer"
 
-#: masterleague/lc_strings.py:145
+#: masterleague/lc_strings.py:146
 msgid "Tychus"
 msgstr "Tychus"
 
-#: masterleague/lc_strings.py:146
+#: masterleague/lc_strings.py:147
 msgid "Tyrael"
 msgstr "Tyrael"
 
-#: masterleague/lc_strings.py:147
+#: masterleague/lc_strings.py:148
 msgid "Tyrande"
 msgstr "Tyrande"
 
-#: masterleague/lc_strings.py:148
+#: masterleague/lc_strings.py:149
 msgid "Uther"
 msgstr "Uther"
 
-#: masterleague/lc_strings.py:149
+#: masterleague/lc_strings.py:150
 msgid "Valeera"
 msgstr "Valira"
 
-#: masterleague/lc_strings.py:150
+#: masterleague/lc_strings.py:151
 msgid "Valla"
 msgstr "Valla"
 
-#: masterleague/lc_strings.py:151
+#: masterleague/lc_strings.py:152
 msgid "Varian"
 msgstr "Varian"
 
-#: masterleague/lc_strings.py:152
+#: masterleague/lc_strings.py:153
 msgid "Xul"
 msgstr "Xul"
 
-#: masterleague/lc_strings.py:153
+#: masterleague/lc_strings.py:154
 msgid "Zagara"
 msgstr "Zagara"
 
-#: masterleague/lc_strings.py:154
+#: masterleague/lc_strings.py:155
 msgid "Zarya"
 msgstr "Zarya"
 
-#: masterleague/lc_strings.py:155
+#: masterleague/lc_strings.py:156
 msgid "Zeratul"
 msgstr "Zeratul"
 
-#: masterleague/lc_strings.py:156
+#: masterleague/lc_strings.py:157
 msgid "Zul'jin"
 msgstr "Zul'Jin"
 
-#: masterleague/lc_strings.py:157
+#: masterleague/lc_strings.py:158
 msgid "Probius"
 msgstr ""
 
-#: masterleague/lc_strings.py:158
+#: masterleague/lc_strings.py:159
 msgid "Cassia"
 msgstr ""
 
-#: masterleague/lc_strings.py:159
+#: masterleague/lc_strings.py:160
 msgid "Genji"
+msgstr ""
+
+#: masterleague/lc_strings.py:161
+msgid "D.Va"
 msgstr ""
 
 #: matches/forms.py:17 teams/forms.py:15 teams/forms.py:40
@@ -1538,12 +1562,6 @@ msgctxt "Tournament prize pool"
 msgid "Prize"
 msgstr "Prêmio"
 
-#: matches/templates/tournaments/tournament_overview.html:9
-#: meta/templates/meta/heroes.html:32
-msgctxt "Hero tier"
-msgid "Tier"
-msgstr "Tier"
-
 #: matches/templates/tournaments/tournament_overview.html:16
 msgid "General Information"
 msgstr "Informação Geral"
@@ -1577,11 +1595,11 @@ msgstr "Total de partidas"
 msgid "Description"
 msgstr "Descrição"
 
-#: matches/templates/tournaments/tournament_overview.html:130
+#: matches/templates/tournaments/tournament_overview.html:128
 msgid "Participating Teams"
 msgstr "Equipes Participantes"
 
-#: matches/templates/tournaments/tournament_overview.html:152
+#: matches/templates/tournaments/tournament_overview.html:150
 msgid "Main Event Statistics"
 msgstr "Estatísticas do evento principal"
 
@@ -1636,11 +1654,6 @@ msgstr "Composição"
 msgid "Count"
 msgstr "Vezes"
 
-#: meta/templates/meta/heroes.html:12
-#, python-format
-msgid "Unpicked Heroes (%(unpicked_heroes_count)s of %(heroes_count)s)"
-msgstr ""
-
 #: meta/templates/meta/maps.html:22
 msgid "Shortest"
 msgstr ""
@@ -1681,8 +1694,8 @@ msgstr "Comparar Jogadores"
 
 #: meta/templates/meta/players.html:105 meta/templates/meta/teams.html:93
 #: teams/templates/players/player_heroes.html:41
-#: teams/templates/players/player_overview.html:24 teams/views.py:598
-#: teams/views.py:621
+#: teams/templates/players/player_overview.html:24 teams/views.py:605
+#: teams/views.py:628
 msgid "KDA"
 msgstr "KDA"
 
@@ -1740,35 +1753,35 @@ msgstr "Assassinos"
 msgid "Specialists"
 msgstr "Especialistas"
 
-#: meta/views.py:262 meta/views.py:339
+#: meta/views.py:271 meta/views.py:360
 msgid "The highest average number of takedowns"
 msgstr ""
 
-#: meta/views.py:273
+#: meta/views.py:282
 msgid "The highest average number of kills"
 msgstr ""
 
-#: meta/views.py:284
+#: meta/views.py:293
 msgid "The highest average number of assists"
 msgstr ""
 
-#: meta/views.py:295
+#: meta/views.py:304
 msgid "Player that spent the most time alive"
 msgstr ""
 
-#: meta/views.py:306
+#: meta/views.py:315
 msgid "Player that spent the most time dead"
 msgstr ""
 
-#: meta/views.py:350
+#: meta/views.py:371
 msgid "The highest average deaths"
 msgstr ""
 
-#: meta/views.py:361
+#: meta/views.py:382
 msgid "Team that spent the most time alive"
 msgstr ""
 
-#: meta/views.py:372
+#: meta/views.py:393
 msgid "Team that spent the most time dead"
 msgstr ""
 
@@ -2074,7 +2087,7 @@ msgstr "Dano de cerco"
 msgid "Average Match Time"
 msgstr ""
 
-#: teams/templates/players/player_overview.html:102 teams/views.py:629
+#: teams/templates/players/player_overview.html:102 teams/views.py:636
 msgid "Analyzed Replays"
 msgstr "Replays Analisados"
 
@@ -2294,27 +2307,27 @@ msgstr ""
 ">Calculado mediante a análise<strong>%(ppr_match_count)s partidas</strong> "
 "com replay de <strong> %(match_count)s partidas</strong> em total."
 
-#: teams/views.py:599
+#: teams/views.py:606
 msgctxt "Hero damage"
 msgid "Hero"
 msgstr "Herói"
 
-#: teams/views.py:600
+#: teams/views.py:607
 msgctxt "Siege damage"
 msgid "Siege"
 msgstr "Cerco"
 
-#: teams/views.py:601
+#: teams/views.py:608
 msgctxt "Amount of time player was not dead during the match"
 msgid "Lifetime"
 msgstr "Tempo vivo"
 
-#: teams/views.py:602
+#: teams/views.py:609
 msgctxt "Crowd control duration"
 msgid "CC"
 msgstr "CC"
 
-#: teams/views.py:603
+#: teams/views.py:610
 #, fuzzy
 #| msgctxt "Expirience"
 #| msgid "XP"
@@ -2322,37 +2335,37 @@ msgctxt "Experience"
 msgid "XP"
 msgstr "XP"
 
-#: teams/views.py:604
+#: teams/views.py:611
 msgctxt "Healing amount (for healers) or Damage taken (for warriors)"
 msgid "Role"
 msgstr "Função"
 
-#: teams/views.py:622
+#: teams/views.py:629
 msgctxt "Amount of time player was not dead during the match"
 msgid "Lifetime / Min"
 msgstr "Tempo vivo / Min"
 
-#: teams/views.py:623
+#: teams/views.py:630
 msgid "Siege Damage / Min"
 msgstr "Dano de Cerco / Min"
 
-#: teams/views.py:624
+#: teams/views.py:631
 msgid "Hero Damage / Min"
 msgstr "Dano a Herói / Min"
 
-#: teams/views.py:625
+#: teams/views.py:632
 msgid "Healing / Min"
 msgstr "Cura / Min"
 
-#: teams/views.py:626
+#: teams/views.py:633
 msgid "Damage Taken / Min"
 msgstr "Dano Recebido / Min"
 
-#: teams/views.py:627
+#: teams/views.py:634
 msgid "CC Duration / Min"
 msgstr "Duração do CC / Min"
 
-#: teams/views.py:628
+#: teams/views.py:635
 msgid "Experience / Min"
 msgstr "Experiência / Min"
 
