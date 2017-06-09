@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-23 16:24+0000\n"
+"POT-Creation-Date: 2017-06-09 12:12+0000\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,12 +15,12 @@ msgstr "Stagione"
 
 #: bets/forms.py:22 matches/forms.py:14
 #: matches/templates/tournaments/tournament_list_inline.html:11
-#: teams/forms.py:90 teams/templates/players/player_list.html:75
+#: teams/forms.py:98 teams/templates/players/player_list.html:75
 msgid "Region"
 msgstr "Regione"
 
-#: bets/forms.py:25 heroes/forms.py:16 matches/forms.py:15 meta/forms.py:18
-#: teams/forms.py:91
+#: bets/forms.py:25 heroes/forms.py:17 matches/forms.py:15 meta/forms.py:19
+#: teams/forms.py:99
 msgid "All Regions"
 msgstr "Tutte le regioni"
 
@@ -45,7 +45,7 @@ msgstr "Sfide"
 #: heroes/templates/heroes/hero_list.html:51
 #: maps/templates/maps/map_detail.html:12 maps/templates/maps/map_list.html:12
 #: matches/templates/matches/match_detail.html:67
-#: matches/templates/matches/match_list.html:25
+#: matches/templates/matches/match_list.html:32
 #: matches/templates/tournaments/tournament_detail.html:19
 #: matches/templates/tournaments/tournament_list.html:12
 #: meta/templates/meta/base.html:12 search/templates/search/search.html:16
@@ -53,7 +53,7 @@ msgstr "Sfide"
 #: teams/templates/players/player_list.html:25
 #: teams/templates/players/players_compare.html:112
 #: teams/templates/players/players_transfers.html:42
-#: teams/templates/teams/team_detail.html:26
+#: teams/templates/teams/team_base.html:27
 #: teams/templates/teams/team_list.html:53
 msgctxt "Link to the main page"
 msgid "Home"
@@ -85,12 +85,12 @@ msgstr "Accedi tramite Battle.net"
 #: bets/templates/bets/bets_base.html:55 bets/templates/bets/matches.html:7
 #: heroes/templates/heroes/hero_builds.html:27
 #: heroes/templates/heroes/hero_counters.html:22
-#: heroes/templates/heroes/hero_detail.html:271
+#: heroes/templates/heroes/hero_detail.html:261
 #: heroes/templates/heroes/hero_overview.html:173
 #: maps/templates/maps/map_detail.html:29
 #: matches/templates/matches/match_detail.html:8
 #: matches/templates/matches/match_list.html:8
-#: matches/templates/matches/match_list.html:26
+#: matches/templates/matches/match_list.html:33
 #: meta/templates/meta/base.html:33 meta/templates/meta/drafts.html:18
 #: meta/templates/meta/drafts.html:69 meta/templates/meta/drafts.html:122
 #: meta/templates/meta/drafts.html:173 meta/templates/meta/maps.html:21
@@ -102,10 +102,8 @@ msgstr "Accedi tramite Battle.net"
 #: teams/templates/players/player_detail.html:81
 #: teams/templates/players/player_heroes.html:39
 #: teams/templates/players/player_list.html:80
-#: teams/templates/teams/summary.html:3
-#: teams/templates/teams/team_detail.html:63
-#: teams/templates/teams/team_heroes.html:25
-#: teams/templates/teams/team_matches.html:8 templates/base.html:209
+#: teams/templates/teams/team_base.html:57
+#: teams/templates/teams/team_maps.html:13 templates/base.html:209
 msgid "Matches"
 msgstr "Partite"
 
@@ -117,9 +115,9 @@ msgid "Leaderboard"
 msgstr "Classifica"
 
 #: bets/templates/bets/leaderboard.html:45
-#: heroes/templates/heroes/hero_detail.html:240
-#: meta/templates/meta/include/meta_filter_form.html:58
-#: teams/templates/players/player_detail.html:127
+#: heroes/templates/heroes/hero_detail.html:230
+#: meta/templates/meta/include/meta_filter_form.html:48
+#: teams/templates/players/player_detail.html:117
 msgctxt "Button label"
 msgid "Just Do It!"
 msgstr "Fallo!"
@@ -130,8 +128,7 @@ msgstr "Posizione"
 
 #: bets/templates/bets/leaderboard.html:61
 #: teams/templates/players/player_list.html:77
-#: teams/templates/teams/team_overview.html:19
-#: teams/templates/teams/team_transfers.html:17
+#: teams/templates/teams/team_overview.html:142
 msgid "Nickname"
 msgstr "Nickname"
 
@@ -164,38 +161,40 @@ msgstr ""
 msgid "Common badge"
 msgstr ""
 
-#: bets/templates/bets/matches.html:58
+#: bets/templates/bets/matches.html:57
+#: matches/templates/matches/upcoming_matches_inline.html:11
 msgid "Time until"
 msgstr "Tempo rimanente"
 
-#: bets/templates/bets/matches.html:58
+#: bets/templates/bets/matches.html:57
 #: changelog/templates/changelog/changelog_list.html:18
 #: matches/templates/matches/matches_inline.html:16
 #: matches/templates/matches/matches_inline.html:20
 #: pages/templates/calendar_base.html:92 pages/templates/mainpage.html:33
 #: pages/templates/mainpage.html:63
 #: teams/templates/players/players_transfers.html:64
-#: teams/templates/teams/team_overview.html:52
+#: teams/templates/teams/team_overview.html:175
 msgid "Date"
 msgstr "Data"
 
-#: bets/templates/bets/matches.html:59
+#: bets/templates/bets/matches.html:58
 msgid "Stage"
 msgstr "Fase"
 
-#: bets/templates/bets/matches.html:61
+#: bets/templates/bets/matches.html:60
 msgid "Reward"
 msgstr "Ricompensa"
 
-#: bets/templates/bets/matches.html:69
+#: bets/templates/bets/matches.html:68
 msgid "Ongoing matches"
 msgstr "Match In Corso"
 
-#: bets/templates/bets/matches.html:75
+#: bets/templates/bets/matches.html:74
+#: teams/templates/teams/team_overview.html:243
 msgid "Upcoming matches"
 msgstr "Match In Arrivo"
 
-#: bets/templates/bets/matches.html:142
+#: bets/templates/bets/matches.html:141
 msgid "Completed matches"
 msgstr "Match Completati"
 
@@ -293,7 +292,7 @@ msgid "Notifications"
 msgstr "Notifiche"
 
 #: comments/templates/profiles/base.html:55
-#: matches/templates/matches/match_list.html:73
+#: matches/templates/matches/match_list.html:80
 #: matches/templates/matches/matches_inline.html:146
 #: matches/templates/matches/matches_inline.html:148 templates/base.html:231
 msgid "Favorites"
@@ -332,52 +331,52 @@ msgstr "Sucessivo"
 #: heroes/templates/heroes/hero_list.html:8
 #: heroes/templates/heroes/hero_list.html:52
 #: maps/templates/maps/map_detail.html:26
-#: matches/templates/tournaments/tournament_overview.html:155 meta/forms.py:26
+#: matches/templates/tournaments/tournament_overview.html:149 meta/forms.py:27
 #: meta/templates/meta/base.html:30 meta/templates/meta/heroes.html:5
 #: meta/templates/meta/heroes.html:6 meta/templates/meta/players.html:23
 #: meta/templates/meta/players.html:63 meta/templates/meta/teams.html:21
-#: meta/templates/meta/teams.html:56
+#: meta/templates/meta/teams.html:56 teams/forms.py:134
 #: teams/templates/players/player_detail.html:80
 #: teams/templates/players/player_heroes.html:5
-#: teams/templates/teams/team_detail.html:62
-#: teams/templates/teams/team_heroes.html:8 templates/base.html:211
+#: teams/templates/teams/team_base.html:56 templates/base.html:211
 msgid "Heroes"
 msgstr "Eroi"
 
-#: custom/templates/custom/team_heroes.html:77
+#: custom/templates/custom/team_heroes.html:65
 #: meta/templates/meta/heroes.html:12
 #, python-format
 msgid "Unpicked Heroes (%(unpicked_heroes_count)s of %(heroes_count)s)"
 msgstr "Eroi non scelti (%(unpicked_heroes_count)s su %(heroes_count)s"
 
-#: custom/templates/custom/team_heroes.html:97
+#: custom/templates/custom/team_heroes.html:85
 #: matches/templates/tournaments/tournament_overview.html:9
 #: meta/templates/meta/heroes.html:32
 msgctxt "Hero tier"
 msgid "Tier"
 msgstr "Grado"
 
-#: heroes/forms.py:13 meta/forms.py:14
+#: heroes/forms.py:14 meta/forms.py:15
 msgid "Regions"
 msgstr "Regioni"
 
-#: heroes/forms.py:18 meta/forms.py:20 teams/forms.py:55
+#: heroes/forms.py:19 meta/forms.py:21 teams/forms.py:60 teams/forms.py:123
 msgid "Patches"
 msgstr "Patch"
 
-#: heroes/forms.py:21 meta/forms.py:24 teams/forms.py:25 teams/forms.py:58
+#: heroes/forms.py:22 meta/forms.py:25 teams/forms.py:30 teams/forms.py:63
+#: teams/forms.py:126
 msgid "All patches"
 msgstr "Tutte le patch"
 
-#: heroes/forms.py:24 matches/templates/tournaments/tournament_detail.html:8
+#: heroes/forms.py:25 matches/templates/tournaments/tournament_detail.html:8
 #: matches/templates/tournaments/tournament_detail.html:20
 #: matches/templates/tournaments/tournament_list.html:8
-#: matches/templates/tournaments/tournament_list.html:13 meta/forms.py:36
-#: teams/forms.py:71 templates/base.html:208
+#: matches/templates/tournaments/tournament_list.html:13 meta/forms.py:37
+#: teams/forms.py:76 teams/forms.py:144 templates/base.html:208
 msgid "Tournaments"
 msgstr "Tornei"
 
-#: heroes/forms.py:27 meta/forms.py:40 teams/forms.py:74
+#: heroes/forms.py:30 meta/forms.py:42 teams/forms.py:81 teams/forms.py:149
 msgid "All tournaments"
 msgstr "Tutti i tornei"
 
@@ -391,8 +390,7 @@ msgstr "Build"
 #: heroes/templates/heroes/hero_builds.html:28
 #: heroes/templates/heroes/hero_counters.html:23
 #: heroes/templates/heroes/hero_overview.html:174
-#: teams/templates/teams/summary.html:4
-#: teams/templates/teams/team_heroes.html:26
+#: teams/templates/teams/team_maps.html:14
 #, fuzzy, python-format
 #| msgid "Win %%"
 msgid "Win %%"
@@ -420,15 +418,13 @@ msgid "Heroes that counter teams with"
 msgstr ""
 
 #: heroes/templates/heroes/hero_counters.html:21
-#: heroes/templates/heroes/stats_table_inline.html:10 matches/forms.py:23
+#: heroes/templates/heroes/stats_table_inline.html:10 matches/forms.py:32
 #: matches/templates/matches/match_stats.html:5
 #: meta/templates/meta/drafts.html:17 meta/templates/meta/drafts.html:68
 #: meta/templates/meta/drafts.html:121 meta/templates/meta/drafts.html:172
-#: meta/templates/meta/include/heroes_table.html:10 teams/forms.py:16
-#: teams/forms.py:43 teams/forms.py:63 teams/forms.py:102
+#: meta/templates/meta/include/heroes_table.html:10 teams/forms.py:21
+#: teams/forms.py:48 teams/forms.py:68 teams/forms.py:110
 #: teams/templates/players/player_heroes.html:38
-#: teams/templates/teams/summary.html:13
-#: teams/templates/teams/team_heroes.html:24
 msgid "Hero"
 msgstr "Eroe"
 
@@ -472,52 +468,37 @@ msgstr "Ban in seconda ondata (%(ban2_count)s partite)"
 msgid "Not banned or picked (%(popularity_blank_count)s matches)"
 msgstr "Non bannato o scelto (%(popularity_blank_count)s partite)"
 
-#: heroes/templates/heroes/hero_detail.html:228
-#: matches/templates/matches/match_list.html:61
-#: meta/templates/meta/include/meta_filter_form.html:46
-#: teams/templates/players/player_detail.html:115
-msgctxt "Form filter options"
-msgid "Options"
-msgstr "Opzioni"
-
-#: heroes/templates/heroes/hero_detail.html:230
-#: meta/templates/meta/include/meta_filter_form.html:48
-#: teams/templates/players/player_detail.html:117
-msgid "Show only main stage matches (exclude qualifiers)"
-msgstr "Mostra solo partite principali (escludi qualificatorie)"
-
-#: heroes/templates/heroes/hero_detail.html:249
+#: heroes/templates/heroes/hero_detail.html:239
 #: heroes/templates/heroes/stats_table_inline.html:17
 #: meta/templates/meta/include/heroes_table.html:17
 msgid "Popularity"
 msgstr "Popolarità"
 
-#: heroes/templates/heroes/hero_detail.html:250
+#: heroes/templates/heroes/hero_detail.html:240
 #, python-format
 msgid "%(match_count)s of %(total_matches)s matches"
 msgstr "%(match_count)s su %(total_matches)s partite"
 
-#: heroes/templates/heroes/hero_detail.html:262
-#: teams/templates/teams/team_detail.html:22
+#: heroes/templates/heroes/hero_detail.html:252
 msgid "Wins"
 msgstr "Vittorie"
 
-#: heroes/templates/heroes/hero_detail.html:263
+#: heroes/templates/heroes/hero_detail.html:253
 #, python-format
 msgid "%(win_count)s of %(pick_count)s matches"
 msgstr "%(win_count)s su %(pick_count)s partite"
 
-#: heroes/templates/heroes/hero_detail.html:268
+#: heroes/templates/heroes/hero_detail.html:258
 msgctxt "Hero overview"
 msgid "Overview"
 msgstr "Panoramica"
 
-#: heroes/templates/heroes/hero_detail.html:269
+#: heroes/templates/heroes/hero_detail.html:259
 msgctxt "Hero builds"
 msgid "Builds"
 msgstr "Build"
 
-#: heroes/templates/heroes/hero_detail.html:270
+#: heroes/templates/heroes/hero_detail.html:260
 #, fuzzy
 #| msgid "Count"
 msgctxt "Hero counter picks"
@@ -606,9 +587,10 @@ msgctxt "Hero"
 msgid "Most Popular On Maps"
 msgstr "Più popolare sulle mappe"
 
-#: heroes/templates/heroes/hero_overview.html:197 matches/forms.py:20
-#: meta/templates/meta/maps.html:20 teams/forms.py:19 teams/forms.py:46
-#: teams/forms.py:60 teams/templates/teams/summary.html:50
+#: heroes/templates/heroes/hero_overview.html:197 matches/forms.py:26
+#: meta/templates/meta/maps.html:20 teams/forms.py:24 teams/forms.py:51
+#: teams/forms.py:65 teams/forms.py:128
+#: teams/templates/teams/team_maps.html:12
 msgid "Map"
 msgstr "Mappa"
 
@@ -622,10 +604,9 @@ msgstr "Più giocato dalle squadre"
 #: meta/templates/meta/players.html:22 meta/templates/meta/players.html:62
 #: meta/templates/meta/players.html:104 meta/templates/meta/teams.html:20
 #: meta/templates/meta/teams.html:55 meta/templates/meta/teams.html:92
-#: meta/templates/meta/teams.html:129 teams/forms.py:49 teams/forms.py:93
+#: meta/templates/meta/teams.html:129 teams/forms.py:54 teams/forms.py:101
 #: teams/templates/players/player_list.html:76
 #: teams/templates/players/player_overview.html:119
-#: teams/templates/teams/team_transfers.html:19
 msgid "Team"
 msgstr "Squadra"
 
@@ -647,7 +628,7 @@ msgctxt "Bans count"
 msgid "Bans"
 msgstr "Divieti"
 
-#: heroes/views.py:184 heroes/views.py:185
+#: heroes/views.py:183 heroes/views.py:184
 msgctxt "minutes"
 msgid "mins"
 msgstr "min"
@@ -655,22 +636,23 @@ msgstr "min"
 #: maps/templates/maps/map_detail.html:8
 #: maps/templates/maps/map_detail.html:13 maps/templates/maps/map_list.html:8
 #: maps/templates/maps/map_list.html:13
-#: matches/templates/tournaments/tournament_overview.html:153
+#: matches/templates/tournaments/tournament_overview.html:147
 #: meta/templates/meta/base.html:28 meta/templates/meta/maps.html:5
-#: meta/templates/meta/maps.html:6 templates/base.html:210
+#: meta/templates/meta/maps.html:6 teams/templates/teams/team_base.html:54
+#: templates/base.html:210
 msgid "Maps"
 msgstr "Mappe"
 
 #: maps/templates/maps/map_detail.html:25
 #: matches/templates/matches/matches_inline.html:24
-#: matches/templates/tournaments/tournament_overview.html:154
+#: matches/templates/tournaments/tournament_overview.html:148
 #: meta/templates/meta/base.html:29 meta/templates/meta/drafts.html:5
-#: meta/templates/meta/drafts.html:6
+#: meta/templates/meta/drafts.html:6 teams/templates/teams/team_base.html:55
 msgid "Drafts"
 msgstr "Draft"
 
 #: maps/templates/maps/map_detail.html:27
-#: matches/templates/tournaments/tournament_overview.html:156
+#: matches/templates/tournaments/tournament_overview.html:150
 #: meta/templates/meta/base.html:31 meta/templates/meta/players.html:5
 #: meta/templates/meta/players.html:6 search/templates/search/search.html:39
 #: teams/templates/players/player_detail.html:8
@@ -684,19 +666,17 @@ msgstr "Draft"
 #: teams/templates/players/players_compare.html:119
 #: teams/templates/players/players_transfers.html:8
 #: teams/templates/players/players_transfers.html:43
-#: teams/templates/players/players_transfers.html:49
-#: teams/templates/teams/team_detail.html:61
-#: teams/templates/teams/team_transfers.html:8 templates/base.html:96
+#: teams/templates/players/players_transfers.html:49 templates/base.html:96
 #: templates/base.html:207
 msgid "Players"
 msgstr "Giocatori"
 
 #: maps/templates/maps/map_detail.html:28
-#: matches/templates/tournaments/tournament_overview.html:157
+#: matches/templates/tournaments/tournament_overview.html:151
 #: meta/templates/meta/base.html:32 meta/templates/meta/teams.html:5
 #: meta/templates/meta/teams.html:6 search/templates/search/search.html:21
-#: teams/templates/teams/team_detail.html:8
-#: teams/templates/teams/team_detail.html:27
+#: teams/templates/teams/team_base.html:7
+#: teams/templates/teams/team_base.html:28
 #: teams/templates/teams/team_list.html:8
 #: teams/templates/teams/team_list.html:54 templates/base.html:81
 #: templates/base.html:206
@@ -1275,20 +1255,26 @@ msgstr ""
 msgid "D.Va"
 msgstr ""
 
-#: matches/forms.py:17 teams/forms.py:15 teams/forms.py:40
+#: matches/forms.py:18 matches/forms.py:24 matches/forms.py:30
+#: matches/forms.py:36 teams/forms.py:113
+#: teams/templates/players/players_compare.html:35
+msgid "Select and begin typing"
+msgstr "Seleziona e inizia a digitare"
+
+#: matches/forms.py:20 teams/forms.py:20 teams/forms.py:45
 msgid "Patch"
 msgstr "Patch"
 
-#: matches/forms.py:18 teams/forms.py:41 teams/views.py:108
+#: matches/forms.py:21 teams/forms.py:46
 msgctxt "All patches"
 msgid "All Time"
 msgstr "Tutti i tempi"
 
-#: matches/forms.py:21 teams/forms.py:20 teams/forms.py:47
+#: matches/forms.py:27 teams/forms.py:25 teams/forms.py:52
 msgid "All Maps"
 msgstr "Tutte le mappe"
 
-#: matches/forms.py:24 meta/views.py:224 teams/forms.py:17 teams/forms.py:44
+#: matches/forms.py:33 meta/views.py:231 teams/forms.py:22 teams/forms.py:49
 msgid "All Heroes"
 msgstr "Tutti gli eroi"
 
@@ -1341,7 +1327,7 @@ msgid "Watch"
 msgstr "Guarda"
 
 #: matches/templates/matches/match_detail.html:227
-#: matches/templates/matches/match_list.html:68
+#: matches/templates/matches/match_list.html:75
 #: matches/templates/matches/matches_inline.html:140
 msgid "Replay"
 msgstr "Replay"
@@ -1360,7 +1346,12 @@ msgctxt "[SEO] Page title"
 msgid "Match List"
 msgstr "Elenco delle partite"
 
-#: matches/templates/matches/match_list.html:63
+#: matches/templates/matches/match_list.html:68
+msgctxt "Form filter options"
+msgid "Options"
+msgstr "Opzioni"
+
+#: matches/templates/matches/match_list.html:70
 #: matches/templates/matches/matches_inline.html:135
 msgid "VOD"
 msgstr "VOD"
@@ -1453,7 +1444,7 @@ msgid "Match Log"
 msgstr "Registro Partita"
 
 #: matches/templates/matches/matches_inline.html:15
-#: matches/templates/tournaments/tournament_overview.html:79
+#: matches/templates/tournaments/tournament_overview.html:73
 #: pages/templates/calendar_base.html:94
 msgctxt "Tournament stage"
 msgid "Stage"
@@ -1502,6 +1493,11 @@ msgstr "S"
 #: matches/templates/matches/matches_inline.html:125
 msgid "Show"
 msgstr "Mostra"
+
+#: matches/templates/matches/upcoming_matches_inline.html:12
+#: teams/templates/teams/team_overview.html:177
+msgid "Tournament"
+msgstr "Torneo"
 
 #: matches/templates/tournaments/tournament_detail.html:16
 msgctxt "Tournament overview"
@@ -1574,29 +1570,21 @@ msgctxt "Tournament matches count"
 msgid "Total Matches"
 msgstr "Partite Totali"
 
-#: matches/templates/tournaments/tournament_overview.html:48
-msgctxt "Tournament matches count (w/o qualifiers)"
-msgid "Main event matches count"
-msgstr "Partite dell'evento principale"
-
-#: matches/templates/tournaments/tournament_overview.html:48
-msgctxt "Tournament total matches count (w/ qualifiers)"
-msgid "Total matches count"
-msgstr "Partite totali"
-
-#: matches/templates/tournaments/tournament_overview.html:56
+#: matches/templates/tournaments/tournament_overview.html:50
 msgid "Description"
 msgstr "Descrizione"
 
-#: matches/templates/tournaments/tournament_overview.html:128
+#: matches/templates/tournaments/tournament_overview.html:122
 msgid "Participating Teams"
 msgstr "Squadre partecipanti"
 
-#: matches/templates/tournaments/tournament_overview.html:150
-msgid "Main Event Statistics"
-msgstr "Statistiche evento principale"
+#: matches/templates/tournaments/tournament_overview.html:144
+#, fuzzy
+#| msgid "eSport statistics"
+msgid "Tournament statistics"
+msgstr "Statistiche eSport"
 
-#: meta/forms.py:33 teams/forms.py:64
+#: meta/forms.py:34 teams/forms.py:69 teams/forms.py:141
 msgid "All heroes"
 msgstr "Tutti gli eroi"
 
@@ -1618,7 +1606,7 @@ msgstr "I Più bannati per primi"
 
 #: meta/templates/meta/drafts.html:49 meta/templates/meta/drafts.html:100
 #: meta/templates/meta/drafts.html:153 meta/templates/meta/drafts.html:204
-#: meta/templates/meta/maps.html:36
+#: meta/templates/meta/maps.html:36 teams/templates/teams/team_maps.html:27
 msgid "Summary"
 msgstr "Riepilogo"
 
@@ -1647,19 +1635,19 @@ msgstr "Composizione"
 msgid "Count"
 msgstr "Conto"
 
-#: meta/templates/meta/maps.html:22
+#: meta/templates/meta/maps.html:22 teams/templates/teams/team_maps.html:15
 msgid "Shortest"
 msgstr "La più corta"
 
-#: meta/templates/meta/maps.html:23
+#: meta/templates/meta/maps.html:23 teams/templates/teams/team_maps.html:16
 msgid "Average"
 msgstr "Media"
 
-#: meta/templates/meta/maps.html:24
+#: meta/templates/meta/maps.html:24 teams/templates/teams/team_maps.html:17
 msgid "Longest"
 msgstr "La più lunga"
 
-#: meta/templates/meta/maps.html:25 teams/templates/teams/team_heroes.html:55
+#: meta/templates/meta/maps.html:25
 msgctxt "Popular picks"
 msgid "Most Played Heroes"
 msgstr "Eroi più giocati"
@@ -1687,8 +1675,9 @@ msgstr "Confronta i giocatori"
 
 #: meta/templates/meta/players.html:105 meta/templates/meta/teams.html:93
 #: teams/templates/players/player_heroes.html:41
-#: teams/templates/players/player_overview.html:24 teams/views.py:605
-#: teams/views.py:628
+#: teams/templates/players/player_overview.html:24
+#: teams/templates/teams/team_overview.html:213 teams/views.py:660
+#: teams/views.py:683
 msgid "KDA"
 msgstr "KDA"
 
@@ -1722,55 +1711,55 @@ msgstr "Al Team"
 msgid "Teams performance"
 msgstr "Performance del team"
 
-#: meta/views.py:122
+#: meta/views.py:126
 msgid "No matches played in the selected period."
 msgstr "Nessuna partita giocata nel periodo selezionato."
 
-#: meta/views.py:225
+#: meta/views.py:232
 msgid "Warriors"
 msgstr "Guerrieri"
 
-#: meta/views.py:226
+#: meta/views.py:233
 msgid "Supports"
 msgstr "Supporti"
 
-#: meta/views.py:227
+#: meta/views.py:234
 msgid "Assassins"
 msgstr "Assassini"
 
-#: meta/views.py:228
+#: meta/views.py:235
 msgid "Specialists"
 msgstr "Specialisti"
 
-#: meta/views.py:271 meta/views.py:360
+#: meta/views.py:278 meta/views.py:367
 msgid "The highest average number of takedowns"
 msgstr ""
 
-#: meta/views.py:282
+#: meta/views.py:289
 msgid "The highest average number of kills"
 msgstr "Il più grande numero medio di uccisioni"
 
-#: meta/views.py:293
+#: meta/views.py:300
 msgid "The highest average number of assists"
 msgstr "Il più grande numero medio di assist"
 
-#: meta/views.py:304
+#: meta/views.py:311
 msgid "Player that spent the most time alive"
 msgstr "Giocatore che ha speso la maggiorpare del tempo in vita"
 
-#: meta/views.py:315
+#: meta/views.py:322
 msgid "Player that spent the most time dead"
 msgstr "Giocatore che ha speso la maggiorparte del tempo morto"
 
-#: meta/views.py:371
+#: meta/views.py:378
 msgid "The highest average deaths"
 msgstr "La più grande media di morti"
 
-#: meta/views.py:382
+#: meta/views.py:389
 msgid "Team that spent the most time alive"
 msgstr "Team che ha speso la maggiorparte del tempo in vita"
 
-#: meta/views.py:393
+#: meta/views.py:400
 msgid "Team that spent the most time dead"
 msgstr "Team che ha speso la maggiorparte del tempo morto"
 
@@ -1876,7 +1865,6 @@ msgstr "Al Team"
 
 #: pages/templates/mainpage.html:115
 #: teams/templates/players/player_matches.html:5
-#: teams/templates/teams/team_overview.html:104
 msgid "Latest Matches"
 msgstr "Ultime partite"
 
@@ -1894,68 +1882,76 @@ msgstr "Non trovato"
 msgid "Search"
 msgstr "Ricerca"
 
-#: teams/forms.py:27 teams/views.py:114
+#: teams/forms.py:32
 msgid "Current Roster"
 msgstr "Roster attuale"
 
-#: teams/forms.py:50
+#: teams/forms.py:55
 msgid "Any Team"
 msgstr "Qualsiasi squadra"
 
-#: teams/forms.py:61
+#: teams/forms.py:66 teams/forms.py:129
 msgid "All maps"
 msgstr "Tutte le mappe"
 
-#: teams/forms.py:83
+#: teams/forms.py:91
 msgctxt "Form filter, any team choice"
 msgid "Any"
 msgstr "Qualsiasi"
 
-#: teams/forms.py:84
+#: teams/forms.py:92
 msgctxt "Player w/o team"
 msgid "Free Agent"
 msgstr "Agente Libero"
 
-#: teams/forms.py:88
+#: teams/forms.py:96
 msgctxt "Form filter, any player position choice"
 msgid "Any"
 msgstr "Qualsiasi"
 
-#: teams/forms.py:95 teams/templates/players/player_list.html:79
-#: teams/templates/teams/team_overview.html:20
-#: teams/templates/teams/team_transfers.html:18
+#: teams/forms.py:103 teams/templates/players/player_list.html:79
+#: teams/templates/teams/team_overview.html:144
 msgctxt "Player role/team position"
 msgid "Position"
 msgstr "Posizione"
 
-#: teams/forms.py:100
+#: teams/forms.py:108
 msgid "First Player"
 msgstr "Primo giocatore"
 
-#: teams/forms.py:101
+#: teams/forms.py:109
 msgid "Second Player"
 msgstr "Secondo giocatore"
 
-#: teams/forms.py:105 teams/templates/players/players_compare.html:35
-msgid "Select and begin typing"
-msgstr "Seleziona e inizia a digitare"
+#: teams/forms.py:118
+#, fuzzy
+#| msgid "Player Roster"
+msgid "Roster"
+msgstr "Player Roster"
 
-#: teams/models.py:131 teams/templates/players/player_card_inline.html:10
+#: teams/forms.py:178
+#, fuzzy
+#| msgctxt "Disbanded teams visibility switcher"
+#| msgid "Show disbanded"
+msgid "Disbanded"
+msgstr "Mostra sciolti"
+
+#: teams/models.py:125 teams/templates/players/player_card_inline.html:10
 msgctxt "Player role"
 msgid "Warrior"
 msgstr "Guerriero"
 
-#: teams/models.py:132 teams/templates/players/player_card_inline.html:12
+#: teams/models.py:126 teams/templates/players/player_card_inline.html:12
 msgctxt "Player role"
 msgid "Support"
 msgstr "Supporto"
 
-#: teams/models.py:133 teams/templates/players/player_card_inline.html:14
+#: teams/models.py:127 teams/templates/players/player_card_inline.html:14
 msgctxt "Player role"
 msgid "Assassin"
 msgstr "Assassino"
 
-#: teams/models.py:134 teams/templates/players/player_card_inline.html:16
+#: teams/models.py:128 teams/templates/players/player_card_inline.html:16
 msgctxt "Player role"
 msgid "Flex"
 msgstr "Adattabile"
@@ -2052,12 +2048,14 @@ msgstr "Danni da assedio"
 msgid "Average Match Time"
 msgstr "Tempo Medio Partita"
 
-#: teams/templates/players/player_overview.html:102 teams/views.py:636
+#: teams/templates/players/player_overview.html:102 teams/views.py:691
 msgid "Analyzed Replays"
 msgstr "Replay Analizzati"
 
-#: teams/templates/players/player_overview.html:102
-msgid "Total Matches"
+#: teams/templates/players/player_overview.html:103
+#, fuzzy
+#| msgid "Total Matches"
+msgid "Total matches"
 msgstr "Totale partite"
 
 #: teams/templates/players/player_overview.html:110
@@ -2137,66 +2135,15 @@ msgctxt "Player transfer"
 msgid "To Team"
 msgstr "Al Team"
 
-#: teams/templates/teams/summary.html:8
-msgid "Most Played Heroes"
-msgstr "Eroi più giocati"
-
-#: teams/templates/teams/summary.html:45
-msgid "Most Played Maps"
-msgstr "Mappe più Giocate"
-
-#: teams/templates/teams/summary.html:82
-msgid "Summary Stats"
-msgstr "Statistiche di riepilogo"
-
-#: teams/templates/teams/summary.html:99
-msgctxt "First pick stats"
-msgid "First pick"
-msgstr "Prima scelta"
-
-#: teams/templates/teams/summary.html:114
-msgctxt "Second pick stats"
-msgid "Second pick"
-msgstr "Seconda scelta"
-
-#: teams/templates/teams/summary.html:129
-msgctxt "Total team stats"
-msgid "Total"
-msgstr "Totale"
-
-#: teams/templates/teams/team_detail.html:5
+#: teams/templates/teams/team_base.html:5
 msgctxt "[SEO] Page title"
 msgid "Team Statistics"
 msgstr "Statistiche di squadra"
 
-#: teams/templates/teams/team_detail.html:23
-msgid "Losses"
-msgstr "Perdite"
-
-#: teams/templates/teams/team_detail.html:60
-#: teams/templates/teams/team_overview.html:6
+#: teams/templates/teams/team_base.html:53
 msgctxt "Team overview"
 msgid "Overview"
 msgstr "Panoramica"
-
-#: teams/templates/teams/team_heroes.html:5
-msgctxt "[SEO] Page title"
-msgid "Most Played Heroes"
-msgstr "Eroi più giocati"
-
-#: teams/templates/teams/team_heroes.html:94
-#, python-format
-msgid "Most Banned by %(team)s"
-msgstr "Più Vietato da %(team)s"
-
-#: teams/templates/teams/team_heroes.html:131
-msgid "Most Banned by Opponents"
-msgstr "Più vietato dagli avversari"
-
-#: teams/templates/teams/team_heroes.html:140
-#, python-format
-msgid "Loss %%"
-msgstr "Sconfitta %%"
 
 #: teams/templates/teams/team_list.html:5
 msgctxt "[SEO] Page title"
@@ -2213,51 +2160,98 @@ msgctxt "Search field tooltip"
 msgid "Start typing to search"
 msgstr "Inizia a digitare per cercare"
 
-#: teams/templates/teams/team_matches.html:5
-msgctxt "[SEO] Page title"
-msgid "Latest Matches"
-msgstr "Ultime partite"
+#: teams/templates/teams/team_overview.html:95
+#, fuzzy, python-format
+#| msgid "First wave ban (%(ban1_count)s matches)"
+msgid "Losses: %(loss_count)s matches"
+msgstr "Ban in prima ondata (%(ban1_count)s partite)"
 
-#: teams/templates/teams/team_overview.html:11
+#: teams/templates/teams/team_overview.html:96
+#, fuzzy, python-format
+#| msgid "%(win_count)s of %(pick_count)s matches"
+msgid "Wins: %(win_count)s matches"
+msgstr "%(win_count)s su %(pick_count)s partite"
+
+#: teams/templates/teams/team_overview.html:103
+#, python-format
+msgid "Deaths: %(deaths)s"
+msgstr ""
+
+#: teams/templates/teams/team_overview.html:104
+#, python-format
+msgid "Takedowns: %(takedowns)s"
+msgstr ""
+
+#: teams/templates/teams/team_overview.html:111
+#, fuzzy, python-format
+#| msgid "%(match_count)s of %(total_matches)s matches"
+msgid "%(match_count)s matches"
+msgstr "%(match_count)s su %(total_matches)s partite"
+
+#: teams/templates/teams/team_overview.html:135
 msgid "Player Roster"
 msgstr "Player Roster"
 
-#: teams/templates/teams/team_overview.html:21
-msgctxt "Plays for team since date"
-msgid "Plays since"
-msgstr "Gioca dal"
+#: teams/templates/teams/team_overview.html:143
+#, fuzzy
+#| msgctxt "Tournament name"
+#| msgid "Name"
+msgid "Name"
+msgstr "Nome"
 
-#: teams/templates/teams/team_overview.html:44
+#: teams/templates/teams/team_overview.html:167
 msgctxt "Team achievements in tournaments"
 msgid "Achievements"
 msgstr "Successi"
 
-#: teams/templates/teams/team_overview.html:53
+#: teams/templates/teams/team_overview.html:176
 msgid "Place"
 msgstr "Posto"
 
-#: teams/templates/teams/team_overview.html:54
-msgid "Tournament"
-msgstr "Torneo"
-
-#: teams/templates/teams/team_overview.html:55
+#: teams/templates/teams/team_overview.html:178
 msgid "Prize"
 msgstr "Premio"
 
-#: teams/templates/teams/team_transfers.html:5
-msgctxt "[SEO] Page title"
-msgid "Players"
-msgstr "Giocatori"
+#: teams/templates/teams/team_overview.html:209
+#, fuzzy
+#| msgid "Win Rate"
+msgid "Win rate"
+msgstr "Rateo di Vittoria"
 
-#: teams/templates/teams/team_transfers.html:15
-msgctxt "Player transfer"
-msgid "From date"
-msgstr "Dalla data"
+#: teams/templates/teams/team_overview.html:217
+#, fuzzy
+#| msgid "Hero"
+msgid "Hero pool"
+msgstr "Eroe"
 
-#: teams/templates/teams/team_transfers.html:16
-msgctxt "Player transfer"
-msgid "To date"
-msgstr "Alla data"
+#: teams/templates/teams/team_overview.html:223
+msgid "FP win rate"
+msgstr ""
+
+#: teams/templates/teams/team_overview.html:227
+#, fuzzy
+#| msgid "Time Dead"
+msgid "Time dead"
+msgstr "Tempo Morto"
+
+#: teams/templates/teams/team_overview.html:231
+#, fuzzy
+#| msgid "Dehaka Patch"
+msgid "Avg. match"
+msgstr "Patch Dehaka"
+
+#: teams/templates/teams/team_overview.html:237
+#, python-format
+msgid ""
+"* KDA, time spend dead and average match time are based on the analysis of "
+"the %(replay_count)s replays out of %(match_count)s matches"
+msgstr ""
+
+#: teams/templates/teams/team_overview.html:251
+#, fuzzy
+#| msgid "Latest Matches"
+msgid "Latest matches"
+msgstr "Ultime partite"
 
 #: teams/templatetags/ppr_tags.py:14
 #, python-format
@@ -2273,27 +2267,27 @@ msgstr ""
 "corrispondenti</strong> con replay di <strong>%(match_count)s partite</"
 "strong> in totale."
 
-#: teams/views.py:606
+#: teams/views.py:661
 msgctxt "Hero damage"
 msgid "Hero"
 msgstr "Hero"
 
-#: teams/views.py:607
+#: teams/views.py:662
 msgctxt "Siege damage"
 msgid "Siege"
 msgstr "Assedio"
 
-#: teams/views.py:608
+#: teams/views.py:663
 msgctxt "Amount of time player was not dead during the match"
 msgid "Lifetime"
 msgstr "Corso della vita"
 
-#: teams/views.py:609
+#: teams/views.py:664
 msgctxt "Crowd control duration"
 msgid "CC"
 msgstr "CC"
 
-#: teams/views.py:610
+#: teams/views.py:665
 #, fuzzy
 #| msgctxt "Expirience"
 #| msgid "XP"
@@ -2301,37 +2295,37 @@ msgctxt "Experience"
 msgid "XP"
 msgstr "ESP"
 
-#: teams/views.py:611
+#: teams/views.py:666
 msgctxt "Healing amount (for healers) or Damage taken (for warriors)"
 msgid "Role"
 msgstr "Ruolo"
 
-#: teams/views.py:629
+#: teams/views.py:684
 msgctxt "Amount of time player was not dead during the match"
 msgid "Lifetime / Min"
 msgstr "Durata / Min"
 
-#: teams/views.py:630
+#: teams/views.py:685
 msgid "Siege Damage / Min"
 msgstr "Assedio di danni / Min"
 
-#: teams/views.py:631
+#: teams/views.py:686
 msgid "Hero Damage / Min"
 msgstr "Danno agli eroi/ Min"
 
-#: teams/views.py:632
+#: teams/views.py:687
 msgid "Healing / Min"
 msgstr "Guarigione / Min"
 
-#: teams/views.py:633
+#: teams/views.py:688
 msgid "Damage Taken / Min"
 msgstr "Danni subiti / Min"
 
-#: teams/views.py:634
+#: teams/views.py:689
 msgid "CC Duration / Min"
 msgstr "Durata CC / Min"
 
-#: teams/views.py:635
+#: teams/views.py:690
 msgid "Experience / Min"
 msgstr "Esperienza / Min"
 
@@ -2375,6 +2369,77 @@ msgstr "Ricerca"
 #: templates/base.html:295
 msgid "Help us localize the site!"
 msgstr "Aiutarci a tradurre il sito!"
+
+#~ msgid "Show only main stage matches (exclude qualifiers)"
+#~ msgstr "Mostra solo partite principali (escludi qualificatorie)"
+
+#~ msgctxt "Tournament matches count (w/o qualifiers)"
+#~ msgid "Main event matches count"
+#~ msgstr "Partite dell'evento principale"
+
+#~ msgctxt "Tournament total matches count (w/ qualifiers)"
+#~ msgid "Total matches count"
+#~ msgstr "Partite totali"
+
+#~ msgid "Main Event Statistics"
+#~ msgstr "Statistiche evento principale"
+
+#~ msgid "Most Played Heroes"
+#~ msgstr "Eroi più giocati"
+
+#~ msgid "Most Played Maps"
+#~ msgstr "Mappe più Giocate"
+
+#~ msgid "Summary Stats"
+#~ msgstr "Statistiche di riepilogo"
+
+#~ msgctxt "First pick stats"
+#~ msgid "First pick"
+#~ msgstr "Prima scelta"
+
+#~ msgctxt "Second pick stats"
+#~ msgid "Second pick"
+#~ msgstr "Seconda scelta"
+
+#~ msgctxt "Total team stats"
+#~ msgid "Total"
+#~ msgstr "Totale"
+
+#~ msgid "Losses"
+#~ msgstr "Perdite"
+
+#~ msgctxt "[SEO] Page title"
+#~ msgid "Most Played Heroes"
+#~ msgstr "Eroi più giocati"
+
+#~ msgid "Most Banned by %(team)s"
+#~ msgstr "Più Vietato da %(team)s"
+
+#~ msgid "Most Banned by Opponents"
+#~ msgstr "Più vietato dagli avversari"
+
+#~ msgid "Loss %%"
+#~ msgstr "Sconfitta %%"
+
+#~ msgctxt "[SEO] Page title"
+#~ msgid "Latest Matches"
+#~ msgstr "Ultime partite"
+
+#~ msgctxt "Plays for team since date"
+#~ msgid "Plays since"
+#~ msgstr "Gioca dal"
+
+#~ msgctxt "[SEO] Page title"
+#~ msgid "Players"
+#~ msgstr "Giocatori"
+
+#~ msgctxt "Player transfer"
+#~ msgid "From date"
+#~ msgstr "Dalla data"
+
+#~ msgctxt "Player transfer"
+#~ msgid "To date"
+#~ msgstr "Alla data"
 
 #, fuzzy
 #~| msgid ""
