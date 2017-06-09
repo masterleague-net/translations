@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-09 12:12+0000\n"
+"POT-Creation-Date: 2017-06-09 20:42+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1658,8 +1658,8 @@ msgstr "Najlepsi gracze KDA"
 #: meta/templates/meta/players.html:105 meta/templates/meta/teams.html:93
 #: teams/templates/players/player_heroes.html:41
 #: teams/templates/players/player_overview.html:24
-#: teams/templates/teams/team_overview.html:213 teams/views.py:660
-#: teams/views.py:683
+#: teams/templates/teams/team_overview.html:213 teams/views.py:661
+#: teams/views.py:684
 msgid "KDA"
 msgstr "KDA"
 
@@ -1909,11 +1909,8 @@ msgid "Roster"
 msgstr "Skład zespołu"
 
 #: teams/forms.py:178
-#, fuzzy
-#| msgctxt "Disbanded teams visibility switcher"
-#| msgid "Show disbanded"
-msgid "Disbanded"
-msgstr "Pokaż rozwiązane zespoły"
+msgid "Disbanded or changed sponsor"
+msgstr ""
 
 #: teams/models.py:125 teams/templates/players/player_card_inline.html:10
 msgctxt "Player role"
@@ -2021,7 +2018,7 @@ msgstr "Obrażenia oblężnicze"
 msgid "Average Match Time"
 msgstr "Średni czas meczu"
 
-#: teams/templates/players/player_overview.html:102 teams/views.py:691
+#: teams/templates/players/player_overview.html:102 teams/views.py:692
 msgid "Analyzed Replays"
 msgstr "Przetworzone powtórki"
 
@@ -2238,62 +2235,62 @@ msgstr ""
 "analizę <strong>%(ppr_match_count)s meczy</strong> z powtórkami z <strong>"
 "%(match_count)s meczy</strong> ogółem."
 
-#: teams/views.py:661
+#: teams/views.py:662
 msgctxt "Hero damage"
 msgid "Hero"
 msgstr "Bohater"
 
-#: teams/views.py:662
+#: teams/views.py:663
 msgctxt "Siege damage"
 msgid "Siege"
 msgstr "Zniszczenia"
 
-#: teams/views.py:663
+#: teams/views.py:664
 msgctxt "Amount of time player was not dead during the match"
 msgid "Lifetime"
 msgstr "Czas życia"
 
-#: teams/views.py:664
+#: teams/views.py:665
 msgctxt "Crowd control duration"
 msgid "CC"
 msgstr "CC"
 
-#: teams/views.py:665
+#: teams/views.py:666
 msgctxt "Experience"
 msgid "XP"
 msgstr "PD"
 
-#: teams/views.py:666
+#: teams/views.py:667
 msgctxt "Healing amount (for healers) or Damage taken (for warriors)"
 msgid "Role"
 msgstr "Rola"
 
-#: teams/views.py:684
+#: teams/views.py:685
 msgctxt "Amount of time player was not dead during the match"
 msgid "Lifetime / Min"
 msgstr "Czas życia / min"
 
-#: teams/views.py:685
+#: teams/views.py:686
 msgid "Siege Damage / Min"
 msgstr "Zniszczenia / min"
 
-#: teams/views.py:686
+#: teams/views.py:687
 msgid "Hero Damage / Min"
 msgstr "Obrażenia / min"
 
-#: teams/views.py:687
+#: teams/views.py:688
 msgid "Healing / Min"
 msgstr "Leczenie / min"
 
-#: teams/views.py:688
+#: teams/views.py:689
 msgid "Damage Taken / Min"
 msgstr "Odniesione obrażenia / min"
 
-#: teams/views.py:689
+#: teams/views.py:690
 msgid "CC Duration / Min"
 msgstr "Długość CC / min"
 
-#: teams/views.py:690
+#: teams/views.py:691
 msgid "Experience / Min"
 msgstr "Doświadczenie / Min"
 
@@ -2337,6 +2334,12 @@ msgstr "Wyszukaj"
 #: templates/base.html:295
 msgid "Help us localize the site!"
 msgstr "Pomóż nam przetłumaczyć stronę!"
+
+#, fuzzy
+#~| msgctxt "Disbanded teams visibility switcher"
+#~| msgid "Show disbanded"
+#~ msgid "Disbanded"
+#~ msgstr "Pokaż rozwiązane zespoły"
 
 #~ msgid "Show only main stage matches (exclude qualifiers)"
 #~ msgstr "Pokaż tylko główne mecze (bez kwalifikacji)"
