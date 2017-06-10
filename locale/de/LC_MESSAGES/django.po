@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-09 20:42+0000\n"
+"POT-Creation-Date: 2017-06-10 15:13+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1923,8 +1923,15 @@ msgid "Roster"
 msgstr "Spielerliste"
 
 #: teams/forms.py:178
-msgid "Disbanded or changed sponsor"
+msgid "Disbanded or changed a sponsor"
 msgstr ""
+
+#: teams/forms.py:181
+#, fuzzy
+#| msgctxt "All patches"
+#| msgid "All Time"
+msgid "All time"
+msgstr "Gesamter Zeitraum"
 
 #: teams/models.py:125 teams/templates/players/player_card_inline.html:10
 msgctxt "Player role"

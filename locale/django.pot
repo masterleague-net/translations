@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-09 20:42+0000\n"
+"POT-Creation-Date: 2017-06-10 15:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1891,7 +1891,11 @@ msgid "Roster"
 msgstr ""
 
 #: teams/forms.py:178
-msgid "Disbanded or changed sponsor"
+msgid "Disbanded or changed a sponsor"
+msgstr ""
+
+#: teams/forms.py:181
+msgid "All time"
 msgstr ""
 
 #: teams/models.py:125 teams/templates/players/player_card_inline.html:10
