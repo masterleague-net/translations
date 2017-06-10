@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-10 15:42+0000\n"
+"POT-Creation-Date: 2017-06-10 17:52+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Jiahao Liang <gzliangjiahao@gmail.com>\n"
 "Language-Team: \n"
@@ -120,6 +120,7 @@ msgstr "排行榜"
 #: heroes/templates/heroes/hero_detail.html:230
 #: meta/templates/meta/include/meta_filter_form.html:48
 #: teams/templates/players/player_detail.html:117
+#: teams/templates/teams/team_base.html:97
 msgctxt "Button label"
 msgid "Just Do It!"
 msgstr "开始搜索"

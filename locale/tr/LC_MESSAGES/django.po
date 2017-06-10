@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-10 15:42+0000\n"
+"POT-Creation-Date: 2017-06-10 17:52+0000\n"
 "PO-Revision-Date: 2017-03-19 15:28+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -127,6 +127,7 @@ msgstr "Lider Tablosu"
 #: heroes/templates/heroes/hero_detail.html:230
 #: meta/templates/meta/include/meta_filter_form.html:48
 #: teams/templates/players/player_detail.html:117
+#: teams/templates/teams/team_base.html:97
 msgctxt "Button label"
 msgid "Just Do It!"
 msgstr "Sadece Yap"
