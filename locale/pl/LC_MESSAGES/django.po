@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-10 15:13+0000\n"
+"POT-Creation-Date: 2017-06-10 15:42+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -106,7 +106,7 @@ msgstr "Zaloguj przez Battle.net"
 #: teams/templates/players/player_heroes.html:39
 #: teams/templates/players/player_list.html:80
 #: teams/templates/teams/team_base.html:57
-#: teams/templates/teams/team_maps.html:13 templates/base.html:209
+#: teams/templates/teams/team_maps.html:14 templates/base.html:209
 msgid "Matches"
 msgstr "Mecze"
 
@@ -390,7 +390,7 @@ msgstr "buildy"
 #: heroes/templates/heroes/hero_builds.html:28
 #: heroes/templates/heroes/hero_counters.html:23
 #: heroes/templates/heroes/hero_overview.html:174
-#: teams/templates/teams/team_maps.html:14
+#: teams/templates/teams/team_maps.html:15
 #, python-format
 msgid "Win %%"
 msgstr "%% wygranych"
@@ -582,7 +582,7 @@ msgstr "Najpopularniejsi na mapach"
 #: heroes/templates/heroes/hero_overview.html:197 matches/forms.py:26
 #: meta/templates/meta/maps.html:20 teams/forms.py:24 teams/forms.py:51
 #: teams/forms.py:65 teams/forms.py:128
-#: teams/templates/teams/team_maps.html:12
+#: teams/templates/teams/team_maps.html:13
 msgid "Map"
 msgstr "Mapa"
 
@@ -631,7 +631,7 @@ msgstr "min"
 #: matches/templates/tournaments/tournament_overview.html:147
 #: meta/templates/meta/base.html:28 meta/templates/meta/maps.html:5
 #: meta/templates/meta/maps.html:6 teams/templates/teams/team_base.html:54
-#: templates/base.html:210
+#: teams/templates/teams/team_maps.html:5 templates/base.html:210
 msgid "Maps"
 msgstr "Mapy"
 
@@ -1593,7 +1593,7 @@ msgstr "Najczęściej banowani w pierwszym wyborze"
 
 #: meta/templates/meta/drafts.html:49 meta/templates/meta/drafts.html:100
 #: meta/templates/meta/drafts.html:153 meta/templates/meta/drafts.html:204
-#: meta/templates/meta/maps.html:36 teams/templates/teams/team_maps.html:27
+#: meta/templates/meta/maps.html:36 teams/templates/teams/team_maps.html:28
 msgid "Summary"
 msgstr "Podsumowanie"
 
@@ -1622,15 +1622,15 @@ msgstr "Kompozycja"
 msgid "Count"
 msgstr "Ilość"
 
-#: meta/templates/meta/maps.html:22 teams/templates/teams/team_maps.html:15
+#: meta/templates/meta/maps.html:22 teams/templates/teams/team_maps.html:16
 msgid "Shortest"
 msgstr "Najkrótkszy"
 
-#: meta/templates/meta/maps.html:23 teams/templates/teams/team_maps.html:16
+#: meta/templates/meta/maps.html:23 teams/templates/teams/team_maps.html:17
 msgid "Average"
 msgstr "Średni"
 
-#: meta/templates/meta/maps.html:24 teams/templates/teams/team_maps.html:17
+#: meta/templates/meta/maps.html:24 teams/templates/teams/team_maps.html:18
 msgid "Longest"
 msgstr "Najdłuższy"
 
@@ -2111,11 +2111,6 @@ msgctxt "Player transfer"
 msgid "To Team"
 msgstr "Do Zespołu"
 
-#: teams/templates/teams/team_base.html:5
-msgctxt "[SEO] Page title"
-msgid "Team Statistics"
-msgstr "Statystyki zespołu"
-
 #: teams/templates/teams/team_base.html:53
 msgctxt "Team overview"
 msgid "Overview"
@@ -2341,6 +2336,10 @@ msgstr "Wyszukaj"
 #: templates/base.html:295
 msgid "Help us localize the site!"
 msgstr "Pomóż nam przetłumaczyć stronę!"
+
+#~ msgctxt "[SEO] Page title"
+#~ msgid "Team Statistics"
+#~ msgstr "Statystyki zespołu"
 
 #, fuzzy
 #~| msgctxt "Disbanded teams visibility switcher"
