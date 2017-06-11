@@ -1,0 +1,2289 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Master League\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-10 17:52+0000\n"
+"PO-Revision-Date: 2017-06-10 17:52+0000\n"
+"Last-Translator: Yury V. Zaytsev <yury@shurup.com>\n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: bets/forms.py:18
+msgid "Season"
+msgstr ""
+
+#: bets/forms.py:22 matches/forms.py:14
+#: matches/templates/tournaments/tournament_list_inline.html:11
+#: teams/forms.py:98 teams/templates/players/player_list.html:75
+msgid "Region"
+msgstr ""
+
+#: bets/forms.py:25 heroes/forms.py:17 matches/forms.py:15 meta/forms.py:19
+#: teams/forms.py:99
+msgid "All Regions"
+msgstr ""
+
+#: bets/forms.py:27
+msgid "Week"
+msgstr ""
+
+#: bets/forms.py:28
+msgid "All weeks"
+msgstr ""
+
+#: bets/templates/bets/bets_base.html:7 bets/templates/bets/leaderboard.html:5
+#: bets/templates/bets/leaderboard.html:26 bets/templates/bets/matches.html:5
+#: bets/templates/bets/matches.html:8 templates/base.html:213
+msgid "Challenges"
+msgstr ""
+
+#: bets/templates/bets/bets_base.html:23
+#: changelog/templates/changelog/changelog_detail.html:22
+#: changelog/templates/changelog/changelog_list.html:10
+#: heroes/templates/heroes/hero_detail.html:199
+#: heroes/templates/heroes/hero_list.html:51
+#: maps/templates/maps/map_detail.html:12 maps/templates/maps/map_list.html:12
+#: matches/templates/matches/match_detail.html:67
+#: matches/templates/matches/match_list.html:32
+#: matches/templates/tournaments/tournament_detail.html:19
+#: matches/templates/tournaments/tournament_list.html:12
+#: meta/templates/meta/base.html:12 search/templates/search/search.html:16
+#: teams/templates/players/player_detail.html:37
+#: teams/templates/players/player_list.html:25
+#: teams/templates/players/players_compare.html:112
+#: teams/templates/players/players_transfers.html:42
+#: teams/templates/teams/team_base.html:27
+#: teams/templates/teams/team_list.html:53
+msgctxt "Link to the main page"
+msgid "Home"
+msgstr ""
+
+#: bets/templates/bets/bets_base.html:33
+msgid "Predict results"
+msgstr ""
+
+#: bets/templates/bets/bets_base.html:34
+msgid "earn points"
+msgstr ""
+
+#: bets/templates/bets/bets_base.html:35
+msgid "win prizes"
+msgstr ""
+
+#: bets/templates/bets/bets_base.html:47
+#: bets/templates/bets/leaderboard.html:65
+#: bets/templates/bets/matches_include.html:63
+msgid "Points"
+msgstr ""
+
+#: bets/templates/bets/bets_base.html:50
+#: comments/templates/comments/comment_list.html:38 templates/base.html:241
+msgid "Login via Battle.net"
+msgstr ""
+
+#: bets/templates/bets/bets_base.html:55 bets/templates/bets/matches.html:7
+#: heroes/templates/heroes/hero_builds.html:27
+#: heroes/templates/heroes/hero_counters.html:22
+#: heroes/templates/heroes/hero_detail.html:261
+#: heroes/templates/heroes/hero_overview.html:173
+#: maps/templates/maps/map_detail.html:29
+#: matches/templates/matches/match_detail.html:8
+#: matches/templates/matches/match_list.html:8
+#: matches/templates/matches/match_list.html:33
+#: meta/templates/meta/base.html:33 meta/templates/meta/drafts.html:18
+#: meta/templates/meta/drafts.html:69 meta/templates/meta/drafts.html:122
+#: meta/templates/meta/drafts.html:173 meta/templates/meta/maps.html:21
+#: meta/templates/meta/matches.html:5 meta/templates/meta/matches.html:6
+#: meta/templates/meta/players.html:24 meta/templates/meta/players.html:64
+#: meta/templates/meta/players.html:106 meta/templates/meta/players.html:146
+#: meta/templates/meta/teams.html:22 meta/templates/meta/teams.html:57
+#: meta/templates/meta/teams.html:94 meta/templates/meta/teams.html:131
+#: teams/templates/players/player_detail.html:81
+#: teams/templates/players/player_heroes.html:39
+#: teams/templates/players/player_list.html:80
+#: teams/templates/teams/team_base.html:57
+#: teams/templates/teams/team_maps.html:14 templates/base.html:209
+msgid "Matches"
+msgstr ""
+
+#: bets/templates/bets/bets_base.html:56
+#: bets/templates/bets/leaderboard.html:5
+#: bets/templates/bets/leaderboard.html:7
+#: bets/templates/bets/leaderboard.html:27
+msgid "Leaderboard"
+msgstr ""
+
+#: bets/templates/bets/leaderboard.html:45
+#: heroes/templates/heroes/hero_detail.html:230
+#: meta/templates/meta/include/meta_filter_form.html:48
+#: teams/templates/players/player_detail.html:117
+#: teams/templates/teams/team_base.html:97
+msgctxt "Button label"
+msgid "Just Do It!"
+msgstr ""
+
+#: bets/templates/bets/leaderboard.html:60
+msgid "Position"
+msgstr ""
+
+#: bets/templates/bets/leaderboard.html:61
+#: teams/templates/players/player_list.html:77
+#: teams/templates/teams/team_overview.html:142
+msgid "Nickname"
+msgstr ""
+
+#: bets/templates/bets/leaderboard.html:62
+msgctxt "Bets count"
+msgid "Bets"
+msgstr ""
+
+#: bets/templates/bets/leaderboard.html:63
+msgid "Predicted winner"
+msgstr ""
+
+#: bets/templates/bets/leaderboard.html:64
+msgid "Predicted score"
+msgstr ""
+
+#: bets/templates/bets/leaderboard.html:87
+msgid "Legendary badge"
+msgstr ""
+
+#: bets/templates/bets/leaderboard.html:93
+msgid "Epic badge"
+msgstr ""
+
+#: bets/templates/bets/leaderboard.html:99
+msgid "Rare badge"
+msgstr ""
+
+#: bets/templates/bets/leaderboard.html:105
+msgid "Common badge"
+msgstr ""
+
+#: bets/templates/bets/matches.html:57
+#: matches/templates/matches/upcoming_matches_inline.html:11
+msgid "Time until"
+msgstr ""
+
+#: bets/templates/bets/matches.html:57
+#: changelog/templates/changelog/changelog_list.html:18
+#: matches/templates/matches/matches_inline.html:16
+#: matches/templates/matches/matches_inline.html:20
+#: pages/templates/calendar_base.html:92 pages/templates/mainpage.html:33
+#: pages/templates/mainpage.html:63
+#: teams/templates/players/players_transfers.html:64
+#: teams/templates/teams/team_overview.html:175
+msgid "Date"
+msgstr ""
+
+#: bets/templates/bets/matches.html:58
+msgid "Stage"
+msgstr ""
+
+#: bets/templates/bets/matches.html:60
+msgid "Reward"
+msgstr ""
+
+#: bets/templates/bets/matches.html:68
+msgid "Ongoing matches"
+msgstr ""
+
+#: bets/templates/bets/matches.html:74
+#: teams/templates/teams/team_overview.html:243
+msgid "Upcoming matches"
+msgstr ""
+
+#: bets/templates/bets/matches.html:141
+msgid "Completed matches"
+msgstr ""
+
+#: bets/templates/bets/matches_include.html:37
+#: bets/templates/bets/matches_include.html:39
+msgid "Your bet"
+msgstr ""
+
+#: bets/templates/bets/matches_include.html:37
+#: bets/templates/bets/matches_include.html:39
+#: bets/templates/bets/matches_include.html:43
+msgid "Total bets"
+msgstr ""
+
+#: changelog/templates/changelog/changelog_list.html:19
+msgctxt "News title"
+msgid "Title"
+msgstr ""
+
+#: comments/templates/comments/comment_edit_form.html:13
+msgid "Save changes"
+msgstr ""
+
+#: comments/templates/comments/comment_edit_form.html:14
+msgid "Cancel"
+msgstr ""
+
+#: comments/templates/comments/comment_list.html:31
+msgid "Write a comment"
+msgstr ""
+
+#: comments/templates/comments/comment_list.html:37
+msgid "You must be logged in to leave a comment"
+msgstr ""
+
+#: comments/templates/comments/comment_nodes.html:128
+msgid "Delete the comment?"
+msgstr ""
+
+#: comments/templates/comments/comment_nodes.html:170
+msgid "Comment was removed"
+msgstr ""
+
+#: comments/templates/comments/comment_nodes.html:183
+#: comments/templates/comments/comment_nodes.html:258
+#: comments/templates/profiles/base.html:29
+msgid "Rating"
+msgstr ""
+
+#: comments/templates/comments/comment_nodes.html:198
+#: comments/templates/profiles/base.html:20
+msgid "Administrator"
+msgstr ""
+
+#: comments/templates/comments/comment_nodes.html:200
+#: comments/templates/profiles/base.html:22
+msgid "Moderator"
+msgstr ""
+
+#: comments/templates/comments/comment_nodes.html:220
+msgid "Reply"
+msgstr ""
+
+#: comments/templates/comments/comment_nodes.html:225
+msgid "Edit"
+msgstr ""
+
+#: comments/templates/comments/comment_nodes.html:230
+msgid "Delete"
+msgstr ""
+
+#: comments/templates/comments/comment_nodes.html:233
+msgid "Permalink"
+msgstr ""
+
+#: comments/templates/comments/comment_nodes.html:236
+msgid "Mark read"
+msgstr ""
+
+#: comments/templates/comments/comment_nodes.html:275
+msgid "Post a comment"
+msgstr ""
+
+#: comments/templates/profiles/base.html:25
+msgid "Comments count"
+msgstr ""
+
+#: comments/templates/profiles/base.html:45
+#: matches/templates/matches/match_detail.html:246
+msgid "Comments"
+msgstr ""
+
+#: comments/templates/profiles/base.html:49 templates/base.html:227
+msgid "Notifications"
+msgstr ""
+
+#: comments/templates/profiles/base.html:55
+#: matches/templates/matches/match_list.html:80
+#: matches/templates/matches/matches_inline.html:146
+#: matches/templates/matches/matches_inline.html:148 templates/base.html:231
+msgid "Favorites"
+msgstr ""
+
+#: comments/templates/profiles/comment_list.html:27
+msgid "User didn't leave any comments"
+msgstr ""
+
+#: comments/templates/profiles/notification_list.html:61
+msgid "Mark read all"
+msgstr ""
+
+#: comments/templates/profiles/notification_list.html:68
+msgid "No new notifications"
+msgstr ""
+
+#: comments/templatetags/comments_tags.py:72
+#, python-format
+msgid "%s tag requires a queryset"
+msgstr ""
+
+#: core/templates/core/pagination.html:3
+msgctxt "Page navigation"
+msgid "Previous"
+msgstr ""
+
+#: core/templates/core/pagination.html:4
+msgctxt "Page navigation"
+msgid "Next"
+msgstr ""
+
+#: custom/templates/custom/team_heroes.html:5
+#: heroes/templates/heroes/hero_detail.html:8
+#: heroes/templates/heroes/hero_detail.html:200
+#: heroes/templates/heroes/hero_list.html:8
+#: heroes/templates/heroes/hero_list.html:52
+#: maps/templates/maps/map_detail.html:26
+#: matches/templates/tournaments/tournament_overview.html:149 meta/forms.py:27
+#: meta/templates/meta/base.html:30 meta/templates/meta/heroes.html:5
+#: meta/templates/meta/heroes.html:6 meta/templates/meta/players.html:23
+#: meta/templates/meta/players.html:63 meta/templates/meta/teams.html:21
+#: meta/templates/meta/teams.html:56 teams/forms.py:134
+#: teams/templates/players/player_detail.html:80
+#: teams/templates/players/player_heroes.html:5
+#: teams/templates/teams/team_base.html:56 templates/base.html:211
+msgid "Heroes"
+msgstr ""
+
+#: custom/templates/custom/team_heroes.html:65
+#: meta/templates/meta/heroes.html:12
+#, python-format
+msgid "Unpicked Heroes (%(unpicked_heroes_count)s of %(heroes_count)s)"
+msgstr ""
+
+#: custom/templates/custom/team_heroes.html:85
+#: matches/templates/tournaments/tournament_overview.html:9
+#: meta/templates/meta/heroes.html:32
+msgctxt "Hero tier"
+msgid "Tier"
+msgstr ""
+
+#: heroes/forms.py:14 meta/forms.py:15
+msgid "Regions"
+msgstr ""
+
+#: heroes/forms.py:19 meta/forms.py:21 teams/forms.py:60 teams/forms.py:123
+msgid "Patches"
+msgstr ""
+
+#: heroes/forms.py:22 meta/forms.py:25 teams/forms.py:30 teams/forms.py:63
+#: teams/forms.py:126
+msgid "All patches"
+msgstr ""
+
+#: heroes/forms.py:25 matches/templates/tournaments/tournament_detail.html:8
+#: matches/templates/tournaments/tournament_detail.html:20
+#: matches/templates/tournaments/tournament_list.html:8
+#: matches/templates/tournaments/tournament_list.html:13 meta/forms.py:37
+#: teams/forms.py:76 teams/forms.py:144 templates/base.html:208
+msgid "Tournaments"
+msgstr ""
+
+#: heroes/forms.py:30 meta/forms.py:42 teams/forms.py:81 teams/forms.py:149
+msgid "All tournaments"
+msgstr ""
+
+#: heroes/templates/heroes/hero_builds.html:5
+msgid "builds"
+msgstr ""
+
+#: heroes/templates/heroes/hero_builds.html:28
+#: heroes/templates/heroes/hero_counters.html:23
+#: heroes/templates/heroes/hero_overview.html:174
+#: teams/templates/teams/team_maps.html:15
+#, python-format
+msgid "Win %%"
+msgstr ""
+
+#: heroes/templates/heroes/hero_builds.html:58
+#: heroes/templates/heroes/hero_counters.html:47
+#: pages/templates/calendar_base.html:77
+msgid "Show matches"
+msgstr ""
+
+#: heroes/templates/heroes/hero_builds.html:93
+msgid "No replays found in the selected period."
+msgstr ""
+
+#: heroes/templates/heroes/hero_counters.html:5
+msgid "counter picks"
+msgstr ""
+
+#: heroes/templates/heroes/hero_counters.html:9
+msgid "Heroes that counter teams with"
+msgstr ""
+
+#: heroes/templates/heroes/hero_counters.html:21
+#: heroes/templates/heroes/stats_table_inline.html:10 matches/forms.py:32
+#: matches/templates/matches/match_stats.html:5
+#: meta/templates/meta/drafts.html:17 meta/templates/meta/drafts.html:68
+#: meta/templates/meta/drafts.html:121 meta/templates/meta/drafts.html:172
+#: meta/templates/meta/include/heroes_table.html:10 teams/forms.py:21
+#: teams/forms.py:48 teams/forms.py:68 teams/forms.py:110
+#: teams/templates/players/player_heroes.html:38
+msgid "Hero"
+msgstr ""
+
+#: heroes/templates/heroes/hero_counters.html:24
+#: matches/templates/matches/match_stats.html:301
+msgid "Kills"
+msgstr ""
+
+#: heroes/templates/heroes/hero_counters.html:25
+msgid "Kills per match"
+msgstr ""
+
+#: heroes/templates/heroes/hero_detail.html:5
+msgid "statistics"
+msgstr ""
+
+#: heroes/templates/heroes/hero_detail.html:66
+#, python-format
+msgid "First wave pick (%(pick1_count)s matches)"
+msgstr ""
+
+#: heroes/templates/heroes/hero_detail.html:67
+#, python-format
+msgid "Second wave pick (%(pick2_count)s matches)"
+msgstr ""
+
+#: heroes/templates/heroes/hero_detail.html:68
+#, python-format
+msgid "First wave ban (%(ban1_count)s matches)"
+msgstr ""
+
+#: heroes/templates/heroes/hero_detail.html:69
+#, python-format
+msgid "Second wave ban (%(ban2_count)s matches)"
+msgstr ""
+
+#: heroes/templates/heroes/hero_detail.html:70
+#, python-format
+msgid "Not banned or picked (%(popularity_blank_count)s matches)"
+msgstr ""
+
+#: heroes/templates/heroes/hero_detail.html:239
+#: heroes/templates/heroes/stats_table_inline.html:17
+#: meta/templates/meta/include/heroes_table.html:17
+msgid "Popularity"
+msgstr ""
+
+#: heroes/templates/heroes/hero_detail.html:240
+#, python-format
+msgid "%(match_count)s of %(total_matches)s matches"
+msgstr ""
+
+#: heroes/templates/heroes/hero_detail.html:252
+msgid "Wins"
+msgstr ""
+
+#: heroes/templates/heroes/hero_detail.html:253
+#, python-format
+msgid "%(win_count)s of %(pick_count)s matches"
+msgstr ""
+
+#: heroes/templates/heroes/hero_detail.html:258
+msgctxt "Hero overview"
+msgid "Overview"
+msgstr ""
+
+#: heroes/templates/heroes/hero_detail.html:259
+msgctxt "Hero builds"
+msgid "Builds"
+msgstr ""
+
+#: heroes/templates/heroes/hero_detail.html:260
+msgctxt "Hero counter picks"
+msgid "Counters"
+msgstr ""
+
+#: heroes/templates/heroes/hero_list.html:5
+msgctxt "[SEO] Page title"
+msgid "Heroes"
+msgstr ""
+
+#: heroes/templates/heroes/hero_list.html:58
+#: meta/templates/meta/drafts.html:237
+msgctxt "Hero role"
+msgid "Warrior"
+msgstr ""
+
+#: heroes/templates/heroes/hero_list.html:59
+#: meta/templates/meta/drafts.html:239
+msgctxt "Hero role"
+msgid "Support"
+msgstr ""
+
+#: heroes/templates/heroes/hero_list.html:60
+#: meta/templates/meta/drafts.html:241
+msgctxt "Hero role"
+msgid "Assassin"
+msgstr ""
+
+#: heroes/templates/heroes/hero_list.html:61
+#: meta/templates/meta/drafts.html:243
+msgctxt "Hero role"
+msgid "Specialist"
+msgstr ""
+
+#: heroes/templates/heroes/hero_list.html:66
+msgid "Start typing to search"
+msgstr ""
+
+#: heroes/templates/heroes/hero_matches_inline.html:9
+#: teams/templates/players/players_transfers.html:89
+msgid "Load more"
+msgstr ""
+
+#: heroes/templates/heroes/hero_overview.html:20
+#: heroes/templates/heroes/stats_table_inline.html:15
+#: meta/templates/meta/include/heroes_table.html:15
+msgid "Ban Rate"
+msgstr ""
+
+#: heroes/templates/heroes/hero_overview.html:35
+#: heroes/templates/heroes/stats_table_inline.html:16
+#: meta/templates/meta/include/heroes_table.html:16
+msgid "Pick Rate"
+msgstr ""
+
+#: heroes/templates/heroes/hero_overview.html:50
+#: heroes/templates/heroes/hero_overview.html:114
+#: heroes/templates/heroes/stats_table_inline.html:14
+#: meta/templates/meta/drafts.html:19 meta/templates/meta/drafts.html:70
+#: meta/templates/meta/drafts.html:123 meta/templates/meta/drafts.html:174
+#: meta/templates/meta/drafts.html:228
+#: meta/templates/meta/include/heroes_table.html:14
+#: teams/templates/players/player_heroes.html:40
+msgid "Win Rate"
+msgstr ""
+
+#: heroes/templates/heroes/hero_overview.html:70
+msgid "Popularity per Patch"
+msgstr ""
+
+#: heroes/templates/heroes/hero_overview.html:135
+msgid "Win Rate vs Game Duration"
+msgstr ""
+
+#: heroes/templates/heroes/hero_overview.html:186
+msgid ""
+"Popularity per Patch chart is based on the analysis of the latest patches "
+"for the selected region(s)."
+msgstr ""
+
+#: heroes/templates/heroes/hero_overview.html:191
+msgctxt "Hero"
+msgid "Most Popular On Maps"
+msgstr ""
+
+#: heroes/templates/heroes/hero_overview.html:197 matches/forms.py:26
+#: meta/templates/meta/maps.html:20 teams/forms.py:24 teams/forms.py:51
+#: teams/forms.py:65 teams/forms.py:128
+#: teams/templates/teams/team_maps.html:13
+msgid "Map"
+msgstr ""
+
+#: heroes/templates/heroes/hero_overview.html:231
+msgctxt "Hero"
+msgid "Most Played By Teams"
+msgstr ""
+
+#: heroes/templates/heroes/hero_overview.html:237
+#: matches/templates/tournaments/tournament_overview.html:7
+#: meta/templates/meta/players.html:22 meta/templates/meta/players.html:62
+#: meta/templates/meta/players.html:104 meta/templates/meta/teams.html:20
+#: meta/templates/meta/teams.html:55 meta/templates/meta/teams.html:92
+#: meta/templates/meta/teams.html:129 teams/forms.py:54 teams/forms.py:101
+#: teams/templates/players/player_list.html:76
+#: teams/templates/players/player_overview.html:119
+msgid "Team"
+msgstr ""
+
+#: heroes/templates/heroes/stats_table_inline.html:11
+#: meta/templates/meta/include/heroes_table.html:11
+msgctxt "Wins count"
+msgid "Wins"
+msgstr ""
+
+#: heroes/templates/heroes/stats_table_inline.html:12
+#: meta/templates/meta/include/heroes_table.html:12
+msgctxt "Losses count"
+msgid "Losses"
+msgstr ""
+
+#: heroes/templates/heroes/stats_table_inline.html:13
+#: meta/templates/meta/include/heroes_table.html:13
+msgctxt "Bans count"
+msgid "Bans"
+msgstr ""
+
+#: heroes/views.py:183 heroes/views.py:184
+msgctxt "minutes"
+msgid "mins"
+msgstr ""
+
+#: maps/templates/maps/map_detail.html:8
+#: maps/templates/maps/map_detail.html:13 maps/templates/maps/map_list.html:8
+#: maps/templates/maps/map_list.html:13
+#: matches/templates/tournaments/tournament_overview.html:147
+#: meta/templates/meta/base.html:28 meta/templates/meta/maps.html:5
+#: meta/templates/meta/maps.html:6 teams/templates/teams/team_base.html:54
+#: teams/templates/teams/team_maps.html:5 templates/base.html:210
+msgid "Maps"
+msgstr ""
+
+#: maps/templates/maps/map_detail.html:25
+#: matches/templates/matches/matches_inline.html:24
+#: matches/templates/tournaments/tournament_overview.html:148
+#: meta/templates/meta/base.html:29 meta/templates/meta/drafts.html:5
+#: meta/templates/meta/drafts.html:6 teams/templates/teams/team_base.html:55
+msgid "Drafts"
+msgstr ""
+
+#: maps/templates/maps/map_detail.html:27
+#: matches/templates/tournaments/tournament_overview.html:150
+#: meta/templates/meta/base.html:31 meta/templates/meta/players.html:5
+#: meta/templates/meta/players.html:6 search/templates/search/search.html:39
+#: teams/templates/players/player_detail.html:8
+#: teams/templates/players/player_detail.html:38
+#: teams/templates/players/player_list.html:5
+#: teams/templates/players/player_list.html:8
+#: teams/templates/players/player_list.html:26
+#: teams/templates/players/player_list.html:31
+#: teams/templates/players/players_compare.html:8
+#: teams/templates/players/players_compare.html:113
+#: teams/templates/players/players_compare.html:119
+#: teams/templates/players/players_transfers.html:8
+#: teams/templates/players/players_transfers.html:43
+#: teams/templates/players/players_transfers.html:49 templates/base.html:96
+#: templates/base.html:207
+msgid "Players"
+msgstr ""
+
+#: maps/templates/maps/map_detail.html:28
+#: matches/templates/tournaments/tournament_overview.html:151
+#: meta/templates/meta/base.html:32 meta/templates/meta/teams.html:5
+#: meta/templates/meta/teams.html:6 search/templates/search/search.html:21
+#: teams/templates/teams/team_base.html:7
+#: teams/templates/teams/team_base.html:28
+#: teams/templates/teams/team_list.html:8
+#: teams/templates/teams/team_list.html:54 templates/base.html:81
+#: templates/base.html:206
+msgid "Teams"
+msgstr ""
+
+#: maps/templates/maps/map_detail.html:34 meta/templates/meta/base.html:21
+msgid "Warning!"
+msgstr ""
+
+#: maps/templates/maps/map_list.html:5
+msgctxt "[SEO] Page title"
+msgid "Maps"
+msgstr ""
+
+#: masterleague/lc_strings.py:7
+msgid "North America"
+msgstr ""
+
+#: masterleague/lc_strings.py:8
+msgid "Europe"
+msgstr ""
+
+#: masterleague/lc_strings.py:9 masterleague/lc_strings.py:22
+msgid "Final"
+msgstr ""
+
+#: masterleague/lc_strings.py:10
+msgid "South Korea"
+msgstr ""
+
+#: masterleague/lc_strings.py:11
+msgid "China"
+msgstr ""
+
+#: masterleague/lc_strings.py:12
+msgid "Taiwan"
+msgstr ""
+
+#: masterleague/lc_strings.py:13
+msgid "Southeast Asia"
+msgstr ""
+
+#: masterleague/lc_strings.py:14
+msgid "Latin America"
+msgstr ""
+
+#: masterleague/lc_strings.py:15
+msgid "Australia & New Zealand"
+msgstr ""
+
+#: masterleague/lc_strings.py:19
+msgid "Grand Final"
+msgstr ""
+
+#: masterleague/lc_strings.py:20
+msgid "Winners Final"
+msgstr ""
+
+#: masterleague/lc_strings.py:21
+msgid "Losers Final"
+msgstr ""
+
+#: masterleague/lc_strings.py:23
+msgid "1/2 Final"
+msgstr ""
+
+#: masterleague/lc_strings.py:24
+msgid "1/2 Final LB"
+msgstr ""
+
+#: masterleague/lc_strings.py:25
+msgid "1/2 Final WB"
+msgstr ""
+
+#: masterleague/lc_strings.py:26
+msgid "1/4 Final"
+msgstr ""
+
+#: masterleague/lc_strings.py:27
+msgid "1/4 Final LB"
+msgstr ""
+
+#: masterleague/lc_strings.py:28
+msgid "1/4 Final WB"
+msgstr ""
+
+#: masterleague/lc_strings.py:29
+msgid "1/8 Final"
+msgstr ""
+
+#: masterleague/lc_strings.py:30
+msgid "1/8 Final LB"
+msgstr ""
+
+#: masterleague/lc_strings.py:31
+msgid "1/8 Final WB"
+msgstr ""
+
+#: masterleague/lc_strings.py:32
+msgid "1/16 Final"
+msgstr ""
+
+#: masterleague/lc_strings.py:33
+msgid "3rd place"
+msgstr ""
+
+#: masterleague/lc_strings.py:34
+msgid "Tiebreak"
+msgstr ""
+
+#: masterleague/lc_strings.py:35
+msgid "Showmatch"
+msgstr ""
+
+#: masterleague/lc_strings.py:39
+msgid "Battlefield of Eternity"
+msgstr ""
+
+#: masterleague/lc_strings.py:40
+msgid "Blackheart’s Bay"
+msgstr ""
+
+#: masterleague/lc_strings.py:41
+msgid "Braxis Holdout"
+msgstr ""
+
+#: masterleague/lc_strings.py:42
+msgid "Cursed Hollow"
+msgstr ""
+
+#: masterleague/lc_strings.py:43
+msgid "Dragon Shire"
+msgstr ""
+
+#: masterleague/lc_strings.py:44
+msgid "Garden of Terror"
+msgstr ""
+
+#: masterleague/lc_strings.py:45
+msgid "Haunted Mines"
+msgstr ""
+
+#: masterleague/lc_strings.py:46
+msgid "Infernal Shrines"
+msgstr ""
+
+#: masterleague/lc_strings.py:47
+msgid "Sky Temple"
+msgstr ""
+
+#: masterleague/lc_strings.py:48
+msgid "Tomb of the Spider Queen"
+msgstr ""
+
+#: masterleague/lc_strings.py:49
+msgid "Towers of Doom"
+msgstr ""
+
+#: masterleague/lc_strings.py:50
+msgid "Warhead Junction"
+msgstr ""
+
+#: masterleague/lc_strings.py:51
+msgid "Hanamura"
+msgstr ""
+
+#: masterleague/lc_strings.py:55
+#, python-format
+msgid "Altar captured. Shots fired: %(shots_fired)s."
+msgstr ""
+
+#: masterleague/lc_strings.py:56
+msgid "Dragon Knight activated"
+msgstr ""
+
+#: masterleague/lc_strings.py:57
+msgid "Garden Terror activated"
+msgstr ""
+
+#: masterleague/lc_strings.py:58
+msgid "Ghost ship captured"
+msgstr ""
+
+#: masterleague/lc_strings.py:59
+msgid "Immortal defeated"
+msgstr ""
+
+#: masterleague/lc_strings.py:60
+msgid "Infernal shrine captured"
+msgstr ""
+
+#: masterleague/lc_strings.py:61
+msgid "Boss camp"
+msgstr ""
+
+#: masterleague/lc_strings.py:62
+msgid "Nuke launch"
+msgstr ""
+
+#: masterleague/lc_strings.py:63
+msgid "Raven curse activated"
+msgstr ""
+
+#: masterleague/lc_strings.py:64
+#, python-format
+msgid "Temple shots fired. Total Shot Damage: %(total_shot_damage)s."
+msgstr ""
+
+#: masterleague/lc_strings.py:65
+msgid "Webweavers spawned"
+msgstr ""
+
+#: masterleague/lc_strings.py:66
+#, python-format
+msgid "Zerg rush. Opposing score: %(opposing_score)s%%."
+msgstr ""
+
+#: masterleague/lc_strings.py:70
+msgid "Samuro Patch"
+msgstr ""
+
+#: masterleague/lc_strings.py:71
+msgid "Alarak Patch"
+msgstr ""
+
+#: masterleague/lc_strings.py:72
+msgid "Auriel Patch"
+msgstr ""
+
+#: masterleague/lc_strings.py:73
+msgid "Gul'dan Patch"
+msgstr ""
+
+#: masterleague/lc_strings.py:74
+msgid "Medivh Patch"
+msgstr ""
+
+#: masterleague/lc_strings.py:75
+msgid "Chromie Patch"
+msgstr ""
+
+#: masterleague/lc_strings.py:76
+msgid "Tracer Patch"
+msgstr ""
+
+#: masterleague/lc_strings.py:77
+msgid "Dehaka Patch"
+msgstr ""
+
+#: masterleague/lc_strings.py:78
+msgid "Xul Patch"
+msgstr ""
+
+#: masterleague/lc_strings.py:79
+msgid "Li-Ming Patch"
+msgstr ""
+
+#: masterleague/lc_strings.py:80
+msgid "Greymane Patch"
+msgstr ""
+
+#: masterleague/lc_strings.py:81
+msgid "Lunara Patch"
+msgstr ""
+
+#: masterleague/lc_strings.py:82
+msgid "Zarya Patch"
+msgstr ""
+
+#: masterleague/lc_strings.py:83
+msgid "Varian Patch"
+msgstr ""
+
+#: masterleague/lc_strings.py:84
+msgid "Ragnaros Patch"
+msgstr ""
+
+#: masterleague/lc_strings.py:85
+msgid "Zul'jin Patch"
+msgstr ""
+
+#: masterleague/lc_strings.py:86
+msgid "Valeera Patch"
+msgstr ""
+
+#: masterleague/lc_strings.py:87
+msgid "Lucio Patch"
+msgstr ""
+
+#: masterleague/lc_strings.py:88
+msgid "Probius Patch"
+msgstr ""
+
+#: masterleague/lc_strings.py:89
+msgid "Cassia Patch"
+msgstr ""
+
+#: masterleague/lc_strings.py:90
+msgid "Genji Patch"
+msgstr ""
+
+#: masterleague/lc_strings.py:91
+msgid "D.Va Patch"
+msgstr ""
+
+#: masterleague/lc_strings.py:95
+msgid "Abathur"
+msgstr ""
+
+#: masterleague/lc_strings.py:96
+msgid "Alarak"
+msgstr ""
+
+#: masterleague/lc_strings.py:97
+msgid "Anub'arak"
+msgstr ""
+
+#: masterleague/lc_strings.py:98
+msgid "Artanis"
+msgstr ""
+
+#: masterleague/lc_strings.py:99
+msgid "Arthas"
+msgstr ""
+
+#: masterleague/lc_strings.py:100
+msgid "Auriel"
+msgstr ""
+
+#: masterleague/lc_strings.py:101
+msgid "Azmodan"
+msgstr ""
+
+#: masterleague/lc_strings.py:102
+msgid "Brightwing"
+msgstr ""
+
+#: masterleague/lc_strings.py:103
+msgid "Chen"
+msgstr ""
+
+#: masterleague/lc_strings.py:104
+msgid "Cho"
+msgstr ""
+
+#: masterleague/lc_strings.py:105
+msgid "Chromie"
+msgstr ""
+
+#: masterleague/lc_strings.py:106
+msgid "Dehaka"
+msgstr ""
+
+#: masterleague/lc_strings.py:107
+msgid "Diablo"
+msgstr ""
+
+#: masterleague/lc_strings.py:108
+msgid "E.T.C."
+msgstr ""
+
+#: masterleague/lc_strings.py:109
+msgid "Falstad"
+msgstr ""
+
+#: masterleague/lc_strings.py:110
+msgid "Gall"
+msgstr ""
+
+#: masterleague/lc_strings.py:111
+msgid "Gazlowe"
+msgstr ""
+
+#: masterleague/lc_strings.py:112
+msgid "Greymane"
+msgstr ""
+
+#: masterleague/lc_strings.py:113
+msgid "Gul'dan"
+msgstr ""
+
+#: masterleague/lc_strings.py:114
+msgid "Illidan"
+msgstr ""
+
+#: masterleague/lc_strings.py:115
+msgid "Jaina"
+msgstr ""
+
+#: masterleague/lc_strings.py:116
+msgid "Johanna"
+msgstr ""
+
+#: masterleague/lc_strings.py:117
+msgid "Kael'thas"
+msgstr ""
+
+#: masterleague/lc_strings.py:118
+msgid "Kerrigan"
+msgstr ""
+
+#: masterleague/lc_strings.py:119
+msgid "Kharazim"
+msgstr ""
+
+#: masterleague/lc_strings.py:120
+msgid "Leoric"
+msgstr ""
+
+#: masterleague/lc_strings.py:121
+msgid "Li Li"
+msgstr ""
+
+#: masterleague/lc_strings.py:122
+msgid "Li-Ming"
+msgstr ""
+
+#: masterleague/lc_strings.py:123
+msgid "Lt. Morales"
+msgstr ""
+
+#: masterleague/lc_strings.py:124
+msgid "Lucio"
+msgstr ""
+
+#: masterleague/lc_strings.py:125
+msgid "Lunara"
+msgstr ""
+
+#: masterleague/lc_strings.py:126
+msgid "Malfurion"
+msgstr ""
+
+#: masterleague/lc_strings.py:127
+msgid "Medivh"
+msgstr ""
+
+#: masterleague/lc_strings.py:128
+msgid "Muradin"
+msgstr ""
+
+#: masterleague/lc_strings.py:129
+msgid "Murky"
+msgstr ""
+
+#: masterleague/lc_strings.py:130
+msgid "Nazeebo"
+msgstr ""
+
+#: masterleague/lc_strings.py:131
+msgid "Nova"
+msgstr ""
+
+#: masterleague/lc_strings.py:132
+msgid "Ragnaros"
+msgstr ""
+
+#: masterleague/lc_strings.py:133
+msgid "Raynor"
+msgstr ""
+
+#: masterleague/lc_strings.py:134
+msgid "Rehgar"
+msgstr ""
+
+#: masterleague/lc_strings.py:135
+msgid "Rexxar"
+msgstr ""
+
+#: masterleague/lc_strings.py:136
+msgid "Samuro"
+msgstr ""
+
+#: masterleague/lc_strings.py:137
+msgid "Sgt. Hammer"
+msgstr ""
+
+#: masterleague/lc_strings.py:138
+msgid "Sonya"
+msgstr ""
+
+#: masterleague/lc_strings.py:139
+msgid "Stitches"
+msgstr ""
+
+#: masterleague/lc_strings.py:140
+msgid "Sylvanas"
+msgstr ""
+
+#: masterleague/lc_strings.py:141
+msgid "Tassadar"
+msgstr ""
+
+#: masterleague/lc_strings.py:142
+msgid "The Butcher"
+msgstr ""
+
+#: masterleague/lc_strings.py:143
+msgid "The Lost Vikings"
+msgstr ""
+
+#: masterleague/lc_strings.py:144
+msgid "Thrall"
+msgstr ""
+
+#: masterleague/lc_strings.py:145
+msgid "Tracer"
+msgstr ""
+
+#: masterleague/lc_strings.py:146
+msgid "Tychus"
+msgstr ""
+
+#: masterleague/lc_strings.py:147
+msgid "Tyrael"
+msgstr ""
+
+#: masterleague/lc_strings.py:148
+msgid "Tyrande"
+msgstr ""
+
+#: masterleague/lc_strings.py:149
+msgid "Uther"
+msgstr ""
+
+#: masterleague/lc_strings.py:150
+msgid "Valeera"
+msgstr ""
+
+#: masterleague/lc_strings.py:151
+msgid "Valla"
+msgstr ""
+
+#: masterleague/lc_strings.py:152
+msgid "Varian"
+msgstr ""
+
+#: masterleague/lc_strings.py:153
+msgid "Xul"
+msgstr ""
+
+#: masterleague/lc_strings.py:154
+msgid "Zagara"
+msgstr ""
+
+#: masterleague/lc_strings.py:155
+msgid "Zarya"
+msgstr ""
+
+#: masterleague/lc_strings.py:156
+msgid "Zeratul"
+msgstr ""
+
+#: masterleague/lc_strings.py:157
+msgid "Zul'jin"
+msgstr ""
+
+#: masterleague/lc_strings.py:158
+msgid "Probius"
+msgstr ""
+
+#: masterleague/lc_strings.py:159
+msgid "Cassia"
+msgstr ""
+
+#: masterleague/lc_strings.py:160
+msgid "Genji"
+msgstr ""
+
+#: masterleague/lc_strings.py:161
+msgid "D.Va"
+msgstr ""
+
+#: matches/forms.py:18 matches/forms.py:24 matches/forms.py:30
+#: matches/forms.py:36 teams/forms.py:113
+#: teams/templates/players/players_compare.html:35
+msgid "Select and begin typing"
+msgstr ""
+
+#: matches/forms.py:20 teams/forms.py:20 teams/forms.py:45
+msgid "Patch"
+msgstr ""
+
+#: matches/forms.py:21 teams/forms.py:46
+msgctxt "All patches"
+msgid "All Time"
+msgstr ""
+
+#: matches/forms.py:27 teams/forms.py:25 teams/forms.py:52
+msgid "All Maps"
+msgstr ""
+
+#: matches/forms.py:33 meta/views.py:231 teams/forms.py:22 teams/forms.py:49
+msgid "All Heroes"
+msgstr ""
+
+#: matches/templates/admin/tabular.html:121
+#, python-format
+msgid "Add another %(verbose_name)s"
+msgstr ""
+
+#: matches/templates/matches/match_detail.html:61
+#: matches/templates/matches/match_stats.html:225
+msgctxt "Match winner"
+msgid "Winner"
+msgstr ""
+
+#: matches/templates/matches/match_detail.html:62
+#: matches/templates/matches/match_stats.html:226
+msgctxt "Match loser"
+msgid "Loser"
+msgstr ""
+
+#: matches/templates/matches/match_detail.html:63
+msgctxt "First pick mark on match page"
+msgid "First pick"
+msgstr ""
+
+#: matches/templates/matches/match_detail.html:64
+msgctxt "Banned heroes list on match page"
+msgid "Bans"
+msgstr ""
+
+#: matches/templates/matches/match_detail.html:78
+msgid "Remove from favorites"
+msgstr ""
+
+#: matches/templates/matches/match_detail.html:80
+msgid "Add to favorites"
+msgstr ""
+
+#: matches/templates/matches/match_detail.html:85
+msgid "Sign in to add match to favorites"
+msgstr ""
+
+#: matches/templates/matches/match_detail.html:204
+msgid "Previous Matches"
+msgstr ""
+
+#: matches/templates/matches/match_detail.html:210
+msgctxt "Watch VODs"
+msgid "Watch"
+msgstr ""
+
+#: matches/templates/matches/match_detail.html:227
+#: matches/templates/matches/match_list.html:75
+#: matches/templates/matches/matches_inline.html:140
+msgid "Replay"
+msgstr ""
+
+#: matches/templates/matches/match_detail.html:232
+msgid "Download"
+msgstr ""
+
+#: matches/templates/matches/match_detail.html:241
+#: matches/templates/matches/match_stats.html:418
+msgid "Statistics"
+msgstr ""
+
+#: matches/templates/matches/match_list.html:5
+msgctxt "[SEO] Page title"
+msgid "Match List"
+msgstr ""
+
+#: matches/templates/matches/match_list.html:68
+msgctxt "Form filter options"
+msgid "Options"
+msgstr ""
+
+#: matches/templates/matches/match_list.html:70
+#: matches/templates/matches/matches_inline.html:135
+msgid "VOD"
+msgstr ""
+
+#: matches/templates/matches/match_stats.html:3
+msgid "Level"
+msgstr ""
+
+#: matches/templates/matches/match_stats.html:4
+#: teams/templatetags/ppr_tags.py:13
+msgid "Player Performance Rating"
+msgstr ""
+
+#: matches/templates/matches/match_stats.html:6
+#: meta/templates/meta/players.html:21 meta/templates/meta/players.html:61
+#: meta/templates/meta/players.html:103 meta/templates/meta/players.html:144
+#: pages/templates/mainpage.html:64
+#: teams/templates/players/players_transfers.html:65
+msgid "Player"
+msgstr ""
+
+#: matches/templates/matches/match_stats.html:134
+msgid "XP difference"
+msgstr ""
+
+#: matches/templates/matches/match_stats.html:180
+msgctxt "Some hero killed by some heroes"
+msgid "killed by"
+msgstr ""
+
+#: matches/templates/matches/match_stats.html:180
+msgid "Nexus forces"
+msgstr ""
+
+#: matches/templates/matches/match_stats.html:250
+msgctxt "Match time"
+msgid "Duration"
+msgstr ""
+
+#: matches/templates/matches/match_stats.html:302
+msgid "Assists"
+msgstr ""
+
+#: matches/templates/matches/match_stats.html:303
+#: teams/templates/players/player_overview.html:42
+msgid "Deaths"
+msgstr ""
+
+#: matches/templates/matches/match_stats.html:304
+msgid "Siege Dmg"
+msgstr ""
+
+#: matches/templates/matches/match_stats.html:305
+msgid "Hero Dmg"
+msgstr ""
+
+#: matches/templates/matches/match_stats.html:306
+msgctxt "Hero role"
+msgid "Role"
+msgstr ""
+
+#: matches/templates/matches/match_stats.html:307
+msgctxt "Experience"
+msgid "Exp"
+msgstr ""
+
+#: matches/templates/matches/match_stats.html:347
+msgid ""
+"The rating hasn't been calculated yet or cannot be calculated due to the "
+"small amount of games on this hero."
+msgstr ""
+
+#: matches/templates/matches/match_stats.html:349
+msgid ""
+"The rating is based on statistics of the player as compared to statistics of "
+"other players on the same hero in the same patches."
+msgstr ""
+
+#: matches/templates/matches/match_stats.html:419
+msgctxt "Hero talents"
+msgid "Talents"
+msgstr ""
+
+#: matches/templates/matches/match_stats.html:420
+msgid "Match Log"
+msgstr ""
+
+#: matches/templates/matches/matches_inline.html:15
+#: matches/templates/tournaments/tournament_overview.html:73
+#: pages/templates/calendar_base.html:94
+msgctxt "Tournament stage"
+msgid "Stage"
+msgstr ""
+
+#: matches/templates/matches/matches_inline.html:18
+msgctxt "Tournament stage / Map"
+msgid "Stage / Map"
+msgstr ""
+
+#: matches/templates/matches/matches_inline.html:21
+msgid "Tournament / Map"
+msgstr ""
+
+#: matches/templates/matches/matches_inline.html:26
+msgctxt "Spoilers switcher title"
+msgid "Spoilers"
+msgstr ""
+
+#: matches/templates/matches/matches_inline.html:94
+#, python-format
+msgid "Game %(game_number)s"
+msgstr ""
+
+#: matches/templates/matches/matches_inline.html:111
+msgctxt "Tooltip for match score"
+msgid "Win"
+msgstr ""
+
+#: matches/templates/matches/matches_inline.html:112
+msgctxt "Tooltip for match score"
+msgid "Lose"
+msgstr ""
+
+#: matches/templates/matches/matches_inline.html:113
+msgctxt "W for Win"
+msgid "W"
+msgstr ""
+
+#: matches/templates/matches/matches_inline.html:114
+msgctxt "L for Lose"
+msgid "L"
+msgstr ""
+
+#: matches/templates/matches/matches_inline.html:125
+msgid "Show"
+msgstr ""
+
+#: matches/templates/matches/upcoming_matches_inline.html:12
+#: teams/templates/teams/team_overview.html:177
+msgid "Tournament"
+msgstr ""
+
+#: matches/templates/tournaments/tournament_detail.html:16
+msgctxt "Tournament overview"
+msgid "Overview"
+msgstr ""
+
+#: matches/templates/tournaments/tournament_list.html:5
+msgctxt "[SEO] Page title"
+msgid "Tournaments"
+msgstr ""
+
+#: matches/templates/tournaments/tournament_list.html:17
+msgid "Upcoming tournaments"
+msgstr ""
+
+#: matches/templates/tournaments/tournament_list.html:22
+msgid "Ongoing tournaments"
+msgstr ""
+
+#: matches/templates/tournaments/tournament_list.html:26
+msgid "Completed tournaments"
+msgstr ""
+
+#: matches/templates/tournaments/tournament_list_inline.html:12
+#: matches/templates/tournaments/tournament_overview.html:20
+msgid "Start Date"
+msgstr ""
+
+#: matches/templates/tournaments/tournament_list_inline.html:13
+#: matches/templates/tournaments/tournament_overview.html:24
+msgid "End Date"
+msgstr ""
+
+#: matches/templates/tournaments/tournament_list_inline.html:14
+msgctxt "Tournament name"
+msgid "Name"
+msgstr ""
+
+#: matches/templates/tournaments/tournament_list_inline.html:15
+#: matches/templates/tournaments/tournament_overview.html:41
+msgid "Prize Pool"
+msgstr ""
+
+#: matches/templates/tournaments/tournament_overview.html:6
+msgctxt "Place in table of winners"
+msgid "Place"
+msgstr ""
+
+#: matches/templates/tournaments/tournament_overview.html:8
+msgctxt "Tournament prize pool"
+msgid "Prize"
+msgstr ""
+
+#: matches/templates/tournaments/tournament_overview.html:16
+msgid "General Information"
+msgstr ""
+
+#: matches/templates/tournaments/tournament_overview.html:28
+msgctxt "Tournament format"
+msgid "Format"
+msgstr ""
+
+#: matches/templates/tournaments/tournament_overview.html:33
+msgctxt "The venue of the tournament"
+msgid "Location"
+msgstr ""
+
+#: matches/templates/tournaments/tournament_overview.html:45
+msgctxt "Tournament matches count"
+msgid "Total Matches"
+msgstr ""
+
+#: matches/templates/tournaments/tournament_overview.html:50
+msgid "Description"
+msgstr ""
+
+#: matches/templates/tournaments/tournament_overview.html:122
+msgid "Participating Teams"
+msgstr ""
+
+#: matches/templates/tournaments/tournament_overview.html:144
+msgid "Tournament statistics"
+msgstr ""
+
+#: meta/forms.py:34 teams/forms.py:69 teams/forms.py:141
+msgid "All heroes"
+msgstr ""
+
+#: meta/templates/meta/base.html:5
+msgctxt "[SEO] Page title"
+msgid "Meta"
+msgstr ""
+
+#: meta/templates/meta/base.html:8 meta/templates/meta/base.html:13
+#: templates/base.html:212
+msgid "Meta"
+msgstr ""
+
+#: meta/templates/meta/drafts.html:12
+msgid "Top First Bans"
+msgstr ""
+
+#: meta/templates/meta/drafts.html:49 meta/templates/meta/drafts.html:100
+#: meta/templates/meta/drafts.html:153 meta/templates/meta/drafts.html:204
+#: meta/templates/meta/maps.html:36 teams/templates/teams/team_maps.html:28
+msgid "Summary"
+msgstr ""
+
+#: meta/templates/meta/drafts.html:63
+msgid "Top First Picks"
+msgstr ""
+
+#: meta/templates/meta/drafts.html:116
+msgid "Top Second Bans"
+msgstr ""
+
+#: meta/templates/meta/drafts.html:167
+msgid "Top Second Picks (two heroes)"
+msgstr ""
+
+#: meta/templates/meta/drafts.html:220
+msgid "Most Common Compositions"
+msgstr ""
+
+#: meta/templates/meta/drafts.html:226
+msgctxt "Team composition"
+msgid "Composition"
+msgstr ""
+
+#: meta/templates/meta/drafts.html:227
+msgid "Count"
+msgstr ""
+
+#: meta/templates/meta/maps.html:22 teams/templates/teams/team_maps.html:16
+msgid "Shortest"
+msgstr ""
+
+#: meta/templates/meta/maps.html:23 teams/templates/teams/team_maps.html:17
+msgid "Average"
+msgstr ""
+
+#: meta/templates/meta/maps.html:24 teams/templates/teams/team_maps.html:18
+msgid "Longest"
+msgstr ""
+
+#: meta/templates/meta/maps.html:25
+msgctxt "Popular picks"
+msgid "Most Played Heroes"
+msgstr ""
+
+#: meta/templates/meta/maps.html:26
+msgid "Most Banned"
+msgstr ""
+
+#: meta/templates/meta/players.html:12
+msgid "Widest Hero Pool by Players"
+msgstr ""
+
+#: meta/templates/meta/players.html:52
+msgid "Smallest Hero Pool by Players"
+msgstr ""
+
+#: meta/templates/meta/players.html:94
+msgid "Top KDA Players"
+msgstr ""
+
+#: meta/templates/meta/players.html:105 meta/templates/meta/teams.html:93
+#: teams/templates/players/player_heroes.html:41
+#: teams/templates/players/player_overview.html:24
+#: teams/templates/teams/team_overview.html:213 teams/views.py:661
+#: teams/views.py:684
+msgid "KDA"
+msgstr ""
+
+#: meta/templates/meta/players.html:134
+msgid "Players performance"
+msgstr ""
+
+#: meta/templates/meta/players.html:143 meta/templates/meta/teams.html:128
+msgid "Performance"
+msgstr ""
+
+#: meta/templates/meta/players.html:145 meta/templates/meta/teams.html:130
+msgid "Value"
+msgstr ""
+
+#: meta/templates/meta/teams.html:12
+msgid "Widest Hero Pool by Teams"
+msgstr ""
+
+#: meta/templates/meta/teams.html:47
+msgid "Smallest Hero Pool by Teams"
+msgstr ""
+
+#: meta/templates/meta/teams.html:84
+msgid "Top KDA Teams"
+msgstr ""
+
+#: meta/templates/meta/teams.html:119
+msgid "Teams performance"
+msgstr ""
+
+#: meta/views.py:126
+msgid "No matches played in the selected period."
+msgstr ""
+
+#: meta/views.py:232
+msgid "Warriors"
+msgstr ""
+
+#: meta/views.py:233
+msgid "Supports"
+msgstr ""
+
+#: meta/views.py:234
+msgid "Assassins"
+msgstr ""
+
+#: meta/views.py:235
+msgid "Specialists"
+msgstr ""
+
+#: meta/views.py:278 meta/views.py:367
+msgid "The highest average number of takedowns"
+msgstr ""
+
+#: meta/views.py:289
+msgid "The highest average number of kills"
+msgstr ""
+
+#: meta/views.py:300
+msgid "The highest average number of assists"
+msgstr ""
+
+#: meta/views.py:311
+msgid "Player that spent the most time alive"
+msgstr ""
+
+#: meta/views.py:322
+msgid "Player that spent the most time dead"
+msgstr ""
+
+#: meta/views.py:378
+msgid "The highest average deaths"
+msgstr ""
+
+#: meta/views.py:389
+msgid "Team that spent the most time alive"
+msgstr ""
+
+#: meta/views.py:400
+msgid "Team that spent the most time dead"
+msgstr ""
+
+#: pages/templates/calendar.html:5
+msgctxt "[SEO] Page title"
+msgid "eSports Calendar"
+msgstr ""
+
+#: pages/templates/calendar.html:6
+msgid "Upcoming and ongoing events."
+msgstr ""
+
+#: pages/templates/calendar_base.html:66
+msgctxt "eSports Calendar tooltip for events start time"
+msgid "Your local time"
+msgstr ""
+
+#: pages/templates/calendar_base.html:71
+msgid ""
+"If you are a Google Calendar user, copy the button link location, open "
+"Google Calendar, find 'Other Calendars', choose 'Add by URL' and paste the "
+"link into the URL field."
+msgstr ""
+
+#: pages/templates/calendar_base.html:74
+msgid "Subscribe to Calendar"
+msgstr ""
+
+#: pages/templates/calendar_base.html:81
+msgid "eSports Calendar"
+msgstr ""
+
+#: pages/templates/calendar_base.html:93
+msgctxt "eSports Calendar"
+msgid "Tournament / Stream"
+msgstr ""
+
+#: pages/templates/calendar_base.html:100
+msgctxt "Live events in eSports Calendar"
+msgid "Live"
+msgstr ""
+
+#: pages/templates/calendar_base.html:162
+msgctxt "Upcoming events in eSports Calendar"
+msgid "Upcoming"
+msgstr ""
+
+#: pages/templates/calendar_base.html:200
+msgid "Times displayed in your local time"
+msgstr ""
+
+#: pages/templates/mainpage.html:7
+msgctxt "Greeting"
+msgid "Welcome to Master League"
+msgstr ""
+
+#: pages/templates/mainpage.html:13
+#, python-format
+msgctxt "Greeting"
+msgid ""
+"Here you can find the latest results, VODs and replays of <a href=\"http://"
+"heroesofthestorm.com/\" target=\"_blank\"><strong>Heroes of the Storm</"
+"strong></a> competitive games, indepth statistics of players and teams from "
+"different regions and more. Currently we have detailed information about <a "
+"href=\"%(match_list_url)s\"><strong>%(match_count)s</strong></a> matches, <a "
+"href=\"%(team_list_url)s\"><strong>%(team_count)s</strong></a> teams and <a "
+"href=\"%(player_list_url)s\"><strong>%(player_count)s</strong></a> "
+"professional players in our database."
+msgstr ""
+
+#: pages/templates/mainpage.html:27
+msgid "Latest News"
+msgstr ""
+
+#: pages/templates/mainpage.html:34
+msgctxt "Latest News"
+msgid "Title"
+msgstr ""
+
+#: pages/templates/mainpage.html:56
+msgid "Latest Transfers"
+msgstr ""
+
+#: pages/templates/mainpage.html:65
+msgid "From Team"
+msgstr ""
+
+#: pages/templates/mainpage.html:66
+msgid "To Team"
+msgstr ""
+
+#: pages/templates/mainpage.html:115
+#: teams/templates/players/player_matches.html:5
+msgid "Latest Matches"
+msgstr ""
+
+#: search/templates/search/search.html:5
+msgctxt "[SEO] Page title"
+msgid "Search results"
+msgstr ""
+
+#: search/templates/search/search.html:13
+msgctxt "Search results"
+msgid "Not found"
+msgstr ""
+
+#: search/templates/search/search.html:17
+msgid "Search"
+msgstr ""
+
+#: teams/forms.py:32
+msgid "Current Roster"
+msgstr ""
+
+#: teams/forms.py:55
+msgid "Any Team"
+msgstr ""
+
+#: teams/forms.py:66 teams/forms.py:129
+msgid "All maps"
+msgstr ""
+
+#: teams/forms.py:91
+msgctxt "Form filter, any team choice"
+msgid "Any"
+msgstr ""
+
+#: teams/forms.py:92
+msgctxt "Player w/o team"
+msgid "Free Agent"
+msgstr ""
+
+#: teams/forms.py:96
+msgctxt "Form filter, any player position choice"
+msgid "Any"
+msgstr ""
+
+#: teams/forms.py:103 teams/templates/players/player_list.html:79
+#: teams/templates/teams/team_overview.html:144
+msgctxt "Player role/team position"
+msgid "Position"
+msgstr ""
+
+#: teams/forms.py:108
+msgid "First Player"
+msgstr ""
+
+#: teams/forms.py:109
+msgid "Second Player"
+msgstr ""
+
+#: teams/forms.py:118
+msgid "Roster"
+msgstr ""
+
+#: teams/forms.py:178
+msgid "Disbanded or changed a sponsor"
+msgstr ""
+
+#: teams/forms.py:181
+msgid "All time"
+msgstr ""
+
+#: teams/models.py:125 teams/templates/players/player_card_inline.html:10
+msgctxt "Player role"
+msgid "Warrior"
+msgstr ""
+
+#: teams/models.py:126 teams/templates/players/player_card_inline.html:12
+msgctxt "Player role"
+msgid "Support"
+msgstr ""
+
+#: teams/models.py:127 teams/templates/players/player_card_inline.html:14
+msgctxt "Player role"
+msgid "Assassin"
+msgstr ""
+
+#: teams/models.py:128 teams/templates/players/player_card_inline.html:16
+msgctxt "Player role"
+msgid "Flex"
+msgstr ""
+
+#: teams/templates/players/player_detail.html:79
+msgid "Overview"
+msgstr ""
+
+#: teams/templates/players/player_heroes.html:42
+msgid "Live Time"
+msgstr ""
+
+#: teams/templates/players/player_heroes.html:43
+msgid "Hero dmg"
+msgstr ""
+
+#: teams/templates/players/player_heroes.html:44
+msgid "Siege dmg"
+msgstr ""
+
+#: teams/templates/players/player_heroes.html:45
+msgid "Role"
+msgstr ""
+
+#: teams/templates/players/player_heroes.html:46
+#: teams/templates/players/player_overview.html:86
+msgid "Experience"
+msgstr ""
+
+#: teams/templates/players/player_heroes.html:47
+msgid "PPR"
+msgstr ""
+
+#: teams/templates/players/player_list.html:34
+#: teams/templates/players/players_compare.html:122
+#: teams/templates/players/players_transfers.html:44
+#: teams/templates/players/players_transfers.html:52
+msgid "Transfers"
+msgstr ""
+
+#: teams/templates/players/player_list.html:37
+#: teams/templates/players/players_compare.html:114
+#: teams/templates/players/players_compare.html:125
+#: teams/templates/players/players_transfers.html:55
+msgctxt "Players compare"
+msgid "Compare"
+msgstr ""
+
+#: teams/templates/players/player_list.html:78
+msgctxt "Player real name"
+msgid "Name"
+msgstr ""
+
+#: teams/templates/players/player_overview.html:5
+#: teams/templates/players/player_overview.html:11
+msgid "Player Statistics"
+msgstr ""
+
+#: teams/templates/players/player_overview.html:18
+msgid "Player Avg"
+msgstr ""
+
+#: teams/templates/players/player_overview.html:19
+msgid "Team Avg"
+msgstr ""
+
+#: teams/templates/players/player_overview.html:33
+msgid "Takedowns"
+msgstr ""
+
+#: teams/templates/players/player_overview.html:51
+msgid "Kill Participation"
+msgstr ""
+
+#: teams/templates/players/player_overview.html:59
+msgid "Time Dead"
+msgstr ""
+
+#: teams/templates/players/player_overview.html:68
+msgid "Hero Damage"
+msgstr ""
+
+#: teams/templates/players/player_overview.html:77
+msgid "Siege Damage"
+msgstr ""
+
+#: teams/templates/players/player_overview.html:95
+msgid "Average Match Time"
+msgstr ""
+
+#: teams/templates/players/player_overview.html:102 teams/views.py:692
+msgid "Analyzed Replays"
+msgstr ""
+
+#: teams/templates/players/player_overview.html:103
+msgid "Total matches"
+msgstr ""
+
+#: teams/templates/players/player_overview.html:110
+msgctxt "Player transfers history"
+msgid "Team history"
+msgstr ""
+
+#: teams/templates/players/player_overview.html:117
+msgid "From date"
+msgstr ""
+
+#: teams/templates/players/player_overview.html:118
+msgid "To date"
+msgstr ""
+
+#: teams/templates/players/players_compare.html:5
+msgctxt "[SEO] Page title"
+msgid "Compare Players"
+msgstr ""
+
+#: teams/templates/players/players_compare.html:34
+msgid "Currently Selected"
+msgstr ""
+
+#: teams/templates/players/players_compare.html:36
+msgid "Unable to retrieve results"
+msgstr ""
+
+#: teams/templates/players/players_compare.html:37
+msgid "Search..."
+msgstr ""
+
+#: teams/templates/players/players_compare.html:38
+msgid "Start typing a search query"
+msgstr ""
+
+#: teams/templates/players/players_compare.html:39
+msgid "No Results"
+msgstr ""
+
+#: teams/templates/players/players_compare.html:40
+msgid "Searching..."
+msgstr ""
+
+#: teams/templates/players/players_compare.html:163
+msgctxt "Button label for players compare"
+msgid "Compare"
+msgstr ""
+
+#: teams/templates/players/players_compare.html:182
+msgctxt "Players compare page"
+msgid "All Time Avg. Stats"
+msgstr ""
+
+#: teams/templates/players/players_compare.html:204
+msgid "KDA is calculated as (Kills + Assists) / (Deaths + 1)"
+msgstr ""
+
+#: teams/templates/players/players_compare.html:205
+msgid "Lifetime is calculated as (Match time - Time spend dead) / Match time"
+msgstr ""
+
+#: teams/templates/players/players_transfers.html:5
+msgctxt "[SEO] Page title"
+msgid "Players transfers"
+msgstr ""
+
+#: teams/templates/players/players_transfers.html:66
+msgctxt "Player transfer"
+msgid "From Team"
+msgstr ""
+
+#: teams/templates/players/players_transfers.html:67
+msgctxt "Player transfer"
+msgid "To Team"
+msgstr ""
+
+#: teams/templates/teams/team_base.html:53
+msgctxt "Team overview"
+msgid "Overview"
+msgstr ""
+
+#: teams/templates/teams/team_list.html:5
+msgctxt "[SEO] Page title"
+msgid "Teams"
+msgstr ""
+
+#: teams/templates/teams/team_list.html:75
+msgctxt "Disbanded teams visibility switcher"
+msgid "Show disbanded"
+msgstr ""
+
+#: teams/templates/teams/team_list.html:80
+msgctxt "Search field tooltip"
+msgid "Start typing to search"
+msgstr ""
+
+#: teams/templates/teams/team_overview.html:95
+#, python-format
+msgid "Losses: %(loss_count)s matches"
+msgstr ""
+
+#: teams/templates/teams/team_overview.html:96
+#, python-format
+msgid "Wins: %(win_count)s matches"
+msgstr ""
+
+#: teams/templates/teams/team_overview.html:103
+#, python-format
+msgid "Deaths: %(deaths)s"
+msgstr ""
+
+#: teams/templates/teams/team_overview.html:104
+#, python-format
+msgid "Takedowns: %(takedowns)s"
+msgstr ""
+
+#: teams/templates/teams/team_overview.html:111
+#, python-format
+msgid "%(match_count)s matches"
+msgstr ""
+
+#: teams/templates/teams/team_overview.html:135
+msgid "Player Roster"
+msgstr ""
+
+#: teams/templates/teams/team_overview.html:143
+msgid "Name"
+msgstr ""
+
+#: teams/templates/teams/team_overview.html:167
+msgctxt "Team achievements in tournaments"
+msgid "Achievements"
+msgstr ""
+
+#: teams/templates/teams/team_overview.html:176
+msgid "Place"
+msgstr ""
+
+#: teams/templates/teams/team_overview.html:178
+msgid "Prize"
+msgstr ""
+
+#: teams/templates/teams/team_overview.html:209
+msgid "Win rate"
+msgstr ""
+
+#: teams/templates/teams/team_overview.html:217
+msgid "Hero pool"
+msgstr ""
+
+#: teams/templates/teams/team_overview.html:223
+msgid "FP win rate"
+msgstr ""
+
+#: teams/templates/teams/team_overview.html:227
+msgid "Time dead"
+msgstr ""
+
+#: teams/templates/teams/team_overview.html:231
+msgid "Avg. match"
+msgstr ""
+
+#: teams/templates/teams/team_overview.html:237
+#, python-format
+msgid ""
+"* KDA, time spend dead and average match time are based on the analysis of "
+"the %(replay_count)s replays out of %(match_count)s matches"
+msgstr ""
+
+#: teams/templates/teams/team_overview.html:251
+msgid "Latest matches"
+msgstr ""
+
+#: teams/templatetags/ppr_tags.py:14
+#, python-format
+msgid ""
+"The rating is based on statistics of the player as compared to statistics of "
+"other players on the same hero in the same patches.<br /><br />Computed by "
+"analyzing <strong>%(ppr_match_count)s matches</strong> with replays out of "
+"<strong>%(match_count)s matches</strong> in total."
+msgstr ""
+
+#: teams/views.py:662
+msgctxt "Hero damage"
+msgid "Hero"
+msgstr ""
+
+#: teams/views.py:663
+msgctxt "Siege damage"
+msgid "Siege"
+msgstr ""
+
+#: teams/views.py:664
+msgctxt "Amount of time player was not dead during the match"
+msgid "Lifetime"
+msgstr ""
+
+#: teams/views.py:665
+msgctxt "Crowd control duration"
+msgid "CC"
+msgstr ""
+
+#: teams/views.py:666
+msgctxt "Experience"
+msgid "XP"
+msgstr ""
+
+#: teams/views.py:667
+msgctxt "Healing amount (for healers) or Damage taken (for warriors)"
+msgid "Role"
+msgstr ""
+
+#: teams/views.py:685
+msgctxt "Amount of time player was not dead during the match"
+msgid "Lifetime / Min"
+msgstr ""
+
+#: teams/views.py:686
+msgid "Siege Damage / Min"
+msgstr ""
+
+#: teams/views.py:687
+msgid "Hero Damage / Min"
+msgstr ""
+
+#: teams/views.py:688
+msgid "Healing / Min"
+msgstr ""
+
+#: teams/views.py:689
+msgid "Damage Taken / Min"
+msgstr ""
+
+#: teams/views.py:690
+msgid "CC Duration / Min"
+msgstr ""
+
+#: teams/views.py:691
+msgid "Experience / Min"
+msgstr ""
+
+#: templates/404.html:6
+msgctxt "404 page"
+msgid "Page Not Found"
+msgstr ""
+
+#: templates/404.html:21
+msgctxt "404 page"
+msgid "There's nothing here"
+msgstr ""
+
+#: templates/404.html:24
+msgid "Home"
+msgstr ""
+
+#: templates/base.html:6
+msgid "eSport statistics"
+msgstr ""
+
+#: templates/base.html:80
+msgctxt "Search results"
+msgid "Teams not found"
+msgstr ""
+
+#: templates/base.html:95
+msgctxt "Search results"
+msgid "Players not found"
+msgstr ""
+
+#: templates/base.html:235
+msgid "Log out"
+msgstr ""
+
+#: templates/base.html:248
+msgctxt "Search field tooltip"
+msgid "Search"
+msgstr ""
+
+#: templates/base.html:295
+msgid "Help us localize the site!"
+msgstr ""
