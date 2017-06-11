@@ -1904,15 +1904,10 @@ msgid "Roster"
 msgstr "Skład zespołu"
 
 #: teams/forms.py:178
-#, fuzzy
-#| msgid "Disbanded or changed sponsor"
 msgid "Disbanded or changed a sponsor"
 msgstr "Rozwiązanie lub zmiana sponsora"
 
 #: teams/forms.py:181
-#, fuzzy
-#| msgctxt "All patches"
-#| msgid "All Time"
 msgid "All time"
 msgstr "Wszystkie Wersje"
 
@@ -2182,15 +2177,15 @@ msgstr "Pula bohatorów"
 
 #: teams/templates/teams/team_overview.html:223
 msgid "FP win rate"
-msgstr "Wygrane pierwszego wyboru"
+msgstr "Wygrane PW"
 
 #: teams/templates/teams/team_overview.html:227
 msgid "Time dead"
-msgstr "Czas bycia martwym"
+msgstr "Procent śmierci"
 
 #: teams/templates/teams/team_overview.html:231
 msgid "Avg. match"
-msgstr "Średni czas meczu"
+msgstr "Śr czas meczu"
 
 #: teams/templates/teams/team_overview.html:237
 #, python-format
