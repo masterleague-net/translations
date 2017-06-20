@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-10 17:52+0000\n"
+"POT-Creation-Date: 2017-06-20 17:58+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Jiahao Liang <gzliangjiahao@gmail.com>\n"
 "Language-Team: \n"
@@ -980,272 +980,282 @@ msgstr "格雷迈恩版本"
 msgid "D.Va Patch"
 msgstr "德哈卡版本"
 
-#: masterleague/lc_strings.py:95
+#: masterleague/lc_strings.py:92
+#, fuzzy
+#| msgid "Valeera Patch"
+msgid "Malthael Patch"
+msgstr "瓦莉拉版本"
+
+#: masterleague/lc_strings.py:96
 msgid "Abathur"
 msgstr "阿巴瑟"
 
-#: masterleague/lc_strings.py:96
+#: masterleague/lc_strings.py:97
 msgid "Alarak"
 msgstr "阿拉纳克"
 
-#: masterleague/lc_strings.py:97
+#: masterleague/lc_strings.py:98
 msgid "Anub'arak"
 msgstr "阿努巴拉克"
 
-#: masterleague/lc_strings.py:98
+#: masterleague/lc_strings.py:99
 msgid "Artanis"
 msgstr "阿塔尼斯"
 
-#: masterleague/lc_strings.py:99
+#: masterleague/lc_strings.py:100
 msgid "Arthas"
 msgstr "阿尔萨斯"
 
-#: masterleague/lc_strings.py:100
+#: masterleague/lc_strings.py:101
 msgid "Auriel"
 msgstr "奥莉尔"
 
-#: masterleague/lc_strings.py:101
+#: masterleague/lc_strings.py:102
 msgid "Azmodan"
 msgstr "阿兹莫丹"
 
-#: masterleague/lc_strings.py:102
+#: masterleague/lc_strings.py:103
 msgid "Brightwing"
 msgstr "光明之翼"
 
-#: masterleague/lc_strings.py:103
+#: masterleague/lc_strings.py:104
 msgid "Chen"
 msgstr "陈"
 
-#: masterleague/lc_strings.py:104
+#: masterleague/lc_strings.py:105
 msgid "Cho"
 msgstr "古"
 
-#: masterleague/lc_strings.py:105
+#: masterleague/lc_strings.py:106
 msgid "Chromie"
 msgstr "克罗米"
 
-#: masterleague/lc_strings.py:106
+#: masterleague/lc_strings.py:107
 msgid "Dehaka"
 msgstr "德哈卡"
 
-#: masterleague/lc_strings.py:107
+#: masterleague/lc_strings.py:108
 msgid "Diablo"
 msgstr "迪亚波罗"
 
-#: masterleague/lc_strings.py:108
+#: masterleague/lc_strings.py:109
 msgid "E.T.C."
 msgstr "精英牛头人酋长"
 
-#: masterleague/lc_strings.py:109
+#: masterleague/lc_strings.py:110
 msgid "Falstad"
 msgstr "弗斯塔德"
 
-#: masterleague/lc_strings.py:110
+#: masterleague/lc_strings.py:111
 msgid "Gall"
 msgstr "加尔"
 
-#: masterleague/lc_strings.py:111
+#: masterleague/lc_strings.py:112
 msgid "Gazlowe"
 msgstr "加兹鲁维"
 
-#: masterleague/lc_strings.py:112
+#: masterleague/lc_strings.py:113
 msgid "Greymane"
 msgstr "格雷迈恩"
 
-#: masterleague/lc_strings.py:113
+#: masterleague/lc_strings.py:114
 msgid "Gul'dan"
 msgstr "古尔丹"
 
-#: masterleague/lc_strings.py:114
+#: masterleague/lc_strings.py:115
 msgid "Illidan"
 msgstr "伊利丹"
 
-#: masterleague/lc_strings.py:115
+#: masterleague/lc_strings.py:116
 msgid "Jaina"
 msgstr "吉安娜"
 
-#: masterleague/lc_strings.py:116
+#: masterleague/lc_strings.py:117
 msgid "Johanna"
 msgstr "乔汉娜"
 
-#: masterleague/lc_strings.py:117
+#: masterleague/lc_strings.py:118
 msgid "Kael'thas"
 msgstr "凯尔萨斯"
 
-#: masterleague/lc_strings.py:118
+#: masterleague/lc_strings.py:119
 msgid "Kerrigan"
 msgstr "凯瑞甘"
 
-#: masterleague/lc_strings.py:119
+#: masterleague/lc_strings.py:120
 msgid "Kharazim"
 msgstr "卡拉辛姆"
 
-#: masterleague/lc_strings.py:120
+#: masterleague/lc_strings.py:121
 msgid "Leoric"
 msgstr "李奥瑞克"
 
-#: masterleague/lc_strings.py:121
+#: masterleague/lc_strings.py:122
 msgid "Li Li"
 msgstr "丽丽"
 
-#: masterleague/lc_strings.py:122
+#: masterleague/lc_strings.py:123
 msgid "Li-Ming"
 msgstr "李敏"
 
-#: masterleague/lc_strings.py:123
+#: masterleague/lc_strings.py:124
 msgid "Lt. Morales"
 msgstr "莫拉莉斯中尉"
 
-#: masterleague/lc_strings.py:124
+#: masterleague/lc_strings.py:125
 msgid "Lucio"
 msgstr "卢西奥"
 
-#: masterleague/lc_strings.py:125
+#: masterleague/lc_strings.py:126
 msgid "Lunara"
 msgstr "露娜拉"
 
-#: masterleague/lc_strings.py:126
+#: masterleague/lc_strings.py:127
 msgid "Malfurion"
 msgstr "玛法里奥"
 
-#: masterleague/lc_strings.py:127
+#: masterleague/lc_strings.py:128
 msgid "Medivh"
 msgstr "麦迪文"
 
-#: masterleague/lc_strings.py:128
+#: masterleague/lc_strings.py:129
 msgid "Muradin"
 msgstr "穆拉丁"
 
-#: masterleague/lc_strings.py:129
+#: masterleague/lc_strings.py:130
 msgid "Murky"
 msgstr "奔波尔霸"
 
-#: masterleague/lc_strings.py:130
+#: masterleague/lc_strings.py:131
 msgid "Nazeebo"
 msgstr "纳兹波"
 
-#: masterleague/lc_strings.py:131
+#: masterleague/lc_strings.py:132
 msgid "Nova"
 msgstr "诺娃"
 
-#: masterleague/lc_strings.py:132
+#: masterleague/lc_strings.py:133
 msgid "Ragnaros"
 msgstr "拉格纳罗斯"
 
-#: masterleague/lc_strings.py:133
+#: masterleague/lc_strings.py:134
 msgid "Raynor"
 msgstr "雷诺"
 
-#: masterleague/lc_strings.py:134
+#: masterleague/lc_strings.py:135
 msgid "Rehgar"
 msgstr "雷加尔"
 
-#: masterleague/lc_strings.py:135
+#: masterleague/lc_strings.py:136
 msgid "Rexxar"
 msgstr "雷克萨"
 
-#: masterleague/lc_strings.py:136
+#: masterleague/lc_strings.py:137
 msgid "Samuro"
 msgstr "萨穆罗"
 
-#: masterleague/lc_strings.py:137
+#: masterleague/lc_strings.py:138
 msgid "Sgt. Hammer"
 msgstr "重锤军士"
 
-#: masterleague/lc_strings.py:138
+#: masterleague/lc_strings.py:139
 msgid "Sonya"
 msgstr "桑娅"
 
-#: masterleague/lc_strings.py:139
+#: masterleague/lc_strings.py:140
 msgid "Stitches"
 msgstr "缝合怪"
 
-#: masterleague/lc_strings.py:140
+#: masterleague/lc_strings.py:141
 msgid "Sylvanas"
 msgstr "希尔瓦娜斯"
 
-#: masterleague/lc_strings.py:141
+#: masterleague/lc_strings.py:142
 msgid "Tassadar"
 msgstr "塔萨达"
 
-#: masterleague/lc_strings.py:142
+#: masterleague/lc_strings.py:143
 msgid "The Butcher"
 msgstr "屠夫"
 
-#: masterleague/lc_strings.py:143
+#: masterleague/lc_strings.py:144
 msgid "The Lost Vikings"
 msgstr "失落的维京人"
 
-#: masterleague/lc_strings.py:144
+#: masterleague/lc_strings.py:145
 msgid "Thrall"
 msgstr "萨尔"
 
-#: masterleague/lc_strings.py:145
+#: masterleague/lc_strings.py:146
 msgid "Tracer"
 msgstr "猎空"
 
-#: masterleague/lc_strings.py:146
+#: masterleague/lc_strings.py:147
 msgid "Tychus"
 msgstr "泰凯斯"
 
-#: masterleague/lc_strings.py:147
+#: masterleague/lc_strings.py:148
 msgid "Tyrael"
 msgstr "泰瑞尔"
 
-#: masterleague/lc_strings.py:148
+#: masterleague/lc_strings.py:149
 msgid "Tyrande"
 msgstr "泰兰德"
 
-#: masterleague/lc_strings.py:149
+#: masterleague/lc_strings.py:150
 msgid "Uther"
 msgstr "乌瑟尔"
 
-#: masterleague/lc_strings.py:150
+#: masterleague/lc_strings.py:151
 msgid "Valeera"
 msgstr "瓦莉拉"
 
-#: masterleague/lc_strings.py:151
+#: masterleague/lc_strings.py:152
 msgid "Valla"
 msgstr "维拉"
 
-#: masterleague/lc_strings.py:152
+#: masterleague/lc_strings.py:153
 msgid "Varian"
 msgstr "瓦里安"
 
-#: masterleague/lc_strings.py:153
+#: masterleague/lc_strings.py:154
 msgid "Xul"
 msgstr "祖尔"
 
-#: masterleague/lc_strings.py:154
+#: masterleague/lc_strings.py:155
 msgid "Zagara"
 msgstr "扎加拉"
 
-#: masterleague/lc_strings.py:155
+#: masterleague/lc_strings.py:156
 msgid "Zarya"
 msgstr "查莉娅"
 
-#: masterleague/lc_strings.py:156
+#: masterleague/lc_strings.py:157
 msgid "Zeratul"
 msgstr "泽拉图"
 
-#: masterleague/lc_strings.py:157
+#: masterleague/lc_strings.py:158
 msgid "Zul'jin"
 msgstr "祖尔金"
 
-#: masterleague/lc_strings.py:158
+#: masterleague/lc_strings.py:159
 msgid "Probius"
 msgstr "普罗比斯"
 
-#: masterleague/lc_strings.py:159
+#: masterleague/lc_strings.py:160
 msgid "Cassia"
 msgstr "卡西娅"
 
-#: masterleague/lc_strings.py:160
+#: masterleague/lc_strings.py:161
 msgid "Genji"
 msgstr "源氏"
 
-#: masterleague/lc_strings.py:161
+#: masterleague/lc_strings.py:162
 msgid "D.Va"
+msgstr ""
+
+#: masterleague/lc_strings.py:163
+msgid "Malthael"
 msgstr ""
 
 #: matches/forms.py:18 matches/forms.py:24 matches/forms.py:30

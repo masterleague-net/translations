@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-10 17:52+0000\n"
+"POT-Creation-Date: 2017-06-20 17:58+0000\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1010,272 +1010,282 @@ msgstr "그레이메인 패치"
 msgid "D.Va Patch"
 msgstr "데하카 패치"
 
-#: masterleague/lc_strings.py:95
+#: masterleague/lc_strings.py:92
+#, fuzzy
+#| msgid "Valeera Patch"
+msgid "Malthael Patch"
+msgstr "발리라 패치"
+
+#: masterleague/lc_strings.py:96
 msgid "Abathur"
 msgstr "아바투르"
 
-#: masterleague/lc_strings.py:96
+#: masterleague/lc_strings.py:97
 msgid "Alarak"
 msgstr "알라라크"
 
-#: masterleague/lc_strings.py:97
+#: masterleague/lc_strings.py:98
 msgid "Anub'arak"
 msgstr "아눕아락"
 
-#: masterleague/lc_strings.py:98
+#: masterleague/lc_strings.py:99
 msgid "Artanis"
 msgstr "아르타니스"
 
-#: masterleague/lc_strings.py:99
+#: masterleague/lc_strings.py:100
 msgid "Arthas"
 msgstr "아서스"
 
-#: masterleague/lc_strings.py:100
+#: masterleague/lc_strings.py:101
 msgid "Auriel"
 msgstr "아우리엘"
 
-#: masterleague/lc_strings.py:101
+#: masterleague/lc_strings.py:102
 msgid "Azmodan"
 msgstr "아즈모단"
 
-#: masterleague/lc_strings.py:102
+#: masterleague/lc_strings.py:103
 msgid "Brightwing"
 msgstr "빛나래"
 
-#: masterleague/lc_strings.py:103
+#: masterleague/lc_strings.py:104
 msgid "Chen"
 msgstr "첸"
 
-#: masterleague/lc_strings.py:104
+#: masterleague/lc_strings.py:105
 msgid "Cho"
 msgstr "초"
 
-#: masterleague/lc_strings.py:105
+#: masterleague/lc_strings.py:106
 msgid "Chromie"
 msgstr "크로미"
 
-#: masterleague/lc_strings.py:106
+#: masterleague/lc_strings.py:107
 msgid "Dehaka"
 msgstr "데하카"
 
-#: masterleague/lc_strings.py:107
+#: masterleague/lc_strings.py:108
 msgid "Diablo"
 msgstr "디아블로"
 
-#: masterleague/lc_strings.py:108
+#: masterleague/lc_strings.py:109
 msgid "E.T.C."
 msgstr "정예 타우렌 족장"
 
-#: masterleague/lc_strings.py:109
+#: masterleague/lc_strings.py:110
 msgid "Falstad"
 msgstr "폴스타트"
 
-#: masterleague/lc_strings.py:110
+#: masterleague/lc_strings.py:111
 msgid "Gall"
 msgstr "갈"
 
-#: masterleague/lc_strings.py:111
+#: masterleague/lc_strings.py:112
 msgid "Gazlowe"
 msgstr "가즈로"
 
-#: masterleague/lc_strings.py:112
+#: masterleague/lc_strings.py:113
 msgid "Greymane"
 msgstr "그레이메인"
 
-#: masterleague/lc_strings.py:113
+#: masterleague/lc_strings.py:114
 msgid "Gul'dan"
 msgstr "굴단"
 
-#: masterleague/lc_strings.py:114
+#: masterleague/lc_strings.py:115
 msgid "Illidan"
 msgstr "일리단"
 
-#: masterleague/lc_strings.py:115
+#: masterleague/lc_strings.py:116
 msgid "Jaina"
 msgstr "제이나"
 
-#: masterleague/lc_strings.py:116
+#: masterleague/lc_strings.py:117
 msgid "Johanna"
 msgstr "요한나"
 
-#: masterleague/lc_strings.py:117
+#: masterleague/lc_strings.py:118
 msgid "Kael'thas"
 msgstr "캘타스"
 
-#: masterleague/lc_strings.py:118
+#: masterleague/lc_strings.py:119
 msgid "Kerrigan"
 msgstr "케리건"
 
-#: masterleague/lc_strings.py:119
+#: masterleague/lc_strings.py:120
 msgid "Kharazim"
 msgstr "카라짐"
 
-#: masterleague/lc_strings.py:120
+#: masterleague/lc_strings.py:121
 msgid "Leoric"
 msgstr "레오릭"
 
-#: masterleague/lc_strings.py:121
+#: masterleague/lc_strings.py:122
 msgid "Li Li"
 msgstr "리리"
 
-#: masterleague/lc_strings.py:122
+#: masterleague/lc_strings.py:123
 msgid "Li-Ming"
 msgstr "리밍"
 
-#: masterleague/lc_strings.py:123
+#: masterleague/lc_strings.py:124
 msgid "Lt. Morales"
 msgstr "모랄레스 중위"
 
-#: masterleague/lc_strings.py:124
+#: masterleague/lc_strings.py:125
 msgid "Lucio"
 msgstr ""
 
-#: masterleague/lc_strings.py:125
+#: masterleague/lc_strings.py:126
 msgid "Lunara"
 msgstr "루나라"
 
-#: masterleague/lc_strings.py:126
+#: masterleague/lc_strings.py:127
 msgid "Malfurion"
 msgstr "말퓨리온"
 
-#: masterleague/lc_strings.py:127
+#: masterleague/lc_strings.py:128
 msgid "Medivh"
 msgstr "메디브"
 
-#: masterleague/lc_strings.py:128
+#: masterleague/lc_strings.py:129
 msgid "Muradin"
 msgstr "무라딘"
 
-#: masterleague/lc_strings.py:129
+#: masterleague/lc_strings.py:130
 msgid "Murky"
 msgstr "머키"
 
-#: masterleague/lc_strings.py:130
+#: masterleague/lc_strings.py:131
 msgid "Nazeebo"
 msgstr "나지보"
 
-#: masterleague/lc_strings.py:131
+#: masterleague/lc_strings.py:132
 msgid "Nova"
 msgstr "노바"
 
-#: masterleague/lc_strings.py:132
+#: masterleague/lc_strings.py:133
 msgid "Ragnaros"
 msgstr "라그나로스"
 
-#: masterleague/lc_strings.py:133
+#: masterleague/lc_strings.py:134
 msgid "Raynor"
 msgstr "레이너"
 
-#: masterleague/lc_strings.py:134
+#: masterleague/lc_strings.py:135
 msgid "Rehgar"
 msgstr "레가르"
 
-#: masterleague/lc_strings.py:135
+#: masterleague/lc_strings.py:136
 msgid "Rexxar"
 msgstr "렉사르"
 
-#: masterleague/lc_strings.py:136
+#: masterleague/lc_strings.py:137
 msgid "Samuro"
 msgstr "사무로"
 
-#: masterleague/lc_strings.py:137
+#: masterleague/lc_strings.py:138
 msgid "Sgt. Hammer"
 msgstr "해머 상사"
 
-#: masterleague/lc_strings.py:138
+#: masterleague/lc_strings.py:139
 msgid "Sonya"
 msgstr "소냐"
 
-#: masterleague/lc_strings.py:139
+#: masterleague/lc_strings.py:140
 msgid "Stitches"
 msgstr "누더기"
 
-#: masterleague/lc_strings.py:140
+#: masterleague/lc_strings.py:141
 msgid "Sylvanas"
 msgstr "실바나스"
 
-#: masterleague/lc_strings.py:141
+#: masterleague/lc_strings.py:142
 msgid "Tassadar"
 msgstr "태사다르"
 
-#: masterleague/lc_strings.py:142
+#: masterleague/lc_strings.py:143
 msgid "The Butcher"
 msgstr "도살자"
 
-#: masterleague/lc_strings.py:143
+#: masterleague/lc_strings.py:144
 msgid "The Lost Vikings"
 msgstr "길 잃은 바이킹"
 
-#: masterleague/lc_strings.py:144
+#: masterleague/lc_strings.py:145
 msgid "Thrall"
 msgstr "쓰랄"
 
-#: masterleague/lc_strings.py:145
+#: masterleague/lc_strings.py:146
 msgid "Tracer"
 msgstr "트레이서"
 
-#: masterleague/lc_strings.py:146
+#: masterleague/lc_strings.py:147
 msgid "Tychus"
 msgstr "타이커스"
 
-#: masterleague/lc_strings.py:147
+#: masterleague/lc_strings.py:148
 msgid "Tyrael"
 msgstr "티리엘"
 
-#: masterleague/lc_strings.py:148
+#: masterleague/lc_strings.py:149
 msgid "Tyrande"
 msgstr "티란데"
 
-#: masterleague/lc_strings.py:149
+#: masterleague/lc_strings.py:150
 msgid "Uther"
 msgstr "우서"
 
-#: masterleague/lc_strings.py:150
+#: masterleague/lc_strings.py:151
 msgid "Valeera"
 msgstr "발리라"
 
-#: masterleague/lc_strings.py:151
+#: masterleague/lc_strings.py:152
 msgid "Valla"
 msgstr "발라"
 
-#: masterleague/lc_strings.py:152
+#: masterleague/lc_strings.py:153
 msgid "Varian"
 msgstr "바리안"
 
-#: masterleague/lc_strings.py:153
+#: masterleague/lc_strings.py:154
 msgid "Xul"
 msgstr "줄"
 
-#: masterleague/lc_strings.py:154
+#: masterleague/lc_strings.py:155
 msgid "Zagara"
 msgstr "자가라"
 
-#: masterleague/lc_strings.py:155
+#: masterleague/lc_strings.py:156
 msgid "Zarya"
 msgstr "자리야"
 
-#: masterleague/lc_strings.py:156
+#: masterleague/lc_strings.py:157
 msgid "Zeratul"
 msgstr "제라툴"
 
-#: masterleague/lc_strings.py:157
+#: masterleague/lc_strings.py:158
 msgid "Zul'jin"
 msgstr "줄진"
 
-#: masterleague/lc_strings.py:158
+#: masterleague/lc_strings.py:159
 msgid "Probius"
 msgstr ""
 
-#: masterleague/lc_strings.py:159
+#: masterleague/lc_strings.py:160
 msgid "Cassia"
 msgstr ""
 
-#: masterleague/lc_strings.py:160
+#: masterleague/lc_strings.py:161
 msgid "Genji"
 msgstr ""
 
-#: masterleague/lc_strings.py:161
+#: masterleague/lc_strings.py:162
 msgid "D.Va"
+msgstr ""
+
+#: masterleague/lc_strings.py:163
+msgid "Malthael"
 msgstr ""
 
 #: matches/forms.py:18 matches/forms.py:24 matches/forms.py:30
