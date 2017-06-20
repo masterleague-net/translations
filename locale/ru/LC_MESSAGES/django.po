@@ -110,8 +110,7 @@ msgstr "Войти через Battle.net"
 msgid "Matches"
 msgstr "Матчи"
 
-#: bets/templates/bets/bets_base.html:56
-#: bets/templates/bets/leaderboard.html:5
+#: bets/templates/bets/bets_base.html:56 bets/templates/bets/leaderboard.html:5
 #: bets/templates/bets/leaderboard.html:7
 #: bets/templates/bets/leaderboard.html:27
 msgid "Leaderboard"
@@ -582,8 +581,7 @@ msgstr "Популярность по картам"
 
 #: heroes/templates/heroes/hero_overview.html:197 matches/forms.py:26
 #: meta/templates/meta/maps.html:20 teams/forms.py:24 teams/forms.py:51
-#: teams/forms.py:65 teams/forms.py:128
-#: teams/templates/teams/team_maps.html:13
+#: teams/forms.py:65 teams/forms.py:128 teams/templates/teams/team_maps.html:13
 msgid "Map"
 msgstr "Карта"
 
@@ -626,9 +624,8 @@ msgctxt "minutes"
 msgid "mins"
 msgstr "мин"
 
-#: maps/templates/maps/map_detail.html:8
-#: maps/templates/maps/map_detail.html:13 maps/templates/maps/map_list.html:8
-#: maps/templates/maps/map_list.html:13
+#: maps/templates/maps/map_detail.html:8 maps/templates/maps/map_detail.html:13
+#: maps/templates/maps/map_list.html:8 maps/templates/maps/map_list.html:13
 #: matches/templates/tournaments/tournament_overview.html:147
 #: meta/templates/meta/base.html:28 meta/templates/meta/maps.html:5
 #: meta/templates/meta/maps.html:6 teams/templates/teams/team_base.html:54
@@ -977,10 +974,8 @@ msgid "D.Va Patch"
 msgstr "Патч D.Va"
 
 #: masterleague/lc_strings.py:92
-#, fuzzy
-#| msgid "Valeera Patch"
 msgid "Malthael Patch"
-msgstr "Патч Валира"
+msgstr "Патч Малтаэль"
 
 #: masterleague/lc_strings.py:96
 msgid "Abathur"
@@ -1252,7 +1247,7 @@ msgstr "D.Va"
 
 #: masterleague/lc_strings.py:163
 msgid "Malthael"
-msgstr ""
+msgstr "Малтаэль"
 
 #: matches/forms.py:18 matches/forms.py:24 matches/forms.py:30
 #: matches/forms.py:36 teams/forms.py:113
@@ -1577,10 +1572,8 @@ msgid "Participating Teams"
 msgstr "Команды-участницы"
 
 #: matches/templates/tournaments/tournament_overview.html:144
-#, fuzzy
-#| msgid "eSport statistics"
 msgid "Tournament statistics"
-msgstr "киберспортивная статистика"
+msgstr "Статистика турнира"
 
 #: meta/forms.py:34 teams/forms.py:69 teams/forms.py:141
 msgid "All heroes"
@@ -1912,8 +1905,6 @@ msgid "Second Player"
 msgstr "Второй игрок"
 
 #: teams/forms.py:118
-#, fuzzy
-#| msgid "Player Roster"
 msgid "Roster"
 msgstr "Состав"
 
@@ -1922,9 +1913,6 @@ msgid "Disbanded or changed a sponsor"
 msgstr ""
 
 #: teams/forms.py:181
-#, fuzzy
-#| msgctxt "All patches"
-#| msgid "All Time"
 msgid "All time"
 msgstr "За все время"
 
@@ -2039,8 +2027,6 @@ msgid "Analyzed Replays"
 msgstr "Проанализировано реплеев"
 
 #: teams/templates/players/player_overview.html:103
-#, fuzzy
-#| msgid "Total Matches"
 msgid "Total matches"
 msgstr "Сыграно матчей"
 
@@ -2142,16 +2128,14 @@ msgid "Start typing to search"
 msgstr "Быстрый поиск"
 
 #: teams/templates/teams/team_overview.html:95
-#, fuzzy, python-format
-#| msgid "First wave ban (%(ban1_count)s matches)"
+#, python-format
 msgid "Losses: %(loss_count)s matches"
-msgstr "Первая волна банов (%(ban1_count)s matches)"
+msgstr "Поражений: %(loss_count)s матчей"
 
 #: teams/templates/teams/team_overview.html:96
-#, fuzzy, python-format
-#| msgid "%(win_count)s of %(pick_count)s matches"
+#, python-format
 msgid "Wins: %(win_count)s matches"
-msgstr "%(win_count)s из %(pick_count)s матчей"
+msgstr "Побед: %(win_count)s матчей"
 
 #: teams/templates/teams/team_overview.html:103
 #, python-format
@@ -2164,10 +2148,9 @@ msgid "Takedowns: %(takedowns)s"
 msgstr ""
 
 #: teams/templates/teams/team_overview.html:111
-#, fuzzy, python-format
-#| msgid "%(match_count)s of %(total_matches)s matches"
+#, python-format
 msgid "%(match_count)s matches"
-msgstr "%(match_count)s из %(total_matches)s матчей"
+msgstr "%(match_count)s матчей"
 
 #: teams/templates/teams/team_overview.html:135
 msgid "Player Roster"
@@ -2194,16 +2177,12 @@ msgid "Prize"
 msgstr "Приз"
 
 #: teams/templates/teams/team_overview.html:209
-#, fuzzy
-#| msgid "Win Rate"
 msgid "Win rate"
 msgstr "Побед, %"
 
 #: teams/templates/teams/team_overview.html:217
-#, fuzzy
-#| msgid "Hero"
 msgid "Hero pool"
-msgstr "Герой"
+msgstr ""
 
 #: teams/templates/teams/team_overview.html:223
 msgid "FP win rate"
@@ -2214,10 +2193,8 @@ msgid "Time dead"
 msgstr ""
 
 #: teams/templates/teams/team_overview.html:231
-#, fuzzy
-#| msgid "D.Va Patch"
 msgid "Avg. match"
-msgstr "Патч D.Va"
+msgstr ""
 
 #: teams/templates/teams/team_overview.html:237
 #, python-format
@@ -2227,8 +2204,6 @@ msgid ""
 msgstr ""
 
 #: teams/templates/teams/team_overview.html:251
-#, fuzzy
-#| msgid "Latest Matches"
 msgid "Latest matches"
 msgstr "Последние матчи"
 
