@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-20 17:58+0000\n"
+"POT-Creation-Date: 2017-07-15 19:45+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -110,7 +110,8 @@ msgstr "Войти через Battle.net"
 msgid "Matches"
 msgstr "Матчи"
 
-#: bets/templates/bets/bets_base.html:56 bets/templates/bets/leaderboard.html:5
+#: bets/templates/bets/bets_base.html:56
+#: bets/templates/bets/leaderboard.html:5
 #: bets/templates/bets/leaderboard.html:7
 #: bets/templates/bets/leaderboard.html:27
 msgid "Leaderboard"
@@ -173,7 +174,7 @@ msgstr "До начала"
 #: changelog/templates/changelog/changelog_list.html:18
 #: matches/templates/matches/matches_inline.html:16
 #: matches/templates/matches/matches_inline.html:20
-#: pages/templates/calendar_base.html:92 pages/templates/mainpage.html:33
+#: pages/templates/calendar_base.html:105 pages/templates/mainpage.html:33
 #: pages/templates/mainpage.html:63
 #: teams/templates/players/players_transfers.html:64
 #: teams/templates/teams/team_overview.html:175
@@ -397,11 +398,11 @@ msgstr "Побед, %%"
 
 #: heroes/templates/heroes/hero_builds.html:58
 #: heroes/templates/heroes/hero_counters.html:47
-#: pages/templates/calendar_base.html:77
+#: pages/templates/calendar_base.html:86
 msgid "Show matches"
 msgstr "Показать матчи"
 
-#: heroes/templates/heroes/hero_builds.html:93
+#: heroes/templates/heroes/hero_builds.html:94
 msgid "No replays found in the selected period."
 msgstr "Не найдено реплеев для выбранного периода"
 
@@ -581,7 +582,8 @@ msgstr "Популярность по картам"
 
 #: heroes/templates/heroes/hero_overview.html:197 matches/forms.py:26
 #: meta/templates/meta/maps.html:20 teams/forms.py:24 teams/forms.py:51
-#: teams/forms.py:65 teams/forms.py:128 teams/templates/teams/team_maps.html:13
+#: teams/forms.py:65 teams/forms.py:128
+#: teams/templates/teams/team_maps.html:13
 msgid "Map"
 msgstr "Карта"
 
@@ -624,8 +626,9 @@ msgctxt "minutes"
 msgid "mins"
 msgstr "мин"
 
-#: maps/templates/maps/map_detail.html:8 maps/templates/maps/map_detail.html:13
-#: maps/templates/maps/map_list.html:8 maps/templates/maps/map_list.html:13
+#: maps/templates/maps/map_detail.html:8
+#: maps/templates/maps/map_detail.html:13 maps/templates/maps/map_list.html:8
+#: maps/templates/maps/map_list.html:13
 #: matches/templates/tournaments/tournament_overview.html:147
 #: meta/templates/meta/base.html:28 meta/templates/meta/maps.html:5
 #: meta/templates/meta/maps.html:6 teams/templates/teams/team_base.html:54
@@ -1439,7 +1442,7 @@ msgstr "Лог матча"
 
 #: matches/templates/matches/matches_inline.html:15
 #: matches/templates/tournaments/tournament_overview.html:73
-#: pages/templates/calendar_base.html:94
+#: pages/templates/calendar_base.html:107
 msgctxt "Tournament stage"
 msgid "Stage"
 msgstr "Стадия"
@@ -1754,12 +1757,12 @@ msgstr "Киберспортивный календарь"
 msgid "Upcoming and ongoing events."
 msgstr "Предстоящие и идущие события"
 
-#: pages/templates/calendar_base.html:66
+#: pages/templates/calendar_base.html:72
 msgctxt "eSports Calendar tooltip for events start time"
 msgid "Your local time"
 msgstr "Время указано в вашем часовом поясе"
 
-#: pages/templates/calendar_base.html:71
+#: pages/templates/calendar_base.html:77
 msgid ""
 "If you are a Google Calendar user, copy the button link location, open "
 "Google Calendar, find 'Other Calendars', choose 'Add by URL' and paste the "
@@ -1769,30 +1772,36 @@ msgstr ""
 "откройте календарь, в разделе 'Другие календари' найдите пункт 'Добавить по "
 "URL' и вставьте ссылку в указанное поле."
 
-#: pages/templates/calendar_base.html:74
+#: pages/templates/calendar_base.html:80
 msgid "Subscribe to Calendar"
 msgstr "Подписка на календарь"
 
-#: pages/templates/calendar_base.html:81
+#: pages/templates/calendar_base.html:90
+#, fuzzy
+#| msgid "Latest matches"
+msgid "Hide matches"
+msgstr "Последние матчи"
+
+#: pages/templates/calendar_base.html:94
 msgid "eSports Calendar"
 msgstr "Киберспортивный календарь"
 
-#: pages/templates/calendar_base.html:93
+#: pages/templates/calendar_base.html:106
 msgctxt "eSports Calendar"
 msgid "Tournament / Stream"
 msgstr "Турнир / Стрим"
 
-#: pages/templates/calendar_base.html:100
+#: pages/templates/calendar_base.html:113
 msgctxt "Live events in eSports Calendar"
 msgid "Live"
 msgstr "Прямой эфир"
 
-#: pages/templates/calendar_base.html:162
+#: pages/templates/calendar_base.html:175
 msgctxt "Upcoming events in eSports Calendar"
 msgid "Upcoming"
 msgstr "Предстоящие"
 
-#: pages/templates/calendar_base.html:200
+#: pages/templates/calendar_base.html:213
 msgid "Times displayed in your local time"
 msgstr "Время указано в вашем часовом поясе"
 

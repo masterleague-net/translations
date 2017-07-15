@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-20 17:58+0000\n"
+"POT-Creation-Date: 2017-07-15 19:45+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -174,7 +174,7 @@ msgstr "Czas do"
 #: changelog/templates/changelog/changelog_list.html:18
 #: matches/templates/matches/matches_inline.html:16
 #: matches/templates/matches/matches_inline.html:20
-#: pages/templates/calendar_base.html:92 pages/templates/mainpage.html:33
+#: pages/templates/calendar_base.html:105 pages/templates/mainpage.html:33
 #: pages/templates/mainpage.html:63
 #: teams/templates/players/players_transfers.html:64
 #: teams/templates/teams/team_overview.html:175
@@ -398,11 +398,11 @@ msgstr "%% wygranych"
 
 #: heroes/templates/heroes/hero_builds.html:58
 #: heroes/templates/heroes/hero_counters.html:47
-#: pages/templates/calendar_base.html:77
+#: pages/templates/calendar_base.html:86
 msgid "Show matches"
 msgstr "Pokaż mecze"
 
-#: heroes/templates/heroes/hero_builds.html:93
+#: heroes/templates/heroes/hero_builds.html:94
 msgid "No replays found in the selected period."
 msgstr "Brak powtórek w wybranym okresie."
 
@@ -1444,7 +1444,7 @@ msgstr "Dziennik Meczu"
 
 #: matches/templates/matches/matches_inline.html:15
 #: matches/templates/tournaments/tournament_overview.html:73
-#: pages/templates/calendar_base.html:94
+#: pages/templates/calendar_base.html:107
 msgctxt "Tournament stage"
 msgid "Stage"
 msgstr "Etap"
@@ -1759,12 +1759,12 @@ msgstr "Kalendarz eSportowy"
 msgid "Upcoming and ongoing events."
 msgstr "Nadchodzące i trwające turnieje."
 
-#: pages/templates/calendar_base.html:66
+#: pages/templates/calendar_base.html:72
 msgctxt "eSports Calendar tooltip for events start time"
 msgid "Your local time"
 msgstr "Twój lokalny czas"
 
-#: pages/templates/calendar_base.html:71
+#: pages/templates/calendar_base.html:77
 msgid ""
 "If you are a Google Calendar user, copy the button link location, open "
 "Google Calendar, find 'Other Calendars', choose 'Add by URL' and paste the "
@@ -1774,30 +1774,36 @@ msgstr ""
 "Kalendarz Google, znajdź 'Inne Kalendarze', wybierz 'Dodaj przez URL' i "
 "wklej link w pole URL."
 
-#: pages/templates/calendar_base.html:74
+#: pages/templates/calendar_base.html:80
 msgid "Subscribe to Calendar"
 msgstr "Dodaj do Kalendarza"
 
-#: pages/templates/calendar_base.html:81
+#: pages/templates/calendar_base.html:90
+#, fuzzy
+#| msgid "Latest matches"
+msgid "Hide matches"
+msgstr "Najnowsze mecze"
+
+#: pages/templates/calendar_base.html:94
 msgid "eSports Calendar"
 msgstr "Kalendarz eSportowy"
 
-#: pages/templates/calendar_base.html:93
+#: pages/templates/calendar_base.html:106
 msgctxt "eSports Calendar"
 msgid "Tournament / Stream"
 msgstr "Turniej / Stream"
 
-#: pages/templates/calendar_base.html:100
+#: pages/templates/calendar_base.html:113
 msgctxt "Live events in eSports Calendar"
 msgid "Live"
 msgstr "Na żywo"
 
-#: pages/templates/calendar_base.html:162
+#: pages/templates/calendar_base.html:175
 msgctxt "Upcoming events in eSports Calendar"
 msgid "Upcoming"
 msgstr "Nadchodzące"
 
-#: pages/templates/calendar_base.html:200
+#: pages/templates/calendar_base.html:213
 msgid "Times displayed in your local time"
 msgstr "Daty podane w Twoim czasie lokalnym"
 

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-20 17:58+0000\n"
+"POT-Creation-Date: 2017-07-15 19:45+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -175,7 +175,7 @@ msgstr "Tijd tot"
 #: changelog/templates/changelog/changelog_list.html:18
 #: matches/templates/matches/matches_inline.html:16
 #: matches/templates/matches/matches_inline.html:20
-#: pages/templates/calendar_base.html:92 pages/templates/mainpage.html:33
+#: pages/templates/calendar_base.html:105 pages/templates/mainpage.html:33
 #: pages/templates/mainpage.html:63
 #: teams/templates/players/players_transfers.html:64
 #: teams/templates/teams/team_overview.html:175
@@ -402,11 +402,11 @@ msgstr "Winst %%"
 
 #: heroes/templates/heroes/hero_builds.html:58
 #: heroes/templates/heroes/hero_counters.html:47
-#: pages/templates/calendar_base.html:77
+#: pages/templates/calendar_base.html:86
 msgid "Show matches"
 msgstr "Bekijk wedstrijden"
 
-#: heroes/templates/heroes/hero_builds.html:93
+#: heroes/templates/heroes/hero_builds.html:94
 msgid "No replays found in the selected period."
 msgstr "Geen herhalingen gevonden in de geselecteerde periode."
 
@@ -1464,7 +1464,7 @@ msgstr "Wedstrijd logboek"
 
 #: matches/templates/matches/matches_inline.html:15
 #: matches/templates/tournaments/tournament_overview.html:73
-#: pages/templates/calendar_base.html:94
+#: pages/templates/calendar_base.html:107
 msgctxt "Tournament stage"
 msgid "Stage"
 msgstr "Stadium"
@@ -1788,12 +1788,12 @@ msgstr "eSports kalender"
 msgid "Upcoming and ongoing events."
 msgstr "Aanstaande en lopende evenementen"
 
-#: pages/templates/calendar_base.html:66
+#: pages/templates/calendar_base.html:72
 msgctxt "eSports Calendar tooltip for events start time"
 msgid "Your local time"
 msgstr "Jouw lokale tijd"
 
-#: pages/templates/calendar_base.html:71
+#: pages/templates/calendar_base.html:77
 msgid ""
 "If you are a Google Calendar user, copy the button link location, open "
 "Google Calendar, find 'Other Calendars', choose 'Add by URL' and paste the "
@@ -1803,30 +1803,36 @@ msgstr ""
 "knop, open Google kalender, vind 'Andere kalenders', kies 'Toevoegen met "
 "URL' en plak de link in het URL veld."
 
-#: pages/templates/calendar_base.html:74
+#: pages/templates/calendar_base.html:80
 msgid "Subscribe to Calendar"
 msgstr "Abonneer op deze kalender"
 
-#: pages/templates/calendar_base.html:81
+#: pages/templates/calendar_base.html:90
+#, fuzzy
+#| msgid "Latest Matches"
+msgid "Hide matches"
+msgstr "Laatste wedstrijden"
+
+#: pages/templates/calendar_base.html:94
 msgid "eSports Calendar"
 msgstr "eSport kalender"
 
-#: pages/templates/calendar_base.html:93
+#: pages/templates/calendar_base.html:106
 msgctxt "eSports Calendar"
 msgid "Tournament / Stream"
 msgstr "Tournament / Stream"
 
-#: pages/templates/calendar_base.html:100
+#: pages/templates/calendar_base.html:113
 msgctxt "Live events in eSports Calendar"
 msgid "Live"
 msgstr "Live"
 
-#: pages/templates/calendar_base.html:162
+#: pages/templates/calendar_base.html:175
 msgctxt "Upcoming events in eSports Calendar"
 msgid "Upcoming"
 msgstr "Aanstaand"
 
-#: pages/templates/calendar_base.html:200
+#: pages/templates/calendar_base.html:213
 msgid "Times displayed in your local time"
 msgstr "Tijden weergegeven in jouw lokale tijd"
 
