@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-16 13:05+0200\n"
-"PO-Revision-Date: 2017-07-16 14:15+0200\n"
+"PO-Revision-Date: 2017-07-16 19:44+0200\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.0.2\n"
-"Last-Translator: \n"
+"Last-Translator: Lukas Peter Jørgensen <lpjoergensen@gmail.com>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Language: da_DK\n"
 
@@ -575,18 +575,16 @@ msgstr "Pick Rate"
 #: meta/templates/meta/drafts.html:228
 #: meta/templates/meta/include/heroes_table.html:14
 #: teams/templates/players/player_heroes.html:40
-#, fuzzy
 msgid "Win Rate"
-msgstr "Sejrs-rate"
+msgstr "Win Rate"
 
 #: heroes/templates/heroes/hero_overview.html:70
 msgid "Popularity per Patch"
 msgstr "Popularitet for hver Patch"
 
 #: heroes/templates/heroes/hero_overview.html:135
-#, fuzzy
 msgid "Win Rate vs Game Duration"
-msgstr "Sejrs-rate vs Spil Længde"
+msgstr "Win Rate vs Spil Længde"
 
 #: heroes/templates/heroes/hero_overview.html:186
 msgid ""
@@ -1518,7 +1516,7 @@ msgstr "Vis"
 #: matches/templates/matches/upcoming_matches_inline.html:12
 #: teams/templates/teams/team_overview.html:177
 msgid "Tournament"
-msgstr "Tournering"
+msgstr "Turnering"
 
 #: matches/templates/tournaments/tournament_detail.html:16
 msgctxt "Tournament overview"
@@ -1528,7 +1526,7 @@ msgstr "Overblik"
 #: matches/templates/tournaments/tournament_list.html:5
 msgctxt "[SEO] Page title"
 msgid "Tournaments"
-msgstr "Tourneringer"
+msgstr "Turneringer"
 
 #: matches/templates/tournaments/tournament_list.html:17
 msgid "Upcoming tournaments"
@@ -1813,7 +1811,7 @@ msgstr "eSports Kalender"
 #: pages/templates/calendar_base.html:106
 msgctxt "eSports Calendar"
 msgid "Tournament / Stream"
-msgstr "Tournering / Stream"
+msgstr "Turnering / Stream"
 
 #: pages/templates/calendar_base.html:113
 msgctxt "Live events in eSports Calendar"
@@ -1832,7 +1830,7 @@ msgstr "Tid er vist i din lokale tidszone"
 #: pages/templates/mainpage.html:7
 msgctxt "Greeting"
 msgid "Welcome to Master League"
-msgstr "Velkommen til Master Leagu"
+msgstr "Velkommen til Master League"
 
 #: pages/templates/mainpage.html:13
 #, python-format
@@ -1867,7 +1865,7 @@ msgstr "Titel"
 
 #: pages/templates/mainpage.html:56
 msgid "Latest Transfers"
-msgstr "Seneste Overførsler"
+msgstr "Seneste Holdskift"
 
 #: pages/templates/mainpage.html:65
 msgid "From Team"
@@ -1980,11 +1978,11 @@ msgstr "Live Tid"
 
 #: teams/templates/players/player_heroes.html:43
 msgid "Hero dmg"
-msgstr "Helte skade"
+msgstr "Skade til helte"
 
 #: teams/templates/players/player_heroes.html:44
 msgid "Siege dmg"
-msgstr "Siege skade"
+msgstr "Skade til bygninger"
 
 #: teams/templates/players/player_heroes.html:45
 msgid "Role"
@@ -2046,11 +2044,11 @@ msgstr "Tid død"
 
 #: teams/templates/players/player_overview.html:68
 msgid "Hero Damage"
-msgstr "Helte Skade"
+msgstr "Skade Til Helte"
 
 #: teams/templates/players/player_overview.html:77
 msgid "Siege Damage"
-msgstr "Siege Skade"
+msgstr "Skade Til Bygninger"
 
 #: teams/templates/players/player_overview.html:95
 msgid "Average Match Time"
@@ -2209,7 +2207,7 @@ msgstr "Præmie"
 
 #: teams/templates/teams/team_overview.html:209
 msgid "Win rate"
-msgstr "Sejrs-rate"
+msgstr "Win rate"
 
 #: teams/templates/teams/team_overview.html:217
 msgid "Hero pool"
@@ -2291,11 +2289,11 @@ msgstr "Livstid / Min"
 # Everywhere that has "Siege", should be reviewed.
 #: teams/views.py:686
 msgid "Siege Damage / Min"
-msgstr "Siege Skade / Min"
+msgstr "Skade Til Bygninger / Min"
 
 #: teams/views.py:687
 msgid "Hero Damage / Min"
-msgstr "Helte Skade / Min"
+msgstr "Skade Til Helte / Min"
 
 #: teams/views.py:688
 msgid "Healing / Min"
@@ -2303,7 +2301,7 @@ msgstr "Healing / Min"
 
 #: teams/views.py:689
 msgid "Damage Taken / Min"
-msgstr "Skade Taget / Min"
+msgstr "Skade Modtaget / Min"
 
 #: teams/views.py:690
 msgid "CC Duration / Min"
