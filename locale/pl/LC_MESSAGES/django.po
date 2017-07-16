@@ -977,10 +977,8 @@ msgid "D.Va Patch"
 msgstr "Wersja D.Va"
 
 #: masterleague/lc_strings.py:92
-#, fuzzy
-#| msgid "Valeera Patch"
 msgid "Malthael Patch"
-msgstr "Wersja Valeera"
+msgstr "Wersja Maltael"
 
 #: masterleague/lc_strings.py:96
 msgid "Abathur"
@@ -1252,7 +1250,7 @@ msgstr "D.Va"
 
 #: masterleague/lc_strings.py:163
 msgid "Malthael"
-msgstr ""
+msgstr "Maltael"
 
 #: matches/forms.py:18 matches/forms.py:24 matches/forms.py:30
 #: matches/forms.py:36 teams/forms.py:113
@@ -1779,10 +1777,8 @@ msgid "Subscribe to Calendar"
 msgstr "Dodaj do Kalendarza"
 
 #: pages/templates/calendar_base.html:90
-#, fuzzy
-#| msgid "Latest matches"
 msgid "Hide matches"
-msgstr "Najnowsze mecze"
+msgstr "Ukryj mecze"
 
 #: pages/templates/calendar_base.html:94
 msgid "eSports Calendar"
@@ -1805,7 +1801,7 @@ msgstr "Nadchodzące"
 
 #: pages/templates/calendar_base.html:213
 msgid "Times displayed in your local time"
-msgstr "Daty podane w Twoim czasie lokalnym"
+msgstr "Terminy podane w Twoim czasie lokalnym"
 
 #: pages/templates/mainpage.html:7
 msgctxt "Greeting"
@@ -2189,7 +2185,7 @@ msgstr "Procent zwycięstw"
 
 #: teams/templates/teams/team_overview.html:217
 msgid "Hero pool"
-msgstr "Pula bohatorów"
+msgstr "Pula bohaterów"
 
 #: teams/templates/teams/team_overview.html:223
 msgid "FP win rate"
