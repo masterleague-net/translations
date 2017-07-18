@@ -110,8 +110,7 @@ msgstr "Войти через Battle.net"
 msgid "Matches"
 msgstr "Матчи"
 
-#: bets/templates/bets/bets_base.html:56
-#: bets/templates/bets/leaderboard.html:5
+#: bets/templates/bets/bets_base.html:56 bets/templates/bets/leaderboard.html:5
 #: bets/templates/bets/leaderboard.html:7
 #: bets/templates/bets/leaderboard.html:27
 msgid "Leaderboard"
@@ -404,7 +403,7 @@ msgstr "Показать матчи"
 
 #: heroes/templates/heroes/hero_builds.html:94
 msgid "No replays found in the selected period."
-msgstr "Не найдено реплеев для выбранного периода"
+msgstr "Не найдено реплеев для выбранного периода."
 
 #: heroes/templates/heroes/hero_counters.html:5
 msgid "counter picks"
@@ -582,8 +581,7 @@ msgstr "Популярность по картам"
 
 #: heroes/templates/heroes/hero_overview.html:197 matches/forms.py:26
 #: meta/templates/meta/maps.html:20 teams/forms.py:24 teams/forms.py:51
-#: teams/forms.py:65 teams/forms.py:128
-#: teams/templates/teams/team_maps.html:13
+#: teams/forms.py:65 teams/forms.py:128 teams/templates/teams/team_maps.html:13
 msgid "Map"
 msgstr "Карта"
 
@@ -626,9 +624,8 @@ msgctxt "minutes"
 msgid "mins"
 msgstr "мин"
 
-#: maps/templates/maps/map_detail.html:8
-#: maps/templates/maps/map_detail.html:13 maps/templates/maps/map_list.html:8
-#: maps/templates/maps/map_list.html:13
+#: maps/templates/maps/map_detail.html:8 maps/templates/maps/map_detail.html:13
+#: maps/templates/maps/map_list.html:8 maps/templates/maps/map_list.html:13
 #: matches/templates/tournaments/tournament_overview.html:147
 #: meta/templates/meta/base.html:28 meta/templates/meta/maps.html:5
 #: meta/templates/meta/maps.html:6 teams/templates/teams/team_base.html:54
@@ -981,10 +978,8 @@ msgid "Malthael Patch"
 msgstr "Патч Малтаэль"
 
 #: masterleague/lc_strings.py:93
-#, fuzzy
-#| msgid "Samuro Patch"
 msgid "Stukov Patch"
-msgstr "Патч Самуро"
+msgstr "Патч Стуков"
 
 #: masterleague/lc_strings.py:97
 msgid "Abathur"
@@ -1260,7 +1255,7 @@ msgstr "Малтаэль"
 
 #: masterleague/lc_strings.py:165
 msgid "Stukov"
-msgstr ""
+msgstr "Стуков"
 
 #: matches/forms.py:18 matches/forms.py:24 matches/forms.py:30
 #: matches/forms.py:36 teams/forms.py:113
@@ -1765,7 +1760,7 @@ msgstr "Киберспортивный календарь"
 
 #: pages/templates/calendar.html:6
 msgid "Upcoming and ongoing events."
-msgstr "Предстоящие и идущие события"
+msgstr "Предстоящие и идущие события."
 
 #: pages/templates/calendar_base.html:72
 msgctxt "eSports Calendar tooltip for events start time"
@@ -1787,10 +1782,8 @@ msgid "Subscribe to Calendar"
 msgstr "Подписка на календарь"
 
 #: pages/templates/calendar_base.html:90
-#, fuzzy
-#| msgid "Latest matches"
 msgid "Hide matches"
-msgstr "Последние матчи"
+msgstr "Скрыть матчи"
 
 #: pages/templates/calendar_base.html:94
 msgid "eSports Calendar"
@@ -2176,11 +2169,8 @@ msgid "Player Roster"
 msgstr "Состав"
 
 #: teams/templates/teams/team_overview.html:143
-#, fuzzy
-#| msgctxt "Tournament name"
-#| msgid "Name"
 msgid "Name"
-msgstr "Название"
+msgstr "Имя"
 
 #: teams/templates/teams/team_overview.html:167
 msgctxt "Team achievements in tournaments"
