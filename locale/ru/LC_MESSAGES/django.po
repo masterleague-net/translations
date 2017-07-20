@@ -110,8 +110,7 @@ msgstr "Войти через Battle.net"
 msgid "Matches"
 msgstr "Матчи"
 
-#: bets/templates/bets/bets_base.html:56
-#: bets/templates/bets/leaderboard.html:5
+#: bets/templates/bets/bets_base.html:56 bets/templates/bets/leaderboard.html:5
 #: bets/templates/bets/leaderboard.html:7
 #: bets/templates/bets/leaderboard.html:27
 msgid "Leaderboard"
@@ -582,8 +581,7 @@ msgstr "Популярность по картам"
 
 #: heroes/templates/heroes/hero_overview.html:197 matches/forms.py:26
 #: meta/templates/meta/maps.html:20 teams/forms.py:24 teams/forms.py:51
-#: teams/forms.py:65 teams/forms.py:128
-#: teams/templates/teams/team_maps.html:13
+#: teams/forms.py:65 teams/forms.py:128 teams/templates/teams/team_maps.html:13
 msgid "Map"
 msgstr "Карта"
 
@@ -626,9 +624,8 @@ msgctxt "minutes"
 msgid "mins"
 msgstr "мин"
 
-#: maps/templates/maps/map_detail.html:8
-#: maps/templates/maps/map_detail.html:13 maps/templates/maps/map_list.html:8
-#: maps/templates/maps/map_list.html:13
+#: maps/templates/maps/map_detail.html:8 maps/templates/maps/map_detail.html:13
+#: maps/templates/maps/map_list.html:8 maps/templates/maps/map_list.html:13
 #: matches/templates/tournaments/tournament_overview.html:147
 #: meta/templates/meta/base.html:28 meta/templates/meta/maps.html:5
 #: meta/templates/meta/maps.html:6 teams/templates/teams/team_base.html:54
@@ -2330,7 +2327,7 @@ msgstr "Поиск"
 
 #: templates/base.html:272
 msgid "License agreement"
-msgstr ""
+msgstr "Лицензионное соглашение"
 
 #: templates/base.html:275
 msgid ""
@@ -2344,10 +2341,17 @@ msgid ""
 "Refer to the full text of the license for the details:\n"
 "                "
 msgstr ""
+"\n"
+"Напоминаем, если вы используете данные с нашего сайта напрямую, посредством "
+"<a href=\"https://api.masterleague.net/\">API</a> или другим способом,\n"
+"то вы ОБЯЗАНЫ ставить на наш сайт ссылку, упоминать его вербально или иным "
+"способом оповещать об источнике данных.\n"
+"Более подробно о нашей лицензии вы можете прочесть по ссылке\n"
+"                "
 
 #: templates/base.html:283
 msgid "I understood"
-msgstr ""
+msgstr "Я понял"
 
 #: templates/base.html:325
 msgid "Help us localize the site!"
