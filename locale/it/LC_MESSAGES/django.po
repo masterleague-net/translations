@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Master League\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-18 10:09+0000\n"
+"POT-Creation-Date: 2017-07-20 13:14+0000\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,7 +34,7 @@ msgstr "Tutte le settimane"
 
 #: bets/templates/bets/bets_base.html:7 bets/templates/bets/leaderboard.html:5
 #: bets/templates/bets/leaderboard.html:26 bets/templates/bets/matches.html:5
-#: bets/templates/bets/matches.html:8 templates/base.html:213
+#: bets/templates/bets/matches.html:8 templates/base.html:225
 msgid "Challenges"
 msgstr "Sfide"
 
@@ -78,7 +78,7 @@ msgid "Points"
 msgstr "Punti"
 
 #: bets/templates/bets/bets_base.html:50
-#: comments/templates/comments/comment_list.html:38 templates/base.html:241
+#: comments/templates/comments/comment_list.html:38 templates/base.html:253
 msgid "Login via Battle.net"
 msgstr "Accedi tramite Battle.net"
 
@@ -103,7 +103,7 @@ msgstr "Accedi tramite Battle.net"
 #: teams/templates/players/player_heroes.html:39
 #: teams/templates/players/player_list.html:80
 #: teams/templates/teams/team_base.html:57
-#: teams/templates/teams/team_maps.html:14 templates/base.html:209
+#: teams/templates/teams/team_maps.html:14 templates/base.html:221
 msgid "Matches"
 msgstr "Partite"
 
@@ -288,14 +288,14 @@ msgstr "Commenti totali"
 msgid "Comments"
 msgstr "Commenti"
 
-#: comments/templates/profiles/base.html:49 templates/base.html:227
+#: comments/templates/profiles/base.html:49 templates/base.html:239
 msgid "Notifications"
 msgstr "Notifiche"
 
 #: comments/templates/profiles/base.html:55
 #: matches/templates/matches/match_list.html:80
 #: matches/templates/matches/matches_inline.html:146
-#: matches/templates/matches/matches_inline.html:148 templates/base.html:231
+#: matches/templates/matches/matches_inline.html:148 templates/base.html:243
 msgid "Favorites"
 msgstr ""
 
@@ -339,7 +339,7 @@ msgstr "Sucessivo"
 #: meta/templates/meta/teams.html:56 teams/forms.py:134
 #: teams/templates/players/player_detail.html:80
 #: teams/templates/players/player_heroes.html:5
-#: teams/templates/teams/team_base.html:56 templates/base.html:211
+#: teams/templates/teams/team_base.html:56 templates/base.html:223
 msgid "Heroes"
 msgstr "Eroi"
 
@@ -373,7 +373,7 @@ msgstr "Tutte le patch"
 #: matches/templates/tournaments/tournament_detail.html:20
 #: matches/templates/tournaments/tournament_list.html:8
 #: matches/templates/tournaments/tournament_list.html:13 meta/forms.py:37
-#: teams/forms.py:76 teams/forms.py:144 templates/base.html:208
+#: teams/forms.py:76 teams/forms.py:144 templates/base.html:220
 msgid "Tournaments"
 msgstr "Tornei"
 
@@ -640,7 +640,7 @@ msgstr "min"
 #: matches/templates/tournaments/tournament_overview.html:147
 #: meta/templates/meta/base.html:28 meta/templates/meta/maps.html:5
 #: meta/templates/meta/maps.html:6 teams/templates/teams/team_base.html:54
-#: teams/templates/teams/team_maps.html:5 templates/base.html:210
+#: teams/templates/teams/team_maps.html:5 templates/base.html:222
 msgid "Maps"
 msgstr "Mappe"
 
@@ -668,7 +668,7 @@ msgstr "Draft"
 #: teams/templates/players/players_transfers.html:8
 #: teams/templates/players/players_transfers.html:43
 #: teams/templates/players/players_transfers.html:49 templates/base.html:96
-#: templates/base.html:207
+#: templates/base.html:219
 msgid "Players"
 msgstr "Giocatori"
 
@@ -680,7 +680,7 @@ msgstr "Giocatori"
 #: teams/templates/teams/team_base.html:28
 #: teams/templates/teams/team_list.html:8
 #: teams/templates/teams/team_list.html:54 templates/base.html:81
-#: templates/base.html:206
+#: templates/base.html:218
 msgid "Teams"
 msgstr "Squadre"
 
@@ -1615,7 +1615,7 @@ msgid "Meta"
 msgstr "Meta"
 
 #: meta/templates/meta/base.html:8 meta/templates/meta/base.html:13
-#: templates/base.html:212
+#: templates/base.html:224
 msgid "Meta"
 msgstr "Meta"
 
@@ -2383,16 +2383,37 @@ msgctxt "Search results"
 msgid "Players not found"
 msgstr "Giocatori non trovati"
 
-#: templates/base.html:235
+#: templates/base.html:247
 msgid "Log out"
 msgstr "Disconnetti"
 
-#: templates/base.html:248
+#: templates/base.html:260
 msgctxt "Search field tooltip"
 msgid "Search"
 msgstr "Ricerca"
 
-#: templates/base.html:295
+#: templates/base.html:272
+msgid "License agreement"
+msgstr ""
+
+#: templates/base.html:275
+msgid ""
+"\n"
+"We'd like to remind you that when using our data directly, via the <a href="
+"\"https://api.masterleague.net/\">API</a>, or in any other way,\n"
+"you <strong>MUST</strong> abide to the terms of our license & credit us "
+"appropriately by placing a link back\n"
+"to our site, mentioning it on air, or making the source of information clear "
+"in other ways.\n"
+"Refer to the full text of the license for the details:\n"
+"                "
+msgstr ""
+
+#: templates/base.html:283
+msgid "I understood"
+msgstr ""
+
+#: templates/base.html:325
 msgid "Help us localize the site!"
 msgstr "Aiutarci a tradurre il sito!"
 
