@@ -10,7 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.2\n"
+"X-Generator: Poedit 2.0.3\n"
 
 #: bets/forms.py:18
 msgid "Season"
@@ -981,10 +981,8 @@ msgid "Malthael Patch"
 msgstr "Wersja Maltael"
 
 #: masterleague/lc_strings.py:93
-#, fuzzy
-#| msgid "Samuro Patch"
 msgid "Stukov Patch"
-msgstr "Wersja Samuro"
+msgstr "Wersja Stiukov"
 
 #: masterleague/lc_strings.py:97
 msgid "Abathur"
@@ -1260,7 +1258,7 @@ msgstr "Maltael"
 
 #: masterleague/lc_strings.py:165
 msgid "Stukov"
-msgstr ""
+msgstr "Stiukov"
 
 #: matches/forms.py:18 matches/forms.py:24 matches/forms.py:30
 #: matches/forms.py:36 teams/forms.py:113
@@ -2333,7 +2331,7 @@ msgstr "Wyszukaj"
 
 #: templates/base.html:272
 msgid "License agreement"
-msgstr ""
+msgstr "Umowa licencyjna"
 
 #: templates/base.html:275
 msgid ""
@@ -2347,10 +2345,18 @@ msgid ""
 "Refer to the full text of the license for the details:\n"
 "                "
 msgstr ""
+"\n"
+"Chcielibyśmy przypomnieć, że podczas korzystania z naszych danych "
+"bezpośrednio, za pośrednictwem interfejsu <a href=\"https://api.masterleague."
+"net/\">API</a>lub w jakikolwiek inny sposób, \n"
+" użytkownik <strong>musi</strong> przestrzegać warunków naszej licencji i "
+"umieścić link do naszej strony lub nadmienić źródło tych informacji w inny "
+"sposób.\n"
+"Zobacz pełny tekst licencji aby poznać szczegóły:"
 
 #: templates/base.html:283
 msgid "I understood"
-msgstr ""
+msgstr "Rozumiem"
 
 #: templates/base.html:325
 msgid "Help us localize the site!"
