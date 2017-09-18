@@ -985,10 +985,8 @@ msgid "Stukov Patch"
 msgstr "Wersja Stiukov"
 
 #: masterleague/lc_strings.py:94
-#, fuzzy
-#| msgid "Ragnaros Patch"
 msgid "Garrosh Patch"
-msgstr "Wersja Ragnaros"
+msgstr "Wersja Garosz"
 
 #: masterleague/lc_strings.py:98
 msgid "Abathur"
@@ -1268,7 +1266,7 @@ msgstr "Stiukov"
 
 #: masterleague/lc_strings.py:167
 msgid "Garrosh"
-msgstr ""
+msgstr "Garosz"
 
 #: matches/forms.py:18 matches/forms.py:24 matches/forms.py:30
 #: matches/forms.py:36 teams/forms.py:113
@@ -2358,8 +2356,8 @@ msgstr ""
 "\n"
 "Chcielibyśmy przypomnieć, że podczas korzystania z naszych danych "
 "bezpośrednio, za pośrednictwem interfejsu <a href=\"https://api.masterleague."
-"net/\">API</a>lub w jakikolwiek inny sposób, \n"
-" użytkownik <strong>musi</strong> przestrzegać warunków naszej licencji i "
+"net/\">API</a> lub w jakikolwiek inny sposób, \n"
+" użytkownik <strong>musi</strong> przestrzegać warunków naszej licencji, "
 "umieścić link do naszej strony lub nadmienić źródło tych informacji w inny "
 "sposób.\n"
 "Zobacz pełny tekst licencji aby poznać szczegóły:"
