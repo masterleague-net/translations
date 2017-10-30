@@ -115,7 +115,7 @@ msgstr "경기"
 #: bets/templates/bets/leaderboard.html:7
 #: bets/templates/bets/leaderboard.html:27
 msgid "Leaderboard"
-msgstr ""
+msgstr "순위표"
 
 #: bets/templates/bets/leaderboard.html:45
 #: heroes/templates/heroes/hero_detail.html:230
@@ -128,7 +128,7 @@ msgstr "실행"
 
 #: bets/templates/bets/leaderboard.html:60
 msgid "Position"
-msgstr ""
+msgstr "포지션"
 
 #: bets/templates/bets/leaderboard.html:61
 #: teams/templates/players/player_list.html:77
@@ -1288,11 +1288,11 @@ msgstr "말티엘"
 
 #: masterleague/lc_strings.py:166
 msgid "Stukov"
-msgstr ""
+msgstr "스투코프"
 
 #: masterleague/lc_strings.py:167
 msgid "Garrosh"
-msgstr ""
+msgstr "가로쉬"
 
 #: matches/forms.py:18 matches/forms.py:24 matches/forms.py:30
 #: matches/forms.py:36 teams/forms.py:113
@@ -1675,15 +1675,15 @@ msgstr "경기 수"
 
 #: meta/templates/meta/maps.html:22 teams/templates/teams/team_maps.html:16
 msgid "Shortest"
-msgstr ""
+msgstr "최단시간"
 
 #: meta/templates/meta/maps.html:23 teams/templates/teams/team_maps.html:17
 msgid "Average"
-msgstr ""
+msgstr "평균"
 
 #: meta/templates/meta/maps.html:24 teams/templates/teams/team_maps.html:18
 msgid "Longest"
-msgstr ""
+msgstr "최장시간"
 
 #: meta/templates/meta/maps.html:25
 msgctxt "Popular picks"
