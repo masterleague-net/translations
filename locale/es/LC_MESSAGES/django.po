@@ -2218,12 +2218,12 @@ msgstr "%(win_count)s de %(pick_count)s partidas"
 #: teams/templates/teams/team_overview.html:103
 #, python-format
 msgid "Deaths: %(deaths)s"
-msgstr "Muertes: %(dearths)s"
+msgstr "Muertes: %(deaths)s"
 
 #: teams/templates/teams/team_overview.html:104
 #, python-format
 msgid "Takedowns: %(takedowns)s"
-msgstr "Derribos: %(derribos)s"
+msgstr "Derribos: %(takedowns)s"
 
 #: teams/templates/teams/team_overview.html:111
 #, fuzzy, python-format
