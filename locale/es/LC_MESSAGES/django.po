@@ -61,15 +61,15 @@ msgstr "Inicio"
 
 #: bets/templates/bets/bets_base.html:45
 msgid "Predict results"
-msgstr "Predecir resultados"
+msgstr "¡Predice resultados"
 
 #: bets/templates/bets/bets_base.html:46
 msgid "earn points"
-msgstr "Ganar puntos"
+msgstr "adquiere puntos"
 
 #: bets/templates/bets/bets_base.html:47
 msgid "win prizes"
-msgstr "Gana premios"
+msgstr "gana premios"
 
 #: bets/templates/bets/bets_base.html:59
 #: bets/templates/bets/leaderboard.html:65
@@ -112,7 +112,7 @@ msgstr "Partidas"
 #: bets/templates/bets/leaderboard.html:7
 #: bets/templates/bets/leaderboard.html:27
 msgid "Leaderboard"
-msgstr "Clasificación"
+msgstr "Tabla de posición"
 
 #: bets/templates/bets/leaderboard.html:45
 #: heroes/templates/heroes/hero_detail.html:230
@@ -121,7 +121,7 @@ msgstr "Clasificación"
 #: teams/templates/teams/team_base.html:97
 msgctxt "Button label"
 msgid "Just Do It!"
-msgstr "¡Hazlo!"
+msgstr "¡Solo hazlo!"
 
 #: bets/templates/bets/leaderboard.html:60
 msgid "Position"
@@ -140,27 +140,27 @@ msgstr "Apuestas"
 
 #: bets/templates/bets/leaderboard.html:63
 msgid "Predicted winner"
-msgstr "Ganardor predicho"
+msgstr "Predicciones correctas"
 
 #: bets/templates/bets/leaderboard.html:64
 msgid "Predicted score"
-msgstr "Puntuacion predicha"
+msgstr "Puntuación de predicciones"
 
 #: bets/templates/bets/leaderboard.html:87
 msgid "Legendary badge"
-msgstr ""
+msgstr "Insignia legendaria"
 
 #: bets/templates/bets/leaderboard.html:93
 msgid "Epic badge"
-msgstr ""
+msgstr "Insignia épica"
 
 #: bets/templates/bets/leaderboard.html:99
 msgid "Rare badge"
-msgstr ""
+msgstr "Insignia rara"
 
 #: bets/templates/bets/leaderboard.html:105
 msgid "Common badge"
-msgstr ""
+msgstr "Insignia común"
 
 #: bets/templates/bets/matches.html:57
 #: matches/templates/matches/upcoming_matches_inline.html:11
@@ -193,11 +193,11 @@ msgstr "Partidas en curso"
 #: bets/templates/bets/matches.html:74
 #: teams/templates/teams/team_overview.html:243
 msgid "Upcoming matches"
-msgstr "Proximo juego"
+msgstr "Próxima partida"
 
 #: bets/templates/bets/matches.html:141
 msgid "Completed matches"
-msgstr "Partida completada"
+msgstr "Partidas completadas"
 
 #: bets/templates/bets/matches_include.html:37
 #: bets/templates/bets/matches_include.html:39
@@ -233,7 +233,7 @@ msgstr "Debes estar logeado para escribir un comentario"
 
 #: comments/templates/comments/comment_nodes.html:128
 msgid "Delete the comment?"
-msgstr "Eliminar el comentario?"
+msgstr "¿Eliminar el comentario?"
 
 #: comments/templates/comments/comment_nodes.html:170
 msgid "Comment was removed"
@@ -243,7 +243,7 @@ msgstr "El comentario fue eliminado"
 #: comments/templates/comments/comment_nodes.html:258
 #: comments/templates/profiles/base.html:29
 msgid "Rating"
-msgstr "Puntuacion"
+msgstr "Puntuación"
 
 #: comments/templates/comments/comment_nodes.html:198
 #: comments/templates/profiles/base.html:20
@@ -273,7 +273,7 @@ msgstr "Link Permanente"
 
 #: comments/templates/comments/comment_nodes.html:236
 msgid "Mark read"
-msgstr "Marcar como leido"
+msgstr "Marcar como leído"
 
 #: comments/templates/comments/comment_nodes.html:275
 msgid "Post a comment"
@@ -297,15 +297,15 @@ msgstr "Notificaciones"
 #: matches/templates/matches/matches_inline.html:146
 #: matches/templates/matches/matches_inline.html:148 templates/base.html:246
 msgid "Favorites"
-msgstr ""
+msgstr "Favoritos"
 
 #: comments/templates/profiles/comment_list.html:27
 msgid "User didn't leave any comments"
-msgstr "El usuario no ha dejado ningun comentario"
+msgstr "El usuario no ha dejado ningún comentario"
 
 #: comments/templates/profiles/notification_list.html:61
 msgid "Mark read all"
-msgstr "Marcar todos como leido"
+msgstr "Marcar todos como leído"
 
 #: comments/templates/profiles/notification_list.html:68
 msgid "No new notifications"
@@ -416,7 +416,7 @@ msgstr "Segundo pick"
 
 #: heroes/templates/heroes/hero_counters.html:9
 msgid "Heroes that counter teams with"
-msgstr ""
+msgstr "Héroes usados para contrarrestar equipos con"
 
 #: heroes/templates/heroes/hero_counters.html:21
 #: heroes/templates/heroes/stats_table_inline.html:10 matches/forms.py:32
@@ -787,7 +787,7 @@ msgstr "Semifinal"
 
 #: masterleague/lc_strings.py:33
 msgid "3rd place"
-msgstr ""
+msgstr "Tercer lugar"
 
 #: masterleague/lc_strings.py:34
 msgid "Tiebreak"
@@ -971,15 +971,15 @@ msgstr "Parche de Valeera"
 
 #: masterleague/lc_strings.py:87
 msgid "Lucio Patch"
-msgstr ""
+msgstr "Parche de Lucio"
 
 #: masterleague/lc_strings.py:88
 msgid "Probius Patch"
-msgstr ""
+msgstr "Parche de Sondius"
 
 #: masterleague/lc_strings.py:89
 msgid "Cassia Patch"
-msgstr ""
+msgstr "Parche de Cassia"
 
 #: masterleague/lc_strings.py:90
 #, fuzzy
@@ -1343,15 +1343,15 @@ msgstr "Bans"
 
 #: matches/templates/matches/match_detail.html:78
 msgid "Remove from favorites"
-msgstr ""
+msgstr "Quitar de favoritos"
 
 #: matches/templates/matches/match_detail.html:80
 msgid "Add to favorites"
-msgstr ""
+msgstr "Añadir a favoritos"
 
 #: matches/templates/matches/match_detail.html:85
 msgid "Sign in to add match to favorites"
-msgstr ""
+msgstr "Inicia sesión para añadir la partida a favoritos"
 
 #: matches/templates/matches/match_detail.html:204
 msgid "Previous Matches"
@@ -1442,7 +1442,7 @@ msgstr "Daño de asedio"
 
 #: matches/templates/matches/match_stats.html:305
 msgid "Hero Dmg"
-msgstr "Daño a héroes"
+msgstr "Daño de héroes"
 
 #: matches/templates/matches/match_stats.html:306
 msgctxt "Hero role"
@@ -1588,7 +1588,7 @@ msgstr "Precio"
 
 #: matches/templates/tournaments/tournament_overview.html:16
 msgid "General Information"
-msgstr "Information General"
+msgstr "Información General"
 
 #: matches/templates/tournaments/tournament_overview.html:28
 msgctxt "Tournament format"
@@ -1653,11 +1653,11 @@ msgstr "Héroes más pickeados"
 
 #: meta/templates/meta/drafts.html:116
 msgid "Top Second Bans"
-msgstr ""
+msgstr "Top baneos secundarios"
 
 #: meta/templates/meta/drafts.html:167
 msgid "Top Second Picks (two heroes)"
-msgstr ""
+msgstr "Top selecciones secundarios"
 
 #: meta/templates/meta/drafts.html:220
 msgid "Most Common Compositions"
@@ -1674,15 +1674,15 @@ msgstr "Veces"
 
 #: meta/templates/meta/maps.html:22 teams/templates/teams/team_maps.html:16
 msgid "Shortest"
-msgstr ""
+msgstr "Más corto"
 
 #: meta/templates/meta/maps.html:23 teams/templates/teams/team_maps.html:17
 msgid "Average"
-msgstr ""
+msgstr "Promedio"
 
 #: meta/templates/meta/maps.html:24 teams/templates/teams/team_maps.html:18
 msgid "Longest"
-msgstr ""
+msgstr "Más largo"
 
 #: meta/templates/meta/maps.html:25
 msgctxt "Popular picks"
@@ -1695,11 +1695,11 @@ msgstr "Héroes más baneados"
 
 #: meta/templates/meta/players.html:12
 msgid "Widest Hero Pool by Players"
-msgstr ""
+msgstr "Pool de Héroes más amplio entre jugadores"
 
 #: meta/templates/meta/players.html:52
 msgid "Smallest Hero Pool by Players"
-msgstr ""
+msgstr "Pool de Héroes más pequeño entre jugadores"
 
 #: meta/templates/meta/players.html:94
 #, fuzzy
@@ -1726,15 +1726,15 @@ msgstr "Rendimiento"
 
 #: meta/templates/meta/players.html:145 meta/templates/meta/teams.html:130
 msgid "Value"
-msgstr ""
+msgstr "Valor"
 
 #: meta/templates/meta/teams.html:12
 msgid "Widest Hero Pool by Teams"
-msgstr ""
+msgstr "Pool de Héroes más amplio entre equipos"
 
 #: meta/templates/meta/teams.html:47
 msgid "Smallest Hero Pool by Teams"
-msgstr ""
+msgstr "Pool de Héroes más pequeño entre equipos"
 
 #: meta/templates/meta/teams.html:84
 #, fuzzy
@@ -1744,7 +1744,7 @@ msgstr "A Equipo"
 
 #: meta/templates/meta/teams.html:119
 msgid "Teams performance"
-msgstr ""
+msgstr "Rendimiento de equipo"
 
 #: meta/views.py:126
 msgid "No matches played in the selected period."
@@ -1768,35 +1768,35 @@ msgstr "Especialistas"
 
 #: meta/views.py:278 meta/views.py:367
 msgid "The highest average number of takedowns"
-msgstr ""
+msgstr "El mayor promedio de derribos"
 
 #: meta/views.py:289
 msgid "The highest average number of kills"
-msgstr ""
+msgstr "El mayor promedio de asesinatos"
 
 #: meta/views.py:300
 msgid "The highest average number of assists"
-msgstr ""
+msgstr "El mayor promedio de asistencias"
 
 #: meta/views.py:311
 msgid "Player that spent the most time alive"
-msgstr ""
+msgstr "Jugador que paso vivo la mayor parte del tiempo"
 
 #: meta/views.py:322
 msgid "Player that spent the most time dead"
-msgstr ""
+msgstr "Jugador que paso muerto la mayor parte del tiempo"
 
 #: meta/views.py:378
 msgid "The highest average deaths"
-msgstr ""
+msgstr "El mayor promedio de muertes"
 
 #: meta/views.py:389
 msgid "Team that spent the most time alive"
-msgstr ""
+msgstr "Equipo que paso vivo la mayor parte del tiempo"
 
 #: meta/views.py:400
 msgid "Team that spent the most time dead"
-msgstr ""
+msgstr "Equipo que paso muerto la mayor parte del tiempo"
 
 #: pages/templates/calendar.html:5
 msgctxt "[SEO] Page title"
@@ -1972,7 +1972,7 @@ msgstr "Alineación de los jugadores"
 
 #: teams/forms.py:178
 msgid "Disbanded or changed a sponsor"
-msgstr ""
+msgstr "Disuelto o cambiado por patrocinador"
 
 #: teams/forms.py:181
 #, fuzzy
@@ -2014,7 +2014,7 @@ msgstr "En vivo"
 
 #: teams/templates/players/player_heroes.html:43
 msgid "Hero dmg"
-msgstr "Daño a héroes"
+msgstr "Daño de héroes"
 
 #: teams/templates/players/player_heroes.html:44
 msgid "Siege dmg"
@@ -2031,7 +2031,7 @@ msgstr "Experiencia / Min"
 
 #: teams/templates/players/player_heroes.html:47
 msgid "PPR"
-msgstr ""
+msgstr "RPP"
 
 #: teams/templates/players/player_list.html:34
 #: teams/templates/players/players_compare.html:122
@@ -2072,7 +2072,7 @@ msgstr "Equipo"
 
 #: teams/templates/players/player_overview.html:33
 msgid "Takedowns"
-msgstr ""
+msgstr "Derribos"
 
 #: teams/templates/players/player_overview.html:51
 #, fuzzy
@@ -2082,11 +2082,11 @@ msgstr "Equipos participantes"
 
 #: teams/templates/players/player_overview.html:59
 msgid "Time Dead"
-msgstr ""
+msgstr "Tiempo muerto"
 
 #: teams/templates/players/player_overview.html:68
 msgid "Hero Damage"
-msgstr "Daño a héroes"
+msgstr "Daño de héroe"
 
 #: teams/templates/players/player_overview.html:77
 msgid "Siege Damage"
@@ -2094,7 +2094,7 @@ msgstr "Daño de asedio"
 
 #: teams/templates/players/player_overview.html:95
 msgid "Average Match Time"
-msgstr ""
+msgstr "Tiempo promedio de partida"
 
 #: teams/templates/players/player_overview.html:102 teams/views.py:692
 msgid "Analyzed Replays"
@@ -2218,12 +2218,12 @@ msgstr "%(win_count)s de %(pick_count)s partidas"
 #: teams/templates/teams/team_overview.html:103
 #, python-format
 msgid "Deaths: %(deaths)s"
-msgstr ""
+msgstr "Muertes: %(dearths)s"
 
 #: teams/templates/teams/team_overview.html:104
 #, python-format
 msgid "Takedowns: %(takedowns)s"
-msgstr ""
+msgstr "Derribos: %(derribos)s"
 
 #: teams/templates/teams/team_overview.html:111
 #, fuzzy, python-format
@@ -2269,11 +2269,11 @@ msgstr "Héroe"
 
 #: teams/templates/teams/team_overview.html:223
 msgid "FP win rate"
-msgstr ""
+msgstr "Ratio de victorias por FP"
 
 #: teams/templates/teams/team_overview.html:227
 msgid "Time dead"
-msgstr ""
+msgstr "Tiempo muerto"
 
 #: teams/templates/teams/team_overview.html:231
 #, fuzzy
@@ -2349,7 +2349,7 @@ msgstr "Daño de asedio / Min"
 
 #: teams/views.py:687
 msgid "Hero Damage / Min"
-msgstr "Daño a héroes / Min"
+msgstr "Daño de héroe / Min"
 
 #: teams/views.py:688
 msgid "Healing / Min"
@@ -2375,7 +2375,7 @@ msgstr "Página no encontrada"
 #: templates/404.html:21
 msgctxt "404 page"
 msgid "There's nothing here"
-msgstr "Esta"
+msgstr "No hay nada aquí"
 
 #: templates/404.html:24
 msgid "Home"
