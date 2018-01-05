@@ -382,20 +382,15 @@ msgid "All tournaments"
 msgstr "Todos los torneos"
 
 #: heroes/templates/heroes/hero_builds.html:5
-#, fuzzy
-#| msgctxt "Hero builds"
-#| msgid "Builds"
 msgid "builds"
-msgstr "Builds"
+msgstr ""
 
 #: heroes/templates/heroes/hero_builds.html:28
 #: heroes/templates/heroes/hero_counters.html:23
 #: heroes/templates/heroes/hero_overview.html:174
 #: teams/templates/teams/team_maps.html:15
-#, fuzzy, python-format
-#| msgid "Win %%"
 msgid "Win %%"
-msgstr "Victorias %"
+msgstr "Victorias %%"
 
 #: heroes/templates/heroes/hero_builds.html:58
 #: heroes/templates/heroes/hero_counters.html:47
@@ -408,11 +403,8 @@ msgid "No replays found in the selected period."
 msgstr "No se encontraron repeticiones en el periodo seleccionado."
 
 #: heroes/templates/heroes/hero_counters.html:5
-#, fuzzy
-#| msgctxt "Second pick stats"
-#| msgid "Second pick"
 msgid "counter picks"
-msgstr "Segundo pick"
+msgstr ""
 
 #: heroes/templates/heroes/hero_counters.html:9
 msgid "Heroes that counter teams with"
@@ -435,10 +427,8 @@ msgid "Kills"
 msgstr "Asesinatos"
 
 #: heroes/templates/heroes/hero_counters.html:25
-#, fuzzy
-#| msgid "All patches"
 msgid "Kills per match"
-msgstr "Todos los parches"
+msgstr ""
 
 #: heroes/templates/heroes/hero_detail.html:5
 msgid "statistics"
@@ -500,11 +490,9 @@ msgid "Builds"
 msgstr "Builds"
 
 #: heroes/templates/heroes/hero_detail.html:260
-#, fuzzy
-#| msgid "Count"
 msgctxt "Hero counter picks"
 msgid "Counters"
-msgstr "Veces"
+msgstr ""
 
 #: heroes/templates/heroes/hero_list.html:5
 msgctxt "[SEO] Page title"
@@ -774,16 +762,12 @@ msgid "1/8 Final LB"
 msgstr "Octavos de Final Perdedores"
 
 #: masterleague/lc_strings.py:31
-#, fuzzy
-#| msgid "1/8 Final LB"
 msgid "1/8 Final WB"
-msgstr "Octavos de Final Perdedores"
+msgstr ""
 
 #: masterleague/lc_strings.py:32
-#, fuzzy
-#| msgid "1/2 Final"
 msgid "1/16 Final"
-msgstr "Semifinal"
+msgstr ""
 
 #: masterleague/lc_strings.py:33
 msgid "3rd place"
@@ -982,34 +966,24 @@ msgid "Cassia Patch"
 msgstr "Parche de Cassia"
 
 #: masterleague/lc_strings.py:90
-#, fuzzy
-#| msgid "Greymane Patch"
 msgid "Genji Patch"
-msgstr "Parche de Cringris"
+msgstr ""
 
 #: masterleague/lc_strings.py:91
-#, fuzzy
-#| msgid "Dehaka Patch"
 msgid "D.Va Patch"
-msgstr "Parche de Dehaka"
+msgstr ""
 
 #: masterleague/lc_strings.py:92
-#, fuzzy
-#| msgid "Valeera Patch"
 msgid "Malthael Patch"
-msgstr "Parche de Valeera"
+msgstr ""
 
 #: masterleague/lc_strings.py:93
-#, fuzzy
-#| msgid "Samuro Patch"
 msgid "Stukov Patch"
-msgstr "Parche de Samuro"
+msgstr ""
 
 #: masterleague/lc_strings.py:94
-#, fuzzy
-#| msgid "Ragnaros Patch"
 msgid "Garrosh Patch"
-msgstr "Parche de Ragnaros"
+msgstr ""
 
 #: masterleague/lc_strings.py:98
 msgid "Abathur"
@@ -1614,14 +1588,10 @@ msgid "Participating Teams"
 msgstr "Equipos participantes"
 
 #: matches/templates/tournaments/tournament_overview.html:144
-#, fuzzy
-#| msgid "eSport statistics"
 msgid "Tournament statistics"
-msgstr "Estadísticas de eSports"
+msgstr ""
 
 #: meta/forms.py:34 teams/forms.py:69 teams/forms.py:141
-#, fuzzy
-#| msgid "All Heroes"
 msgid "All heroes"
 msgstr "Todos los Héroes"
 
@@ -1636,10 +1606,8 @@ msgid "Meta"
 msgstr "Meta"
 
 #: meta/templates/meta/drafts.html:12
-#, fuzzy
-#| msgid "Top First Picks"
 msgid "Top First Bans"
-msgstr "Héroes más pickeados"
+msgstr ""
 
 #: meta/templates/meta/drafts.html:49 meta/templates/meta/drafts.html:100
 #: meta/templates/meta/drafts.html:153 meta/templates/meta/drafts.html:204
@@ -1702,11 +1670,8 @@ msgid "Smallest Hero Pool by Players"
 msgstr "Pool de Héroes más pequeño entre jugadores"
 
 #: meta/templates/meta/players.html:94
-#, fuzzy
-#| msgctxt "[SEO] Page title"
-#| msgid "Compare Players"
 msgid "Top KDA Players"
-msgstr "Comparar Jugadores"
+msgstr ""
 
 #: meta/templates/meta/players.html:105 meta/templates/meta/teams.html:93
 #: teams/templates/players/player_heroes.html:41
@@ -1737,10 +1702,8 @@ msgid "Smallest Hero Pool by Teams"
 msgstr "Pool de Héroes más pequeño entre equipos"
 
 #: meta/templates/meta/teams.html:84
-#, fuzzy
-#| msgid "To Team"
 msgid "Top KDA Teams"
-msgstr "A Equipo"
+msgstr ""
 
 #: meta/templates/meta/teams.html:119
 msgid "Teams performance"
@@ -1827,10 +1790,8 @@ msgid "Subscribe to Calendar"
 msgstr "Suscribirse al Calendario"
 
 #: pages/templates/calendar_base.html:90
-#, fuzzy
-#| msgid "Latest Matches"
 msgid "Hide matches"
-msgstr "Últimas Partidas"
+msgstr ""
 
 #: pages/templates/calendar_base.html:94
 msgid "eSports Calendar"
@@ -1965,21 +1926,16 @@ msgid "Second Player"
 msgstr "Segundo Jugador"
 
 #: teams/forms.py:118
-#, fuzzy
-#| msgid "Player Roster"
 msgid "Roster"
-msgstr "Alineación de los jugadores"
+msgstr ""
 
 #: teams/forms.py:178
 msgid "Disbanded or changed a sponsor"
 msgstr "Disuelto o cambiado por patrocinador"
 
 #: teams/forms.py:181
-#, fuzzy
-#| msgctxt "All patches"
-#| msgid "All Time"
 msgid "All time"
-msgstr "Todos"
+msgstr ""
 
 #: teams/models.py:125 teams/templates/players/player_card_inline.html:10
 msgctxt "Player role"
@@ -2002,9 +1958,6 @@ msgid "Flex"
 msgstr "Flex"
 
 #: teams/templates/players/player_detail.html:79
-#, fuzzy
-#| msgctxt "Hero overview"
-#| msgid "Overview"
 msgid "Overview"
 msgstr "Resumen"
 
@@ -2059,26 +2012,20 @@ msgid "Player Statistics"
 msgstr "Estadística de Jugador"
 
 #: teams/templates/players/player_overview.html:18
-#, fuzzy
-#| msgid "Player"
 msgid "Player Avg"
-msgstr "Jugador"
+msgstr ""
 
 #: teams/templates/players/player_overview.html:19
-#, fuzzy
-#| msgid "Team"
 msgid "Team Avg"
-msgstr "Equipo"
+msgstr ""
 
 #: teams/templates/players/player_overview.html:33
 msgid "Takedowns"
 msgstr "Derribos"
 
 #: teams/templates/players/player_overview.html:51
-#, fuzzy
-#| msgid "Participating Teams"
 msgid "Kill Participation"
-msgstr "Equipos participantes"
+msgstr ""
 
 #: teams/templates/players/player_overview.html:59
 msgid "Time Dead"
@@ -2101,8 +2048,6 @@ msgid "Analyzed Replays"
 msgstr "Repeticiones analizadas"
 
 #: teams/templates/players/player_overview.html:103
-#, fuzzy
-#| msgid "Total Matches"
 msgid "Total matches"
 msgstr "Total de partidas"
 
@@ -2204,16 +2149,12 @@ msgid "Start typing to search"
 msgstr "Empieza a escribir para buscar"
 
 #: teams/templates/teams/team_overview.html:95
-#, fuzzy, python-format
-#| msgid "First wave ban (%(ban1_count)s matches)"
 msgid "Losses: %(loss_count)s matches"
-msgstr "Primera ronda de bans (%(ban1_count)s matches)"
+msgstr ""
 
 #: teams/templates/teams/team_overview.html:96
-#, fuzzy, python-format
-#| msgid "%(win_count)s of %(pick_count)s matches"
 msgid "Wins: %(win_count)s matches"
-msgstr "%(win_count)s de %(pick_count)s partidas"
+msgstr ""
 
 #: teams/templates/teams/team_overview.html:103
 #, python-format
@@ -2226,19 +2167,14 @@ msgid "Takedowns: %(takedowns)s"
 msgstr "Derribos: %(takedowns)s"
 
 #: teams/templates/teams/team_overview.html:111
-#, fuzzy, python-format
-#| msgid "%(match_count)s of %(total_matches)s matches"
 msgid "%(match_count)s matches"
-msgstr "%(match_count)s de %(total_matches)s partidas"
+msgstr "%(match_count)s partidas"
 
 #: teams/templates/teams/team_overview.html:135
 msgid "Player Roster"
 msgstr "Alineación de los jugadores"
 
 #: teams/templates/teams/team_overview.html:143
-#, fuzzy
-#| msgctxt "Tournament name"
-#| msgid "Name"
 msgid "Name"
 msgstr "Nombre"
 
@@ -2256,16 +2192,12 @@ msgid "Prize"
 msgstr "Premio"
 
 #: teams/templates/teams/team_overview.html:209
-#, fuzzy
-#| msgid "Win Rate"
 msgid "Win rate"
 msgstr "Ratio de Victorias"
 
 #: teams/templates/teams/team_overview.html:217
-#, fuzzy
-#| msgid "Hero"
 msgid "Hero pool"
-msgstr "Héroe"
+msgstr ""
 
 #: teams/templates/teams/team_overview.html:223
 msgid "FP win rate"
@@ -2276,10 +2208,8 @@ msgid "Time dead"
 msgstr "Tiempo muerto"
 
 #: teams/templates/teams/team_overview.html:231
-#, fuzzy
-#| msgid "Dehaka Patch"
 msgid "Avg. match"
-msgstr "Parche de Dehaka"
+msgstr ""
 
 #: teams/templates/teams/team_overview.html:237
 #, python-format
@@ -2289,10 +2219,8 @@ msgid ""
 msgstr ""
 
 #: teams/templates/teams/team_overview.html:251
-#, fuzzy
-#| msgid "Latest Matches"
 msgid "Latest matches"
-msgstr "Últimas Partidas"
+msgstr "Últimas partidas"
 
 #: teams/templatetags/ppr_tags.py:14
 #, python-format
