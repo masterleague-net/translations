@@ -1264,19 +1264,19 @@ msgstr "源氏"
 
 #: masterleague/lc_strings.py:164
 msgid "D.Va"
-msgstr ""
+msgstr "D.Va"
 
 #: masterleague/lc_strings.py:165
 msgid "Malthael"
-msgstr ""
+msgstr "马萨伊尔"
 
 #: masterleague/lc_strings.py:166
 msgid "Stukov"
-msgstr ""
+msgstr "斯托科夫"
 
 #: masterleague/lc_strings.py:167
 msgid "Garrosh"
-msgstr ""
+msgstr "加尔鲁什"
 
 #: matches/forms.py:18 matches/forms.py:24 matches/forms.py:30
 #: matches/forms.py:36 teams/forms.py:113
