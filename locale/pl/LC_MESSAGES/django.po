@@ -441,27 +441,27 @@ msgstr "statystyki"
 #: heroes/templates/heroes/hero_detail.html:66
 #, python-format
 msgid "First wave pick (%(pick1_count)s matches)"
-msgstr "Pierwszy wybór (%(pick1_count)s meczy)"
+msgstr "Pierwszy wybór (%(pick1_count)s meczów)"
 
 #: heroes/templates/heroes/hero_detail.html:67
 #, python-format
 msgid "Second wave pick (%(pick2_count)s matches)"
-msgstr "Drugi wybór (%(pick2_count)s meczy)"
+msgstr "Drugi wybór (%(pick2_count)s meczów)"
 
 #: heroes/templates/heroes/hero_detail.html:68
 #, python-format
 msgid "First wave ban (%(ban1_count)s matches)"
-msgstr "Pierwszy ban (%(ban1_count)s meczy)"
+msgstr "Pierwszy ban (%(ban1_count)s meczów)"
 
 #: heroes/templates/heroes/hero_detail.html:69
 #, python-format
 msgid "Second wave ban (%(ban2_count)s matches)"
-msgstr "Drugi ban (%(ban2_count)s meczy)"
+msgstr "Drugi ban (%(ban2_count)s meczów)"
 
 #: heroes/templates/heroes/hero_detail.html:70
 #, python-format
 msgid "Not banned or picked (%(popularity_blank_count)s matches)"
-msgstr "Brak banów lub wyborów (%(popularity_blank_count)s meczy)"
+msgstr "Brak banów lub wyborów (%(popularity_blank_count)s meczów)"
 
 #: heroes/templates/heroes/hero_detail.html:239
 #: heroes/templates/heroes/stats_table_inline.html:17
@@ -472,7 +472,7 @@ msgstr "Popularność"
 #: heroes/templates/heroes/hero_detail.html:240
 #, python-format
 msgid "%(match_count)s of %(total_matches)s matches"
-msgstr "%(match_count)s z %(total_matches)s meczy"
+msgstr "%(match_count)s z %(total_matches)s meczów"
 
 #: heroes/templates/heroes/hero_detail.html:252
 msgid "Wins"
@@ -481,7 +481,7 @@ msgstr "Zwycięstwa"
 #: heroes/templates/heroes/hero_detail.html:253
 #, python-format
 msgid "%(win_count)s of %(pick_count)s matches"
-msgstr "%(win_count)s z %(pick_count)s meczy"
+msgstr "%(win_count)s z %(pick_count)s meczów"
 
 #: heroes/templates/heroes/hero_detail.html:258
 msgctxt "Hero overview"
@@ -1357,7 +1357,7 @@ msgstr "Statystyki"
 #: matches/templates/matches/match_list.html:5
 msgctxt "[SEO] Page title"
 msgid "Match List"
-msgstr "Lista meczy"
+msgstr "Lista meczów"
 
 #: matches/templates/matches/match_list.html:68
 msgctxt "Form filter options"
@@ -1580,7 +1580,7 @@ msgstr "Lokacja"
 #: matches/templates/tournaments/tournament_overview.html:45
 msgctxt "Tournament matches count"
 msgid "Total Matches"
-msgstr "Liczba meczy"
+msgstr "Liczba meczów"
 
 #: matches/templates/tournaments/tournament_overview.html:50
 msgid "Description"
@@ -1841,7 +1841,7 @@ msgstr ""
 "\"http://heroesofthestorm.com/\" target=\"_blank\"><strong>Heroes of the "
 "Storm</strong></a>, a także szczegółowe statysyki graczy i zespołów z "
 "różnych regionów. Obecnie dostępne są dane dotyczące <a href="
-"\"%(match_list_url)s\"><strong>%(match_count)s</strong></a> meczy, <a href="
+"\"%(match_list_url)s\"><strong>%(match_count)s</strong></a> meczów, <a href="
 "\"%(team_list_url)s\"><strong>%(team_count)s</strong></a> zespołów i <a href="
 "\"%(player_list_url)s\"><strong>%(player_count)s</strong></a> "
 "profesjonalnych graczy."
@@ -2051,7 +2051,7 @@ msgstr "Przetworzone powtórki"
 
 #: teams/templates/players/player_overview.html:103
 msgid "Total matches"
-msgstr "Liczba meczy"
+msgstr "Liczba meczów"
 
 #: teams/templates/players/player_overview.html:110
 msgctxt "Player transfers history"
@@ -2152,12 +2152,12 @@ msgstr "Wpisz aby wyszukać"
 #: teams/templates/teams/team_overview.html:95
 #, python-format
 msgid "Losses: %(loss_count)s matches"
-msgstr "Przegrane: %(loss_count)s meczy"
+msgstr "Przegrane: %(loss_count)s meczów"
 
 #: teams/templates/teams/team_overview.html:96
 #, python-format
 msgid "Wins: %(win_count)s matches"
-msgstr "Wygrane: %(win_count)s meczy"
+msgstr "Wygrane: %(win_count)s meczów"
 
 #: teams/templates/teams/team_overview.html:103
 #, python-format
@@ -2172,7 +2172,7 @@ msgstr "Zabójstwa: %(takedowns)s"
 #: teams/templates/teams/team_overview.html:111
 #, python-format
 msgid "%(match_count)s matches"
-msgstr "%(match_count)s meczy"
+msgstr "%(match_count)s meczów"
 
 #: teams/templates/teams/team_overview.html:135
 msgid "Player Roster"
@@ -2222,7 +2222,7 @@ msgid ""
 "the %(replay_count)s replays out of %(match_count)s matches"
 msgstr ""
 "* KDA, czas bycia martwym oraz średni czas meczu obliczone na podstawie "
-"%(replay_count)s powtórek z %(match_count)s meczy"
+"%(replay_count)s powtórek z %(match_count)s meczów"
 
 #: teams/templates/teams/team_overview.html:251
 msgid "Latest matches"
@@ -2238,8 +2238,8 @@ msgid ""
 msgstr ""
 "Wskaźnik oparty na wynikach gracza w odniesieniu do innych wyników innych "
 "graczy na tym samym bohaterze i wersji gry. <br /><br />Obliczony poprzez "
-"analizę <strong>%(ppr_match_count)s meczy</strong> z powtórkami z <strong>"
-"%(match_count)s meczy</strong> ogółem."
+"analizę <strong>%(ppr_match_count)s meczów</strong> z powtórkami z <strong>"
+"%(match_count)s meczów</strong> ogółem."
 
 #: teams/views.py:662
 msgctxt "Hero damage"
@@ -2385,11 +2385,11 @@ msgstr "Pomóż nam przetłumaczyć stronę!"
 
 #~ msgctxt "Tournament matches count (w/o qualifiers)"
 #~ msgid "Main event matches count"
-#~ msgstr "Liczba meczy w turnieju głównym"
+#~ msgstr "Liczba meczów w turnieju głównym"
 
 #~ msgctxt "Tournament total matches count (w/ qualifiers)"
 #~ msgid "Total matches count"
-#~ msgstr "Liczba meczy"
+#~ msgstr "Liczba meczów"
 
 #~ msgid "Main Event Statistics"
 #~ msgstr "Statystyki głównego turnieju"
@@ -2476,5 +2476,5 @@ msgstr "Pomóż nam przetłumaczyć stronę!"
 #~ "Too few matches played (%(total_match_count)s of 50 minimum required) in "
 #~ "the selected period to generate a reliable report."
 #~ msgstr ""
-#~ "Zbyt mało meczy rozegranych (%(total_match_count)s z 50 wymaganych) w "
+#~ "Zbyt mało meczów rozegranych (%(total_match_count)s z 50 wymaganych) w "
 #~ "wybranym okresie aby móc wygenerować miarodajny raport."
